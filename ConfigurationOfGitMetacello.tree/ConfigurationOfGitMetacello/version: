@@ -1,14 +1,11 @@
 
-!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/30/2012 17:23'!
+!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 13:40'!
 version: spec
     <version: 'version' imports: #('baseline')>
     spec
         for: #'common'
         do: [ 
             spec blessing: #'version'.
-            spec description: ''.
-            spec author: 'dkh'.
-            spec timestamp: '1/30/2012 15:26'.
             spec
                 project: 'Gofer Core' with: '1.0.5.1';
                 project: 'Gofer Tests' with: '1.0.5.1' ].
@@ -17,15 +14,11 @@ version: spec
         do: [ 
             spec
                 project: 'OB' with: #'stable';
-                project: 'Monticello' with: '0.242'.
-            spec package: 'Metacello-MC' with: [ spec preLoadDoIt: #'gemstone10beta24PreLoadDoIt' ] ].
+                project: 'Monticello' with: '0.242' ].
     spec
         for: #'squeakCommon'
         do: [ 
             spec
                 project: 'OB' with: #'stable';
                 project: 'Help System' with: '1.1' ].
-    spec for: #'pharo' do: [ spec project: 'ProfStef' with: #'stable' ].
-    spec for: #'pharo1.2.x' do: [ spec package: 'Metacello-Issue3758' with: 'Metacello-Issue3758-dkh.2' ].
-    spec for: #'pharo1.3.x' do: [ spec package: 'Metacello-Issue3758' with: 'Metacello-Issue3758-dkh.2' ].
-    spec for: #'squeak' do: [ spec package: 'Metacello-Platform' with: 'Metacello-Platform.squeak-dkh.11' ]! !
+    spec for: #'pharo' do: [ spec project: 'ProfStef' with: #'stable' ]! !

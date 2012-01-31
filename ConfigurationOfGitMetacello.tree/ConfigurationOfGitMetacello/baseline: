@@ -1,5 +1,5 @@
 
-!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/30/2012 17:23'!
+!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 13:41'!
 baseline: spec
     <version: 'baseline'>
     spec
@@ -14,7 +14,6 @@ baseline: spec
                                 className: 'ConfigurationOfGofer';
                                 versionString: '1.0-baseline';
                                 loads: #('Core');
-                                file: 'ConfigurationOfGofer';
                                 repository: 'http://www.squeaksource.com/MetacelloRepository';
                                 repository: 'http://seaside.gemstone.com/ss/metacello' ];
                 project: 'Gofer Tests' copyFrom: 'Gofer Core' with: [ spec loads: #('Tests') ];
@@ -62,7 +61,6 @@ baseline: spec
                                 className: 'ConfigurationOfHelpSystem';
                                 versionString: '1.0-baseline';
                                 loads: #('Core');
-                                file: 'ConfigurationOfHelpSystem';
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 project: 'OB'
                     with: [ 
@@ -70,7 +68,6 @@ baseline: spec
                                 className: 'ConfigurationOfOmniBrowser';
                                 versionString: '1.1-baseline';
                                 loads: #('Core');
-                                file: 'ConfigurationOfOmniBrowser';
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 yourself.
             spec
@@ -95,7 +92,6 @@ baseline: spec
                             spec
                                 className: 'ConfigurationOfProfStef';
                                 versionString: '1.0-baseline';
-                                file: 'ConfigurationOfProfStef';
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 yourself.
             spec
@@ -144,6 +140,7 @@ baseline: spec
                                 repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
                 yourself.
             spec
+                package: 'Metacello-MC' with: [ spec preLoadDoIt: #'gemstone10beta24PreLoadDoIt' ];
                 package: 'Metacello-Platform'
                     with: [ 
                             spec
