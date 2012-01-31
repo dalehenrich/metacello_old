@@ -1,14 +1,13 @@
 
-!MetacelloRepositoryPharoTestCase methodsFor: 'baselines' stamp: 'dkh 1/19/2012 12:36'!
-baseline10: spec
-    <version: '1.0-baseline'>
-    spec
-        for: #'common'
-        do: [ 
-            spec
-                package: 'Example-Core'
-                with: [ 
-                    spec
-                        includes: 'Example-AddOn';
-                        file: 'Example-Core-anon.1';
-                        repository: '/opt/mcexamples' ] ]! !
+!MetacelloRepositoryPharoTestCase methodsFor: 'baselines' stamp: 'dkh 12/8/2009 12:10'!
+baseline10: spec 
+	<version: '1.0-baseline'>
+	
+	spec for: #squeakCommon do: [
+		spec 
+			package: 'Example-Core' with: [ 
+				spec 
+					includes: 'Example-AddOn';
+					file: 'Example-Core-anon.1';
+					repository: 'ftp://ftp.example.com/examples' ]].
+! !
