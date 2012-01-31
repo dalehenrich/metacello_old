@@ -1,0 +1,4 @@
+
+!OBSystemBrowserAdaptor methodsFor: 'actions' stamp: 'dc 4/24/2007 15:09'!
+spawnHierarchy
+	^ OBHierarchyBrowser openOnClass: self targetClass ! !

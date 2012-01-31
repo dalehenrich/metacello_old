@@ -1,0 +1,7 @@
+
+!OBMethodNode methodsFor: 'private' stamp: 'lr 4/23/2010 08:35'!
+hierarchySendersOf: aSelector
+	| hierarchySenders |
+	hierarchySenders := (SystemNavigation default allCallsOn: aSelector) select: [:ea | (self theClass withAllSuperclasses includes: ea actualClass) or: [
+			                                       self theClass allSubclasses includes: ea actualClass]].
+	^hierarchySenders asArray sort collect: [:ref | OBMessageNode on: aSelector inMethodReference: ref]! !

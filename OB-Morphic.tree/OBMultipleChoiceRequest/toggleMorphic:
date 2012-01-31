@@ -1,0 +1,7 @@
+
+!OBMultipleChoiceRequest methodsFor: '*ob-morphic' stamp: 'lr 10/11/2009 12:18'!
+toggleMorphic: anObject
+	"This seems to be somehow required to properly refersh the checkbox."
+
+	self toggle: anObject.
+	World restoreDisplay! !

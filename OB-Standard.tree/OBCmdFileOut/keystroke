@@ -1,0 +1,4 @@
+
+!OBCmdFileOut methodsFor: 'accessing' stamp: 'dr 7/16/2008 11:13'!
+keystroke
+	^ $o! !

@@ -1,0 +1,6 @@
+
+!MetacelloToolBox methodsFor: 'api-configuration' stamp: 'DaleHenrichs 11/15/2010 10:00'!
+abortMethod
+
+	project := project configuration class project.	"recalculate project"
+	methodSpec := nil! !

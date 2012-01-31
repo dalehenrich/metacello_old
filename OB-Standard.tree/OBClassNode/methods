@@ -1,0 +1,6 @@
+
+!OBClassNode methodsFor: 'accessing' stamp: 'lr 2/9/2008 09:18'!
+methods
+	^ self theClass selectors collect: [ :each | 
+		(MethodReference class: self theClass selector: each)
+			asNode ]! !

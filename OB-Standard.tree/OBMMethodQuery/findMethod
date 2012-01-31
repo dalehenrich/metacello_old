@@ -1,0 +1,4 @@
+
+!OBMMethodQuery methodsFor: 'private' stamp: 'PDC 6/29/2007 06:28'!
+findMethod
+	self openSearchBrowser! !

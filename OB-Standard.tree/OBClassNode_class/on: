@@ -1,0 +1,4 @@
+
+!OBClassNode class methodsFor: 'instance creation' stamp: 'cwp 11/30/2004 21:06'!
+on: aClass 
+	^ self new setClass: aClass ! !

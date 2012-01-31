@@ -1,0 +1,10 @@
+
+!MetacelloDirective methodsFor: 'printing' stamp: 'DaleHenrichs 3/9/2010 16:35'!
+printOn: aStream indent: indent
+
+	indent timesRepeat: [ aStream tab ].
+	aStream
+		nextPutAll: self title;
+		nextPutAll: ' : ';
+		nextPutAll: self label.
+! !

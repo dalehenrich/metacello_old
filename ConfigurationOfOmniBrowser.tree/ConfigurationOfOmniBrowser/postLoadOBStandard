@@ -1,0 +1,6 @@
+
+!ConfigurationOfOmniBrowser methodsFor: 'baselines' stamp: 'MarianoMartinezPeck 5/20/2010 13:21'!
+postLoadOBStandard
+
+	Smalltalk at: #SystemBrowser ifPresent: [:cl | cl default: (Smalltalk classNamed: #OBSystemBrowserAdaptor)].
+	Preferences enable: #mercuryPanel.! !

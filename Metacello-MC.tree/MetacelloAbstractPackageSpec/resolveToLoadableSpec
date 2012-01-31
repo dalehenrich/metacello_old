@@ -1,0 +1,5 @@
+
+!MetacelloAbstractPackageSpec methodsFor: '*metacello-mc' stamp: 'dkh 10/6/2009 15:02'!
+resolveToLoadableSpec
+
+	^self! !

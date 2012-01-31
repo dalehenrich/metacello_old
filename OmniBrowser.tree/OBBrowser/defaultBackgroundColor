@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'building' stamp: 'dr 11/28/2008 14:20'!
+defaultBackgroundColor
+	^ Color gray veryMuchLighter! !

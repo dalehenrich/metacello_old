@@ -1,0 +1,9 @@
+
+AbstractTutorial subclass: #SmalltalkSyntaxTutorial
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'ProfStef-Core'!
+
+!SmalltalkSyntaxTutorial commentStamp: 'LaurentLaffont 1/21/2010 16:50' prior: 0!
+The default ProfStef tutorial to learn Smalltalk syntax!

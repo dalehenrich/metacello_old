@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'testing' stamp: 'dr 11/2/2006 11:21'!
+isMethodNode
+	^true! !

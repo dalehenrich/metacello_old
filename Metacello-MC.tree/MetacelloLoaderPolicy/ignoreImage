@@ -1,0 +1,4 @@
+
+!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 3/8/2010 11:39'!
+ignoreImage
+	^ ignoreImage! !

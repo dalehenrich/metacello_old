@@ -1,0 +1,6 @@
+
+!MetacelloPreLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 4/14/2010 14:30'!
+loadUsing: aLoaderDirective gofer: aGofer
+
+	aLoaderDirective loadPreloadDirective: self.
+	! !

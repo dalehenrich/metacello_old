@@ -1,0 +1,5 @@
+
+!MetacelloPackageSpec methodsFor: 'loading' stamp: 'dkh 1/2/2010 15:43'!
+repositorySpecs
+
+	^self repositories map values ! !

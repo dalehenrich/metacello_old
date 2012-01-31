@@ -1,0 +1,10 @@
+
+!MetacelloAtomicLoadOrderTest methodsFor: 'tests' stamp: 'DaleHenrichs 3/16/2010 10:56'!
+testBaseline10LoadLinear
+
+	| project version |
+	loadType := #linear.
+	project := self project.
+	version := project version: '1.0-baseline'.
+	self should: [ version load ] raise: Warning
+! !

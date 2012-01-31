@@ -1,0 +1,4 @@
+
+!OBCutTextCommand methodsFor: 'execution' stamp: 'lr 3/6/2011 15:03'!
+execute
+	target cut! !

@@ -1,0 +1,6 @@
+
+!OBCompletionRequest methodsFor: 'accessing' stamp: 'lr 9/22/2010 20:18'!
+labelBlock: aOneArgumentBlock
+	"A one argument block answering the string for a given element."
+	
+	labelBlock := aOneArgumentBlock! !

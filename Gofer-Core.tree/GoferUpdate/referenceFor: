@@ -1,0 +1,4 @@
+
+!GoferUpdate methodsFor: 'private' stamp: 'TestRunner 12/13/2009 18:08'!
+referenceFor: aReference
+	^ aReference! !

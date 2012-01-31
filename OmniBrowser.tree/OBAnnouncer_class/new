@@ -1,0 +1,4 @@
+
+!OBAnnouncer class methodsFor: 'instance creation' stamp: 'cwp 4/17/2006 11:50'!
+new
+	^ self basicNew initialize! !

@@ -1,0 +1,6 @@
+
+!OBBrowser methodsFor: 'updating' stamp: 'lr 10/29/2010 11:54'!
+scanNodeCommands: anAnnouncement
+	commandFactories do: [ :each |
+		each takesNodes
+			ifTrue: [ anAnnouncement addFactory: each ] ]! !

@@ -1,0 +1,5 @@
+
+!MetacelloGoferFunctionalTest methodsFor: 'running' stamp: 'DaleHenrichs 12/21/2010 10:29'!
+doSilently
+
+	^(#(#testCommitPackageSpec #testCommitPackageVersion #testPackagesNeedSaving ) includes: testSelector asSymbol) not! !

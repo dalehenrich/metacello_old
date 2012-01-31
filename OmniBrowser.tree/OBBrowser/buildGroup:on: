@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'building' stamp: 'cwp 12/9/2007 10:37'!
+buildGroup: aCollection on: aBuilder 
+	^aBuilder verticalGroupWith: [aCollection do: [:ea | ea buildOn: aBuilder]]! !

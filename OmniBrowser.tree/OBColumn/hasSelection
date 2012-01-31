@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'testing' stamp: 'jk 4/6/2008 18:43'!
+hasSelection
+	^ self listHolder hasSelection! !

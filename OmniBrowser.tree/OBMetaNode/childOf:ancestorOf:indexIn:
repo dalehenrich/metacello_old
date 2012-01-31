@@ -1,0 +1,18 @@
+
+!OBMetaNode methodsFor: 'nodes' stamp: 'lr 2/12/2009 10:32'!
+childOf: parent ancestorOf: descendant indexIn: aBlock 
+	(self childsPerEdgeFor: parent) do: 
+		[ :childsPerEdge | 
+		childsPerEdge keysAndValuesDo: 
+			[ :index :node | 
+			(node 
+				isAncestorOf: descendant
+				using: node metaNode ancestrySelector) ifTrue: 
+				[ filters do: 
+					[ :f | 
+					f 
+						noteParent: parent
+						child: node ].
+				aBlock value: index.
+				^ node ] ] ].
+	^ nil! !

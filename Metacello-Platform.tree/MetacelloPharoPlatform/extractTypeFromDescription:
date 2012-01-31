@@ -1,0 +1,6 @@
+
+!MetacelloPharoPlatform methodsFor: 'repository creation' stamp: 'dkh 12/7/2009 14:07'!
+extractTypeFromDescription: description
+
+	(description beginsWith: 'ftp://') ifTrue: [ ^'ftp' ].
+	^super extractTypeFromDescription: description! !

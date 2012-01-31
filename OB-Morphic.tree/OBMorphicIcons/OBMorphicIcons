@@ -1,0 +1,9 @@
+
+Object subclass: #OBMorphicIcons
+	instanceVariableNames: ''
+	classVariableNames: 'Icons Instance'
+	poolDictionaries: ''
+	category: 'OB-Morphic-Core'!
+
+!OBMorphicIcons commentStamp: 'lr 7/10/2009 11:12' prior: 0!
+Most of these icons come from http://www.famfamfam.com/lab/icons. They are licensed under the Creative Commons Attribution 3.0 License by Mark James.!

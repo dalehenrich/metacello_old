@@ -1,0 +1,5 @@
+
+!SHMethodEditingMode methodsFor: 'accessing' stamp: 'AlainPlantec 9/20/2011 09:55'!
+code: someText
+	code := someText.
+	self changed: #code! !

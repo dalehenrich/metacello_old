@@ -1,0 +1,5 @@
+
+!MetacelloGroupSpec methodsFor: 'accessing' stamp: 'dkh 10/4/2009 09:41'!
+requires: aCollection
+
+	self shouldNotImplement! !

@@ -1,0 +1,6 @@
+
+OBFilter subclass: #OBMethodIconFilter
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Filters'!

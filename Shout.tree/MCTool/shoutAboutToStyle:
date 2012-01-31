@@ -1,0 +1,4 @@
+
+!MCTool methodsFor: '*Shout-Styling' stamp: 'AlainPlantec 8/27/2011 15:59'!
+shoutAboutToStyle: aPluggableShoutMorphOrView
+	^ false! !

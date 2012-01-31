@@ -1,0 +1,6 @@
+
+OBAnnouncement subclass: #OBNavigate
+	instanceVariableNames: 'bid action fan label'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Announcements'!

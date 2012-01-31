@@ -1,0 +1,5 @@
+
+!MetacelloPlatformAttributesTestCase methodsFor: 'accessing' stamp: 'dkh 10/14/2009 16:40'!
+project
+
+	^self projectWith: #()! !

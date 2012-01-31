@@ -1,0 +1,7 @@
+
+!MetacelloClearStackCacheNotification methodsFor: 'signaling' stamp: 'dkh 4/6/2011 23:15'!
+signal: anArray
+	"Signal the occurrence of an exceptional condition with a specified cacheName."
+
+	self cacheNames: anArray.
+	^ self signal! !

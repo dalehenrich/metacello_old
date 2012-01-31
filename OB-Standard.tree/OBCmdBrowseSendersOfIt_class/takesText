@@ -1,0 +1,4 @@
+
+!OBCmdBrowseSendersOfIt class methodsFor: 'testing' stamp: 'cwp 10/15/2006 01:00'!
+takesText
+	^ true! !

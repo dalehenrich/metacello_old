@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'operations' stamp: 'lr 10/3/2009 11:31'!
+cleanup
+	"Cleans the specified packages."
+	
+	^ self execute: GoferCleanup! !

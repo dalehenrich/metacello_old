@@ -1,0 +1,6 @@
+
+!OBPaneScroller methodsFor: 'defaults' stamp: 'cwp 8/26/2009 23:21'!
+separatorWidth
+	^ OBPlatform current builder style39 
+		ifTrue: [ 3 ]
+		ifFalse: [ 4 ]! !

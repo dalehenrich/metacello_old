@@ -1,0 +1,9 @@
+
+OBMercuryQuery subclass: #OBMStringQuery
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Utilities'!
+
+!OBMStringQuery commentStamp: 'PDC 6/29/2007 07:13' prior: 0!
+I handle queries that look like "'this is a string'". I find strings in methods.!

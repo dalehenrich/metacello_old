@@ -1,0 +1,5 @@
+
+!OBPaneScroller methodsFor: 'accessing' stamp: 'lr 6/5/2009 22:10'!
+noteNewOwner: aMorph 
+	self containingWindow isNil
+		ifFalse: [ self adoptPaneColor: self containingWindow paneColor ]! !

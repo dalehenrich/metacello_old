@@ -1,0 +1,4 @@
+
+!MetacelloProjectReferenceSpec methodsFor: 'accessing' stamp: 'dkh 9/23/2009 10:51'!
+projectName
+	^self projectReference name! !

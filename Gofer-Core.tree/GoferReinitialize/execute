@@ -1,0 +1,5 @@
+
+!GoferReinitialize methodsFor: 'running' stamp: 'lr 12/30/2009 11:14'!
+execute
+	self workingCopies
+		do: [ :each | self execute: each ]! !

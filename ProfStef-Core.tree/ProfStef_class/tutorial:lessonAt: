@@ -1,0 +1,4 @@
+
+!ProfStef class methodsFor: 'starting' stamp: 'DannyChan 2/1/2010 19:23'!
+tutorial: aTutorialClass lessonAt: lessonIndex
+	self default tutorial: aTutorialClass lessonAt: lessonIndex.! !

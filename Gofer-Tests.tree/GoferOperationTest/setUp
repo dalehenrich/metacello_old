@@ -1,0 +1,5 @@
+
+!GoferOperationTest methodsFor: 'running' stamp: 'lr 12/13/2009 17:49'!
+setUp
+	super setUp.
+	gofer repository: self monticelloRepository! !

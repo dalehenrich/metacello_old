@@ -1,0 +1,22 @@
+
+Object subclass: #ProfStef
+	instanceVariableNames: 'lessonView player'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'ProfStef-Core'!
+
+ProfStef class
+	instanceVariableNames: 'instance'!
+
+!ProfStef commentStamp: '<historical>' prior: 0!
+A ProfStef is the Smalltalk teacher. To start the tutorial, evaluate:
+ProfStef go.
+
+To go to the next lesson evaluate:
+ProfStef next.
+
+To execute your own tutorial:
+ProfStef goOn: MyOwnTutorial
+
+To see a table of contents with all defined tutorials:
+ProfStef contents!

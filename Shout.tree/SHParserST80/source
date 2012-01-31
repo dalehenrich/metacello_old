@@ -1,0 +1,4 @@
+
+!SHParserST80 methodsFor: 'accessing' stamp: ''!
+source
+	^ source! !

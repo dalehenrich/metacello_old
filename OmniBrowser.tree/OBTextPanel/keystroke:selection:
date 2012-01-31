@@ -1,0 +1,4 @@
+
+!OBTextPanel methodsFor: 'callbacks' stamp: 'lr 4/25/2011 10:51'!
+keystroke: aKeystroke selection: aTextSelection
+	^ (self announcer announce: OBTextCommandScan) processKeystroke: aKeystroke withNode: aTextSelection for: self! !

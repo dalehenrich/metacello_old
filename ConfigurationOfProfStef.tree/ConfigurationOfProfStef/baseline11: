@@ -1,0 +1,30 @@
+
+!ConfigurationOfProfStef methodsFor: 'baselines' stamp: 'LaurentLaffont 5/10/2010 22:16'!
+baseline11: spec 
+	<version: '1.1-baseline'>
+	
+	spec for: #common do: [
+		spec blessing: #baseline.
+	].
+		
+	spec for: #pharo do: [
+		spec repository: 'http://www.squeaksource.com/ProfStef'.
+		spec project: 'Shout' with: [
+				spec
+					className: 'ConfigurationOfShout';
+					loads: #('Core' );
+					file: 'ConfigurationOfShout';
+					repository: 'http://www.squeaksource.com/MetacelloRepository' ].
+		spec 
+			package: 'ProfStef-Core' with: [ spec requires: 'Shout' ];
+			package: 'ProfStefBrowser' with: [ spec requires: 'ProfStef-Core'];
+			package: 'ProfStef-Tests' with: [ spec requires: 'ProfStef-Core'].
+			
+		spec 
+			group: 'default' with: #('Core Browser Tests');
+			group: 'Core' with: #('ProfStef-Core');
+			group: 'Browser' with: #('ProfStefBrowser');
+			group: 'Tests' with: #('ProfStef-Tests');
+			group: 'Core Browser Tests' with: #('Core' 'Browser' 'Tests');
+			yourself.
+	]! !

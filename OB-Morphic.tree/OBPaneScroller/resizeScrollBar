@@ -1,0 +1,7 @@
+
+!OBPaneScroller methodsFor: 'layout' stamp: 'lr 4/29/2011 23:26'!
+resizeScrollBar
+	| inner outer |
+	outer := super innerBounds.
+	inner := outer withHeight: outer height - self scrollBarHeight + 1.
+	scrollBar bounds: (inner bottomLeft corner: outer bottomRight)! !

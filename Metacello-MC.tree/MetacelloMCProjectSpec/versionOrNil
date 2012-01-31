@@ -1,0 +1,6 @@
+
+!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'DaleHenrichs 11/5/2010 15:55'!
+versionOrNil
+
+	^[ self version ] on: MetacelloVersionDoesNotExistError do: [:ex | ^nil ].
+! !

@@ -1,0 +1,5 @@
+
+!SHPreferences class methodsFor: 'accessing' stamp: ''!
+enabled
+	^ enabled
+		ifNil: [enabled := true]! !

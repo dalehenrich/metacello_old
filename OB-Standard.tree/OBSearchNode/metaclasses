@@ -1,0 +1,4 @@
+
+!OBSearchNode methodsFor: 'navigation' stamp: 'PDC 6/25/2007 21:17'!
+metaclasses
+	^self classes collect: [:ea| ea theMetaClass asClassSideNode]! !

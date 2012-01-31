@@ -1,0 +1,5 @@
+
+!ConfigurationOfShout class methodsFor: 'accessing' stamp: 'MarianoMartinezPeck 12/18/2009 15:16'!
+project
+
+	^self new project! !

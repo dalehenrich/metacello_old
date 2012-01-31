@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: '*ob-standard' stamp: 'lr 3/13/2010 12:08'!
+isBrowsable
+	^ false! !

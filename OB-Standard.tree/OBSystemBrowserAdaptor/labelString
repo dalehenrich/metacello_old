@@ -1,0 +1,4 @@
+
+!OBSystemBrowserAdaptor methodsFor: 'registry protocol' stamp: 'cwp 12/5/2004 21:50'!
+labelString
+	^ 'System Browser'! !

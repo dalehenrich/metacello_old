@@ -1,0 +1,6 @@
+
+OBInteractionRequest subclass: #OBInformRequest
+	instanceVariableNames: 'message'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Notifications'!

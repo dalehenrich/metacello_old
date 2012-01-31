@@ -1,0 +1,4 @@
+
+!MetacelloValidationIssue methodsFor: 'accessing' stamp: 'DaleHenrichs 11/20/2010 07:23'!
+callSite
+	^ callSite! !

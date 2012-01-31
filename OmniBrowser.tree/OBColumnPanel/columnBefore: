@@ -1,0 +1,6 @@
+
+!OBColumnPanel methodsFor: 'accessing columns' stamp: 'cwp 2/28/2006 19:07'!
+columnBefore: aColumn 
+	^ self columnBefore: aColumn ifAbsent: [nil]
+
+! !

@@ -1,0 +1,4 @@
+
+!OBMethodDefinition methodsFor: 'accessing' stamp: ''!
+theClass
+	^ theClass! !

@@ -1,0 +1,4 @@
+
+!OBSearchNode class methodsFor: 'instance creation' stamp: 'dr 10/22/2008 09:38'!
+on: aString
+	^ self basicNew setRawQuery: aString! !

@@ -1,0 +1,6 @@
+
+OBTextSelection subclass: #OBTextMorphSelection
+	instanceVariableNames: 'morph'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Morphic-Morphs'!

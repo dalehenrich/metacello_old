@@ -1,0 +1,6 @@
+
+!MetacelloMCVersionSpec methodsFor: 'enumerating' stamp: 'DaleHenrichs 11/12/2010 15:31'!
+specListProjectDo: projectBlock packageDo: packageBlock groupDo: groupBlock
+
+	self packages specListDo: [:pkgSpec |
+		pkgSpec projectDo: projectBlock packageDo: packageBlock groupDo: groupBlock ]! !

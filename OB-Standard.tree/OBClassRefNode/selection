@@ -1,0 +1,8 @@
+
+!OBClassRefNode methodsFor: 'accessing' stamp: 'cwp 12/1/2004 01:16'!
+selection
+	| start parser |
+	(parser := Compiler parserClass new) parseSelector: self source.
+	start := parser endOfLastToken.
+	start := (self source asString findString: className startingAt: start).
+	^ start to: start + className size - 1! !

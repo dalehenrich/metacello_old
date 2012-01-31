@@ -1,0 +1,14 @@
+
+!OBSystemWindow methodsFor: 'actions' stamp: 'lr 12/3/2010 15:29'!
+selectWindow
+	| windows window |
+	windows := (World submorphs
+		select: [ :each | each isKindOf: SystemWindow ])
+		asSortedCollection: [ :a :b | a label < b label ].
+	window := OBCompletionRequest new
+		collection: windows;
+		prompt: 'Select Window';
+		labelBlock: [ :value | value label ];
+		signal.
+	window isNil
+		ifFalse: [ window expand; activate ]! !

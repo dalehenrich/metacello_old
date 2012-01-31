@@ -1,0 +1,5 @@
+
+!MetacelloLoaderPolicy methodsFor: 'testing' stamp: 'DaleHenrichs 3/7/2010 08:14'!
+hasRepositoryOverrides
+
+	^self overrideRepositories ~~ nil! !

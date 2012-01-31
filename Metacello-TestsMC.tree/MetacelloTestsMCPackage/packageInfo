@@ -1,0 +1,6 @@
+
+!MetacelloTestsMCPackage methodsFor: 'accessing' stamp: 'DaleHenrichs 12/18/2010 20:09'!
+packageInfo
+	"Aiming for speeding up the running of the tests"
+
+	^ MetacelloTestsPackageInfo named: name! !

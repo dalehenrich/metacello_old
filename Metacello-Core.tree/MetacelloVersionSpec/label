@@ -1,0 +1,5 @@
+
+!MetacelloVersionSpec methodsFor: 'printing' stamp: 'DaleHenrichs 3/9/2010 16:34'!
+label
+
+	^self versionString, ' [', self projectLabel, ']'! !

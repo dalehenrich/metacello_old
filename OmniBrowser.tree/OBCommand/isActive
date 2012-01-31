@@ -1,0 +1,4 @@
+
+!OBCommand methodsFor: 'testing' stamp: 'cwp 10/15/2006 22:05'!
+isActive
+	^ false! !

@@ -1,0 +1,4 @@
+
+!OBRadioButtonBar methodsFor: 'accessing' stamp: 'dr 3/23/2009 15:30'!
+getLongDescriptions
+    ^model longDescriptions! !

@@ -1,0 +1,6 @@
+
+!OBDefinitionPanel methodsFor: 'callbacks' stamp: 'dr 11/4/2008 19:53'!
+selectedClass
+	^ self 
+		withDefinitionDo: [:def | (def respondsTo: #selectedClass) ifTrue: [def selectedClass]] 
+		ifNil: [nil]   ! !

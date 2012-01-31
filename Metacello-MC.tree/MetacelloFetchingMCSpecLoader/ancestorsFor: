@@ -1,0 +1,7 @@
+
+!MetacelloFetchingMCSpecLoader methodsFor: 'versionInfo' stamp: 'dkh 3/20/2011 17:51'!
+ancestorsFor: packageSpec
+
+	^self loadData
+		ancestorsFor: packageSpec 
+		ifAbsent: [ super ancestorsFor: packageSpec ]! !

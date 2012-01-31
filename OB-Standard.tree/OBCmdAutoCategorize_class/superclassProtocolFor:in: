@@ -1,0 +1,11 @@
+
+!OBCmdAutoCategorize class methodsFor: 'private' stamp: 'lr 9/22/2010 09:08'!
+superclassProtocolFor: aSelector in: aClass
+	aClass allSuperclassesDo: [ :class |
+		| protocol |
+		protocol := class organization categoryOfElement: aSelector.
+		(self isValidProtocol: protocol) 
+			ifTrue: [ ^ protocol ].
+		class theNonMetaClass = ProtoObject
+			ifTrue: [ ^ nil ] ].
+	^ nil! !

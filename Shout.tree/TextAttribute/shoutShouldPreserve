@@ -1,0 +1,4 @@
+
+!TextAttribute methodsFor: '*Shout-styling' stamp: ''!
+shoutShouldPreserve
+	^ false! !

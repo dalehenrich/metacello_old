@@ -1,0 +1,12 @@
+
+!MetacelloVersionLoadDirective methodsFor: 'loading' stamp: 'DaleHenrichs 12/21/2010 11:47'!
+loadPostloadDirective: aPostloadDirective 
+
+	| block |
+	(block :=  aPostloadDirective spec postLoadDoItBlock) ~~ nil
+		ifTrue: [
+			aPostloadDirective evaluateSupplyingAnswers: [ block valueWithPossibleArgs: 
+					(Array 
+						with: aPostloadDirective loader 
+						with: aPostloadDirective spec) ].
+			Transcript cr; show: 'Evaluated -> ', aPostloadDirective spec label, ' >> ', aPostloadDirective spec postLoadDoIt value asString]! !

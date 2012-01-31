@@ -1,0 +1,6 @@
+
+!OBClassReference methodsFor: 'accessing' stamp: ''!
+name
+	^ isMeta
+		ifTrue: [name, ' class']
+		ifFalse: [name]! !

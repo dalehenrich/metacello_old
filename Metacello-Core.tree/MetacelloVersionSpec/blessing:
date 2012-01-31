@@ -1,0 +1,5 @@
+
+!MetacelloVersionSpec methodsFor: 'accessing' stamp: 'dkh 6/5/2009 10:44'!
+blessing: anObject
+
+	anObject setBlessingInMetacelloVersion: self! !

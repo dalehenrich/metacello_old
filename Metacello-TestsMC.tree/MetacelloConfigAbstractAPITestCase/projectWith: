@@ -1,0 +1,5 @@
+
+!MetacelloConfigAbstractAPITestCase methodsFor: 'accessing' stamp: 'DaleHenrichs 12/20/2010 13:59'!
+projectWith: projectAttributes
+
+	self subclassResponsibility! !

@@ -1,0 +1,5 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'accessing' stamp: 'dkh 10/24/2009 19:41'!
+referencedSpec
+
+	^self! !

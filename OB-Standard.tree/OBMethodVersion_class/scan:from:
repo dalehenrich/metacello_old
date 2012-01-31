@@ -1,0 +1,11 @@
+
+!OBMethodVersion class methodsFor: 'scanning' stamp: 'PDC 6/29/2007 06:55'!
+scan: sources from: pointer 
+	| versions current |
+	
+	versions := OrderedCollection new.
+	current := self fromSources: sources andPointer: pointer.
+	[current notNil]
+		whileTrue: [versions add: current.
+					current := current previous].
+	^ versions! !

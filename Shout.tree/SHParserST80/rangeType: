@@ -1,0 +1,7 @@
+
+!SHParserST80 methodsFor: 'recording ranges' stamp: ''!
+rangeType: aSymbol 
+	^ self
+		rangeType: aSymbol
+		start: currentTokenSourcePosition
+		end: currentTokenSourcePosition + currentToken size - 1! !

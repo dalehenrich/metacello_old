@@ -1,0 +1,4 @@
+
+!OBMorphicPlatform methodsFor: 'interaction' stamp: 'lr 7/4/2009 16:43'!
+handleInformRequest: anOBInformRequest 
+	UIManager default inform: anOBInformRequest message! !

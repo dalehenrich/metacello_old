@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'accessing' stamp: 'cwp 5/6/2007 23:19'!
+metaNode
+	^ self parent metaNode! !

@@ -1,0 +1,8 @@
+
+!OBRadioButtonBar methodsFor: 'updating' stamp: 'cwp 8/26/2009 23:28'!
+updateMorphs
+	| builder |
+	builder := OBPlatform current builder.
+	self removeAllMorphs.
+	buttons do: [ :button | self addMorphBack: (builder build: button) ].
+	self updateSubmorphColor! !

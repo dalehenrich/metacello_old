@@ -1,0 +1,6 @@
+
+!OBMClassQuery methodsFor: 'private' stamp: 'lr 4/5/2010 12:31'!
+openClassBrowserOn: aNode
+	^ self browser isClassBrowser
+		ifTrue: [ self browser jumpTo: aNode ]
+		ifFalse: [ aNode browse ]! !

@@ -1,0 +1,5 @@
+
+!MetacelloExplicitLoadDirective methodsFor: 'accessing' stamp: 'DaleHenrichs 3/18/2010 11:46'!
+title
+
+	^'explicit load'! !

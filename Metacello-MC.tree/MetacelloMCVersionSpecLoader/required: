@@ -1,0 +1,4 @@
+
+!MetacelloMCVersionSpecLoader methodsFor: 'accessing' stamp: 'dkh 6/8/2009 16:57'!
+required: anObject
+	required := anObject! !

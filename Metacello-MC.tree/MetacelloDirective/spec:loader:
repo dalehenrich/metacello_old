@@ -1,0 +1,6 @@
+
+!MetacelloDirective methodsFor: 'initialize-release' stamp: 'DaleHenrichs 3/9/2010 10:46'!
+spec: packageOrVersionSpec loader: aLoader
+
+	spec := packageOrVersionSpec.
+	loader := aLoader! !

@@ -1,0 +1,6 @@
+
+!MetacelloLoaderPolicy methodsFor: 'actions' stamp: 'DaleHenrichs 3/9/2010 16:50'!
+pushAtomicLoadDirectivesDuring: aBlock for: aLoader
+
+	self pushLoadDirective: (MetacelloAtomicLoadDirective loader: aLoader) during: aBlock.
+! !

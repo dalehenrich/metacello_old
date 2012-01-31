@@ -1,0 +1,10 @@
+
+!OBColumnPanel methodsFor: 'initializing' stamp: 'lr 7/3/2009 22:27'!
+setMetaNode: aMetaNode node: aNode 
+	root := aNode.
+	root metaNode: aMetaNode.
+	self pushColumn: (OBColumn 
+			inPanel: self
+			metaNode: aMetaNode
+			node: root).
+	minPanes - self columns size timesRepeat: [ self pushColumn: self emptyColumn ]! !

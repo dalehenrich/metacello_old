@@ -1,0 +1,4 @@
+
+!OBColumnPanel methodsFor: 'accessing' stamp: 'cwp 7/19/2007 00:55'!
+currentNode
+	^ current! !

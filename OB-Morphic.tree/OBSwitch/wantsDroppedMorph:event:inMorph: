@@ -1,0 +1,10 @@
+
+!OBSwitch methodsFor: '*ob-morphic' stamp: 'lr 6/4/2010 14:53'!
+wantsDroppedMorph: aTransferMorph event: anEvent inMorph: aButtonMorph
+	(aTransferMorph isKindOf: TransferMorph) 
+		ifFalse: [ ^ false ].
+	aTransferMorph dragTransferType = column dragTransferType
+		ifFalse: [ ^ false ].
+	^ column
+		canDrop: aTransferMorph passenger
+		on: (self nodeForMorph: aButtonMorph)! !

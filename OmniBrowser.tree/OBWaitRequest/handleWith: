@@ -1,0 +1,4 @@
+
+!OBWaitRequest methodsFor: 'dispatching' stamp: 'lr 5/14/2008 15:41'!
+handleWith: anObject
+	^ anObject handleWaitRequest: self! !

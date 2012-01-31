@@ -1,0 +1,4 @@
+
+!OBMessageNode methodsFor: 'navigating' stamp: ''!
+implementors
+	^ self implementorsOf: message! !

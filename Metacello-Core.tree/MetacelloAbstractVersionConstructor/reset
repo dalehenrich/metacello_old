@@ -1,0 +1,6 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'initialization' stamp: 'dkh 10/5/2009 16:42'!
+reset
+
+	attributeMap := attributeOrder := nil
+! !

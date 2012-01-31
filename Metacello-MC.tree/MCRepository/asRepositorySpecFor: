@@ -1,0 +1,5 @@
+
+!MCRepository methodsFor: '*metacello-mc' stamp: 'DaleHenrichs 3/5/2010 14:37'!
+asRepositorySpecFor: aMetacelloMCProject
+
+	self subclassResponsibility! !

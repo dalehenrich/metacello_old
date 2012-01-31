@@ -1,0 +1,7 @@
+
+!OBSwitch methodsFor: 'public' stamp: 'lr 3/21/2009 20:02'!
+filter: aFilter 
+	filter := aFilter.
+	filter isNil ifTrue: [ ^ self ].
+	filter activate.
+	self changed: #list! !

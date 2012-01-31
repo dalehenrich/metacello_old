@@ -1,0 +1,6 @@
+
+!OBKeystroke methodsFor: 'testing' stamp: 'lr 5/20/2011 19:16'!
+isOption
+	"Answer true if the option key was pressed for this event."
+	
+	^ option! !

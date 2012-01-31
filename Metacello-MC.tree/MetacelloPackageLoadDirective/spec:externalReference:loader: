@@ -1,0 +1,6 @@
+
+!MetacelloPackageLoadDirective methodsFor: 'initialize-release' stamp: 'DaleHenrichs 3/9/2010 16:41'!
+spec: aPackageSpec externalReference: anExternalReference loader: aLoader
+
+	super spec: aPackageSpec loader: aLoader.
+	externalReference := anExternalReference! !

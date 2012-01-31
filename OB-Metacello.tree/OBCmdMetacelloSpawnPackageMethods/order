@@ -1,0 +1,5 @@
+
+!OBCmdMetacelloSpawnPackageMethods methodsFor: 'user interface' stamp: 'DaleHenrichs 5/12/2010 16:33'!
+order
+
+	^'2'! !

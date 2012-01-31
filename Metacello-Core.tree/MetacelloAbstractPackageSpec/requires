@@ -1,0 +1,6 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'querying' stamp: 'dkh 6/23/2009 11:25'!
+requires
+
+	requires == nil ifTrue: [ requires := #() ].
+	^requires! !

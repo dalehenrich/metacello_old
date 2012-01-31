@@ -1,0 +1,8 @@
+
+!MetacelloRepositorySpec methodsFor: 'printing' stamp: 'dkh 10/22/2009 09:54'!
+configMethodOn: aStream indent: indent
+
+	aStream 
+		tab: indent; 
+		nextPutAll: 'spec '.
+	self configMethodCascadeOn: aStream lastCascade: true! !

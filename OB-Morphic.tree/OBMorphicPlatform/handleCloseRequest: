@@ -1,0 +1,6 @@
+
+!OBMorphicPlatform methodsFor: 'interaction' stamp: 'lr 9/25/2010 16:09'!
+handleCloseRequest: request 
+	(OBSystemWindow allInstances 
+		detect: [ :each | each model = request browser ]
+		ifNone: [ ^ nil ]) delete! !

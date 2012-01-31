@@ -1,0 +1,4 @@
+
+!OBCmdMetacelloNestedSavePackages methodsFor: 'accessing' stamp: 'dkh 6/29/2009 10:09'!
+group
+	^ #metacelloPackages! !

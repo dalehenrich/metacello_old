@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'displaying' stamp: 'cwp 5/20/2007 20:02'!
+displayStringForChild: aNode
+	^ metaNode displayStringForParent: self child: aNode! !

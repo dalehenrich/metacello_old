@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'scrolling' stamp: 'lr 3/13/2010 19:59'!
+scrollToRight
+	scrollBar animateValue: 1.0 duration: self class animationDuration! !

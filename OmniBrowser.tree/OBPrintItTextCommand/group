@@ -1,0 +1,4 @@
+
+!OBPrintItTextCommand methodsFor: 'accessing' stamp: 'lr 3/6/2011 14:56'!
+group
+	^ #smalltalk! !

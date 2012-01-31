@@ -1,0 +1,5 @@
+
+!OBCmdMetacelloLoadConfigurationVersion methodsFor: 'accessing' stamp: 'DaleHenrichs 12/3/2010 13:56'!
+label
+
+	^'Load Version'! !

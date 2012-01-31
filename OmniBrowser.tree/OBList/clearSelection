@@ -1,0 +1,4 @@
+
+!OBList methodsFor: 'selecting' stamp: 'lr 5/28/2010 21:40'!
+clearSelection
+	selection := 0! !

@@ -1,0 +1,6 @@
+
+OBTextPanel subclass: #OBAnnotationPanel
+	instanceVariableNames: 'text process'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Panels'!

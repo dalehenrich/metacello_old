@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'navigation' stamp: 'lr 5/28/2010 21:29'!
+columnAfter: aColumn withFan: aFan selection: aSmallInteger
+	^ aColumn nextColumnForDefaultNavigationWithFan: aFan selection: aSmallInteger! !

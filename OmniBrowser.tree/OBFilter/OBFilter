@@ -1,0 +1,11 @@
+
+Object subclass: #OBFilter
+	instanceVariableNames: 'metaNode'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Filters'!
+
+!OBFilter commentStamp: 'cwp 3/4/2004 21:53' prior: 0!
+A browser's metagraph defines the way in which the user may traverse the graph of objects which make up the browser's domain. But it's not always desirable to have all the nodes made available by the metagraph to be visible in the browser. An filter provides a strategy for filtering out some of the nodes from the display. 
+
+OBFilter provides a "null" filter - one that does no filtering at all - and serves as a superclass for other filters. !

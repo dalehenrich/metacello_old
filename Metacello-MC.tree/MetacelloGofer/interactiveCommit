@@ -1,0 +1,5 @@
+
+!MetacelloGofer methodsFor: 'operations' stamp: 'dkh 4/17/2011 14:42'!
+interactiveCommit
+
+	^ self execute: MetacelloGoferCommit! !

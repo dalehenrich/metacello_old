@@ -1,0 +1,10 @@
+
+!MetacelloVersionSpec methodsFor: 'accessing' stamp: 'dkh 8/26/2009 10:10'!
+blessing
+
+	blessing == nil 
+		ifTrue: [
+			^self project valueHolderSpec
+				value: self project defaultBlessing;
+				yourself].
+	^ blessing! !

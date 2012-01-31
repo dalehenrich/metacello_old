@@ -1,0 +1,8 @@
+
+!SystemReference class methodsFor: 'help topic creation' stamp: 'tbn 3/11/2010 23:41'!
+forClass: aClass
+	|root topic |
+	root := HelpTopic named: 'System reference for ', aClass name.
+	topic := ClassAPIHelpBuilder buildHelpTopicFrom: aClass.
+	root addSubtopic: topic.
+	^root! !

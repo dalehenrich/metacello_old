@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'operations' stamp: 'lr 12/14/2009 23:51'!
+localChanges
+	"Answer the changes between the base version and the working copy."
+	
+	^ self execute: GoferLocalChanges! !

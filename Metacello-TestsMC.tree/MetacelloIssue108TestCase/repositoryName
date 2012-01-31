@@ -1,0 +1,5 @@
+
+!MetacelloIssue108TestCase methodsFor: 'private' stamp: 'dkh 2/22/2011 20:48'!
+repositoryName
+
+	^#'Metacello_Repository'! !

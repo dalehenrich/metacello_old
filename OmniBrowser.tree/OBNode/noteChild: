@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'public' stamp: 'cwp 5/18/2007 20:33'!
+noteChild: aNode
+	metaNode noteParent: self child: aNode! !

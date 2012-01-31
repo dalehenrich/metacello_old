@@ -1,0 +1,4 @@
+
+!MetacelloMCVersionSpec methodsFor: 'accessing' stamp: 'dkh 10/7/2009 16:27'!
+repository: aString
+	self repositoriesSpec add: aString! !

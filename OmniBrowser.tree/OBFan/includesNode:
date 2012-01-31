@@ -1,0 +1,4 @@
+
+!OBFan methodsFor: 'testing' stamp: 'jk 3/26/2008 12:27'!
+includesNode: aNode
+	^ self children includes: aNode! !

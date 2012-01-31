@@ -1,0 +1,5 @@
+
+!OBColumnPanel methodsFor: 'updating' stamp: 'dr 9/18/2008 10:53'!
+selectionChanged: ann
+	current := ann column selectedNode.
+	self selectionChangedIn: ann column! !

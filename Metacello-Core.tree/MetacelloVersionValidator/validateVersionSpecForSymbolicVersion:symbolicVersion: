@@ -1,0 +1,5 @@
+
+!MetacelloVersionValidator methodsFor: 'private' stamp: 'DaleHenrichs 11/12/2010 10:44'!
+validateVersionSpecForSymbolicVersion: versionSpec symbolicVersion: symbolicVersionString
+
+	self subclassResponsibility! !

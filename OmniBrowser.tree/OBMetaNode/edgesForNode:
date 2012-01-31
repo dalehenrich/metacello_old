@@ -1,0 +1,6 @@
+
+!OBMetaNode methodsFor: 'accessing' stamp: 'lr 5/28/2010 18:18'!
+edgesForNode: aNode 
+	^ filters 
+		inject: edges 
+		into: [ :list :filter | filter edgesFrom: list forNode: aNode ]! !

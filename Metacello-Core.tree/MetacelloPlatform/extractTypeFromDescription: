@@ -1,0 +1,8 @@
+
+!MetacelloPlatform methodsFor: 'repository creation' stamp: 'tbn 6/9/2010 13:56'!
+extractTypeFromDescription: description
+
+	description == nil ifTrue: [ ^nil ].
+	((description beginsWith: '/') or: [ description second = $:]) ifTrue: [ ^'directory' ].
+	(description beginsWith: 'dictionary://') ifTrue: [ ^'dictionary' ].
+	^'http'! !

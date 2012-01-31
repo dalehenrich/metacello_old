@@ -1,0 +1,5 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'accessing' stamp: 'DaleHenrichs 03/12/2011 22:10'!
+setProject: aProject
+
+	project := aProject! !

@@ -1,0 +1,5 @@
+
+!MetacelloCommonMCSpecLoader methodsFor: 'packages' stamp: 'dkh 07/22/2009 14:50'!
+nameComponentsFrom: aVersionName
+
+	^self class nameComponentsFrom: aVersionName! !

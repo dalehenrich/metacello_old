@@ -1,0 +1,4 @@
+
+!MetacelloConfigurationHelp class methodsFor: 'accessing' stamp: 'dkh 4/10/2011 18:20'!
+pages
+	^#()! !

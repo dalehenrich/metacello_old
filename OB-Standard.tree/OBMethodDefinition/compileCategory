@@ -1,0 +1,4 @@
+
+!OBMethodDefinition methodsFor: 'accessing' stamp: 'jk 8/22/2007 20:09'!
+compileCategory
+	^ compileCategory! !

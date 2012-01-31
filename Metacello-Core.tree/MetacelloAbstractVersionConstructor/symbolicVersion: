@@ -1,0 +1,5 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'accessing' stamp: 'DaleHenrichs 9/22/2010 16:43'!
+symbolicVersion: aSymbol
+
+	symbolicVersion := aSymbol! !

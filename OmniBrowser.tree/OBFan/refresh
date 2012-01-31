@@ -1,0 +1,7 @@
+
+!OBFan methodsFor: 'accessing' stamp: 'lr 5/28/2010 20:48'!
+refresh
+	| oldChildren |
+	oldChildren := children.
+	children := parent childNodes.
+	^ children ~= oldChildren! !

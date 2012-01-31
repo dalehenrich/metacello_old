@@ -1,0 +1,4 @@
+
+!OBClassCommentNode methodsFor: 'definition' stamp: 'jk 8/23/2007 17:16'!
+definition
+	^ OBClassCommentDefinition on: self theClass! !

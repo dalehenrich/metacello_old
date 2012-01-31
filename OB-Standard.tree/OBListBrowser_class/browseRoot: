@@ -1,0 +1,4 @@
+
+!OBListBrowser class methodsFor: 'opening' stamp: 'lr 4/9/2011 17:49'!
+browseRoot: aNode
+	^ self browseRoot: aNode title: self title! !

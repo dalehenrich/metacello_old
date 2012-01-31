@@ -1,0 +1,4 @@
+
+!OBBrowser class methodsFor: 'configuration' stamp: 'cwp 8/31/2004 13:02'!
+titleForRoot: aNode
+	^ self title! !

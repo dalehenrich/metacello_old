@@ -1,0 +1,6 @@
+
+Object subclass: #OBMetagraphBuilder
+	instanceVariableNames: 'metaNodes selectors root'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Utilities'!

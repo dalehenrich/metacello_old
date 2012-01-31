@@ -1,0 +1,11 @@
+
+!OBCommandScan methodsFor: 'accessing' stamp: 'lr 8/8/2010 10:52'!
+addCommandsOn: aNode for: aRequestor to: aSet 
+	| cmd |
+	factories do: 
+		[ :ea | 
+		cmd := ea 
+			on: aNode
+			for: aRequestor.
+		(cmd wantsMenu and: [ cmd isActive ])
+			ifTrue: [ aSet add: cmd ] ]! !

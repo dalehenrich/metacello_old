@@ -1,0 +1,4 @@
+
+!OBColumnPanel methodsFor: 'accessing' stamp: 'lr 11/13/2008 13:38'!
+selectionPath
+	^ ((self columns collect: [ :e | e parent ]) select: [ :e | e notNil ]) allButFirst! !

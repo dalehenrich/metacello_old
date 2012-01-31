@@ -1,0 +1,4 @@
+
+!OBCmdBrowseReferences methodsFor: 'execution' stamp: 'cwp 12/7/2006 22:05'!
+execute
+	OBReferencesBrowser browseRoot: target theNonMetaClass asNode! !

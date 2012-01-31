@@ -1,0 +1,4 @@
+
+!MetacelloCleanNotification methodsFor: 'accessing' stamp: 'DaleHenrichs 11/21/2010 19:16'!
+version: anObject
+	version := anObject! !

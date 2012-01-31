@@ -1,0 +1,4 @@
+
+!OBTextDefinition methodsFor: 'accessing' stamp: 'dc 3/13/2008 21:51'!
+text
+	^ text! !

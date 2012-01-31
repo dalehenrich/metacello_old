@@ -1,0 +1,4 @@
+
+!OBNavigate methodsFor: 'accessing' stamp: 'lr 3/4/2009 22:08'!
+browserClass
+	self subclassResponsibility! !

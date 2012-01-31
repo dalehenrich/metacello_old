@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'public' stamp: 'dr 9/15/2008 11:46'!
+childNodes
+	^ metaNode childrenForNode: self! !

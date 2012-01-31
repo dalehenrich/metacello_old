@@ -1,0 +1,7 @@
+
+!MetacelloFetchingMCSpecLoader methodsFor: 'doits' stamp: 'DaleHenrichs 3/11/2010 13:43'!
+postLoad: packageOrVersionSpec
+
+	(MetacelloDirective postLoadSpec: packageOrVersionSpec loader: self)  addTo: self loadDirective
+
+! !

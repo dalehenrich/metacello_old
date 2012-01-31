@@ -1,0 +1,9 @@
+
+!HowToMakeYourOwnTutorial methodsFor: 'tutorial' stamp: 'LaurentLaffont 1/21/2010 21:45'!
+tutorial 
+	^ #(
+subclassAbstractTutorial
+createLessonFactoryMethods
+implementTutorial
+runYourTutorial
+)! !

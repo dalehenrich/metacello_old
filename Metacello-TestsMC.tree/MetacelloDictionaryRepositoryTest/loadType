@@ -1,0 +1,5 @@
+
+!MetacelloDictionaryRepositoryTest methodsFor: 'accessing' stamp: 'dkh 1/6/2010 20:43'!
+loadType
+
+	^#linear! !

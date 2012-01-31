@@ -1,0 +1,5 @@
+
+!OBCmdRemoveElement methodsFor: 'testing' stamp: 'cwp 7/20/2007 22:11'!
+isActive
+
+	^ (target isKindOf: OBCollectionNode) and: [requestor hasSelection]! !

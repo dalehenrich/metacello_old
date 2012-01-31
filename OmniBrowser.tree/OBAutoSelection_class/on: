@@ -1,0 +1,4 @@
+
+!OBAutoSelection class methodsFor: 'instance creation' stamp: 'dr 1/28/2009 15:33'!
+on: aMetaNode
+	^self new metaNode: aMetaNode; yourself! !

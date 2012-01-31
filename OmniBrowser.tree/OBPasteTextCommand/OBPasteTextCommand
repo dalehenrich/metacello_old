@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBPasteTextCommand
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Commands'!

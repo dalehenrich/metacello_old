@@ -1,0 +1,5 @@
+
+!OBColumn methodsFor: 'updating' stamp: 'cwp 6/9/2006 22:35'!
+childrenChanged: announcement
+	(self parent = announcement node) ifTrue:
+		[self refresh]! !

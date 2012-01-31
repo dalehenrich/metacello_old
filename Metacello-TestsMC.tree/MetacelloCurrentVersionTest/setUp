@@ -1,0 +1,9 @@
+
+!MetacelloCurrentVersionTest methodsFor: 'running' stamp: 'dkh 4/18/2011 15:23'!
+setUp
+
+	| repo |
+	super setUp.
+	repo := self configurationRepository.
+	self tempRepositories add: repo.
+	gofer repository: repo! !

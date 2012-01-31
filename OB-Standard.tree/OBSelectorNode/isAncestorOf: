@@ -1,0 +1,4 @@
+
+!OBSelectorNode methodsFor: 'ancestry' stamp: 'lr 2/7/2010 10:50'!
+isAncestorOf: aNode 
+	^ (aNode source findString: selector string startingAt: 0 ) isZero not! !

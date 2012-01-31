@@ -1,0 +1,6 @@
+
+!ProfStefHelp class methodsFor: 'pages' stamp: 'LaurentLaffont 9/19/2010 15:13'!
+createATutorial
+	^ HelpTopic 
+		title: 'Create a tutorial'
+		contents: 'See AbstractTutorial comment: ', AbstractTutorial comment.! !

@@ -1,0 +1,10 @@
+
+!ConfigurationOfMetacello class methodsFor: 'development support' stamp: 'DaleHenrichs 12/13/2010 17:45'!
+loadLatestPackages
+	"self loadLatestPackages"
+
+	"Note that Metacello 1.0-beta.28 is needed and is currently unstable and in development"
+
+	| project |
+	project := self project.
+	^(project latestVersion: #baseline) load: #( 'default' 'Metacello-Tutorial')! !

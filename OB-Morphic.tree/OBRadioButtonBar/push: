@@ -1,0 +1,7 @@
+
+!OBRadioButtonBar methodsFor: 'callbacks' stamp: 'lr 12/3/2009 19:02'!
+push: aButton
+	| index |
+	model okToChange ifFalse: [ ^ self ].
+	index := buttons indexOf: aButton.
+	model perform: setSelectionSelector with: index.! !

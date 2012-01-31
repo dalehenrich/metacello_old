@@ -1,0 +1,5 @@
+
+!MetacelloProjectSpec methodsFor: 'accessing' stamp: 'dkh 10/4/2009 12:05'!
+loads: aCollection
+
+	aCollection setLoadsInMetacelloProject: self! !

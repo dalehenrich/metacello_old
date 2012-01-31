@@ -1,0 +1,4 @@
+
+!OBFilter methodsFor: 'accessing' stamp: 'cwp 2/11/2004 23:48'!
+metaNode
+	^ metaNode! !

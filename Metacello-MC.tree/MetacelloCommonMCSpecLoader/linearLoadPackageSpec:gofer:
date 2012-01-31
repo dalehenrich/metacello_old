@@ -1,0 +1,5 @@
+
+!MetacelloCommonMCSpecLoader methodsFor: 'actions' stamp: 'DaleHenrichs 4/9/2010 12:17'!
+linearLoadPackageSpec: packageSpec gofer: gofer
+
+	self subclassResponsibility! !

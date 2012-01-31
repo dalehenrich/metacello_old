@@ -1,0 +1,6 @@
+
+OBCmdClassTemplate subclass: #OBCmdSubclassTemplate
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

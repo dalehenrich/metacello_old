@@ -1,0 +1,4 @@
+
+!OBKeystroke methodsFor: 'converting' stamp: 'lr 4/25/2011 10:35'!
+asKeystroke
+	^ self! !

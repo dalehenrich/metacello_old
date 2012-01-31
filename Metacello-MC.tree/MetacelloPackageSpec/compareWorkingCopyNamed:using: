@@ -1,0 +1,7 @@
+
+!MetacelloPackageSpec methodsFor: 'testing' stamp: 'dkh 3/3/2011 07:56'!
+compareWorkingCopyNamed: wcName using: comarisonOperator
+	| fileRef wcRef |
+	fileRef := GoferResolvedReference name: self file.
+	wcRef := GoferResolvedReference name: wcName.
+	^ wcRef compare: fileRef using: comarisonOperator! !

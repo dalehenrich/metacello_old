@@ -1,0 +1,8 @@
+
+!MetacelloDevelopmentCycleTutorialTests methodsFor: 'private' stamp: 'DaleHenrichs 12/17/2010 16:25'!
+hasPackage: aString
+	| package |
+	package := MCWorkingCopy allManagers
+		detect: [ :each | each packageName = aString ]
+		ifNone: [ nil ].
+	^ package notNil! !

@@ -1,0 +1,4 @@
+
+!OBMethodStringsBrowser class methodsFor: 'instance creation' stamp: 'lr 4/9/2011 09:26'!
+browseRoot: aNode target: targetNode
+	^ (self root: aNode selection: targetNode) open! !

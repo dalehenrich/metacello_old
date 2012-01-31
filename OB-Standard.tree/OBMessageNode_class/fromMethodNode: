@@ -1,0 +1,7 @@
+
+!OBMessageNode class methodsFor: 'instance creation' stamp: ''!
+fromMethodNode: aMethodNode
+	^ self new 
+		setMessage: aMethodNode selector
+		selector: aMethodNode selector
+		class: aMethodNode theClass! !

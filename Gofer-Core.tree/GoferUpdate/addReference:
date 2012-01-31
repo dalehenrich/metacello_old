@@ -1,0 +1,6 @@
+
+!GoferUpdate methodsFor: 'private' stamp: 'TestRunner 12/13/2009 18:09'!
+addReference: aReference
+	super addReference: aReference.
+	self model addVersion: ((self referenceFor: aReference)
+		 resolveWith: self gofer) version! !

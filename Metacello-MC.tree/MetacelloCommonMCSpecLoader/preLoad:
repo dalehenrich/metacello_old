@@ -1,0 +1,5 @@
+
+!MetacelloCommonMCSpecLoader methodsFor: 'doits' stamp: 'DaleHenrichs 3/10/2010 14:32'!
+preLoad: packageOrVersionSpec
+
+	self subclassResponsibility! !

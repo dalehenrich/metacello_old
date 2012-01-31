@@ -1,0 +1,8 @@
+
+!SHMethodEditingMode methodsFor: 'accessing' stamp: 'AlainPlantec 9/20/2011 10:00'!
+selector: aSymbol
+	selector := aSymbol ifNotNil: [:sel |( sel copyWithout: Character cr) asSymbol].
+	self changed: #selector.
+	self classToUse 
+		ifNotNil: [:cls | (cls selectors includes: selector)
+			ifTrue: [self code: (cls sourceCodeAt: selector)]]! !

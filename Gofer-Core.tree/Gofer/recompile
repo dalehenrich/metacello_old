@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'operations' stamp: 'lr 8/20/2009 11:44'!
+recompile
+	"Recompile the specified packages."
+
+	^ self execute: GoferRecompile! !

@@ -1,0 +1,6 @@
+
+!OBDefinitionPanel methodsFor: 'callbacks' stamp: 'cwp 3/23/2004 00:23'!
+doItContext
+	^ self 
+		withDefinitionDo: [:def | (def respondsTo: #doItContext) ifTrue: [def doItContext]]
+		ifNil: [nil]! !

@@ -1,0 +1,4 @@
+
+!SHPreferences class methodsFor: 'private' stamp: ''!
+customStyleTable
+	^ CustomStyleTable! !

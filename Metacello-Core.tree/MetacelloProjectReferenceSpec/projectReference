@@ -1,0 +1,4 @@
+
+!MetacelloProjectReferenceSpec methodsFor: 'querying' stamp: 'dkh 9/23/2009 10:51'!
+projectReference
+	^ projectReference! !

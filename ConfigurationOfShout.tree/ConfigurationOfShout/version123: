@@ -1,0 +1,26 @@
+
+!ConfigurationOfShout methodsFor: 'versions' stamp: 'MarcusDenker 5/5/2011 13:39'!
+version123: spec
+	<version: '1.2.3' imports: #('1.2-baseline')>
+
+	spec for: #common do: [
+		spec blessing: #release.
+		spec author: 'Mariano Martinez Peck'.
+		spec description: 'Shout Changes for 1.2.2'.
+	].
+	
+	spec for: #pharo do: [		
+		spec 
+			package: 'Shout' with: 'Shout-BenjaminVanRyseghem.103';
+			package: 'ShoutTests' with: 'ShoutTests-GuillermoPolito.13'.
+				
+	].
+	spec for: #squeak do: [
+		spec author: 'DaleHenrichs'.
+		spec description: 'Squeak support based on Squeak3.10.2-Trunk-090912 and OmniBrowser-2.0.3.sar'.
+		spec package: 'ShoutCore' with: 'ShoutCore-nice.7'.
+	].			
+	spec for: #gemstone do: [
+		spec author: 'DaleHenrichs'.
+		spec package: 'ShoutCore' with: 'ShoutCore-DaleHenrichs.8'. 
+	].	! !

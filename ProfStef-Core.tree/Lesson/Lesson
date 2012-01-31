@@ -1,0 +1,10 @@
+
+Object subclass: #Lesson
+	instanceVariableNames: 'title lesson'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'ProfStef-Core'!
+
+!Lesson commentStamp: 'LaurentLaffont 1/15/2010 10:25' prior: 0!
+See class side messages #welcome, #doingVSPrinting....
+!

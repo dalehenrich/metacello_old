@@ -1,0 +1,6 @@
+
+!GoferChanges methodsFor: 'private' stamp: 'lr 12/12/2009 12:56'!
+addReference: aReference
+	super addReference: aReference.
+	self model operations 
+		addAll: (self patchsetOf: aReference) operations! !

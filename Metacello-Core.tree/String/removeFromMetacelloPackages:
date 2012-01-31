@@ -1,0 +1,8 @@
+
+!String methodsFor: '*metacello-core' stamp: 'dkh 6/6/2009 11:59'!
+removeFromMetacelloPackages: aMetacelloPackagesSpec
+
+	aMetacelloPackagesSpec addMember: 
+		(aMetacelloPackagesSpec removeMember 
+			name: self;
+			yourself)! !

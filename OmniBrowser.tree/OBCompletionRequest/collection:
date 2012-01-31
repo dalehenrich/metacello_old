@@ -1,0 +1,4 @@
+
+!OBCompletionRequest methodsFor: 'configuration' stamp: 'lr 9/24/2010 21:41'!
+collection: aCollection
+	self collection: aCollection caseSensitive: false! !

@@ -1,0 +1,5 @@
+
+!OBClassCategoryNode methodsFor: 'initializing' stamp: ''!
+setName: aString environment: anEnvironment
+	name := aString asSymbol.
+	environment := anEnvironment! !

@@ -1,0 +1,10 @@
+
+!HelpBrowser methodsFor: 'actions' stamp: 'tbn 3/29/2010 12:44'!
+refresh
+
+	|items|
+	window setLabel: rootTopic title.
+	items := rootTopic subtopics collect: [:each | HelpTopicListItemWrapper with: each ].
+	treeMorph list: items.
+	contentMorph setText: rootTopic contents
+! !

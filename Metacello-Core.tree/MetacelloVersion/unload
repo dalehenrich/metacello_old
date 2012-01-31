@@ -1,0 +1,5 @@
+
+!MetacelloVersion methodsFor: 'actions' stamp: 'dkh 05/04/2009 20:26'!
+unload
+
+	^self spec unload! !

@@ -1,0 +1,5 @@
+
+!MetacelloMCVersionSpec methodsFor: 'querying' stamp: 'dkh 10/21/2009 13:55'!
+packageNamed: aString
+
+	^self packageNamed: aString ifAbsent: [ nil ]! !

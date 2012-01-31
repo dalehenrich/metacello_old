@@ -1,0 +1,7 @@
+
+!MetacelloSpec methodsFor: 'printing' stamp: 'dkh 10/5/2009 09:14'!
+configMethodOn: aStream
+
+	self configMethodOn: aStream indent: 0
+
+! !

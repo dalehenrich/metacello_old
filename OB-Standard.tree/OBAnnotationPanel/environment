@@ -1,0 +1,4 @@
+
+!OBAnnotationPanel methodsFor: 'accessing' stamp: 'dr 4/11/2008 13:45'!
+environment
+	^ Smalltalk! !

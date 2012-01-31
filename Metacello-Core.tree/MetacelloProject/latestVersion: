@@ -1,0 +1,5 @@
+
+!MetacelloProject methodsFor: 'versions' stamp: 'dkh 8/26/2009 10:07'!
+latestVersion: blessing
+
+	^(self map values select: [:version | blessing = version blessing ]) detectMax: [:version | version ]! !

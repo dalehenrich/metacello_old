@@ -1,0 +1,4 @@
+
+!OBColumnPanel class methodsFor: 'instance creation' stamp: 'dr 11/17/2008 16:30'!
+minPanes: min maxPanes: max
+	^ self basicNew setMinPanes: min maxPanes: max! !

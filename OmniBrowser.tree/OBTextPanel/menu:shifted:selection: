@@ -1,0 +1,8 @@
+
+!OBTextPanel methodsFor: 'callbacks' stamp: 'lr 12/10/2010 09:53'!
+menu: aMenu shifted: aBoolean selection: aTextSelection
+	(self announce: OBTextCommandScan)
+		populateMenu: aMenu
+		withNodes: (Array with: aTextSelection)
+		forRequestor: self.
+	^ aMenu! !

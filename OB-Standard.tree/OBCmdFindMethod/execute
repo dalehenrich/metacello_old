@@ -1,0 +1,8 @@
+
+!OBCmdFindMethod methodsFor: 'execution' stamp: 'dc 7/15/2007 16:31'!
+execute
+	| selection method |
+	selection := self chooseSelector.
+	selection ifNotNil: 
+			[method := OBMethodNode on: selection inClass: target theClass.
+			self select: method with: requestor announcer]! !

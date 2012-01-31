@@ -1,0 +1,7 @@
+
+!OBMercuryQuery methodsFor: 'initialization' stamp: 'lr 8/22/2010 11:07'!
+setRawQuery: aString 
+	| tokens |
+	tokens := Scanner new scanTokens: aString.
+	pattern := tokens at: 1 ifAbsent: [ String new ].
+	isWild := (tokens at: 2 ifAbsent: [ nil ]) = #*! !

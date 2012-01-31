@@ -1,0 +1,5 @@
+
+!MetacelloPlatform methodsFor: 'notification' stamp: 'DaleHenrichs 3/11/2010 19:26'!
+collection: aCollection do: aBlock displaying: aString
+
+	aCollection do: aBlock! !

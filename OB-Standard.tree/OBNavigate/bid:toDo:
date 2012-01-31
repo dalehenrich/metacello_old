@@ -1,0 +1,6 @@
+
+!OBNavigate methodsFor: 'execution' stamp: 'lr 3/21/2009 20:03'!
+bid: anInteger toDo: aBlock 
+	anInteger > bid ifFalse: [ ^ self ].
+	bid := anInteger.
+	action := aBlock! !

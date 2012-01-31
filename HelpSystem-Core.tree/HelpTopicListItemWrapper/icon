@@ -1,0 +1,11 @@
+
+!HelpTopicListItemWrapper methodsFor: 'accessing' stamp: 'tbn 3/5/2010 22:55'!
+icon
+	"Either return the icon for the given topic"
+	
+	| symbol |
+	item icon notNil ifTrue: [^item icon].
+	symbol := item hasSubtopics 
+					 ifTrue: [#bookIcon] 
+			  		 ifFalse: [#pageIcon].
+	^HelpIcons iconNamed: symbol! !

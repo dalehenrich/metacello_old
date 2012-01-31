@@ -1,0 +1,5 @@
+
+!MetacelloVersionValidator class methodsFor: 'instance creation' stamp: 'DaleHenrichs 12/4/2010 08:40'!
+validateProject: aMetacelloProject recurse: aBool
+
+	^self validateProject: aMetacelloProject debug: #() recurse: aBool! !

@@ -1,0 +1,7 @@
+
+!OBColumnPanel methodsFor: 'accessing columns' stamp: 'cwp 2/28/2006 18:12'!
+columnAfter: aColumn 
+	^ [self columns after: aColumn]
+		on: Error
+		do: [:err | nil]
+! !

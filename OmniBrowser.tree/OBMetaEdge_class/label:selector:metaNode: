@@ -1,0 +1,4 @@
+
+!OBMetaEdge class methodsFor: 'instance creation' stamp: 'cwp 2/7/2004 22:35'!
+label: aString selector: aSelector metaNode: aMetaNode
+	^ self new setLabel: aString selector: aSelector metaNode: aMetaNode! !

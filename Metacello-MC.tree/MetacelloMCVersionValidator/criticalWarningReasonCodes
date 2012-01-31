@@ -1,0 +1,5 @@
+
+!MetacelloMCVersionValidator methodsFor: 'private' stamp: 'DaleHenrichs 11/30/2010 11:46'!
+criticalWarningReasonCodes
+	^ super criticalWarningReasonCodes
+		, #(#noLoadableVersions #noTests #testDeprecation #loadDeprecation #noVersionSpecified)! !

@@ -1,0 +1,4 @@
+
+!OBButtonBar methodsFor: 'visual' stamp: 'cwp 3/11/2007 20:55'!
+adoptPaneColor: aColor
+	self submorphs do: [:ea | ea onColor: aColor offColor: aColor whiter]! !

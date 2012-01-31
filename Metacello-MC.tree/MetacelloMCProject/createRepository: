@@ -1,0 +1,5 @@
+
+!MetacelloMCProject methodsFor: 'repository creation' stamp: 'dkh 10/22/2009 08:53'!
+createRepository: aRepositorySpec
+
+	^ MetacelloPlatform current createRepository: aRepositorySpec! !

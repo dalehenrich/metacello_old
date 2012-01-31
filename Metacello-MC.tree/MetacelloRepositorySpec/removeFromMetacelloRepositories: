@@ -1,0 +1,9 @@
+
+!MetacelloRepositorySpec methodsFor: 'private' stamp: 'dkh 6/7/2009 10:24'!
+removeFromMetacelloRepositories: aMetacelloRepositoriesSpec
+
+	aMetacelloRepositoriesSpec addMember: 
+		(aMetacelloRepositoriesSpec removeMember 
+			name: self name;
+			spec: self;
+			yourself)! !

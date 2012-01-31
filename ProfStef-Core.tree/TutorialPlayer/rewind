@@ -1,0 +1,4 @@
+
+!TutorialPlayer methodsFor: 'navigating' stamp: 'LaurentLaffont 1/21/2010 20:43'!
+rewind
+	tutorialPosition := 1.! !

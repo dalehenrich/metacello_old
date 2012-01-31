@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: '*ob-morphic' stamp: 'avi 2/20/2004 13:45'!
+dragEnabled
+	^ true! !

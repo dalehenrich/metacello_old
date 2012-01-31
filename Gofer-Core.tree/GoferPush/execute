@@ -1,0 +1,6 @@
+
+!GoferPush methodsFor: 'running' stamp: 'lr 12/13/2009 17:23'!
+execute
+	self model 
+		do: [ :assocation | assocation value storeVersion: assocation key version ]
+		displayingProgress: 'Pushing Versions'! !

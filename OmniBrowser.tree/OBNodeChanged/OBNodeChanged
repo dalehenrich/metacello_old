@@ -1,0 +1,6 @@
+
+OBAnnouncement subclass: #OBNodeChanged
+	instanceVariableNames: 'node'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Announcements'!

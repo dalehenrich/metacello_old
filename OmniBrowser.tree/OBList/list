@@ -1,0 +1,4 @@
+
+!OBList methodsFor: 'nodes' stamp: 'dr 9/12/2008 10:42'!
+list
+	^self fan list! !

@@ -1,0 +1,10 @@
+
+!GoferVersionReference methodsFor: '*metacello-mc' stamp: 'dkh 4/17/2011 13:10'!
+metacelloPackageNameWithBranch
+	"answer array with package name and package name with branch name"
+	self branch isEmpty
+		ifTrue: [ 
+			^ {(self packageName).
+			(self packageName)} ].
+	^ {(self packageName).
+	(self packageName , '.' , self branch)}! !

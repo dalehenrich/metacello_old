@@ -1,0 +1,4 @@
+
+!OBModalFilter methodsFor: 'callbacks' stamp: 'cwp 5/17/2007 22:57'!
+activate
+	! !

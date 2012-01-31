@@ -1,0 +1,4 @@
+
+!SHParserST80 methodsFor: 'scan' stamp: ''!
+skipDigits
+	[self nextChar isDigit] whileTrue! !

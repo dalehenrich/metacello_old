@@ -1,0 +1,4 @@
+
+!OBClassAwareNode methodsFor: 'comparing' stamp: 'lr 4/9/2011 17:30'!
+hash
+	^ self theClass hash! !

@@ -1,0 +1,4 @@
+
+!OBCodeNode methodsFor: 'testing' stamp: 'cwp 8/21/2009 11:23'!
+isEnvironmentNode
+	^ false! !

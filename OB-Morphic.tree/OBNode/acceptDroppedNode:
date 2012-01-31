@@ -1,0 +1,5 @@
+
+!OBNode methodsFor: '*ob-morphic' stamp: 'cwp 3/2/2004 21:28'!
+acceptDroppedNode: aNode
+ 	^ aNode perform: self dropSelector with: self
+! !

@@ -1,0 +1,4 @@
+
+!OBRescueFilter methodsFor: 'filtering' stamp: 'cwp 7/17/2007 01:58'!
+nodesFrom: aCollection forNode: aNode
+	^ aCollection, (self cache: aCollection for: aNode)! !

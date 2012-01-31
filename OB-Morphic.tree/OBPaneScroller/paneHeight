@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'layout' stamp: 'cwp 12/6/2003 17:08'!
+paneHeight
+	^ transform bounds height! !

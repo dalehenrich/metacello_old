@@ -1,0 +1,4 @@
+
+!OBColumnPanel methodsFor: 'callbacks' stamp: 'cwp 11/18/2004 00:00'!
+sizing
+	^ (columns size max: minPanes) min: maxPanes! !

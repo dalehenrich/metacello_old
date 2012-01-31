@@ -1,0 +1,7 @@
+
+!MetacelloIssue108Resource methodsFor: 'running' stamp: 'dkh 2/22/2011 20:39'!
+setUp
+	super setUp.
+	self
+		setUpVersionReferences;
+		setUpMonticelloRepository! !

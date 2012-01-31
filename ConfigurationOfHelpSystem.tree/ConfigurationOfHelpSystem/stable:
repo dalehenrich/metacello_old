@@ -1,0 +1,8 @@
+
+!ConfigurationOfHelpSystem methodsFor: 'symbolic versions' stamp: 'DaleHenrichs 12/16/2010 15:35'!
+stable: spec 
+	<symbolicVersion: #stable>
+	
+	spec for: #'pharo1.0.x' version: '1.1'. 
+	spec for: #'pharo1.1.x' version: '1.1'. 
+! !

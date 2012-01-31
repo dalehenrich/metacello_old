@@ -1,0 +1,8 @@
+
+!MetacelloSymbolicVersionTest methodsFor: 'tests stable' stamp: 'DaleHenrichs 1/21/2011 10:01'!
+testBleedingEdgeMethod
+
+	| project version |
+	project := self projectWith: #(#'platformVersion1.x').
+	self assert: (project version: #bleedingEdge) = project bleedingEdge.
+! !

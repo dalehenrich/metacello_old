@@ -1,0 +1,5 @@
+
+!MetacelloCommonMCSpecLoader methodsFor: 'accessing' stamp: 'dkh 08/10/2009 15:06'!
+operator: aSymbol
+
+	operator := aSymbol! !

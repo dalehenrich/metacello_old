@@ -1,0 +1,8 @@
+
+!SHParserST80 methodsFor: 'scan' stamp: ''!
+scanPast: rangeType start: startInteger end: endInteger 
+	^ self
+		rangeType: rangeType
+		start: startInteger
+		end: endInteger;
+		 scanNext! !

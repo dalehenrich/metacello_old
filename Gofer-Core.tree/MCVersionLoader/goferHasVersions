@@ -1,0 +1,4 @@
+
+!MCVersionLoader methodsFor: '*gofer-core-accessing' stamp: 'lr 12/18/2009 12:43'!
+goferHasVersions
+	^ versions isEmpty not! !

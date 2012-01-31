@@ -1,0 +1,4 @@
+
+!OBCmdPromoteCategories methodsFor: 'testing' stamp: 'Alexandre Bergel 7/1/2010 15:58'!
+isActive
+	^ super isActive and: [ requestor selectedNode isKindOf: OBClassCategoryNode ]! !

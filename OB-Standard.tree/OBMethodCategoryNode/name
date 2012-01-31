@@ -1,0 +1,4 @@
+
+!OBMethodCategoryNode methodsFor: 'public' stamp: 'dr 7/18/2007 11:51'!
+name
+	^name! !

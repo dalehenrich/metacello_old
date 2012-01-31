@@ -1,0 +1,4 @@
+
+!OBClassDefinition methodsFor: 'class definition' stamp: 'lr 11/25/2010 23:43'!
+signalSelectionOf: aClass
+	aClass asNode signalCreation! !

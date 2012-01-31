@@ -1,0 +1,4 @@
+
+!GoferConstraintReference methodsFor: 'private' stamp: 'lr 1/21/2010 00:17'!
+matches: aResolvedReference
+	^ (super matches: aResolvedReference) and: [ constraintBlock value: aResolvedReference ]! !

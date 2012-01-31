@@ -1,0 +1,11 @@
+
+!OBCompletionDialog methodsFor: 'accessing-list' stamp: 'lr 9/25/2010 21:15'!
+listIndex: anInteger
+	listIndex = anInteger
+		ifTrue: [ ^ self ].
+	listIndex := anInteger.
+	self listSelection ifNotNil: [ :selection |
+		self isAssisted ifTrue: [ 
+			text := self model labelFor: self listSelection.
+			self changed: #text ] ].
+	self changed: #listIndex; changed: #isEnabled! !

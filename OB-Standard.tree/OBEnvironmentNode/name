@@ -1,0 +1,4 @@
+
+!OBEnvironmentNode methodsFor: 'displaying' stamp: 'lr 2/9/2008 12:00'!
+name 
+	^ environment name! !

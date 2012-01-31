@@ -1,0 +1,7 @@
+
+!MetacelloVisitedPackages methodsFor: 'initialize-release' stamp: 'dkh 10/21/2009 15:17'!
+initialize
+
+	groups := Set new.
+	packages := Set new.
+	projects := Set new.! !

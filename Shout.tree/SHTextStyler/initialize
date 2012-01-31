@@ -1,0 +1,4 @@
+
+!SHTextStyler methodsFor: 'styling' stamp: ''!
+initialize
+	stylingEnabled := true! !

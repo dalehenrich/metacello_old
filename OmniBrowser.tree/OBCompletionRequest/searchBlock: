@@ -1,0 +1,6 @@
+
+!OBCompletionRequest methodsFor: 'accessing' stamp: 'lr 9/22/2010 20:19'!
+searchBlock: aOneArgumentBlock
+	"A one argument block returning the elements for the given filter."
+	
+	searchBlock := aOneArgumentBlock! !

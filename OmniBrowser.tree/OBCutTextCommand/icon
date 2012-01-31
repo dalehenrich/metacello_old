@@ -1,0 +1,4 @@
+
+!OBCutTextCommand methodsFor: 'accessing' stamp: 'lr 5/9/2011 18:51'!
+icon
+	^ #cutIcon! !

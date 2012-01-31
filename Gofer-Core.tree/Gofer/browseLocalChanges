@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'operations-ui' stamp: 'lr 12/14/2009 23:51'!
+browseLocalChanges
+	"Browse the changes between the base version and the working copy."
+	
+	^ self execute: GoferBrowseLocalChanges! !

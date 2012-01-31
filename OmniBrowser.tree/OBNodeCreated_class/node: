@@ -1,0 +1,4 @@
+
+!OBNodeCreated class methodsFor: 'instance creation' stamp: 'cwp 6/4/2006 01:09'!
+node: aNode
+	^ self new node: aNode! !

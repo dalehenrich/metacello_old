@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'building' stamp: 'lr 3/5/2010 09:22'!
+initialExtent
+	^ RealEstateAgent standardWindowExtent! !

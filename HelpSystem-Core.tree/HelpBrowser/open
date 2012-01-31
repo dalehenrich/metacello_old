@@ -1,0 +1,8 @@
+
+!HelpBrowser methodsFor: 'ui' stamp: 'tbn 3/3/2010 23:32'!
+open	
+ 	"Open the receivers window" 
+
+	self refresh.	
+	window openInWorld.
+	 ! !

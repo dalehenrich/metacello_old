@@ -1,0 +1,6 @@
+
+!OBMethodVersionNode methodsFor: 'displaying' stamp: 'cwp 11/27/2004 21:38'!
+name
+	| stamp |
+	stamp := version stamp ifNil: ['<timestamp missing>'].
+	^ version theClassName, '>>', version selector, ' ', stamp! !

@@ -1,0 +1,4 @@
+
+!ProfStef methodsFor: 'starting' stamp: 'tg 2/1/2010 16:02'!
+go
+	^ self goOn: SmalltalkSyntaxTutorial.! !

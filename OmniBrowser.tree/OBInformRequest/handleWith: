@@ -1,0 +1,4 @@
+
+!OBInformRequest methodsFor: 'dispatching' stamp: 'dc 7/22/2007 20:26'!
+handleWith: anObject
+	^ anObject handleInformRequest: self! !

@@ -1,0 +1,4 @@
+
+!Gofer class methodsFor: 'instance creation' stamp: 'lr 11/6/2009 10:50'!
+it
+	^ self new! !

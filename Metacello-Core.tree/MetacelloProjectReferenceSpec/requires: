@@ -1,0 +1,5 @@
+
+!MetacelloProjectReferenceSpec methodsFor: 'accessing' stamp: 'dkh 10/4/2009 11:40'!
+requires: aCollection
+
+	self shouldNotImplement! !

@@ -1,0 +1,4 @@
+
+!OBCompletionRequest methodsFor: 'querying' stamp: 'lr 9/22/2010 20:27'!
+iconFor: anObject
+	^ iconBlock value: anObject! !

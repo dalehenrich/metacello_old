@@ -1,0 +1,5 @@
+
+!OBMethodNode methodsFor: 'actions' stamp: 'dc 6/27/2007 13:03'!
+source
+	^ (self theClass sourceCodeAt: self selector ifAbsent: [^ self defaultSource]) 
+		asText makeSelectorBold! !

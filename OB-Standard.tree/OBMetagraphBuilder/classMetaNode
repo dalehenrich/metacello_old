@@ -1,0 +1,4 @@
+
+!OBMetagraphBuilder methodsFor: 'accessing-metanodes' stamp: 'dc 9/7/2007 11:53'!
+classMetaNode
+	^ self metaNode: #Class! !

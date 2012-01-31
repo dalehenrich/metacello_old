@@ -1,0 +1,6 @@
+
+!OBMetaNode methodsFor: 'filtering' stamp: 'cwp 5/20/2007 01:51'!
+displayStringForNode: aNode
+	^ filters
+		inject: (aNode perform: self displaySelector)
+		into: [:string :filter | filter displayString: string forNode: aNode]! !

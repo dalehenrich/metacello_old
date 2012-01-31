@@ -1,0 +1,6 @@
+
+!MetacelloGoferBasedAtomicLoaderTest methodsFor: 'versions' stamp: 'DaleHenrichs 4/16/2010 10:24'!
+version60: spec 
+	<version: '6.0'>
+	
+	super version60: spec ! !

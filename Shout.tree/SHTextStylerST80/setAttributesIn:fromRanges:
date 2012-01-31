@@ -1,0 +1,43 @@
+
+!SHTextStylerST80 methodsFor: 'private' stamp: ''!
+setAttributesIn: aText fromRanges: ranges 
+	| charAttr defaultAttr newRuns newValues lastAttr oldRuns lastCount attr |
+	oldRuns := aText runs.
+	defaultAttr := self attributesFor: #default.
+	charAttr := Array new: aText size.
+	1
+		to: charAttr size
+		do: [:i | charAttr at: i put: defaultAttr].
+	ranges
+		do: [:range | (attr := self attributesFor: range type)
+				ifNotNil: [range start
+						to: range end
+						do: [:i | charAttr at: i put: attr].
+					nil]].
+	newRuns := OrderedCollection new: charAttr size // 10.
+	newValues := OrderedCollection new: charAttr size // 10.
+	1
+		to: charAttr size
+		do: [:i | 
+			attr := charAttr at: i.
+			i = 1
+				ifTrue: [newRuns add: 1.
+					lastCount := 1.
+					lastAttr := newValues add: attr]
+				ifFalse: [attr == lastAttr
+						ifTrue: [lastCount := lastCount + 1.
+							newRuns at: newRuns size put: lastCount]
+						ifFalse: [newRuns add: 1.
+							lastCount := 1.
+							lastAttr := newValues add: attr]]].
+	aText
+		runs: (RunArray runs: newRuns values: newValues).
+	oldRuns
+		withStartStopAndValueDo: [:start :stop :attribs | (attribs
+				detect: [:each | each shoutShouldPreserve]
+				ifNone: [])
+				ifNotNil: [attribs
+						do: [:eachAttrib | aText
+								addAttribute: eachAttrib
+								from: start
+								to: stop]]]! !

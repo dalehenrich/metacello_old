@@ -1,0 +1,13 @@
+
+!MetacelloToolBoxConstructorTestCase methodsFor: 'tests' stamp: 'DaleHenrichs 12/21/2010 15:59'!
+testProjectToolBoxSourceComparison111Baseline
+	| configurationName versionString |
+	gofer
+		repository: self atomicConfigurationRepository;
+		repository: self alternateRepository;
+		repository: self configurationRepository.
+	configurationName := 'MetacelloTestConfigurationOfProjectToolBox'.
+	gofer package: configurationName.
+	gofer load.
+	versionString := '1.1.1-baseline'.
+	self assertMethodSourceFor: configurationName isEqualAfterModifyingVersion: versionString! !

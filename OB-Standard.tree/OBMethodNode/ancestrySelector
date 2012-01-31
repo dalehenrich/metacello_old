@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'ancestry' stamp: ''!
+ancestrySelector
+	^ #isDescendantOfMethod: ! !

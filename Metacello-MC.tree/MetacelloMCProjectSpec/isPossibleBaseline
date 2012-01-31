@@ -1,0 +1,9 @@
+
+!MetacelloMCProjectSpec methodsFor: 'testing' stamp: 'DaleHenrichs 11/5/2010 15:56'!
+isPossibleBaseline
+
+	| vrsn |
+	(vrsn := self versionOrNil) == nil ifTrue: [ ^false ].
+	(vrsn allPackagesForSpecNamed: (self loadListForVersion: vrsn)) do: [:pkg |
+		pkg workingCopy == nil ifTrue: [ ^false ]].
+	^true! !

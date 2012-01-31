@@ -1,0 +1,4 @@
+
+!SHTextStyler methodsFor: 'private' stamp: ''!
+privateStyle: aText 
+	self shouldBeImplemented! !

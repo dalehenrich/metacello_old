@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCmdCompareToCurrent
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

@@ -1,0 +1,5 @@
+
+!UndefinedObject methodsFor: '*metacello-core' stamp: 'dkh 6/5/2009 11:52'!
+setDescriptionInMetacelloVersion: aMetacelloVersionSpec
+
+	aMetacelloVersionSpec setDescription: self! !

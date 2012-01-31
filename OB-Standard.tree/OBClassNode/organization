@@ -1,0 +1,4 @@
+
+!OBClassNode methodsFor: 'accessing' stamp: ''!
+organization
+	^ self theClass organization! !

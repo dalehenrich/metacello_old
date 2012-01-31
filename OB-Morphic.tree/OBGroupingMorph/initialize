@@ -1,0 +1,6 @@
+
+!OBGroupingMorph methodsFor: 'initialization' stamp: 'lr 1/22/2008 20:08'!
+initialize
+	super initialize.
+	self borderWidth: 0.
+	self color: Color transparent! !

@@ -1,0 +1,4 @@
+
+!OBCmdBrowseReferencesOfIt class methodsFor: 'testing' stamp: 'lr 8/16/2010 10:44'!
+takesNodes
+	^ false! !

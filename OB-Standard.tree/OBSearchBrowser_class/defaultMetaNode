@@ -1,0 +1,9 @@
+
+!OBSearchBrowser class methodsFor: 'configuration' stamp: 'cwp 5/19/2007 23:33'!
+defaultMetaNode
+	| root search |
+	root := OBMetaNode named: 'root'.
+	search := OBMetaNode named: 'search'.
+	root childAt: #children put: search.
+	self buildMetagraphOn: search.
+	^root! !

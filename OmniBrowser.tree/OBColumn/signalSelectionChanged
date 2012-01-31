@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'updating' stamp: 'cwp 6/5/2006 23:31'!
+signalSelectionChanged
+	self announcer announce: (OBSelectionChanged column: self)! !

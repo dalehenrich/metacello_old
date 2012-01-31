@@ -1,0 +1,7 @@
+
+!OBCommand methodsFor: 'testing' stamp: 'lr 8/8/2010 10:47'!
+wantsMenu
+	"Put this here for compatibility. Eventually this will be obsolete"
+
+	^ true
+! !

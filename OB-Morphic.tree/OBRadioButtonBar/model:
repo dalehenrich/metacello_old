@@ -1,0 +1,6 @@
+
+!OBRadioButtonBar methodsFor: 'accessing' stamp: 'lr 3/4/2009 08:17'!
+model: aModel 
+	model isNil ifFalse: [ model removeDependent: self ].
+	model := aModel.
+	model addDependent: self! !

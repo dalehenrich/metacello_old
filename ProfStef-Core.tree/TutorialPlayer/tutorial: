@@ -1,0 +1,4 @@
+
+!TutorialPlayer methodsFor: 'accessing' stamp: 'LaurentLaffont 1/21/2010 15:22'!
+tutorial: aTutorial
+	tutorial := aTutorial! !

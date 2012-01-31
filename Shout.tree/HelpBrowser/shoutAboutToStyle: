@@ -1,0 +1,4 @@
+
+!HelpBrowser methodsFor: '*Shout-Styling' stamp: 'AlainPlantec 8/28/2011 13:52'!
+shoutAboutToStyle: aPluggableShoutMorphOrView 
+	^ false! !

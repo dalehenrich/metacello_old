@@ -1,0 +1,7 @@
+
+!ConfigurationOfMetacello class methodsFor: 'metacello tool support' stamp: 'dkh 11/03/2009 11:04'!
+lastMetacelloVersionLoad
+	"Answer the last version loaded and the list of packages loaded for that version."
+
+	LastVersionLoad == nil ifTrue: [ LastVersionLoad := nil -> 'default' ].
+	^LastVersionLoad! !

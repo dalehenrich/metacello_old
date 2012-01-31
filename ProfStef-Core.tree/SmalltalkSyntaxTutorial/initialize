@@ -1,0 +1,5 @@
+
+!SmalltalkSyntaxTutorial methodsFor: 'initialize-release' stamp: 'LaurentLaffont 12/12/2010 17:18'!
+initialize
+	super initialize.
+	self prepareDebuggerExample.! !

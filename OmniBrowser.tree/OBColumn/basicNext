@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'accessing' stamp: 'cwp 11/16/2004 21:49'!
+basicNext
+	^panel columnAfter: self! !

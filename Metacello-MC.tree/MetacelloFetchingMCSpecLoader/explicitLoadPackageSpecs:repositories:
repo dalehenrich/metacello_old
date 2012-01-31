@@ -1,0 +1,9 @@
+
+!MetacelloFetchingMCSpecLoader methodsFor: 'private' stamp: 'DaleHenrichs 3/21/2010 13:21'!
+explicitLoadPackageSpecs: packageSpecs repositories: repositories
+	
+	| directive |
+	directive := self loaderPolicy 
+		pushExplicitLoadDirectivesDuring: [ super linearLoadPackageSpecs: packageSpecs repositories: repositories ]
+		for: self.
+	directive explicitLoadWithPolicy: self loaderPolicy.! !

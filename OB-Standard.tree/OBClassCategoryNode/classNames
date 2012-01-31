@@ -1,0 +1,4 @@
+
+!OBClassCategoryNode methodsFor: 'private' stamp: ''!
+classNames
+	^ environment organization listAtCategoryNamed: name! !

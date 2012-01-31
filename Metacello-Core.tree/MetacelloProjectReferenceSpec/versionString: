@@ -1,0 +1,5 @@
+
+!MetacelloProjectReferenceSpec methodsFor: 'querying' stamp: 'DaleHenrichs 11/16/2010 12:41'!
+versionString: aString
+
+	^self projectReference versionString: aString! !

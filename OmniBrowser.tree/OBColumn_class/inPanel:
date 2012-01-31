@@ -1,0 +1,4 @@
+
+!OBColumn class methodsFor: 'instance creation' stamp: 'cwp 9/18/2005 13:26'!
+inPanel: aBrowser
+	^ self new setPanel: aBrowser! !

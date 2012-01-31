@@ -1,0 +1,5 @@
+
+!MetacelloDirective methodsFor: 'actions' stamp: 'DaleHenrichs 3/9/2010 12:11'!
+addTo: aLoaderDirective
+
+	aLoaderDirective add: self! !

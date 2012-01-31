@@ -1,0 +1,6 @@
+
+RectangleMorph subclass: #OBGroupingMorph
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Morphic-Morphs'!

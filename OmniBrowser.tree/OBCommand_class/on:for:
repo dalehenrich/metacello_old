@@ -1,0 +1,4 @@
+
+!OBCommand class methodsFor: 'instance creation' stamp: 'cwp 10/14/2006 23:29'!
+on: target for: requestor
+	^ self new setTarget: target requestor: requestor! !

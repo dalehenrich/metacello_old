@@ -1,0 +1,9 @@
+
+!OBButtonBar methodsFor: 'updating' stamp: 'lr 4/8/2010 15:00'!
+updateButton: aButton for: aCommand 
+	^ aButton 
+		model: aCommand;
+		enabled: aCommand isActive;
+		setBalloonText: aCommand longDescription;
+		changed;
+		yourself! !

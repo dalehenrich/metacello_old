@@ -1,0 +1,4 @@
+
+!OBSearchNode methodsFor: 'displaying' stamp: 'dr 10/20/2008 16:17'!
+displayString
+	^ self name.! !

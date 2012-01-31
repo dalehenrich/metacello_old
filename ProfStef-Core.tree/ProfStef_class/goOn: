@@ -1,0 +1,4 @@
+
+!ProfStef class methodsFor: 'navigating' stamp: 'LaurentLaffont 9/18/2011 20:01'!
+goOn: aTutorialClass
+	^ self default goOn: aTutorialClass.! !

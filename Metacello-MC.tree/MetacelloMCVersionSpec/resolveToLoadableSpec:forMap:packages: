@@ -1,0 +1,7 @@
+
+!MetacelloMCVersionSpec methodsFor: 'loading' stamp: 'DaleHenrichs 2/5/2010 22:24'!
+resolveToLoadableSpec: aString forMap: map packages: packageMap 
+	| package |
+	package := self packageNamed: aString forMap: map ifAbsent: [ ^self error: 'Name not found: ' , aString ].
+	packageMap at: package name put: package.
+	^ {package}! !

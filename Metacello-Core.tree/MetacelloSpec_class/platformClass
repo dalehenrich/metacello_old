@@ -1,0 +1,5 @@
+
+!MetacelloSpec class methodsFor: 'accessing' stamp: 'dkh 04/22/2009 12:22'!
+platformClass
+
+	^self! !

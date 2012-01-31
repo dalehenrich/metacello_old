@@ -1,0 +1,8 @@
+
+!MetacelloNullRecordingMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 4/21/2010 11:56'!
+loadedRepositories
+
+	| repos |
+	repos := OrderedCollection new.
+	self repositoryMap values collect: [:coll | repos addAll: coll ].
+	^repos! !

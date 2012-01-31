@@ -1,0 +1,4 @@
+
+!OBCloseRequest class methodsFor: 'exceptionInstantiator' stamp: 'avi 12/5/2007 13:17'!
+signal: aBrowser
+	^ (self new browser: aBrowser) signal! !

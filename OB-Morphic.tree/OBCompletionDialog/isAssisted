@@ -1,0 +1,4 @@
+
+!OBCompletionDialog methodsFor: 'testing' stamp: 'lr 9/22/2010 21:32'!
+isAssisted
+	^ self model assisted! !

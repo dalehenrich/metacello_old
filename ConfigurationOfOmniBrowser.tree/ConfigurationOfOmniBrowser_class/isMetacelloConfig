@@ -1,0 +1,6 @@
+
+!ConfigurationOfOmniBrowser class methodsFor: 'metacello tool support' stamp: 'MarianoMartinezPeck 12/18/2009 16:57'!
+isMetacelloConfig
+	"Answer true and the Metacello tools will operate on you"
+	
+	^true! !

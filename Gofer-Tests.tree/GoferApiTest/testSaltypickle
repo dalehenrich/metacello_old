@@ -1,0 +1,5 @@
+
+!GoferApiTest methodsFor: 'testing-repositories-places' stamp: 'lr 12/13/2009 13:36'!
+testSaltypickle
+	gofer saltypickle: 'GraphViz'.
+	self assert: gofer repositories: #('http://squeak.saltypickle.com/GraphViz')! !

@@ -1,0 +1,4 @@
+
+!GoferFetch methodsFor: 'private' stamp: 'lr 11/30/2009 13:46'!
+defaultModel
+	^ Set new! !

@@ -1,0 +1,9 @@
+
+!OBPaneScroller methodsFor: 'layout' stamp: 'lr 4/29/2011 23:41'!
+bounds: aRectangle
+	super bounds: aRectangle.
+	self layoutWidgets.
+	self layoutPanes.
+	self hideOrShowScrollBar.
+	self setScrollDeltas.
+! !

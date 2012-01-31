@@ -1,0 +1,6 @@
+
+!OBMethodNode methodsFor: 'ancestry' stamp: 'cwp 11/28/2004 10:37'!
+isDescendantOfMethod: other
+	^ other selector = selector
+		and: [self theClass withAllSuperclasses includes: other theClass].
+	! !

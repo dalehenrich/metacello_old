@@ -1,0 +1,4 @@
+
+!OBModalFilter methodsFor: 'queries' stamp: 'cwp 2/9/2004 21:08'!
+wantsButton
+	^ true! !

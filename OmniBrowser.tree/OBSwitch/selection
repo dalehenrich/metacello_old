@@ -1,0 +1,6 @@
+
+!OBSwitch methodsFor: 'accessing' stamp: 'lr 3/4/2009 08:31'!
+selection
+	^ filter isNil 
+		ifFalse: [ filter selection ]
+		ifTrue: [ 0 ]! !

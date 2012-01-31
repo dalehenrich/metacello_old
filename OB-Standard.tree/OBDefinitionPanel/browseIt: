@@ -1,0 +1,11 @@
+
+!OBDefinitionPanel methodsFor: '*ob-standard-cmds' stamp: 'lr 12/10/2010 08:53'!
+browseIt: aSymbol
+	| entry |
+	entry := self environment at: aSymbol ifAbsent: [ nil ].
+	entry ifNil: [ ^ self implementorsOfIt: aSymbol ].
+	((entry isKindOf: Class) or: [ entry isKindOf: Trait ])
+		ifFalse: [ entry := entry class ].
+	OBSystemBrowser
+		openOnClass: entry.
+	^ true! !

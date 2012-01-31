@@ -1,0 +1,4 @@
+
+!MetacelloValidationNotification methodsFor: 'accessing' stamp: 'DaleHenrichs 11/4/2010 10:01'!
+issue
+	^ issue! !

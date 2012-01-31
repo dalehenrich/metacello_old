@@ -1,0 +1,4 @@
+
+!OBBuilder methodsFor: 'building' stamp: 'dr 11/12/2008 10:13'!
+textfield: aModel with: aBlock 
+	self subclassResponsibility ! !

@@ -1,0 +1,5 @@
+
+!MetacelloDirective methodsFor: 'printing' stamp: 'DaleHenrichs 3/9/2010 11:53'!
+printOn: aStream
+
+	self printOn: aStream indent: 0! !

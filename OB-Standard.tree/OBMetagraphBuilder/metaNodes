@@ -1,0 +1,4 @@
+
+!OBMetagraphBuilder methodsFor: 'accessing' stamp: 'lr 8/13/2010 16:36'!
+metaNodes
+	^ metaNodes ifNil: [ metaNodes := IdentityDictionary new ]! !

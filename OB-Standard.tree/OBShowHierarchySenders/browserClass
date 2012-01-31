@@ -1,0 +1,4 @@
+
+!OBShowHierarchySenders methodsFor: 'accessing' stamp: 'dr 9/21/2007 11:16'!
+browserClass
+	^ OBHierarchySendersBrowser! !

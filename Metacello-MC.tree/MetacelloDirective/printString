@@ -1,0 +1,6 @@
+
+!MetacelloDirective methodsFor: 'printing' stamp: 'DaleHenrichs 12/6/2010 23:00'!
+printString
+	"Explicit override of superclass implementation. When you are printing a loadDirective it is annoying to have it truncated."
+
+	^String streamContents: [:s | self printOn: s]! !

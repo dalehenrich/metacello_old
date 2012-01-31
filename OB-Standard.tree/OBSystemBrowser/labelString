@@ -1,0 +1,4 @@
+
+!OBSystemBrowser methodsFor: 'morphic' stamp: 'cwp 9/13/2009 10:41'!
+labelString
+	^ self navigationPanel labelString ifNil: [ self defaultLabel ]! !

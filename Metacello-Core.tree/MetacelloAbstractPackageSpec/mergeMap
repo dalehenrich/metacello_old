@@ -1,0 +1,10 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'merging' stamp: 'DaleHenrichs 1/21/2010 20:36'!
+mergeMap
+
+	| map |
+	map := super mergeMap.
+	map at: #requires put: requires.
+	map at: #includes put: includes.
+	map at: #answers put: answers.
+	^map! !

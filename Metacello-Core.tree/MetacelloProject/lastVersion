@@ -1,0 +1,8 @@
+
+!MetacelloProject methodsFor: 'versions' stamp: 'DaleHenrichs 01/24/2011 13:33'!
+lastVersion
+
+	| coll |
+	coll := (self map values asArray sort: [:a :b | a <= b ]) asOrderedCollection.
+	coll isEmpty ifTrue: [ ^nil ].
+	^coll last! !

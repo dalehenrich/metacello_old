@@ -1,0 +1,4 @@
+
+!GoferUpdate methodsFor: 'private' stamp: 'lr 9/18/2009 18:13'!
+defaultModel
+	^ MCVersionLoader new! !

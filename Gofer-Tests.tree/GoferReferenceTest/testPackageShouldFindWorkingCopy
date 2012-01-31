@@ -1,0 +1,7 @@
+
+!GoferReferenceTest methodsFor: 'testing-working' stamp: 'lr 1/5/2010 11:03'!
+testPackageShouldFindWorkingCopy
+	| packageReference workingCopy |
+	packageReference := GoferPackageReference name: 'Gofer-Core'.
+	workingCopy := packageReference workingCopy.
+	self assert: workingCopy packageName = 'Gofer-Core'! !

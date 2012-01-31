@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'scrolling' stamp: 'lr 4/29/2011 23:36'!
+leftoverScrollRange
+	^ (self totalScrollRange - self innerBounds width) truncated max: 0! !

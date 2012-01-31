@@ -1,0 +1,9 @@
+
+OBPanel subclass: #OBFixedButtonPanel
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Panels'!
+
+!OBFixedButtonPanel commentStamp: 'cwp 1/7/2005 23:35' prior: 0!
+OBFixedButtonPanel displays a horizontal row of buttons. In contrast to OBVarButtonPanel, the buttons do not change as nodes are selected in the navigation panel; instead they are enabled and disabled according to whether the actions they represent are applicable to the selected node.!

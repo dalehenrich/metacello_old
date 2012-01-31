@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'opening' stamp: 'avi 12/5/2007 13:19'!
+close
+	^ OBCloseRequest signal: self! !

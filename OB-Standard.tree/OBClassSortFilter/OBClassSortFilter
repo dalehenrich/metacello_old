@@ -1,0 +1,6 @@
+
+OBFilter subclass: #OBClassSortFilter
+	instanceVariableNames: 'indents order'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Filters'!

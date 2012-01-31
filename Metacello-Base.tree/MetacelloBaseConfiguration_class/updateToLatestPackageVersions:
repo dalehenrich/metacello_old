@@ -1,0 +1,11 @@
+
+!MetacelloBaseConfiguration class methodsFor: 'development support' stamp: 'DaleHenrichs 1/11/2011 15:11'!
+updateToLatestPackageVersions: descriptionString
+	"Update the #development version to match currently loaded mcz files."
+
+	"self updateToLatestPackageVersions: '- fixed a bug'"
+
+	<apiDocumentation>
+	self ensureMetacello.
+	((Smalltalk at: #MetacelloToolBox) updateToLatestPackageVersionsIn: self description: descriptionString) isEmpty
+		ifTrue: [ self inform: 'All specs up to date' ]! !

@@ -1,0 +1,6 @@
+
+!MetacelloProject methodsFor: 'loading' stamp: 'dkh 9/10/2009 15:09'!
+load: aVersionString
+
+	^(self version: aVersionString) load
+! !

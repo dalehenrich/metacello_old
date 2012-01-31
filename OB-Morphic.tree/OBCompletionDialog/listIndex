@@ -1,0 +1,4 @@
+
+!OBCompletionDialog methodsFor: 'accessing-list' stamp: 'lr 9/22/2010 11:45'!
+listIndex
+	^ listIndex! !

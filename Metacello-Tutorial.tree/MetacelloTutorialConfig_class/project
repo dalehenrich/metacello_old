@@ -1,0 +1,5 @@
+
+!MetacelloTutorialConfig class methodsFor: 'accessing' stamp: 'dkh 10/13/2009 09:51'!
+project
+
+	^self new project! !

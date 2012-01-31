@@ -1,0 +1,4 @@
+
+!GoferTest methodsFor: 'accessing' stamp: 'lr 12/12/2009 10:46'!
+versionReferences
+	^ GoferResource current versionReferences! !

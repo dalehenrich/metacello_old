@@ -1,0 +1,4 @@
+
+!OBSystemBrowserAdaptor class methodsFor: 'public' stamp: 'lr 7/2/2011 16:22'!
+newOnClass: aClass
+	^ self browserClass openOnClass: aClass! !

@@ -1,0 +1,5 @@
+
+!OBMetagraphBuilder methodsFor: 'accessing-metanodes' stamp: 'dc 9/7/2007 11:56'!
+root: rootMetaNode 
+	root := rootMetaNode.
+	self addMetaNode: rootMetaNode! !

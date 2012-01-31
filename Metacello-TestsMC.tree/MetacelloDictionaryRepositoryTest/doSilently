@@ -1,0 +1,5 @@
+
+!MetacelloDictionaryRepositoryTest methodsFor: 'running' stamp: 'DaleHenrichs 12/21/2010 10:20'!
+doSilently
+
+	^true! !

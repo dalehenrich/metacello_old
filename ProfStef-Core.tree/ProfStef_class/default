@@ -1,0 +1,4 @@
+
+!ProfStef class methodsFor: 'class initialization' stamp: 'LaurentLaffont 1/21/2010 17:15'!
+default 
+	^ instance ifNil: [instance := self new]! !

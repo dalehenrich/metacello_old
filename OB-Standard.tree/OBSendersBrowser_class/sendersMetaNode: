@@ -1,0 +1,15 @@
+
+!OBSendersBrowser class methodsFor: 'configuration' stamp: 'lr 8/15/2010 15:28'!
+sendersMetaNode: aNavigationSelector
+	| selector sender |
+	selector := OBMetaNode named: 'Selector'.	
+	sender := OBMetaNode named: 'Sender'.
+	selector 
+		childAt: aNavigationSelector put: sender;
+		addFilter: OBRescueFilter new.
+	sender 
+		displaySelector: #fullNameWithProtocol;
+		addFilter: OBRescueFilter new.
+	self chasingBrowsersEnabled 
+		ifTrue: [ sender childAt: aNavigationSelector put: sender ].
+	^ selector	! !

@@ -1,0 +1,6 @@
+
+!OBCmdFindClass methodsFor: 'private' stamp: 'lr 4/8/2011 19:39'!
+findClassIn: anEnvironment pattern: aString
+	^ (anEnvironment classNames
+		select: [ :each | OBCompletionRequest subsequence: aString matches: each caseSensitive: false ])
+		asSortedCollection collect: [ :each | anEnvironment at: each ]! !

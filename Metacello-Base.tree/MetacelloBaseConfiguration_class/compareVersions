@@ -1,0 +1,11 @@
+
+!MetacelloBaseConfiguration class methodsFor: 'development support' stamp: 'DaleHenrichs 1/14/2011 11:51'!
+compareVersions
+	"Compare the #stable version to #development version"
+
+	"self compareVersions"
+
+	<apiDocumentation>
+	self ensureMetacello.
+	((Smalltalk at: #MetacelloToolBox) compareVersionsIn: self) inspect
+! !

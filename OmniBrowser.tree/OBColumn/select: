@@ -1,0 +1,8 @@
+
+!OBColumn methodsFor: 'selecting' stamp: 'lr 5/28/2010 21:47'!
+select: aNode 
+	self listHolder children keysAndValuesDo: 
+		[ :i :child | 
+		child = aNode ifTrue: 
+			[ ^ self selection: i ] ].
+	self selection: nil! !

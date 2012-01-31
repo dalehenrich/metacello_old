@@ -1,0 +1,12 @@
+
+!MetacelloToolBoxAPITestCase methodsFor: 'private' stamp: 'DaleHenrichs 01/16/2011 13:03'!
+projectSourceString
+
+	^'project
+	| constructor |
+	project := MetacelloMCProject new.
+	project projectAttributes: MetacelloConfigurationResource projectAttributes.
+	MetacelloVersionConstructor on: self project: project.
+	project loadType: #linear.
+	^project
+'! !

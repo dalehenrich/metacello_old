@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBInspectItTextCommand
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Commands'!

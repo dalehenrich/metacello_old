@@ -1,0 +1,4 @@
+
+!SHPreferences class methodsFor: 'accessing-styles' stamp: ''!
+defaultStyle
+	^ Groups at: #default! !

@@ -1,0 +1,4 @@
+
+!OBSearchNode methodsFor: 'display' stamp: 'cwp 4/7/2007 23:28'!
+name
+	^ query! !

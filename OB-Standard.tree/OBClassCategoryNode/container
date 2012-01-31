@@ -1,0 +1,4 @@
+
+!OBClassCategoryNode methodsFor: 'accessing' stamp: 'cwp 9/22/2004 22:13'!
+container
+	^ environment! !

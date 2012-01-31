@@ -1,0 +1,7 @@
+
+!OBMethodDefinition methodsFor: 'compiling' stamp: 'lr 7/3/2009 21:49'!
+compileMethod: aText notifying: aController 
+	self compileClass: self theClass.
+	self compileCategory: self category.
+	self compileText: aText.
+	^ self compileNotifying: aController! !

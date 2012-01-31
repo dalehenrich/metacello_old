@@ -1,0 +1,6 @@
+
+OBCmdBrowseList subclass: #OBCmdBrowseImplementors
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

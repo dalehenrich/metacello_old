@@ -1,0 +1,9 @@
+
+!MetacelloSymbolicVersionMethodSpec methodsFor: 'adding' stamp: 'DaleHenrichs 11/15/2010 10:08'!
+addMethodSection: attribute versionString: aString
+	self methodSections
+		add:
+			((MetacelloSymbolicVersionSpec new)
+				attribute: attribute;
+				versionString: aString;
+				yourself)! !

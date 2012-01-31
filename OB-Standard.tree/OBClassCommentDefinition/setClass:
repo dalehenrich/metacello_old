@@ -1,0 +1,4 @@
+
+!OBClassCommentDefinition methodsFor: 'accessing' stamp: 'lr 5/29/2010 08:51'!
+setClass: aClass
+	theClass := aClass theNonMetaClass! !

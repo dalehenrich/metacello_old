@@ -1,0 +1,5 @@
+
+!GoferUnload methodsFor: 'unregistering' stamp: 'lr 8/19/2009 13:50'!
+unregisterPackageInfo: aWorkingCopy
+	PackageOrganizer default
+		unregisterPackage: aWorkingCopy packageInfo! !

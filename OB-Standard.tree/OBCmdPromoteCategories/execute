@@ -1,0 +1,20 @@
+
+!OBCmdPromoteCategories methodsFor: 'execution' stamp: 'lr 3/6/2011 16:39'!
+execute
+	| organizer match categories matchingCategories newCategories selectedCategory template |
+	selectedCategory := (requestor notNil and: [ requestor class canUnderstand: #descriptor ])
+		ifTrue: [ requestor descriptor asSymbol ]
+		ifFalse: [ #Package ].
+	template := (selectedCategory includes: $-)
+		ifTrue: [ selectedCategory copyUpTo: $- ]
+		ifFalse: [ selectedCategory ].
+	template := template , '*'.
+	match := OBTextRequest prompt: 'Enter a matching expression' template: template.
+	(match isNil or: [ match isEmpty ])
+		ifTrue: [ ^ self ].
+	organizer := target organization.
+	categories := organizer categories.
+	matchingCategories := categories select: [ :c | match match: c ].
+	newCategories := matchingCategories , (categories copyWithoutAll: matchingCategories).
+	target organization categories: newCategories.
+	requestor browser announce: OBRefreshRequired! !

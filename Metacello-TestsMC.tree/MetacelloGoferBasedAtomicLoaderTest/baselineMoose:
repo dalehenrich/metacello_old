@@ -1,0 +1,6 @@
+
+!MetacelloGoferBasedAtomicLoaderTest methodsFor: 'baselines' stamp: 'DaleHenrichs 01/15/2010 15:59'!
+baselineMoose: spec 
+	<version: '1.0-Moose'>
+	
+	super baselineMoose: spec ! !

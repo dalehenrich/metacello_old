@@ -1,0 +1,4 @@
+
+!GoferUnload methodsFor: 'private' stamp: 'lr 3/14/2010 21:13'!
+defaultModel
+	^ (Smalltalk globals at: #MCMultiPackageLoader ifAbsent: [ MCPackageLoader ]) new! !

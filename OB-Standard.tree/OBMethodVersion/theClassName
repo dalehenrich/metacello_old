@@ -1,0 +1,4 @@
+
+!OBMethodVersion methodsFor: 'accessing' stamp: ''!
+theClassName
+	^ classRef name! !

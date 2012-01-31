@@ -1,0 +1,4 @@
+
+!OBCmdRenameCategory methodsFor: 'testing' stamp: 'lr 9/22/2010 21:28'!
+isActive
+	^ requestor isSelected: target! !

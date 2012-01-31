@@ -1,0 +1,7 @@
+
+!OBSearchNode methodsFor: 'private' stamp: 'cwp 4/15/2007 20:14'!
+nodesForRefs: refs	
+	| classNames nodes |
+	classNames := refs collect: [:ea | ea classSymbol].
+	nodes := classNames asSet collect: [:ea | OBClassNode on: (Smalltalk at: ea)].
+	^ nodes asArray sort: [:a :b | a theClassName <= b theClassName]! !

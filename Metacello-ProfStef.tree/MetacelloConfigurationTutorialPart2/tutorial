@@ -1,0 +1,4 @@
+
+!MetacelloConfigurationTutorialPart2 methodsFor: 'tutorial' stamp: 'DaleHenrichs 11/15/2010 12:24'!
+tutorial
+	^ #(#lesson07 #lesson10 #lesson11 #lesson12 #lesson13 #lesson14)! !

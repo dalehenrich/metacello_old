@@ -1,0 +1,4 @@
+
+!OBClassNode methodsFor: 'navigating' stamp: 'cwp 12/12/2004 23:31'!
+commentHierarchy
+	^ self nodeHierarchyWithClass: OBClassCommentNode! !

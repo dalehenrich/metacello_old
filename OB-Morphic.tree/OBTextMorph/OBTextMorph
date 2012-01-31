@@ -1,0 +1,6 @@
+
+TextMorphForEditView subclass: #OBTextMorph
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Morphic-Morphs'!

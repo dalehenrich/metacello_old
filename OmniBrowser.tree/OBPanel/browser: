@@ -1,0 +1,5 @@
+
+!OBPanel methodsFor: 'accessing' stamp: 'lr 7/3/2009 22:27'!
+browser: aBrowser 
+	browser := aBrowser.
+	self subscribe! !

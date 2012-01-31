@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'selecting' stamp: 'jk 3/23/2008 11:18'!
+selectedNode
+	^ self listHolder selectedNode! !

@@ -1,0 +1,5 @@
+
+!MetacelloProjectSpec methodsFor: 'accessing' stamp: 'dkh 06/02/2009 20:31'!
+className: aString
+
+	className := aString! !

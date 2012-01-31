@@ -1,0 +1,4 @@
+
+!OBCollectionNode methodsFor: '*ob-standard-testing' stamp: 'cb 7/18/2007 11:46'!
+hasOrganization
+	^ false! !

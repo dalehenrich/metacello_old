@@ -1,0 +1,4 @@
+
+!OBMethodDefinition methodsFor: 'accessing' stamp: 'cwp 10/17/2004 23:36'!
+callback: aBlockContext 
+	callback := aBlockContext! !

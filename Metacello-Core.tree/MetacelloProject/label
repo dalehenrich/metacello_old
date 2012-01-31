@@ -1,0 +1,5 @@
+
+!MetacelloProject methodsFor: 'accessing' stamp: 'dkh 9/10/2009 15:14'!
+label
+
+	^self configuration class name! !

@@ -1,0 +1,5 @@
+
+!MetacelloVersionLoadDirective methodsFor: 'testing' stamp: 'DaleHenrichs 12/7/2010 02:24'!
+isExplicit
+
+	^false! !

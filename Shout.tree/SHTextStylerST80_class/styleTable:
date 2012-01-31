@@ -1,0 +1,5 @@
+
+!SHTextStylerST80 class methodsFor: 'style table' stamp: ''!
+styleTable: anArray 
+	styleTable := anArray.
+	textAttributesByPixelHeight := nil! !

@@ -1,0 +1,8 @@
+
+!OBBuilder methodsFor: 'accessing' stamp: 'lr 3/13/2010 18:47'!
+current: anObject do: aBlock
+	| saved | 
+	saved := current.
+	current := anObject.
+	aBlock ensure: [ current := saved ].
+	^ anObject! !

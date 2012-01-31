@@ -1,0 +1,5 @@
+
+!MetacelloFetchingMCSpecLoader methodsFor: 'actions' stamp: 'DaleHenrichs 3/10/2010 16:42'!
+doLoad
+
+	self loaderPolicy copy load! !

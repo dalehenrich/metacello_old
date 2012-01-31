@@ -1,0 +1,27 @@
+
+!OBVariablesBrowser class methodsFor: 'configuration' stamp: 'lr 4/9/2011 18:14'!
+defaultMetaNode
+	| class variable method message |
+	class := OBMetaNode named: 'Class'.
+	variable := OBMetaNode named: 'Variable'.
+	method := OBMetaNode named: 'Method'.
+	message := OBMetaNode named: 'Message'.
+	class
+		childAt: #instanceVariables labeled: 'Instance' put: variable;
+		childAt: #classVariables labeled: 'Class' put: variable;
+		addFilter: OBModalFilter new.
+	variable
+		childAt: #accessors put: method;
+		ancestrySelector: #isDescendantOfVariable:;
+		addFilter: OBClassSortFilter new.
+	method displaySelector: #fullName.
+	self chasingBrowsersEnabled ifTrue: [ 
+		variable addFilter: OBModalFilter new.
+		method
+			childAt: #senders put: message;
+			addFilter: OBModalFilter new.
+		message
+			displaySelector: #fullName;
+			childAt: #senders put: message;
+			addFilter: OBModalFilter new ].
+	^ class! !

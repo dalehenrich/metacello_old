@@ -1,0 +1,4 @@
+
+!MetacelloVersionLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 3/16/2010 02:08'!
+finalizeLoad: aGofer
+	"nothing special for linear loads"! !

@@ -1,0 +1,4 @@
+
+!OBCodeBrowser class methodsFor: 'configuration' stamp: 'PDC 6/27/2007 23:02'!
+defaultRootNode
+	^nil! !

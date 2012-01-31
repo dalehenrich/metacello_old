@@ -1,0 +1,5 @@
+
+!MetacelloDevelopmentCycleTutorialTests methodsFor: 'private' stamp: 'DaleHenrichs 12/18/2010 12:16'!
+version10DevelopmentVersionSpecString
+
+	^'spec blessing: #''development''.', self version10CommonVersionSpecString! !

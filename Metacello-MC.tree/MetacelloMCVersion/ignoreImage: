@@ -1,0 +1,6 @@
+
+!MetacelloMCVersion methodsFor: 'accessing' stamp: 'DaleHenrichs 3/29/2010 15:31'!
+ignoreImage: aBool 
+	"by default ignoreImage is false"
+	
+	self loaderPolicy ignoreImage: aBool ! !

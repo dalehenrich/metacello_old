@@ -1,0 +1,5 @@
+
+!MetacelloToolBox class methodsFor: 'help' stamp: 'dkh 4/9/2011 19:24'!
+helpTopicClass
+
+	^Smalltalk at: #HelpTopic ifAbsent: []! !

@@ -1,0 +1,4 @@
+
+!SHOneEditorShoutedASecondNotShouted methodsFor: 'accessing' stamp: 'AlainPlantec 9/1/2011 18:49'!
+comment
+	^ comment ifNil: [comment := '' asText]! !

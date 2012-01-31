@@ -1,0 +1,4 @@
+
+!OBInspectItTextCommand methodsFor: 'execution' stamp: 'lr 3/6/2011 15:13'!
+execute
+	target inspectIt! !

@@ -1,0 +1,5 @@
+
+!MetacelloVersion methodsFor: 'querying' stamp: 'dkh 10/13/2009 13:01'!
+timestamp
+
+	^self spec timestamp value! !

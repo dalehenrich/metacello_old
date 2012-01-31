@@ -1,0 +1,4 @@
+
+!OBClassCategoryNode methodsFor: 'testing' stamp: 'dr 10/30/2008 09:54'!
+isCategoryNode
+	^ true! !

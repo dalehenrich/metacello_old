@@ -1,0 +1,5 @@
+
+!SHMethodEditingMode methodsFor: 'accessing' stamp: 'AlainPlantec 9/20/2011 09:18'!
+selectedClass
+	self className ifNil: [ ^ nil ]. 
+	^ Smalltalk globals at: self className ifAbsent: []! !

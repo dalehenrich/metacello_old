@@ -1,0 +1,6 @@
+
+!MetacelloMCVersionSpec methodsFor: 'querying' stamp: 'dkh 7/8/2011 09:51'!
+packageNames
+
+	packages == nil ifTrue: [ ^#() ].
+	^self packages map keys asSet ! !

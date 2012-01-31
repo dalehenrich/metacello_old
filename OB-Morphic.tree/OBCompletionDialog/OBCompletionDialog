@@ -1,0 +1,6 @@
+
+DialogWindow subclass: #OBCompletionDialog
+	instanceVariableNames: 'textMorph text listMorph listValues listLabels listIndex answer'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Morphic-Morphs'!

@@ -1,0 +1,7 @@
+
+!ConfigurationOfMetacello methodsFor: 'doits' stamp: 'DaleHenrichs 02/19/2010 12:03'!
+gemstone10beta24PreLoadMethodString
+
+	^'addVersion: aVersion
+
+	model addVersion: version'! !

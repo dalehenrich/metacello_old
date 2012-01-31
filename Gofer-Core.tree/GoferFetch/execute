@@ -1,0 +1,6 @@
+
+!GoferFetch methodsFor: 'running' stamp: 'lr 12/13/2009 17:22'!
+execute
+	self model
+		do: [ :reference | self cacheRepository storeVersion: reference version ]
+		displayingProgress: 'Fetching Versions'! !

@@ -1,0 +1,6 @@
+
+!OBTextSelection methodsFor: 'commands' stamp: 'lr 3/6/2011 15:09'!
+inspectIt
+	"Inspects the current selection."
+	
+	self subclassResponsibility! !

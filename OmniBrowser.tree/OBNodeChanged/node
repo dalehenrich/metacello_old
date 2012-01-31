@@ -1,0 +1,4 @@
+
+!OBNodeChanged methodsFor: 'accessing' stamp: 'cwp 6/4/2006 11:17'!
+node
+	^ node! !

@@ -1,0 +1,4 @@
+
+!HelpHowToHelpTopicsFromCode class methodsFor: 'accessing' stamp: 'tbn 3/29/2010 14:06'!
+bookName
+	^'Custom help from code'! !

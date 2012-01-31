@@ -1,0 +1,7 @@
+
+!OBNode methodsFor: 'public' stamp: 'cwp 8/20/2007 15:46'!
+childAncestorOf: aNode indexIn: aBlock 
+	^ self metaNode 
+		childOf: self
+		ancestorOf: aNode
+		indexIn: aBlock! !

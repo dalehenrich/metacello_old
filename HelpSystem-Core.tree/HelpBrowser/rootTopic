@@ -1,0 +1,4 @@
+
+!HelpBrowser methodsFor: 'accessing' stamp: 'tbn 3/5/2010 22:56'!
+rootTopic
+	^rootTopic! !

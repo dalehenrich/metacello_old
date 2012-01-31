@@ -1,0 +1,4 @@
+
+!OBDefinition methodsFor: 'updating' stamp: 'cwp 7/25/2006 18:26'!
+asAnnouncement
+	^ OBDefinitionChanged definition: self! !

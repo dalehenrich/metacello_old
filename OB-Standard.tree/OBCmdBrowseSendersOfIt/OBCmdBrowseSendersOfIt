@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCmdBrowseSendersOfIt
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

@@ -1,0 +1,9 @@
+
+OBMercuryQuery subclass: #OBMClassQuery
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Utilities'!
+
+!OBMClassQuery commentStamp: 'PDC 6/29/2007 07:11' prior: 0!
+I handle mercury queries like 'Object' and 'OBNode*'. I find classes.!

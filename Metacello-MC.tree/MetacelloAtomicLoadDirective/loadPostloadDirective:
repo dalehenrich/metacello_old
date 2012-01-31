@@ -1,0 +1,6 @@
+
+!MetacelloAtomicLoadDirective methodsFor: 'loading' stamp: 'DaleHenrichs 4/14/2010 14:23'!
+loadPostloadDirective: aPostloadDirective
+	"accumulate postloads"
+
+	self postloads add: aPostloadDirective! !

@@ -1,0 +1,6 @@
+
+!MetacelloIssue115TestCase methodsFor: 'running' stamp: 'dkh 3/21/2011 15:41'!
+configurationRepository
+	"MetacelloConfigurationResource reset"
+
+	^ MetacelloConfigurationResource current monticelloRepository! !

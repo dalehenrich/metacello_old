@@ -1,0 +1,4 @@
+
+!OBCmdBrowse methodsFor: 'accessing' stamp: 'dc 8/26/2008 17:40'!
+longDescription
+	^ 'open a new browser on the current element'! !

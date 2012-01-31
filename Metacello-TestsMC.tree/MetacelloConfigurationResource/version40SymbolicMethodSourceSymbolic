@@ -1,0 +1,7 @@
+
+!MetacelloConfigurationResource methodsFor: 'ConfigurationOfSymbolic' stamp: 'DaleHenrichs 9/22/2010 16:08'!
+version40SymbolicMethodSourceSymbolic
+
+	^(self class sourceCodeAt: #version40Symbolic:) asString
+
+! !

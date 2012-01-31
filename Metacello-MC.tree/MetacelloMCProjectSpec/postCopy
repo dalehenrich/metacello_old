@@ -1,0 +1,7 @@
+
+!MetacelloMCProjectSpec methodsFor: 'copying' stamp: 'DaleHenrichs 11/17/2010 12:44'!
+postCopy
+
+	super postCopy.
+	projectPackage := projectPackage copy.
+! !

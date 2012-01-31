@@ -1,0 +1,6 @@
+
+!OBMethodDefinition methodsFor: 'callbacks' stamp: 'lr 3/4/2009 08:18'!
+text
+	^ source isNil 
+		ifFalse: [ source asText makeSelectorBold ]
+		ifTrue: [ self theClass sourceCodeTemplate ]! !

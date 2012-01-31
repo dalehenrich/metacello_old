@@ -1,0 +1,6 @@
+
+!OBCodeBrowser methodsFor: 'initializing' stamp: 'lr 3/13/2010 16:09'!
+initialize
+	super initialize.
+	hasChanges := false.
+	self register! !

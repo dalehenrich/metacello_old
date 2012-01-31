@@ -1,0 +1,10 @@
+
+!MetacelloConfigurationResource methodsFor: 'Issue 95' stamp: 'DaleHenrichs 8/30/2010 09:46'!
+setUpIssue95
+	"self reset"
+	
+	self
+		setUpConfigurationOfProjectInfinite;
+		setUpConfigurationOfProjectLoop;
+		setUpConfigurationOfProjectIssue95;
+		yourself		! !

@@ -1,0 +1,8 @@
+
+!MetacelloLoaderPolicy methodsFor: 'actions' stamp: 'DaleHenrichs 3/21/2010 13:11'!
+pushExplicitLoadDirectivesDuring: aBlock for: aLoader
+
+	| directive |
+	directive := MetacelloExplicitLoadDirective loader: aLoader.
+	self pushLoadDirective: directive during: aBlock.
+	^directive! !

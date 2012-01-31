@@ -1,0 +1,9 @@
+
+!GoferUnload methodsFor: 'running' stamp: 'lr 10/3/2009 11:45'!
+execute
+	self workingCopies 
+		do: [ :copy | self unload: copy ].
+	self model load.
+	self gofer cleanup.
+	self workingCopies 
+		do: [ :copy | self unregister: copy ]! !

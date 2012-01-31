@@ -1,0 +1,4 @@
+
+!OBPanel class methodsFor: 'instance creation' stamp: 'cwp 8/31/2004 10:46'!
+inBrowser: aBrowser
+	^ self new browser: aBrowser! !

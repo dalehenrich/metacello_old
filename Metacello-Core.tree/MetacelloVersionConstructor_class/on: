@@ -1,0 +1,7 @@
+
+!MetacelloVersionConstructor class methodsFor: 'instance creation' stamp: 'DaleHenrichs 11/12/2010 09:47'!
+on: aConfig
+
+	^(self new)
+		on: aConfig;
+		yourself! !

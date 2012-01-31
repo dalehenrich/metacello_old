@@ -1,0 +1,5 @@
+
+!MetacelloPostLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 12/21/2010 11:46'!
+addTo: aLoaderDirective
+
+	spec postLoadDoIt value ~~ nil ifTrue: [ aLoaderDirective add: self ]! !

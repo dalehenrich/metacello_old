@@ -1,0 +1,4 @@
+
+!String class methodsFor: '*ob-standard' stamp: 'lr 3/29/2009 14:20'!
+browserIcon
+	^ #string! !

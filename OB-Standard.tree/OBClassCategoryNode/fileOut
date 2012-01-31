@@ -1,0 +1,4 @@
+
+!OBClassCategoryNode methodsFor: 'services' stamp: ''!
+fileOut
+	environment organization fileOutCategory: name.! !

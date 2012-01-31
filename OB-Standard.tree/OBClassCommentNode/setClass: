@@ -1,0 +1,4 @@
+
+!OBClassCommentNode methodsFor: 'initializing' stamp: ''!
+setClass: aClass
+	self theClass: aClass! !

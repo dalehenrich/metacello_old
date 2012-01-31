@@ -1,0 +1,5 @@
+
+!OBDefinitionPanel methodsFor: 'accessing' stamp: 'cwp 3/22/2004 20:41'!
+withDefinitionDo: workBlock ifNil: nilBlock
+	definition ifNil: [ ^ nilBlock value].
+	^ workBlock value: definition! !

@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBDebugItTextCommand
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Commands'!

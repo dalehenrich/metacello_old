@@ -1,0 +1,9 @@
+
+OBVariableNode subclass: #OBInstanceVariableNode
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Nodes'!
+
+!OBInstanceVariableNode commentStamp: 'cwp 1/8/2005 12:50' prior: 0!
+OBClassVariable provides a method for finding methods which refer to an instance, ie, by searching for instance variable access bytecodes rather than for an association in the literal frame.!

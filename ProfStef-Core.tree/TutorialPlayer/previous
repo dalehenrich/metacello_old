@@ -1,0 +1,5 @@
+
+!TutorialPlayer methodsFor: 'navigating' stamp: 'LaurentLaffont 1/18/2010 12:53'!
+previous
+	tutorialPosition >  1 ifTrue: [tutorialPosition := tutorialPosition  - 1].
+	^ self currentLesson! !

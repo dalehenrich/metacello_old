@@ -1,0 +1,4 @@
+
+!OBBrowser class methodsFor: 'configuration' stamp: 'cwp 8/31/2004 11:00'!
+minPanes
+	^ self paneCount! !

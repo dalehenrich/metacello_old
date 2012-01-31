@@ -1,0 +1,6 @@
+
+!String methodsFor: '*metacello-core-version comparison' stamp: 'dkh 8/13/2009 12:04'!
+metacelloIntegerLessThanSelf: anInteger
+	"integer version components are always '>' string component"
+
+	^false! !

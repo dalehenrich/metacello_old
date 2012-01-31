@@ -1,0 +1,16 @@
+
+!MetacelloAtomicConfigurationResource methodsFor: 'ConfigurationOfAtomicFoo' stamp: 'DaleHenrichs 3/16/2010 10:13'!
+project
+	"self reset"
+
+	| constructor project |
+	"Construct Metacello project"
+	constructor := MetacelloVersionConstructor on: self.
+	project := constructor project.
+	project loader: 
+		((project loaderClass new)
+			shouldDisablePackageCache: true;
+			yourself).
+	project loadType: #atomic.
+	^project
+! !

@@ -1,0 +1,5 @@
+
+!OBColumnPanel methodsFor: 'accessing columns' stamp: 'cwp 6/4/2006 00:39'!
+popColumn
+	self announcer unsubscribe: self columns removeLast.
+! !

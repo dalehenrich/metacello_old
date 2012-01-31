@@ -1,0 +1,10 @@
+
+!OBRadioButtonBar methodsFor: 'initialize-release' stamp: 'lr 4/26/2010 09:32'!
+initGeometry
+	self
+		layoutPolicy: TableLayout new;
+		listDirection: #leftToRight;
+		hResizing: #spaceFill;
+		vResizing: #shrinkWrap;
+		rubberBandCells: true;
+		styleWith: OBPlatform current builder! !

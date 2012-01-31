@@ -1,0 +1,6 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: '*metacello-mc-accessing' stamp: 'DaleHenrichs 10/27/2010 11:36'!
+project
+
+	project == nil ifTrue: [ project := MetacelloMCProject new].
+	^project! !

@@ -1,0 +1,18 @@
+
+!OBCmdAutoCategorize class methodsFor: 'private' stamp: 'lr 9/22/2010 09:07'!
+commonProtocolFor: aSelector in: aClass
+	| protocols protocol |
+	protocols := Bag new.
+	self environment allClassesAndTraitsDo: [ :behavior |
+		| class |
+		class := aClass isMeta
+			ifTrue: [ behavior theMetaClass ]
+			ifFalse: [ behavior theNonMetaClass ].
+		(class includesSelector: aSelector) ifTrue: [
+			protocol := class organization categoryOfElement: aSelector.
+			(self isValidProtocol: protocol)
+				ifTrue: [ protocols add: protocol ] ] ].
+	protocols isEmpty
+		ifTrue: [ ^ nil ].
+	protocol := protocols sortedCounts first.
+	^ protocol key >= 5 ifTrue: [ protocol value ]! !

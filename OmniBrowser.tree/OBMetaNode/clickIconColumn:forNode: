@@ -1,0 +1,6 @@
+
+!OBMetaNode methodsFor: 'filtering' stamp: 'lr 4/3/2009 14:49'!
+clickIconColumn: aColumn forNode: aNode
+	filters do: [ :each |
+		(each clickIconColumn: aColumn forNode: aNode)
+			ifTrue: [ ^ self ] ]! !

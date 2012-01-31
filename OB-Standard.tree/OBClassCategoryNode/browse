@@ -1,0 +1,4 @@
+
+!OBClassCategoryNode methodsFor: 'actions' stamp: 'lr 10/8/2010 08:44'!
+browse
+	OBSystemBrowser openOnEnvironment: environment category: name! !

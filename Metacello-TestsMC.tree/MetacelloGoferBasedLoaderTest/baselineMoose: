@@ -1,0 +1,12 @@
+
+!MetacelloGoferBasedLoaderTest methodsFor: 'baselines' stamp: 'DaleHenrichs 1/20/2010 09:59'!
+baselineMoose: spec 
+	<version: '1.0-Moose'>
+	
+	spec for: #common do: [
+		spec repository: 'dictionary://Metacello_Gofer_Test_Repository'.
+		spec 
+			package: 'GoferFaux' with: [
+				spec file: 'GoferFaux-' ];
+			yourself ].
+! !

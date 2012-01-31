@@ -1,0 +1,7 @@
+
+!OBMethodCategoryNode methodsFor: 'accessing' stamp: 'dvf 8/16/2005 17:47'!
+printOn: aStream
+	super printOn: aStream.
+	aStream nextPut: $<.
+	self name printOn: aStream.
+	aStream nextPut: $>.! !

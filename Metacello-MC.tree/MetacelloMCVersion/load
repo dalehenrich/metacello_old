@@ -1,0 +1,5 @@
+
+!MetacelloMCVersion methodsFor: 'actions' stamp: 'DaleHenrichs 3/4/2010 15:37'!
+load
+
+	^self doLoadRequiredFromArray: self spec defaultPackageNames! !

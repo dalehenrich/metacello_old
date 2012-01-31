@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'operations' stamp: 'lr 11/10/2009 10:06'!
+merge
+	"Merge the specified packages into their working copies."
+	
+	^ self execute: GoferMerge! !

@@ -1,0 +1,15 @@
+
+!MetacelloRepositoriesSpec methodsFor: 'actions' stamp: 'dkh 6/7/2009 20:50'!
+merge: description type: type
+
+	| spec |
+	spec := 
+		(self project repositorySpec)
+			description: description;
+			type: type;
+			yourself.
+	self addMember: 
+		(self mergeMember 
+			name: spec name;
+			spec: spec;
+			yourself)! !

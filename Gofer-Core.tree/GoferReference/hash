@@ -1,0 +1,4 @@
+
+!GoferReference methodsFor: 'comparing' stamp: 'lr 12/12/2009 13:33'!
+hash
+	^ self name hash! !

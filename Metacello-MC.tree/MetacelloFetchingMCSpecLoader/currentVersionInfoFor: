@@ -1,0 +1,7 @@
+
+!MetacelloFetchingMCSpecLoader methodsFor: 'versionInfo' stamp: 'DaleHenrichs 3/10/2010 11:59'!
+currentVersionInfoFor: packageSpec
+
+	^self loadData
+		currentVersionInfoFor: packageSpec 
+		ifAbsent: [ super currentVersionInfoFor: packageSpec ]! !

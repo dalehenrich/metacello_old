@@ -1,0 +1,6 @@
+
+!OBButtonModel methodsFor: 'drag and drop' stamp: 'lr 5/28/2010 17:50'!
+acceptDroppingMorph: aTransferMorph event: anEvent inMorph: aButtonMorph
+	^ bar model
+		acceptDroppingMorph: aTransferMorph
+		event: anEvent inMorph: aButtonMorph! !

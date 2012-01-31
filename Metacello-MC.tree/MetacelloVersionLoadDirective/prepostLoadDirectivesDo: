@@ -1,0 +1,5 @@
+
+!MetacelloVersionLoadDirective methodsFor: 'enumerating' stamp: 'DaleHenrichs 4/7/2010 12:26'!
+prepostLoadDirectivesDo: aBlock
+
+	self loadDirectives do: [:directive | directive prepostLoadDirectivesDo: aBlock ].! !

@@ -1,0 +1,4 @@
+
+!SHPreferences class methodsFor: 'accessing-styles' stamp: ''!
+syntaxStyle: aGroupStyle 
+	^ Groups at: #syntax put: aGroupStyle! !

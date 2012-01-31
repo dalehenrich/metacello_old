@@ -1,0 +1,6 @@
+
+!MetacelloVersionNumberTestCase methodsFor: 'tests' stamp: 'DaleHenrichs 10/16/2010 10:06'!
+testVersion25
+
+	self assert: ((MetacelloVersionNumber fromString: '1.0-beta.24.0.1') < (MetacelloVersionNumber fromString: '1.0-beta.28')).
+! !

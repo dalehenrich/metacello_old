@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'testing' stamp: 'cwp 10/11/2006 20:46'!
+hasSelector
+	^ true! !

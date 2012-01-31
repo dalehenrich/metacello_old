@@ -1,0 +1,5 @@
+
+!OBCmdMetacelloNestedSavePackages methodsFor: 'testing' stamp: 'DaleHenrichs 11/20/2010 07:55'!
+isActive
+	self flag: 'need to rewrite using toolbox'.
+	^ false! !

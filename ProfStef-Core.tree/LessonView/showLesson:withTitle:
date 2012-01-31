@@ -1,0 +1,9 @@
+
+!LessonView methodsFor: 'gui' stamp: 'LaurentLaffont 9/18/2011 20:11'!
+showLesson: aLesson withTitle: aString
+	self window setLabel: aString.
+	self shoutMorph 
+		setText: aLesson lesson; 
+		selectFrom:0 to:0.
+	(World systemWindows includes: self window) ifFalse: [self window openInWorld]
+	! !

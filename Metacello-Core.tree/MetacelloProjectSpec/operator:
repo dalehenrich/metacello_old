@@ -1,0 +1,6 @@
+
+!MetacelloProjectSpec methodsFor: 'accessing' stamp: 'dkh 6/14/2009 13:37'!
+operator: anObject
+	" #= #~= #> #< #>= #<= #~> "
+	
+	operator := anObject! !

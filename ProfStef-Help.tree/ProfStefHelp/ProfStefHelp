@@ -1,0 +1,9 @@
+
+CustomHelp subclass: #ProfStefHelp
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'ProfStef-Help'!
+
+!ProfStefHelp commentStamp: 'LaurentLaffont 2/15/2011 22:17' prior: 0!
+HelpSystem book documenting ProfStef!

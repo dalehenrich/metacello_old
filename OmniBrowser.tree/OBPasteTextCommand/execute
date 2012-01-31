@@ -1,0 +1,4 @@
+
+!OBPasteTextCommand methodsFor: 'execution' stamp: 'lr 12/10/2010 09:14'!
+execute
+	target paste! !

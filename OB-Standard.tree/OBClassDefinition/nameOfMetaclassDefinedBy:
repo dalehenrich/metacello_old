@@ -1,0 +1,4 @@
+
+!OBClassDefinition methodsFor: 'confirmation' stamp: 'lr 11/22/2010 22:53'!
+nameOfMetaclassDefinedBy: definition
+	^ (Scanner new scanTokens: definition) first! !

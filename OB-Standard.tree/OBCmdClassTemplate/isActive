@@ -1,0 +1,5 @@
+
+!OBCmdClassTemplate methodsFor: 'testing' stamp: 'dc 7/22/2007 21:02'!
+isActive
+	^ (target isKindOf: OBClassNode)
+		and: [requestor isSelected: target]! !

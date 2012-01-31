@@ -1,0 +1,8 @@
+
+!MetacelloVersionNumber methodsFor: 'accessing' stamp: 'dkh 6/14/2009 09:57'!
+versionString
+
+	| strm |
+	strm := WriteStream on: String new.
+	self printOn: strm.
+	^strm contents! !

@@ -1,0 +1,9 @@
+
+!MetacelloPackageSpec methodsFor: 'gofer' stamp: 'dkh 11/05/2009 13:58'!
+workingCopyName
+
+	| wc |
+	(wc := self workingCopy) == nil ifTrue: [ ^nil ].
+	wc ancestry ancestors isEmpty not
+		ifTrue: [ ^wc ancestry ancestors first name ].
+	^nil! !

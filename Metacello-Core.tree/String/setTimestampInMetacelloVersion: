@@ -1,0 +1,8 @@
+
+!String methodsFor: '*metacello-core' stamp: 'dkh 9/13/2009 07:47'!
+setTimestampInMetacelloVersion: aMetacelloVersionSpec
+
+	aMetacelloVersionSpec setTimestamp: 
+		(aMetacelloVersionSpec project valueHolderSpec
+			value: self;
+			yourself)! !

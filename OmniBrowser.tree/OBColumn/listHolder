@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'list' stamp: 'dr 9/12/2008 10:40'!
+listHolder
+	^ listHolder ifNil: [ listHolder := OBList column: self ]! !

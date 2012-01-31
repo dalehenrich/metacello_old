@@ -1,0 +1,4 @@
+
+!OBVariablesBrowser class methodsFor: 'instance creation' stamp: 'lr 11/7/2009 17:54'!
+browseRoot: aNode
+	^ self browseRoot: aNode label: self title , ' ' , aNode theClassName! !

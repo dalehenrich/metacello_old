@@ -1,0 +1,5 @@
+
+!OBHierarchySendersBrowser class methodsFor: 'configuration' stamp: 'dr 7/2/2007 16:55'!
+title
+	^'Hierarchy Senders of' 
+    ! !

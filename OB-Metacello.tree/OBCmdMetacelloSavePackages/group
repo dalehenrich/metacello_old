@@ -1,0 +1,4 @@
+
+!OBCmdMetacelloSavePackages methodsFor: 'accessing' stamp: 'DaleHenrichs 3/11/2010 13:03'!
+group
+	^ #metacelloPackages! !

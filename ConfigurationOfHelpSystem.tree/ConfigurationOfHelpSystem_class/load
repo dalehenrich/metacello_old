@@ -1,0 +1,6 @@
+
+!ConfigurationOfHelpSystem class methodsFor: 'loading' stamp: 'tbn 1/26/2010 09:50'!
+load
+	"self load"
+
+	^self project latestVersion load! !

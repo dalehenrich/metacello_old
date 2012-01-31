@@ -1,0 +1,5 @@
+
+!MetacelloMemberListSpec methodsFor: 'testing' stamp: 'dkh 6/17/2009 16:12'!
+isEmpty
+
+	^self list isEmpty! !

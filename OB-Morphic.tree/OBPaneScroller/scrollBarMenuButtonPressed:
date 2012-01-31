@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'input events' stamp: 'cwp 8/20/2009 08:29'!
+scrollBarMenuButtonPressed: anObject
+	"Ignore the menu button..."! !

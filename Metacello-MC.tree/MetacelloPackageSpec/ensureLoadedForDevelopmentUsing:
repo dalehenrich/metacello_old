@@ -1,0 +1,6 @@
+
+!MetacelloPackageSpec methodsFor: 'loading' stamp: 'DaleHenrichs 3/5/2010 19:05'!
+ensureLoadedForDevelopmentUsing: mcLoader
+	"noop"
+	
+	^true! !

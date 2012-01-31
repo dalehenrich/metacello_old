@@ -1,0 +1,5 @@
+
+!MetacelloBaseConfiguration class methodsFor: 'accessing' stamp: 'DaleHenrichs 11/2/2010 14:03'!
+project
+
+	^self new project! !

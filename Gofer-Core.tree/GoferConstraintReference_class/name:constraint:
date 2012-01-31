@@ -1,0 +1,4 @@
+
+!GoferConstraintReference class methodsFor: 'instance creation' stamp: 'lr 12/9/2009 22:44'!
+name: aString constraint: aBlock
+	^ self basicNew initializeName: aString constraint: aBlock! !

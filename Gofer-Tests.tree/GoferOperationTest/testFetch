@@ -1,0 +1,5 @@
+
+!GoferOperationTest methodsFor: 'testing' stamp: 'lr 3/16/2010 09:59'!
+testFetch
+	gofer package: 'GoferFoo'.
+	self shouldnt: [ gofer fetch ] raise: Error! !

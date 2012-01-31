@@ -1,0 +1,6 @@
+
+OBInteractionRequest subclass: #OBCloseRequest
+	instanceVariableNames: 'browser'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Notifications'!

@@ -1,0 +1,6 @@
+
+OBAnnouncement subclass: #OBCommandScan
+	instanceVariableNames: 'factories'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Announcements'!

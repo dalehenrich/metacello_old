@@ -1,0 +1,9 @@
+
+!OBMethodNode methodsFor: 'private' stamp: 'cwp 12/8/2004 23:49'!
+inheritanceRoot
+	| rootClass |
+	rootClass := (self theClass withAllSuperclasses asArray
+					select: [:ea | ea includesSelector: self selector]) last.
+	^ OBCollectionNode on: {OBMethodNode 
+								on: self selector 
+								inClass: rootClass}! !

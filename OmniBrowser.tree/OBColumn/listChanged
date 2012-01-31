@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'updating' stamp: 'dr 9/29/2008 16:34'!
+listChanged
+	self refreshAndSignal: true! !

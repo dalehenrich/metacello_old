@@ -1,0 +1,5 @@
+
+!OBCmdMetacello methodsFor: 'private' stamp: 'dkh 11/3/2009 09:20'!
+versions
+
+	^self selectedProjectInstance versions! !

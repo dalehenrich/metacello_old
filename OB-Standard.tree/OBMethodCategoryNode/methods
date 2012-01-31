@@ -1,0 +1,4 @@
+
+!OBMethodCategoryNode methodsFor: 'navigating' stamp: 'dvf 8/19/2005 17:16'!
+methods
+	^ self methodReferences collect: [:ref | ref asNode]! !

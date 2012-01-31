@@ -1,0 +1,9 @@
+
+!HowToMakeYourOwnTutorial methodsFor: 'lessons' stamp: 'LaurentLaffont 1/21/2010 22:29'!
+runYourTutorial
+	^ Lesson 
+title: 'Run your tutorial'
+lesson: 
+'"You can run your fresh new tutorial like this:" 
+
+ProfStef goOn: HowToDebug.'.! !

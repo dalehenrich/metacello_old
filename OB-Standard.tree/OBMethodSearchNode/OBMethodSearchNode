@@ -1,0 +1,6 @@
+
+OBSearchNode subclass: #OBMethodSearchNode
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Nodes'!

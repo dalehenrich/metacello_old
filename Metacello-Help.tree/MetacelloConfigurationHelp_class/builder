@@ -1,0 +1,4 @@
+
+!MetacelloConfigurationHelp class methodsFor: 'defaults' stamp: 'dkh 4/9/2011 09:39'!
+builder
+	^MetacelloConfigurationHelpBuilder! !

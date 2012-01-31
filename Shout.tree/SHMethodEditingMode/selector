@@ -1,0 +1,4 @@
+
+!SHMethodEditingMode methodsFor: 'accessing' stamp: 'AlainPlantec 9/20/2011 07:55'!
+selector
+	^ selector! !

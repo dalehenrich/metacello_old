@@ -1,0 +1,6 @@
+
+!MetacelloSpec methodsFor: 'copying' stamp: 'dkh 10/4/2009 18:56'!
+postCopy
+
+	super postCopy.
+	loader ~~ nil  ifTrue: [ self loader: loader ]! !

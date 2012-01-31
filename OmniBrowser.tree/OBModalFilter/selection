@@ -1,0 +1,4 @@
+
+!OBModalFilter methodsFor: 'callbacks' stamp: 'lr 7/3/2009 22:27'!
+selection
+	^ selection ifNil: [ selection := 1 ]! !

@@ -1,0 +1,6 @@
+
+!MetacelloMCVersion methodsFor: 'accessing' stamp: 'DaleHenrichs 3/6/2010 08:21'!
+loaderPolicy
+
+	loaderPolicy == nil ifTrue: [ loaderPolicy := MetacelloLoaderPolicy new ].
+	^ loaderPolicy! !

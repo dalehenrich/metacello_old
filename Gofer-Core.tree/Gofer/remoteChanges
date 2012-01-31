@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'operations' stamp: 'lr 12/12/2009 12:49'!
+remoteChanges
+	"Display the changes between the working copy and the remote changes."
+	
+	^ self execute: GoferRemoteChanges! !

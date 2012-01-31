@@ -1,0 +1,4 @@
+
+!ProfStef class methodsFor: 'navigating' stamp: 'tg 2/1/2010 16:01'!
+next
+	^ self default next.! !

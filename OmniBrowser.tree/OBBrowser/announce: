@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'updating' stamp: 'cwp 10/4/2006 10:06'!
+announce: anObject
+	^ self announcer announce: anObject! !

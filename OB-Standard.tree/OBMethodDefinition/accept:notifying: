@@ -1,0 +1,8 @@
+
+!OBMethodDefinition methodsFor: 'callbacks' stamp: 'lr 11/25/2010 23:39'!
+accept: aText notifying: aController
+	| newSelector | 
+	newSelector := self compileMethod: aText notifying: aController.
+	newSelector ifNil: [ ^ false ]. 
+	(self nodeFor: newSelector) signalCreation.
+	^ true! !

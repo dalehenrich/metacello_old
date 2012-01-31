@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'converting' stamp: 'cwp 8/18/2007 18:09'!
+asFan
+	^ OBFan parent: self! !

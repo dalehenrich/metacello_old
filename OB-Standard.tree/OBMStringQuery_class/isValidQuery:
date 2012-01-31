@@ -1,0 +1,4 @@
+
+!OBMStringQuery class methodsFor: 'configuration' stamp: 'lr 3/13/2010 13:31'!
+isValidQuery: aString
+	^ aString size > 2 and: [ aString first = $' and: [ aString last = $' ] ]! !

@@ -1,0 +1,6 @@
+
+!OBColumn methodsFor: 'printing' stamp: 'avi 3/6/2004 16:23'!
+descriptor
+	self isEmpty ifTrue: [^ 'empty'].
+	self hasSelection ifTrue: [^ self selectedNode name].
+	^ ''! !

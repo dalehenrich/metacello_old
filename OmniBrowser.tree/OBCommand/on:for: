@@ -1,0 +1,4 @@
+
+!OBCommand methodsFor: 'accessing' stamp: 'cwp 10/14/2006 23:39'!
+on: anObject for: aRequestor
+	^ self class on: anObject for: aRequestor! !

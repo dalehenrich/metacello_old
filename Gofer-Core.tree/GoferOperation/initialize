@@ -1,0 +1,4 @@
+
+!GoferOperation methodsFor: 'initialization' stamp: 'lr 8/19/2009 14:01'!
+initialize
+	model := self defaultModel! !

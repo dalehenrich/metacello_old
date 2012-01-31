@@ -1,0 +1,6 @@
+
+OBListBrowser subclass: #OBMethodStringsBrowser
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Browsers'!

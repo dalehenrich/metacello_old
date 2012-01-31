@@ -1,0 +1,4 @@
+
+!OBCmdBrowseInheritance methodsFor: 'execution' stamp: 'cwp 10/17/2006 21:28'!
+execute
+	OBInheritanceBrowser openRoot: target inheritanceRoot selection: target! !

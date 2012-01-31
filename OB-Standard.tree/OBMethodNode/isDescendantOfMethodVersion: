@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'ancestry' stamp: 'cwp 10/17/2004 23:55'!
+isDescendantOfMethodVersion: anOBMethodVersionNode 
+	^ false! !

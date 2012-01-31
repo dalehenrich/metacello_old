@@ -1,0 +1,6 @@
+
+!MetacelloMCVersion methodsFor: 'accessing' stamp: 'DaleHenrichs 3/29/2010 15:32'!
+cacheRepository: repository 
+	"by default cacheRepository is an MCDictionaryRepository"
+	
+	self loaderPolicy cacheRepository: repository ! !

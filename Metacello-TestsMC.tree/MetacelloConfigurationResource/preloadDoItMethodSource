@@ -1,0 +1,7 @@
+
+!MetacelloConfigurationResource methodsFor: 'ConfigurationOfFoo' stamp: 'DaleHenrichs 2/2/2010 11:00'!
+preloadDoItMethodSource
+
+	^(self class sourceCodeAt: #preloadDoIt) asString
+
+! !

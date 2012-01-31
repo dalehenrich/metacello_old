@@ -1,0 +1,4 @@
+
+!OBCompletionDialog methodsFor: 'accessing-text' stamp: 'lr 9/22/2010 20:27'!
+text
+	^ text! !

@@ -1,0 +1,4 @@
+
+!OBPanel methodsFor: 'updating' stamp: 'cwp 10/13/2006 09:29'!
+announce: aClass 
+	^ self browser announce: aClass! !

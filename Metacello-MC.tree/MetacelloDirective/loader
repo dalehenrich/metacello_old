@@ -1,0 +1,5 @@
+
+!MetacelloDirective methodsFor: 'accessing' stamp: 'DaleHenrichs 3/9/2010 10:44'!
+loader
+
+	^loader! !

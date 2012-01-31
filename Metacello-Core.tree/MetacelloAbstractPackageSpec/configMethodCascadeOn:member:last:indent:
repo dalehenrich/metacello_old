@@ -1,0 +1,6 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'printing' stamp: 'dkh 10/5/2009 12:41'!
+configMethodCascadeOn: aStream member: aMember last: lastCascade indent: indent
+
+	self subclassResponsibility
+! !

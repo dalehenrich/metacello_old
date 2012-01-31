@@ -1,0 +1,4 @@
+
+!GoferTest class methodsFor: 'testing' stamp: 'JorgeRessia 3/16/2010 20:23'!
+isUnitTest
+	^false! !

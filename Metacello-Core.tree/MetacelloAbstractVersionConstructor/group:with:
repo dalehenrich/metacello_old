@@ -1,0 +1,12 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'DaleHenrichs 11/12/2010 09:54'!
+group: aString with: aStringOrCollection
+
+	| spec |
+	spec := 
+		(self project groupSpec)
+			name: aString;
+			includes: aStringOrCollection;
+			yourself.
+	self root packages merge: spec.
+! !

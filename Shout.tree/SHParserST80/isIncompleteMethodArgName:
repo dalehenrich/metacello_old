@@ -1,0 +1,7 @@
+
+!SHParserST80 methodsFor: 'identifier testing' stamp: ''!
+isIncompleteMethodArgName: aString 
+	^ (arguments
+		at: 0
+		ifAbsent: [#()])
+		anySatisfy: [:each | each beginsWith: aString]! !

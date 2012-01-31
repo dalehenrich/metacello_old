@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'displaying' stamp: 'cwp 7/23/2007 01:45'!
+icon
+	^ metaNode iconForNode: self! !

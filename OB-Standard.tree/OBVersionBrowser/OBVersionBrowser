@@ -1,0 +1,9 @@
+
+OBCodeBrowser subclass: #OBVersionBrowser
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Browsers'!
+
+!OBVersionBrowser commentStamp: 'cwp 1/7/2005 23:58' prior: 0!
+OBVersionBrowser displays a list of OBMethodVersions, which represent versions of a method present in the source or changes files. !

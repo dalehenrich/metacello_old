@@ -1,0 +1,4 @@
+
+!MetacelloVersionMethodSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 11/14/2010 00:46'!
+imports: anObject
+	imports := anObject! !

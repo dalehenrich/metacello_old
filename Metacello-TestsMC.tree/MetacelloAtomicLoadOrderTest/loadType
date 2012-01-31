@@ -1,0 +1,6 @@
+
+!MetacelloAtomicLoadOrderTest methodsFor: 'accessing' stamp: 'DaleHenrichs 3/16/2010 10:50'!
+loadType
+
+	loadType ~~ nil ifTrue: [ ^loadType ].
+	^#atomic! !

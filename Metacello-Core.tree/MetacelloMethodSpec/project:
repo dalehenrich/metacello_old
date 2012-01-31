@@ -1,0 +1,4 @@
+
+!MetacelloMethodSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 11/14/2010 01:51'!
+project: anObject
+	project := anObject! !

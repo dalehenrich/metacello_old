@@ -1,0 +1,5 @@
+
+!OBCmdBrowseReferences methodsFor: 'testing' stamp: 'dc 8/2/2007 17:32'!
+isActive
+	^ (target isKindOf: OBClassAwareNode)
+		and: [requestor isSelected: target]! !

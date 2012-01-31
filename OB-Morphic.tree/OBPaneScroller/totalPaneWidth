@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'layout' stamp: 'cwp 2/25/2004 20:23'!
+totalPaneWidth
+	^ self innerBounds width - ((self sizing - 1) * self separatorWidth)! !

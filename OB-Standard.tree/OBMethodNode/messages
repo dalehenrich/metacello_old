@@ -1,0 +1,8 @@
+
+!OBMethodNode methodsFor: 'navigating' stamp: 'dc 1/26/2008 11:52'!
+messages
+	^ self messageSelectors
+			collect: [:sel | OBMessageNode 
+								on: sel 
+								inMethod: selector 
+								inClass: self theClass]! !

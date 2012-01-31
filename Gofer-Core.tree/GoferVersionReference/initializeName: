@@ -1,0 +1,5 @@
+
+!GoferVersionReference methodsFor: 'initialization' stamp: 'lr 12/11/2009 22:17'!
+initializeName: aString
+	super initializeName: aString.
+	self parseName: aString! !

@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBUndoTextCommand
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Commands'!

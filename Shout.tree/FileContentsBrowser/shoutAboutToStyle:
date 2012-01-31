@@ -1,0 +1,7 @@
+
+!FileContentsBrowser methodsFor: '*Shout-Styling' stamp: ''!
+shoutAboutToStyle: aPluggableShoutMorphOrView 
+	self shoutIsModeStyleable
+		ifFalse: [^ false].
+	aPluggableShoutMorphOrView classOrMetaClass: self selectedClassOrMetaClass.
+	^ true! !

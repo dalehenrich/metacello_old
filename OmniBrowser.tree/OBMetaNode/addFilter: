@@ -1,0 +1,5 @@
+
+!OBMetaNode methodsFor: 'accessing' stamp: 'cwp 5/18/2007 00:20'!
+addFilter: aFilter
+	aFilter setMetaNode: self.
+	filters add: aFilter! !

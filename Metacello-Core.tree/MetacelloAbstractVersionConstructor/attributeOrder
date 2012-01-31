@@ -1,0 +1,6 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'accessing' stamp: 'dkh 10/5/2009 16:41'!
+attributeOrder
+
+	attributeOrder == nil ifTrue: [ attributeOrder := OrderedCollection new ].
+	^attributeOrder! !

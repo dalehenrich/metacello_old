@@ -1,0 +1,6 @@
+
+!MetacelloMCVersionSpec methodsFor: 'printing' stamp: 'dkh 10/9/2009 20:40'!
+configSpawnMethodOn: aStream indent: indent
+
+	super configSpawnMethodOn: aStream indent: indent.
+	self configPackagesSpecMethodOn: aStream indent: indent.! !

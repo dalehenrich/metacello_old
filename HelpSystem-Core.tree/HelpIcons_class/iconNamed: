@@ -1,0 +1,5 @@
+
+!HelpIcons class methodsFor: 'accessing' stamp: 'tbn 2/12/2010 15:54'!
+iconNamed: aSymbol
+
+	^self icons at: aSymbol ifAbsentPut: [self perform: aSymbol]! !

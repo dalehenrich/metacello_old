@@ -1,0 +1,10 @@
+
+!OBNode methodsFor: 'accessing' stamp: 'lr 5/9/2011 19:32'!
+metaNode: aMetaNode
+	"Make sure that no accidental changes of the meta node happens."
+	
+	(metaNode notNil 
+		and: [ aMetaNode notNil 
+		and: [ metaNode printString ~= aMetaNode printString ] ])
+			ifTrue: [ self error: 'Unable to change meta-node of ' , self printString ].
+	metaNode := aMetaNode! !

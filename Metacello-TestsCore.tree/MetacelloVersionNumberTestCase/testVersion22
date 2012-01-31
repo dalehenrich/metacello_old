@@ -1,0 +1,9 @@
+
+!MetacelloVersionNumberTestCase methodsFor: 'tests' stamp: 'DaleHenrichs 10/6/2010 11:14'!
+testVersion22
+
+	self assert: (MetacelloVersionNumber fromString: '3.0.0') collapseZeros size = 1.
+	self assert: (MetacelloVersionNumber fromString: '3.0.0') = (MetacelloVersionNumber fromString: '3.0').
+	self assert: (MetacelloVersionNumber fromString: '3.0') = (MetacelloVersionNumber fromString: '3.0.0').
+
+! !

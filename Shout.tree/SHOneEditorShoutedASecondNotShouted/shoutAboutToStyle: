@@ -1,0 +1,4 @@
+
+!SHOneEditorShoutedASecondNotShouted methodsFor: 'shout' stamp: 'AlainPlantec 9/19/2011 19:45'!
+shoutAboutToStyle: ATextView
+	^ true! !

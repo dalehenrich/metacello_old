@@ -1,0 +1,5 @@
+
+!MetacelloPackageSpec methodsFor: 'querying' stamp: 'dkh 5/14/2010 15:50'!
+isPackageLoaded: aLoader
+
+	^(self workingCopyNameFor: aLoader) ~~ nil! !

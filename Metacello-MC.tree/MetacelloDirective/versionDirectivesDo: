@@ -1,0 +1,4 @@
+
+!MetacelloDirective methodsFor: 'enumerating' stamp: 'DaleHenrichs 3/12/2010 10:27'!
+versionDirectivesDo: aBlock
+! !

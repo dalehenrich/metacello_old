@@ -1,0 +1,10 @@
+
+!OBPluggableTextMorph methodsFor: 'menu' stamp: 'lr 12/10/2010 09:01'!
+getMenu: aShiftKeyState
+	| menu |
+	menu := MenuMorph new.
+	menu defaultTarget: model.
+	^ model
+		menu: menu
+		shifted: aShiftKeyState
+		selection: self selectionNode! !

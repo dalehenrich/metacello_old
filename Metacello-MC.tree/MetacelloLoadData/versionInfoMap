@@ -1,0 +1,6 @@
+
+!MetacelloLoadData methodsFor: 'accessing' stamp: 'dkh 07/08/2009 12:48'!
+versionInfoMap
+
+	versionInfoMap == nil ifTrue: [ versionInfoMap := Dictionary new ].
+	^versionInfoMap! !

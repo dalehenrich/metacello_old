@@ -1,0 +1,8 @@
+
+!OBColumn methodsFor: 'updating' stamp: 'dr 9/24/2008 10:42'!
+createNext
+	| nextMetaNode created |
+	nextMetaNode := self nextMetaNode.
+	created := panel columnClass inPanel: panel metaNode: nextMetaNode node: self selectedNode.
+	panel pushColumn: created.
+	^created! !

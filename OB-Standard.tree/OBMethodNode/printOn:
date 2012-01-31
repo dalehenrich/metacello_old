@@ -1,0 +1,10 @@
+
+!OBMethodNode methodsFor: 'printing' stamp: 'cwp 12/8/2004 21:59'!
+printOn: aStream
+	aStream
+		nextPutAll: self class name;
+		nextPut: $<;
+		nextPutAll: self theClass name;
+		nextPut: $#;
+		nextPutAll: self selector;
+		nextPut: $>! !

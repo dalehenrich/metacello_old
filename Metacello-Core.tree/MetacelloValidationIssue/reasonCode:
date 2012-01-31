@@ -1,0 +1,4 @@
+
+!MetacelloValidationIssue methodsFor: 'accessing' stamp: 'DaleHenrichs 11/3/2010 20:32'!
+reasonCode: anObject
+	reasonCode := anObject! !

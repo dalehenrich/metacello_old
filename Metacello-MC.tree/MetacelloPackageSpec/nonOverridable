@@ -1,0 +1,5 @@
+
+!MetacelloPackageSpec methodsFor: 'merging' stamp: 'dkh 1/2/2010 16:29'!
+nonOverridable
+
+	^super nonOverridable, #( repositories)! !

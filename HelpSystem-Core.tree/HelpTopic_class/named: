@@ -1,0 +1,8 @@
+
+!HelpTopic class methodsFor: 'instance creation' stamp: 'tbn 3/29/2010 13:16'!
+named: aString
+	"Create a new instance with given title and empty contents"
+	
+	^(self new)
+		title: aString;
+		yourself! !

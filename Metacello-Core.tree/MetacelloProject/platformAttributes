@@ -1,0 +1,5 @@
+
+!MetacelloProject methodsFor: 'private' stamp: 'dkh 10/17/2009 09:32'!
+platformAttributes
+
+	 ^self projectPlatformAttributes! !

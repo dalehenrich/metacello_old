@@ -1,0 +1,12 @@
+
+!OBPaneScroller methodsFor: 'initialization' stamp: 'lr 4/29/2011 23:15'!
+initialize
+	super initialize.
+	self 
+		borderWidth: 0;
+		color: Color white;
+		vResizing: #spaceFill;
+		hResizing: #spaceFill.
+	self 
+		initializeTransform;
+		initializeScrollbar.! !

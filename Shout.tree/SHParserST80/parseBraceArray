@@ -1,0 +1,6 @@
+
+!SHParserST80 methodsFor: 'parse' stamp: ''!
+parseBraceArray
+	self parseStatementListForBraceArray.
+	self failUnless: currentTokenFirst == $}.
+	self scanPast: #rightBrace! !

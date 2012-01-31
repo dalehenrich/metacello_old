@@ -1,0 +1,5 @@
+
+!OBMorphicIcons class methodsFor: 'initialization' stamp: 'lr 3/21/2009 19:49'!
+initialize
+	Instance := nil.
+	Icons := IdentityDictionary new! !

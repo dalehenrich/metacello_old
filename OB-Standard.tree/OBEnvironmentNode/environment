@@ -1,0 +1,4 @@
+
+!OBEnvironmentNode methodsFor: 'accessing' stamp: ''!
+environment
+	^ environment! !

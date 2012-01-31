@@ -1,0 +1,4 @@
+
+!OBCompletionDialog methodsFor: 'callbacks' stamp: 'lr 9/22/2010 20:28'!
+iconAt: anIndex
+	^ model iconFor: (listValues at: anIndex ifAbsent: [ ^ nil ])! !

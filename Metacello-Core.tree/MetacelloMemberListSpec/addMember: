@@ -1,0 +1,7 @@
+
+!MetacelloMemberListSpec methodsFor: 'adding' stamp: 'DaleHenrichs 9/24/2010 16:36'!
+addMember: aMember
+
+	self list add: aMember.
+	self clearMemberMap
+! !

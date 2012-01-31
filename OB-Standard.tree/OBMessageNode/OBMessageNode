@@ -1,0 +1,9 @@
+
+OBMethodNode subclass: #OBMessageNode
+	instanceVariableNames: 'message'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Nodes'!
+
+!OBMessageNode commentStamp: 'cwp 1/8/2005 12:40' prior: 0!
+An OBMessageNode refers to a message send in the source code of a method. They are typically used in the 'senders' browser.!

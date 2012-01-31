@@ -1,0 +1,6 @@
+
+PluggableTextMorph subclass: #OBPluggableTextMorph
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Morphic-Morphs'!

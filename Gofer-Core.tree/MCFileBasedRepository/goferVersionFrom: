@@ -1,0 +1,4 @@
+
+!MCFileBasedRepository methodsFor: '*gofer-core-accessing' stamp: 'lr 12/12/2009 11:29'!
+goferVersionFrom: aVersionReference
+	^ self loadVersionFromFileNamed: aVersionReference name , '.mcz'! !

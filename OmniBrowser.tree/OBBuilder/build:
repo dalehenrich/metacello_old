@@ -1,0 +1,4 @@
+
+!OBBuilder methodsFor: 'building' stamp: 'cwp 8/26/2009 23:25'!
+build: aModel 
+	^ aModel buildOn: self! !

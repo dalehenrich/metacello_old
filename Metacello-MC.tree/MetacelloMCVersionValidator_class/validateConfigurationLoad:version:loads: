@@ -1,0 +1,6 @@
+
+!MetacelloMCVersionValidator class methodsFor: 'instance creation' stamp: 'DaleHenrichs 12/7/2010 02:45'!
+validateConfigurationLoad: configurationClass version: versionString loads: loadList
+	^ ((self new)
+		configurationClass: configurationClass;
+		yourself) validateProjectVersionLoad: versionString loads: loadList! !

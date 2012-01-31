@@ -1,0 +1,5 @@
+
+!OBRadioButtonBar methodsFor: 'updating' stamp: 'cwp 2/25/2004 00:35'!
+update: aSymbol
+	aSymbol = getListSelector ifTrue: [self updateList. ^ self].
+	aSymbol = getSelectionSelector ifTrue: [self updateSelection]! !

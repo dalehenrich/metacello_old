@@ -1,0 +1,6 @@
+
+!OBMClassQuery class methodsFor: 'configuration' stamp: 'lr 3/13/2010 14:37'!
+isValidQuery: aString
+	^ (aString size > 1 and: [ aString first = $* and: [ aString second ~= $* ] ]) 
+		or: [ (aString size > 1 and: [ aString first isUppercase ])
+		or: [ (aString allButLast indexOf: $*) > 1 ] ]! !

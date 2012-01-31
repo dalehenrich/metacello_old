@@ -1,0 +1,6 @@
+
+!MetacelloNullRecordingMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/10/2010 15:43'!
+evalDoits
+
+	evalDoits == nil ifTrue: [ evalDoits := false ].
+	^evalDoits ! !

@@ -1,0 +1,4 @@
+
+!OBDefinitionPanel methodsFor: 'accessing' stamp: 'dc 6/1/2007 12:10'!
+vResizing
+	^ #spaceFill! !

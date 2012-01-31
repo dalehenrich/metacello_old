@@ -1,0 +1,4 @@
+
+!OBShowHierarchySenders methodsFor: 'accessing' stamp: 'lr 8/2/2010 16:41'!
+noChildrenMessage
+	^ 'No hierarchy senders'! !

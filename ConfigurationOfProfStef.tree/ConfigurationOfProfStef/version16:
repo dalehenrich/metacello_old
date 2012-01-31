@@ -1,0 +1,23 @@
+
+!ConfigurationOfProfStef methodsFor: 'versions' stamp: 'LaurentLaffont 2/15/2011 22:54'!
+version16: spec
+	<version: '1.6' imports: #('1.6-baseline')>
+
+	spec for: #common do: [
+		spec blessing: #release.
+		spec author: 'LaurentLaffont'.
+		spec description: '- Updated ProfStef packages for Pharo 1.2. 
+		                            - ProfStefBrowser removed from default
+		                            - ProfStef-Help is now the default browser
+		                            - Add lessons on Reflection and Debugger in SmalltalkSyntaxTutorial'.
+	].
+	
+	spec for: #pharo do: [		
+		spec 
+			project: 'Shout' with: '1.2.2';
+			package: 'ProfStef-Core' with: 'ProfStef-Core-LaurentLaffont.22';
+			package: 'ProfStef-Tests' with: 'ProfStef-Tests-LaurentLaffont.11';
+			package: 'ProfStefBrowser' with: 'ProfStefBrowser-LaurentLaffont.29';
+			package: 'ProfStef-Help' with: 'ProfStef-Help-LaurentLaffont.3'.
+	]
+			! !

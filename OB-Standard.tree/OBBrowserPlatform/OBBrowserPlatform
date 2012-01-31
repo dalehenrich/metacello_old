@@ -1,0 +1,6 @@
+
+Object subclass: #OBBrowserPlatform
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Utilities'!

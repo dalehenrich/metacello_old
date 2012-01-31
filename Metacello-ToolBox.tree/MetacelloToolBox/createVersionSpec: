@@ -1,0 +1,7 @@
+
+!MetacelloToolBox methodsFor: 'spec creation' stamp: 'DaleHenrichs 12/23/2010 13:17'!
+createVersionSpec: versionString
+	| versionSpec |
+	versionSpec := project versionSpec.
+	versionSpec versionString: versionString.
+	^ versionSpec! !

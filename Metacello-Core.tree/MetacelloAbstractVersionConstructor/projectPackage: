@@ -1,0 +1,10 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'DaleHenrichs 11/12/2010 09:54'!
+projectPackage: aBlock
+
+	| spec |
+	(spec := self root projectPackage) == nil
+		ifTrue: [ 
+			spec := self project packageSpec.
+			self root projectPackage: spec ].
+	self with: spec during: aBlock! !

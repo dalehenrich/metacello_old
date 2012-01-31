@@ -1,0 +1,5 @@
+
+!OBFan methodsFor: 'initialize-release' stamp: 'lr 5/28/2010 20:48'!
+setDefaultParent: aNode 
+	self setParent: aNode children: aNode childNodes.
+! !

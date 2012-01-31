@@ -1,0 +1,5 @@
+
+!MetacelloLoadingMCSpecLoader methodsFor: 'development support' stamp: 'DaleHenrichs 3/10/2010 14:44'!
+resolveSpec: pkgSpec with: gofer
+
+	^pkgSpec goferLoaderReference resolveWith: gofer! !

@@ -1,0 +1,4 @@
+
+!GoferMerge methodsFor: 'private' stamp: 'lr 8/19/2009 14:01'!
+defaultModel
+	^ MCVersionMerger new! !

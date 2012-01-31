@@ -1,0 +1,6 @@
+
+Object subclass: #OBAnnotationRequest
+	instanceVariableNames: 'selector class separator'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Utilities'!

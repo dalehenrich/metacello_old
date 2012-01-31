@@ -1,0 +1,6 @@
+
+!GoferVersionReference methodsFor: 'accessing' stamp: 'lr 12/11/2009 22:23'!
+branch
+	"Answer the branch of the receiver."
+	
+	^ branch! !

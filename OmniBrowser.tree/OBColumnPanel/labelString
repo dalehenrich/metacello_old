@@ -1,0 +1,9 @@
+
+!OBColumnPanel methodsFor: 'accessing' stamp: 'lr 8/19/2009 22:26'!
+labelString
+	| node |
+	self columns reverseDo: [ :each |
+		node := each selectedNode.
+		(node notNil and: [ node title notNil ])
+			ifTrue: [ ^ node title ] ].
+	^ nil! !

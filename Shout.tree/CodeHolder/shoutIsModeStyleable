@@ -1,0 +1,5 @@
+
+!CodeHolder methodsFor: '*Shout-Styling' stamp: ''!
+shoutIsModeStyleable
+	^ self showingSource
+		or: [self showingPrettyPrint]! !

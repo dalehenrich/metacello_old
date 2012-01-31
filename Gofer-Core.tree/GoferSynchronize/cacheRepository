@@ -1,0 +1,4 @@
+
+!GoferSynchronize methodsFor: 'accessing' stamp: 'lr 12/12/2009 14:29'!
+cacheRepository
+	^ MCCacheRepository default! !

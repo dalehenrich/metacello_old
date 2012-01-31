@@ -1,0 +1,5 @@
+
+!MetacelloValidationError methodsFor: 'accessing' stamp: 'DaleHenrichs 11/3/2010 16:37'!
+label
+
+	^'Error'! !

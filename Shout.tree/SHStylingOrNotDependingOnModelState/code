@@ -1,0 +1,4 @@
+
+!SHStylingOrNotDependingOnModelState methodsFor: 'accessing' stamp: 'AlainPlantec 9/1/2011 18:58'!
+code
+	^ code ifNil: [code := '' asText]! !

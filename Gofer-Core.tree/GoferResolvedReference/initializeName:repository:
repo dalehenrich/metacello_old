@@ -1,0 +1,5 @@
+
+!GoferResolvedReference methodsFor: 'initialization' stamp: 'lr 12/9/2009 22:55'!
+initializeName: aString repository: aRepository
+	self initializeName: aString.
+	repository := aRepository! !

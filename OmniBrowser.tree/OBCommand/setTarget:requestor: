@@ -1,0 +1,5 @@
+
+!OBCommand methodsFor: 'initialize-release' stamp: 'lr 7/3/2009 22:27'!
+setTarget: anObject requestor: aRequestor 
+	target := anObject.
+	requestor := aRequestor! !

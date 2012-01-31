@@ -1,0 +1,4 @@
+
+!OBMMethodQuery methodsFor: 'accessing' stamp: 'dr 5/14/2008 13:26'!
+searchNode 
+	^ OBMethodSearchNode on: pattern! !

@@ -1,0 +1,4 @@
+
+!OBBrowseRequest class methodsFor: 'exceptionInstantiator' stamp: 'cwp 10/17/2004 18:45'!
+signal: aBrowser
+	^ (self new browser: aBrowser) signal! !

@@ -1,0 +1,5 @@
+
+!OBBrowser methodsFor: 'updating' stamp: 'cwp 6/9/2006 23:29'!
+dontTranscribe
+	self announcer unsubscribe: self.
+	self subscribe.! !

@@ -1,0 +1,4 @@
+
+!OBWaitRequest methodsFor: 'accessing' stamp: 'lr 5/14/2008 15:41'!
+block
+	^ block! !

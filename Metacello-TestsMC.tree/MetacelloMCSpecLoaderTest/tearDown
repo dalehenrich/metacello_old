@@ -1,0 +1,5 @@
+
+!MetacelloMCSpecLoaderTest methodsFor: 'running' stamp: 'dkh 01/14/2010 16:53'!
+tearDown
+	super tearDown.
+	MetacelloMonticelloResource reset. "testCommitPackageSpec modifies the repository resource"! !

@@ -1,0 +1,5 @@
+
+!MetacelloCopyMemberSpec methodsFor: 'accessing' stamp: 'dkh 10/4/2009 10:36'!
+sourceName: aString
+
+	sourceName := aString! !

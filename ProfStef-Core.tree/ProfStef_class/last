@@ -1,0 +1,4 @@
+
+!ProfStef class methodsFor: 'navigating' stamp: 'DannyChan 2/9/2010 19:30'!
+last
+	^ self default last.! !

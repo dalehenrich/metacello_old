@@ -1,0 +1,6 @@
+
+!SHParserST80 methodsFor: 'parse' stamp: ''!
+parseByteArray
+	[currentTokenFirst == $]]
+		whileFalse: [self scanPast: #integer].
+	self scanPast: #byteArrayEnd! !

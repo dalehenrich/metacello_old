@@ -1,0 +1,5 @@
+
+!OBAnnotationPanel methodsFor: 'updating' stamp: 'lr 12/3/2010 09:17'!
+subscribe
+	self announcer 
+		on: OBSelectionChanged send: #selectionChanged: to: self! !

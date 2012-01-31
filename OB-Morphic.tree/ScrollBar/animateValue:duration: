@@ -1,0 +1,15 @@
+
+!ScrollBar methodsFor: '*ob-morphic' stamp: 'lr 3/6/2011 16:40'!
+animateValue: aNumber duration: anInteger
+	anInteger <= 0
+		ifTrue: [ self setValue: aNumber ]
+		ifFalse: [
+			| startTime start |
+			startTime := Time millisecondClockValue.
+			start := value roundTo: scrollDelta.
+			[ | delta |
+			[ (delta := Time millisecondClockValue - startTime) < anInteger ] whileTrue: [
+				self setValue: (aNumber - start) * (delta / anInteger) + start.
+				Processor yield ].
+				self setValue: aNumber ]
+					fork ]! !

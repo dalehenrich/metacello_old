@@ -1,0 +1,5 @@
+
+!MetacelloRepositoriesSpec methodsFor: 'actions' stamp: 'dkh 6/7/2009 10:22'!
+remove: aRepositorySpec
+
+	aRepositorySpec removeFromMetacelloRepositories: self! !

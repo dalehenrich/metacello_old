@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'navigating' stamp: 'cwp 11/20/2004 21:00'!
+jumpTo: aNode 
+	self navigationPanel jumpTo: aNode! !

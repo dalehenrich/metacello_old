@@ -1,0 +1,4 @@
+
+!SHParserST80 class methodsFor: 'instance creation' stamp: ''!
+new
+	^ super new initialize; yourself! !

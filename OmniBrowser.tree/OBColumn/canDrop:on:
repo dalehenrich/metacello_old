@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'callbacks' stamp: 'dr 10/21/2008 22:50'!
+canDrop: passenger on: node
+	^node notNil and: [node wantsDroppedNode: passenger]! !

@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'navigating' stamp: 'dr 7/2/2007 17:10'!
+hierarchyImplementors
+    ^OBClassAwareNode sortHierarchicallyOptimized: (self hierarchyImplementorsOf: selector)! !

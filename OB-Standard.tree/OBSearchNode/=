@@ -1,0 +1,4 @@
+
+!OBSearchNode methodsFor: 'comparing' stamp: 'cwp 4/19/2007 00:36'!
+= other
+	^ self species = other species and: [self query = other query]! !

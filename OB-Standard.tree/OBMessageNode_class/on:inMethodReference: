@@ -1,0 +1,7 @@
+
+!OBMessageNode class methodsFor: 'instance creation' stamp: 'lr 2/12/2009 10:39'!
+on: aSelector inMethodReference: ref
+	^ self 
+		on: aSelector 
+		inMethod: ref methodSymbol
+		inClass: ref actualClass! !

@@ -1,0 +1,17 @@
+
+!OBCmdBrowseList methodsFor: 'command' stamp: 'lr 9/1/2011 21:41'!
+execute
+	| localSymbols systemSymbols symbol node |
+	localSymbols := target selectorAndMessages
+		collect: [ :each | each name ].
+	symbol := self class
+		selectSymbol: 'Choose ' , (self label allButLast: 4)
+		default: localSymbols first
+		proposed: localSymbols.
+	symbol ifNil: [ ^ self ].
+	node := OBMessageNode
+		on: symbol asSymbol
+		inMethod: symbol asSymbol
+		inClass: target theClass.
+	(requestor announce: (self announcementClass of: node))
+		execute! !

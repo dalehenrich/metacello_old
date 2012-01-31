@@ -1,0 +1,6 @@
+
+!OBMetagraphBuilder methodsFor: 'accessing' stamp: 'lr 8/13/2010 16:36'!
+metaNode: aMetaNodeName 
+	^ self metaNodes
+		at: aMetaNodeName
+		ifAbsentPut: [ OBMetaNode named: aMetaNodeName ]! !

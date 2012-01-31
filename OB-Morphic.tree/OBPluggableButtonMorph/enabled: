@@ -1,0 +1,6 @@
+
+!OBPluggableButtonMorph methodsFor: 'accessing' stamp: 'lr 8/18/2010 09:54'!
+enabled: aBoolean
+	enabledPlus := aBoolean.
+	self labelMorph 
+		enabled: aBoolean! !

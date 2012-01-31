@@ -1,0 +1,4 @@
+
+!ProfStef methodsFor: 'gui' stamp: 'LaurentLaffont 1/21/2010 21:05'!
+close
+	self lessonView close! !

@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCmdFileOut
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

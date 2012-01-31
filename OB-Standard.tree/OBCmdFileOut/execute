@@ -1,0 +1,4 @@
+
+!OBCmdFileOut methodsFor: 'execution' stamp: 'cwp 10/15/2006 18:50'!
+execute
+	target fileOut! !

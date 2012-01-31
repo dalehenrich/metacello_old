@@ -1,0 +1,9 @@
+
+!MetacelloMemberListSpec methodsFor: 'merging' stamp: 'dkh 06/02/2009 19:26'!
+mergeSpec: anotherSpec
+
+	| newSpec val |
+	newSpec := super mergeSpec: anotherSpec.
+	newSpec list: self list copy.
+	anotherSpec list do: [:groupMember | groupMember applyToList: newSpec ].
+	^newSpec! !

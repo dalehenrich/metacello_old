@@ -1,0 +1,7 @@
+
+!MetacelloProjectSpecLoadError class methodsFor: 'instance creation' stamp: 'DaleHenrichs 1/19/2010 11:28'!
+projectSpec: aMetacelloMCProjectSpec
+
+	^self new
+		projectSpec: aMetacelloMCProjectSpec;
+		yourself! !

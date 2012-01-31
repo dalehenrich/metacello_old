@@ -1,0 +1,7 @@
+
+!ConfigurationOfGofer methodsFor: 'symbolic versions' stamp: 'dkh 6/7/2011 16:45'!
+development: spec
+	<symbolicVersion: #'development'>
+
+	spec for: #'common' version: #'notDefined'.
+! !

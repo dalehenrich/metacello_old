@@ -1,0 +1,6 @@
+
+!MetacelloCleanNotification methodsFor: 'signaling' stamp: 'DaleHenrichs 11/21/2010 19:16'!
+signal: aMetacelloVersion
+
+	self version: aMetacelloVersion.
+	^ self signal! !

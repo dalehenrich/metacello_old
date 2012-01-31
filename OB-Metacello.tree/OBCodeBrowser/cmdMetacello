@@ -1,0 +1,6 @@
+
+!OBCodeBrowser methodsFor: '*ob-metacello' stamp: 'dkh 1/7/2011 13:35'!
+cmdMetacello
+	<command>
+
+	^OBCmdMetacello allSubclasses! !

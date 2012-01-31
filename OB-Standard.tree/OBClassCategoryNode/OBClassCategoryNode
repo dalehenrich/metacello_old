@@ -1,0 +1,9 @@
+
+OBCodeNode subclass: #OBClassCategoryNode
+	instanceVariableNames: 'environment name'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Nodes'!
+
+!OBClassCategoryNode commentStamp: 'cwp 1/8/2005 12:58' prior: 0!
+OBClassCategory represents a system category in the image's SystemOrganization.!

@@ -1,0 +1,5 @@
+
+!MetacelloMCProjectSpec methodsFor: 'private' stamp: 'dkh 11/12/2009 10:12'!
+resolveToLoadableSpec
+
+	^self copy! !

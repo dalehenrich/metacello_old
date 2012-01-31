@@ -1,0 +1,6 @@
+
+!OBBrowser methodsFor: 'accessing' stamp: 'cwp 6/4/2006 00:36'!
+addPanel: aPanel
+	panels add: aPanel.
+	aPanel browser: self.
+! !

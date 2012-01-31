@@ -1,0 +1,4 @@
+
+!OBChoiceRequest methodsFor: 'accessing' stamp: 'cwp 7/8/2006 23:45'!
+prompt
+	^ prompt! !

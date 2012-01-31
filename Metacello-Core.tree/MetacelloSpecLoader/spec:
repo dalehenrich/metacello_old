@@ -1,0 +1,5 @@
+
+!MetacelloSpecLoader methodsFor: 'accessing' stamp: 'dkh 04/23/2009 11:20'!
+spec: aMetacelloPackagesSpec
+
+	spec := aMetacelloPackagesSpec! !

@@ -1,0 +1,8 @@
+
+!OBRadioButtonBar methodsFor: 'updating' stamp: 'cwp 2/24/2004 19:39'!
+updateSelection
+	| oldSelection |
+	oldSelection := selection.
+	selection := self getSelectionIndex.
+	self withButtonAt: oldSelection do: [:button | button selectionChanged].
+	self withSelectedButtonDo: [:button | button selectionChanged]! !

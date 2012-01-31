@@ -1,0 +1,8 @@
+
+!MetacelloConfigurationResource methodsFor: 'running' stamp: 'DaleHenrichs 2/2/2010 10:07'!
+setUpMonticelloRepository
+	"This method builds a fake repository with the version references from #buildReferences."
+	"self reset"
+
+	monticelloRepository := MCDictionaryRepository new.
+! !

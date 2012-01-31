@@ -1,0 +1,5 @@
+
+!OBSystemBrowserAdaptor methodsFor: 'registry protocol' stamp: 'cwp 12/5/2004 21:49'!
+setClass: aClass selector: aSelector 
+	class := aClass.
+	selector := aSelector! !

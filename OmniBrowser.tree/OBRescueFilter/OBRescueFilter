@@ -1,0 +1,6 @@
+
+OBFilter subclass: #OBRescueFilter
+	instanceVariableNames: 'cache rescued'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Filters'!

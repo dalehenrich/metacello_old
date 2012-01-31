@@ -1,0 +1,4 @@
+
+!OBMetaNode methodsFor: 'children' stamp: 'cwp 2/7/2004 22:44'!
+children
+	^ edges collect: [:edge | edge metaNode]! !

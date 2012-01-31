@@ -1,0 +1,7 @@
+
+!MetacelloConfigurationResource methodsFor: 'ConfigurationOfFeaux' stamp: 'DaleHenrichs 2/2/2010 10:18'!
+baseline40MethodSourceFeaux
+
+	^(self class sourceCodeAt: #baseline40Feaux:) asString
+
+! !

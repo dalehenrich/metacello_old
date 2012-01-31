@@ -1,0 +1,6 @@
+
+!OBFan methodsFor: 'accessing' stamp: 'dr 9/17/2008 12:05'!
+nodeForItem: aString
+	^ self children
+		detect: [ :child | (self parent displayStringForChild: child) = aString ]
+		ifNone: [ aString ]! !

@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'testing' stamp: 'cwp 10/9/2006 18:13'!
+hasVersions
+	^ true! !

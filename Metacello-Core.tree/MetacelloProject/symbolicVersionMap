@@ -1,0 +1,7 @@
+
+!MetacelloProject methodsFor: 'accessing' stamp: 'DaleHenrichs 9/23/2010 15:26'!
+symbolicVersionMap
+
+	^symbolicVersionMap
+				
+				! !

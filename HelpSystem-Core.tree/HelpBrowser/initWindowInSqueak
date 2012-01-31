@@ -1,0 +1,16 @@
+
+!HelpBrowser methodsFor: 'initialize-release' stamp: 'tbn 3/29/2010 19:32'!
+initWindowInSqueak
+	window := SystemWindow labelled: 'Help Browser'.
+	window model: self.
+	"Tree"
+	treeMorph := PluggableTreeMorph new.
+	treeMorph model: self; setSelectedSelector: #onItemClicked:.
+	window addMorph: treeMorph frame: (0@0 corner: 0.3@1).
+	
+	"Text"
+	contentMorph := PluggableTextMorph on: self 
+			text: nil accept: nil
+			readSelection: nil menu: nil.
+	window addMorph: contentMorph frame: (0.3@0 corner: 1@1).		
+			! !

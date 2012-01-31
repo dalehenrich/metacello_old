@@ -1,0 +1,4 @@
+
+!OBMetaEdge methodsFor: 'accessing' stamp: 'cwp 2/7/2004 22:40'!
+selector
+	^ selector! !

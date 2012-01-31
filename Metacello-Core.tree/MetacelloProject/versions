@@ -1,0 +1,5 @@
+
+!MetacelloProject methodsFor: 'versions' stamp: 'DaleHenrichs 11/10/2010 16:13'!
+versions
+
+	^self map values asArray sort: [:a :b | a <= b ]! !

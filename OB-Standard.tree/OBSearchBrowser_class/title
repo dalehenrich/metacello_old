@@ -1,0 +1,4 @@
+
+!OBSearchBrowser class methodsFor: 'configuration' stamp: 'cwp 4/16/2007 00:18'!
+title
+	^ 'Search Browser'! !

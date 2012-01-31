@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'updating' stamp: 'cwp 6/4/2006 18:50'!
+signalRefresh
+	self announcer announce: OBRefreshRequired! !

@@ -1,0 +1,5 @@
+
+!MetacelloSpec methodsFor: 'querying' stamp: 'DaleHenrichs 4/9/2010 12:47'!
+answers
+
+	^#()! !

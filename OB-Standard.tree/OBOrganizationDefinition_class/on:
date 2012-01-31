@@ -1,0 +1,4 @@
+
+!OBOrganizationDefinition class methodsFor: 'instance creation' stamp: 'cwp 9/22/2004 21:20'!
+on: anOrganizer
+	^ self new organizer: anOrganizer! !

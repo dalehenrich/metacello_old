@@ -1,0 +1,4 @@
+
+!MetacelloConfigurationHelp class methodsFor: 'pages' stamp: 'dkh 4/9/2011 09:21'!
+icon
+	^HelpIcons iconNamed: #packageIcon! !

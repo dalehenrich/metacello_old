@@ -1,0 +1,8 @@
+
+!OBColumnPanel methodsFor: 'updating' stamp: 'lr 12/3/2010 09:17'!
+subscribe
+	self announcer
+		on: OBSelectingNode send: #selectNode: to: self;
+		on: OBSelectionChanged send: #selectionChanged: to: self;
+		on: OBNodeCreated send: #selectNode: to: self;
+		on: OBNodeDeleted send: #nodeDeleted: to: self! !

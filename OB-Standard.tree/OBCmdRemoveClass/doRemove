@@ -1,0 +1,5 @@
+
+!OBCmdRemoveClass methodsFor: 'execution' stamp: 'lr 11/25/2010 23:40'!
+doRemove
+	target theNonMetaClass removeFromSystem.
+	target announceDeletionWith: requestor announcer! !

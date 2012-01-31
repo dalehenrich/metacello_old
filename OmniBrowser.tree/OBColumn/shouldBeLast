@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'testing' stamp: 'avi 3/6/2004 16:27'!
+shouldBeLast
+	^ self hasSelection not or: [self nextMetaNode hasChildren not]! !

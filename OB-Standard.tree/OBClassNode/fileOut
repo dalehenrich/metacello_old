@@ -1,0 +1,4 @@
+
+!OBClassNode methodsFor: 'commands' stamp: 'dr 7/10/2008 16:26'!
+fileOut
+	self theNonMetaClass fileOut! !

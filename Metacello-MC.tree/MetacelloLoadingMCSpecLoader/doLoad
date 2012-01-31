@@ -1,0 +1,4 @@
+
+!MetacelloLoadingMCSpecLoader methodsFor: 'actions' stamp: 'DaleHenrichs 3/10/2010 15:16'!
+doLoad
+	"NOOP"! !

@@ -1,0 +1,6 @@
+
+!MetacelloSpec methodsFor: 'doits' stamp: 'dkh 12/30/2009 13:20'!
+preLoadDoIt
+	"noop unless non-nil value returned"
+	
+	^nil! !

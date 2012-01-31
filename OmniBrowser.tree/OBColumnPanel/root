@@ -1,0 +1,4 @@
+
+!OBColumnPanel methodsFor: 'navigating' stamp: 'dr 11/4/2008 19:59'!
+root
+	^root! !

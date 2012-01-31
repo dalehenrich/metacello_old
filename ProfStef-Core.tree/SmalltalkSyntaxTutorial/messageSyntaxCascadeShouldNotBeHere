@@ -1,0 +1,11 @@
+
+!SmalltalkSyntaxTutorial methodsFor: 'lessons' stamp: 'LaurentLaffont 1/21/2010 13:35'!
+messageSyntaxCascadeShouldNotBeHere
+	^ Lesson
+title: 'Lost ?' 
+lesson: 
+'"Hey, you should not be here !!!! 
+
+Go back and use a cascade !!"
+
+ProfStef previous.'.! !

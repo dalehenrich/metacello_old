@@ -1,0 +1,4 @@
+
+!AnnouncementSet class methodsFor: '*ob-standard' stamp: 'lr 5/29/2010 08:17'!
+browserIcon
+	^ #announcement! !

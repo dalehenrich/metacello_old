@@ -1,0 +1,6 @@
+
+!MetacelloMCVersion methodsFor: 'querying' stamp: 'DaleHenrichs 10/25/2010 15:32'!
+defaultPackageNamesToLoad: defaultList
+	"Answer the list of packages and projects to be loaded: packages already loaded plust defaultList"
+	
+	^ self packageAndProjectNamesToLoad: defaultList loader: self loader! !

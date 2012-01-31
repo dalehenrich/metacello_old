@@ -1,0 +1,4 @@
+
+!GoferCommit methodsFor: 'running' stamp: 'lr 12/13/2009 19:20'!
+initializeOn: aGofer
+	super initializeOn: aGofer disablePackageCache! !

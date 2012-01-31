@@ -1,0 +1,15 @@
+
+!OBCompletionDialog methodsFor: 'morphic' stamp: 'lr 3/6/2011 15:53'!
+newTextMorph
+	textMorph := self
+		newTextEntryFor: self
+		getText: #text
+		setText: #text:
+		help: nil.
+	textMorph
+		acceptOnCR: false;
+		autoAccept: true;
+		selectAll.
+	textMorph textMorph
+		on: #keyStroke send: #editorKeyStroke: to: self.
+	^ textMorph! !

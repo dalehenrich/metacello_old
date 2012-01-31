@@ -1,0 +1,4 @@
+
+!OBMultiLineTextRequest class methodsFor: 'exceptionInstantiator' stamp: 'dkh 12/19/2007 09:11'!
+prompt: aString
+	^ self prompt: aString template: ''! !

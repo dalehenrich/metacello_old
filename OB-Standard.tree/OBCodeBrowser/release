@@ -1,0 +1,6 @@
+
+!OBCodeBrowser methodsFor: 'morphic' stamp: 'dr 7/16/2008 15:19'!
+release
+    "work-around for bug #7119"
+    super release.
+    self panels do: [:panel | panel release].! !

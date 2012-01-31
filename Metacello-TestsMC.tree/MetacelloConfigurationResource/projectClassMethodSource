@@ -1,0 +1,7 @@
+
+!MetacelloConfigurationResource methodsFor: 'ConfigurationOfFoo' stamp: 'DaleHenrichs 12/18/2010 11:49'!
+projectClassMethodSource
+
+	^(self class class sourceCodeAt: #project) asString
+
+! !

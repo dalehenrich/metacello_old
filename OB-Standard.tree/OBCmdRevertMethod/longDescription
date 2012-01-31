@@ -1,0 +1,4 @@
+
+!OBCmdRevertMethod methodsFor: 'accessing' stamp: 'dc 8/26/2008 17:56'!
+longDescription
+	^ 'reverts the method to the current selection'! !

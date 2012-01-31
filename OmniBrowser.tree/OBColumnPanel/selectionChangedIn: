@@ -1,0 +1,8 @@
+
+!OBColumnPanel methodsFor: 'updating' stamp: 'cwp 7/19/2007 00:13'!
+selectionChangedIn: aColumn
+	aColumn hasSelection
+		ifTrue: [self selected: aColumn]
+		ifFalse: [self clearAfter: aColumn].
+	self reclaimPanes.
+! !

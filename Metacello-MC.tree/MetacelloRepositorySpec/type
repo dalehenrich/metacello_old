@@ -1,0 +1,6 @@
+
+!MetacelloRepositorySpec methodsFor: 'querying' stamp: 'dkh 06/03/2009 12:16'!
+type
+
+	type == nil ifTrue: [ type := self extractTypeFromDescription ].
+	^type! !

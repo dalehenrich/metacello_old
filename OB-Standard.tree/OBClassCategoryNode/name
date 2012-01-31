@@ -1,0 +1,4 @@
+
+!OBClassCategoryNode methodsFor: 'displaying' stamp: 'dr 12/9/2008 20:17'!
+name
+	^name! !

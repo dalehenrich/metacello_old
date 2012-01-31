@@ -1,0 +1,5 @@
+
+!UndefinedObject methodsFor: '*metacello-core' stamp: 'dkh 9/13/2009 07:47'!
+setTimestampInMetacelloVersion: aMetacelloVersionSpec
+
+	aMetacelloVersionSpec setTimestamp: self! !

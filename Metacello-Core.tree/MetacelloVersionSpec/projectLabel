@@ -1,0 +1,5 @@
+
+!MetacelloVersionSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 3/9/2010 16:31'!
+projectLabel
+
+	^self project label! !

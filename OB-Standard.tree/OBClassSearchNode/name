@@ -1,0 +1,8 @@
+
+!OBClassSearchNode methodsFor: 'display' stamp: 'cb 7/19/2007 13:52'!
+name
+|name|
+
+	name := '*'.
+	query do: [:ea | name := name , ea, '*'].
+	^name, ' (classes)'! !

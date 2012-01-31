@@ -1,0 +1,5 @@
+
+!MetacelloPreLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 12/21/2010 11:48'!
+addTo: aLoaderDirective
+
+	spec preLoadDoIt value ~~ nil ifTrue: [ aLoaderDirective add: self ]! !

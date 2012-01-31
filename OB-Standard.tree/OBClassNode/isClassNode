@@ -1,0 +1,4 @@
+
+!OBClassNode methodsFor: 'testing' stamp: 'dr 11/28/2007 14:57'!
+isClassNode
+	^true! !

@@ -1,0 +1,4 @@
+
+!ProfStef methodsFor: 'accessing' stamp: 'LaurentLaffont 1/21/2010 20:38'!
+tutorialSizeString
+	^ self player size asString! !

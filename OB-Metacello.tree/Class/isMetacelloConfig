@@ -1,0 +1,5 @@
+
+!Class methodsFor: '*ob-metacello' stamp: 'DaleHenrichs 08/30/2010 15:17'!
+isMetacelloConfig
+
+	^false! !

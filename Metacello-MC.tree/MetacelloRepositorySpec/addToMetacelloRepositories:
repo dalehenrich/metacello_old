@@ -1,0 +1,9 @@
+
+!MetacelloRepositorySpec methodsFor: 'adding' stamp: 'dkh 6/7/2009 10:13'!
+addToMetacelloRepositories: aMetacelloRepositoriesSpec
+
+	aMetacelloRepositoriesSpec addMember: 
+		(aMetacelloRepositoriesSpec addMember 
+			name: self name;
+			spec: self;
+			yourself)! !

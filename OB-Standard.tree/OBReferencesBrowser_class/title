@@ -1,0 +1,4 @@
+
+!OBReferencesBrowser class methodsFor: 'configuration' stamp: 'avi 9/17/2005 01:34'!
+title
+	^ 'References to'! !

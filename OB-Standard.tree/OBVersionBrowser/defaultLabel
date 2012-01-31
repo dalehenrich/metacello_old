@@ -1,0 +1,4 @@
+
+!OBVersionBrowser methodsFor: 'accessing' stamp: 'cwp 11/27/2004 22:28'!
+defaultLabel
+	^ 'Versions of ', self root name printString! !

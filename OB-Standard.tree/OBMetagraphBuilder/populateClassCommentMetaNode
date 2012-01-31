@@ -1,0 +1,8 @@
+
+!OBMetagraphBuilder methodsFor: 'private' stamp: 'lr 4/23/2010 08:38'!
+populateClassCommentMetaNode
+	<populate>
+
+	self classCommentMetaNode
+		ancestrySelector: #isDescendantOfClass:;
+		addFilter: OBClassIconFilter new! !

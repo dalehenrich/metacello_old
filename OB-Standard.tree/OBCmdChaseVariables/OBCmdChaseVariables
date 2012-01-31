@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCmdChaseVariables
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

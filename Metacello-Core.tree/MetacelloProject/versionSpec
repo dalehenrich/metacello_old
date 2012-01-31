@@ -1,0 +1,5 @@
+
+!MetacelloProject methodsFor: 'spec classes' stamp: 'dkh 06/01/2009 11:00'!
+versionSpec
+
+	^self versionSpecClass for: self! !

@@ -1,0 +1,11 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'DaleHenrichs 11/12/2010 09:54'!
+package: aString
+
+	| spec |
+	spec := 
+		(self project packageSpec)
+			name: aString;
+			yourself.
+	self root packages add: spec.
+! !

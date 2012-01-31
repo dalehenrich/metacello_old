@@ -1,0 +1,8 @@
+
+!AbstractTutorial class methodsFor: 'tutorial metainfo' stamp: 'LaurentLaffont 11/22/2010 21:36'!
+tutorials
+	^ (self subclasses 
+		sort: [:a :b |
+			   a name < b name]) select: [:aTutorial |	
+				                                      (aTutorial category = 'ProfStef-Tests') not ].
+! !

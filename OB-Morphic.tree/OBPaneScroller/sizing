@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'accessing' stamp: 'cwp 11/22/2004 23:19'!
+sizing
+	^ sizing ifNil: [self updateSizing]! !

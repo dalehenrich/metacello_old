@@ -1,0 +1,4 @@
+
+!MetacelloPackageLoadDirective methodsFor: 'accessing' stamp: 'DaleHenrichs 3/9/2010 16:42'!
+externalReference
+	^ externalReference! !

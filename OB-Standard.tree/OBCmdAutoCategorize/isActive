@@ -1,0 +1,4 @@
+
+!OBCmdAutoCategorize methodsFor: 'testing' stamp: 'lr 9/22/2010 08:57'!
+isActive
+	^ target hasOrganization and: [ target organization isClassOrganizer and: [ (requestor isSelected: target) not ] ]! !

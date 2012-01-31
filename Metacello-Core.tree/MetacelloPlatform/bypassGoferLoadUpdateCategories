@@ -1,0 +1,6 @@
+
+!MetacelloPlatform methodsFor: 'accessing' stamp: 'DaleHenrichs 12/18/2010 13:37'!
+bypassGoferLoadUpdateCategories
+
+	bypassGoferLoadUpdateCategories == nil ifTrue: [ bypassGoferLoadUpdateCategories := false ].
+	^ bypassGoferLoadUpdateCategories! !

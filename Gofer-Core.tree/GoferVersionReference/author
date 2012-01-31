@@ -1,0 +1,6 @@
+
+!GoferVersionReference methodsFor: 'accessing' stamp: 'lr 12/11/2009 22:22'!
+author
+	"Answer the author of the receiver."
+	
+	^ author! !

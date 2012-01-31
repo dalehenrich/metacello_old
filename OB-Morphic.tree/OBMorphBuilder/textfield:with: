@@ -1,0 +1,16 @@
+
+!OBMorphBuilder methodsFor: 'building' stamp: 'lr 2/26/2011 14:21'!
+textfield: aTextField with: aBlock 
+	| morph divider |
+	morph := self textMorphFor: aTextField.
+	morph color: Color white.
+	current isNil ifFalse: [
+		current addMorphBack: morph.
+		self 
+			current: morph
+			do: aBlock.
+		divider := BorderedSubpaneDividerMorph horizontal
+			color: aTextField browser defaultBackgroundColor duller;
+			styleWith: OBPlatform current builder.
+		current addMorphBack: divider ].
+	^ morph! !

@@ -1,0 +1,6 @@
+
+!MetacelloSymbolicVersionTest methodsFor: 'running' stamp: 'DaleHenrichs 9/23/2010 15:19'!
+tearDown
+
+	super tearDown.
+	MetacelloConfigurationResource projectAttributes: nil! !

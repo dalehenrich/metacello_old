@@ -1,0 +1,9 @@
+
+!MetacelloMCVersion methodsFor: 'private' stamp: 'DaleHenrichs 3/11/2010 14:06'!
+loadRequiredFromArray: anArray
+
+	| displayString |
+	displayString := 'Loading ', self versionNumber printString, ' of ', self spec projectLabel.
+	MetacelloPlatform current
+		do: [ ^self executeLoadFromArray: anArray ]
+		displaying: displayString! !

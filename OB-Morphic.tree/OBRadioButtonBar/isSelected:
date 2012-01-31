@@ -1,0 +1,4 @@
+
+!OBRadioButtonBar methodsFor: 'callbacks' stamp: 'cwp 2/24/2004 18:54'!
+isSelected: aButton
+	^ (buttons at: selection ifAbsent: [^ false]) == aButton! !

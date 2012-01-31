@@ -1,0 +1,12 @@
+
+!OBMethodNode methodsFor: 'private' stamp: 'lr 3/27/2010 20:02'!
+hierarchyImplementorsOf: aSelector
+	| classCollection addBlock |
+	classCollection := SortedCollection new.
+	addBlock := [ :class |
+		(class includesSelector: aSelector)
+			ifTrue: [ classCollection add: (MethodReference new setStandardClass: class methodSymbol: aSelector) ] ].
+	self theClass allSuperclassesDo: addBlock.
+	addBlock value: self theClass.
+	self theClass allSubclassesDo: addBlock.
+	^ classCollection collect: [ :ref | ref asNode ]! !

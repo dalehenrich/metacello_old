@@ -1,0 +1,5 @@
+
+!GoferApiTest methodsFor: 'testing-repositories-places' stamp: 'lr 12/13/2009 13:36'!
+testWiresong
+	gofer wiresong: 'ob'.
+	self assert: gofer repositories: #('http://source.wiresong.ca/ob')! !

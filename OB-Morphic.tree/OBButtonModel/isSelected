@@ -1,0 +1,4 @@
+
+!OBButtonModel methodsFor: 'callbacks' stamp: 'cwp 2/24/2004 18:42'!
+isSelected
+	^ bar isSelected: self! !

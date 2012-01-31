@@ -1,0 +1,4 @@
+
+!LessonView methodsFor: 'gui' stamp: 'LaurentLaffont 1/21/2010 21:00'!
+shoutMorphFillMenu: aMenu
+	^ aMenu addAllFrom: self menu! !

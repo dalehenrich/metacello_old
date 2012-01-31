@@ -1,0 +1,4 @@
+
+!OBMercuryPanel methodsFor: 'building' stamp: 'lr 2/26/2011 14:20'!
+buildOn: aBuilder 
+	^ aBuilder textfield: self with: [ ]! !

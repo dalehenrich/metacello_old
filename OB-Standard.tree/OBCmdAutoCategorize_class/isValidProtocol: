@@ -1,0 +1,4 @@
+
+!OBCmdAutoCategorize class methodsFor: 'testing' stamp: 'lr 9/22/2010 08:55'!
+isValidProtocol: aSymbol
+	^ aSymbol notNil and: [ (aSymbol beginsWith: '*') not and: [ (IgnoredCategories includes: aSymbol) not ] ]! !

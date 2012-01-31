@@ -1,0 +1,4 @@
+
+!MetacelloDevelopmentProcess methodsFor: 'tutorial' stamp: 'DaleHenrichs 12/17/2010 12:16'!
+tutorial
+	^#(  createConfigurationAndBaseline createDevelopmentVersion validateAndSaveConfiguration checkpointSave integrateCodeContributions compareVersions releaseVersion createNewDevelopmentVersion)! !

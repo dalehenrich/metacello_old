@@ -1,0 +1,4 @@
+
+!OBCodeBrowser methodsFor: 'testing' stamp: 'cwp 4/18/2007 23:48'!
+isClassBrowser
+	^ false! !

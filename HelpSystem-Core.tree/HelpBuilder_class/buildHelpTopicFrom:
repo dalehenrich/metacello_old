@@ -1,0 +1,9 @@
+
+!HelpBuilder class methodsFor: 'building' stamp: 'tbn 3/5/2010 23:25'!
+buildHelpTopicFrom: aHelpTopicDescription
+	"Start building from the given help topic description"
+	
+	^(self new)
+		rootToBuildFrom: aHelpTopicDescription;
+		build;
+		topicToBuild ! !

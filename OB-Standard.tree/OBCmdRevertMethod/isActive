@@ -1,0 +1,4 @@
+
+!OBCmdRevertMethod methodsFor: 'testing' stamp: 'cwp 10/9/2006 18:30'!
+isActive
+	^ (target isKindOf: OBMethodVersionNode) and: [requestor isSelected: target]! !

@@ -1,0 +1,6 @@
+
+!MetacelloSpec methodsFor: 'merging' stamp: 'dkh 06/04/2009 14:40'!
+mergeMap
+
+	^Dictionary new.
+! !

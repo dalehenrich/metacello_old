@@ -1,0 +1,5 @@
+
+!OBRadioButtonBar methodsFor: 'accessing' stamp: 'dr 10/21/2008 13:19'!
+getLabels
+    ^model perform: getListSelector
+    ! !

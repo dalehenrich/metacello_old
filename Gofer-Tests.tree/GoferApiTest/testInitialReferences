@@ -1,0 +1,4 @@
+
+!GoferApiTest methodsFor: 'testing' stamp: 'lr 12/13/2009 17:40'!
+testInitialReferences
+	self assert: gofer references isEmpty! !

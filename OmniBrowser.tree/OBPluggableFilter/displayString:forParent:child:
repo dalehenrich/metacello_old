@@ -1,0 +1,14 @@
+
+!OBPluggableFilter methodsFor: 'filtering' stamp: 'lr 3/4/2009 08:32'!
+displayString: aString forParent: pNode child: cNode 
+	^ parentDisplay isNil 
+		ifTrue: 
+			[ super 
+				displayString: aString
+				forParent: pNode
+				child: cNode ]
+		ifFalse: 
+			[ parentDisplay 
+				value: aString
+				value: pNode
+				value: cNode ]! !

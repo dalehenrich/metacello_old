@@ -1,0 +1,6 @@
+
+!ProfStefHelp class methodsFor: 'pages' stamp: 'LaurentLaffont 9/19/2010 16:38'!
+introduction
+	^ HelpTopic 
+		title: 'Introduction'
+		contents:  'ProfStef is a framework to create interactive tutorials'.! !

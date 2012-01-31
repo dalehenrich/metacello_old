@@ -1,0 +1,15 @@
+
+!OBGroupingMorph methodsFor: 'adding' stamp: 'cwp 12/9/2007 10:50'!
+addMorph: aMorph frame: relFrame
+	"Stole this from SystemWindow"
+	
+	| frame |
+	frame := LayoutFrame new.
+	frame 
+		leftFraction: relFrame left; 
+		rightFraction: relFrame right; 
+		topFraction: relFrame top; 
+		bottomFraction: relFrame bottom.
+	self addMorph: aMorph fullFrame: frame.
+
+! !

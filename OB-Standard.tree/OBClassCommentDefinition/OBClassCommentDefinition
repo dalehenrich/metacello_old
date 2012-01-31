@@ -1,0 +1,6 @@
+
+OBDefinition subclass: #OBClassCommentDefinition
+	instanceVariableNames: 'theClass'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Definitions'!

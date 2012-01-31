@@ -1,0 +1,11 @@
+
+!ConfigurationOfShout methodsFor: 'symbolic versions' stamp: 'MarianoMartinezPeck 4/29/2011 19:11'!
+stable: spec 
+	<symbolicVersion: #stable>
+	
+	spec for: #'pharo1.0.x' version: '1.0'. 
+	spec for: #'pharo1.1.x' version: '1.1'. 
+	spec for: #'pharo1.2.x' version: '1.2.2'. 
+	spec for: #'pharo1.3.x' version: '1.3'. 
+		
+! !

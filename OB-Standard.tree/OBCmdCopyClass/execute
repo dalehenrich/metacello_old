@@ -1,0 +1,14 @@
+
+!OBCmdCopyClass methodsFor: 'execution' stamp: 'lr 3/21/2009 20:03'!
+execute
+	| newName newClass |
+	newName := OBTextRequest 
+		prompt: 'Please type new class name'
+		template: target theNonMetaClassName asString.
+	newName isNil ifTrue: [ ^ self ].
+	newClass := self 
+		copyClass: target theNonMetaClass
+		as: newName asSymbol.
+	self 
+		select: newClass asNode
+		with: requestor announcer! !

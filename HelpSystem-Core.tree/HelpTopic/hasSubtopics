@@ -1,0 +1,6 @@
+
+!HelpTopic methodsFor: 'testing' stamp: 'tbn 3/6/2010 00:23'!
+hasSubtopics 
+	"Returns true if the receiver has subtopics, false otherwise"
+	
+	^self subtopics notEmpty ! !

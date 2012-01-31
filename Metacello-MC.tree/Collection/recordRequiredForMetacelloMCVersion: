@@ -1,0 +1,5 @@
+
+!Collection methodsFor: '*metacello-mc' stamp: 'DaleHenrichs 3/11/2010 10:06'!
+recordRequiredForMetacelloMCVersion: aMetacelloMCVersion
+
+	^aMetacelloMCVersion doRecordRequiredFromArray: self.! !

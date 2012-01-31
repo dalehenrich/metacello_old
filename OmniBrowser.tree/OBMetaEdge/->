@@ -1,0 +1,4 @@
+
+!OBMetaEdge methodsFor: 'accessing' stamp: 'lr 7/3/2009 22:27'!
+-> aNode 
+	metaNode := aNode! !

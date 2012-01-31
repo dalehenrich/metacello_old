@@ -1,0 +1,6 @@
+
+!OBTextDefinition class methodsFor: 'instance creation' stamp: 'dc 3/13/2008 21:49'!
+text: aText
+	^ self new
+		setText: aText;
+		yourself! !

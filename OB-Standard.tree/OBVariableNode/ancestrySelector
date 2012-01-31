@@ -1,0 +1,4 @@
+
+!OBVariableNode methodsFor: 'ancestry' stamp: 'lr 4/9/2011 18:09'!
+ancestrySelector
+	^ #isDescendantOfVariable: ! !

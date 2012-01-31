@@ -1,0 +1,6 @@
+
+!MetacelloVersionNumberTestCase methodsFor: 'tests' stamp: 'dkh 8/13/2009 10:01'!
+testVersion15
+
+	self assert: ((self versionClass fromString: '1.0-beta.0') < (self versionClass fromString: '1.0-beta.1')).
+! !

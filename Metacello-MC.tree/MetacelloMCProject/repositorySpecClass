@@ -1,0 +1,5 @@
+
+!MetacelloMCProject methodsFor: 'spec classes' stamp: 'dkh 06/01/2009 10:25'!
+repositorySpecClass
+
+	^MetacelloRepositorySpec! !

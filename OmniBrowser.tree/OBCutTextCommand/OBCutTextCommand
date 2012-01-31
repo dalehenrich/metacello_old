@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCutTextCommand
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Commands'!

@@ -1,0 +1,6 @@
+
+!MetacelloPackageSpec methodsFor: 'private' stamp: 'dkh 10/7/2009 01:09'!
+extractNameFromFile
+
+	file == nil ifTrue: [ ^nil ].
+	^(self loader nameComponentsFrom: self file) first! !

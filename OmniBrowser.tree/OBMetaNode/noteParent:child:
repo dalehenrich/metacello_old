@@ -1,0 +1,4 @@
+
+!OBMetaNode methodsFor: 'nodes' stamp: 'cwp 5/8/2007 00:14'!
+noteParent: pNode child: cNode
+	filters do: [:ea | ea noteParent: pNode child: cNode]! !

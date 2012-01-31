@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'ancestry' stamp: 'dr 11/29/2008 17:26'!
+isDescendantOfMethodCat: aMethodCatNode
+	^aMethodCatNode theClass = self theClass and: [(self theClass organization categoryOfElement: self selector) = aMethodCatNode name]! !

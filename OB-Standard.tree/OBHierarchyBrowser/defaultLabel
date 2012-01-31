@@ -1,0 +1,4 @@
+
+!OBHierarchyBrowser methodsFor: 'accessing' stamp: 'cwp 12/13/2004 01:00'!
+defaultLabel
+	^ self root name, ' Hierarchy'! !

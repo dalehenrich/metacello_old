@@ -1,0 +1,4 @@
+
+!AbstractTutorial methodsFor: 'tutorial' stamp: 'DannyChan 2/1/2010 21:21'!
+indexOfLesson: aSelector
+	^self tutorial indexOf: aSelector.! !

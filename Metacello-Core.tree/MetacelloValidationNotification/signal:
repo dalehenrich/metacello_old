@@ -1,0 +1,6 @@
+
+!MetacelloValidationNotification methodsFor: 'signaling' stamp: 'DaleHenrichs 11/4/2010 10:01'!
+signal: aMetacelloValidationIssue
+
+	self issue: aMetacelloValidationIssue.
+	^ self signal! !

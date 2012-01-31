@@ -1,0 +1,5 @@
+
+!OBClassSortFilter methodsFor: 'private' stamp: 'lr 4/3/2009 13:12'!
+buildIndentIndex
+	indents := IdentityDictionary new.
+	order do: [:assoc | indents at: assoc value put: assoc key size - 1].! !

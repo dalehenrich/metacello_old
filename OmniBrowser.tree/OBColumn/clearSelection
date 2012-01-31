@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'selecting' stamp: 'jk 3/22/2008 21:04'!
+clearSelection
+	self listHolder clearSelection! !

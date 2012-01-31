@@ -1,0 +1,8 @@
+
+!OBPaneScroller methodsFor: 'updating' stamp: 'cwp 11/23/2004 01:14'!
+updateSizing
+	| old |
+	old := sizing.
+	self basicUpdateSizing.
+	sizing = old ifFalse: [self layoutPanes].
+	^sizing! !

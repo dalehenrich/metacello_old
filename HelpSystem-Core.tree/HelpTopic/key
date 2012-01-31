@@ -1,0 +1,6 @@
+
+!HelpTopic methodsFor: 'accessing' stamp: 'tbn 3/6/2010 00:20'!
+key 	
+	"Returns a unique key identifying the receiver in the help system"	
+		
+	^key! !

@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'updating' stamp: 'dr 9/22/2008 11:27'!
+refresh: ann
+	self refreshAndSignal: false ! !

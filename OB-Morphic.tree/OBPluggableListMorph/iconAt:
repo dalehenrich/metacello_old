@@ -1,0 +1,4 @@
+
+!OBPluggableListMorph methodsFor: 'model access' stamp: 'cwp 7/24/2007 00:12'!
+iconAt: index
+	^ model iconAt: index! !

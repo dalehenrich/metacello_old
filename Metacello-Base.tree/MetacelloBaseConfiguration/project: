@@ -1,0 +1,6 @@
+
+!MetacelloBaseConfiguration methodsFor: 'accessing' stamp: 'DaleHenrichs 11/2/2010 14:27'!
+project: aProject
+
+	project ifNil: [ self class ensureMetacello ].
+	project := aProject! !

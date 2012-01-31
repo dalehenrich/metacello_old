@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'accessing' stamp: ''!
+reference
+	^ self referenceForMethod: selector ofClass: self theClassName! !

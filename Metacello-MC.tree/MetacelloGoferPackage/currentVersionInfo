@@ -1,0 +1,10 @@
+
+!MetacelloGoferPackage methodsFor: 'querying' stamp: 'dkh 9/25/2009 11:26'!
+currentVersionInfo
+
+	| wc |
+	(wc := self workingCopy) ~~ nil
+		ifTrue: [ 
+			wc ancestry ancestors isEmpty not
+				ifTrue: [ ^wc ancestry ancestors first ]].
+	^nil! !

@@ -1,0 +1,4 @@
+
+!OBButtonBar methodsFor: 'accessing' stamp: 'cwp 3/11/2007 15:56'!
+model
+	^ model! !

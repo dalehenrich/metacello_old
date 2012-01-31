@@ -1,0 +1,11 @@
+
+!OBRadioButtonBar methodsFor: 'updating' stamp: 'dr 3/23/2009 15:41'!
+updateButtons
+	| labels descriptions |
+	labels := self getLabels.
+	descriptions := self getLongDescriptions.
+	buttons := Array new: labels size.
+	labels withIndexDo: 
+			[:label :index | 
+			buttons at: index put: (OBButtonModel withLabel: label inBar: self longDescription: (descriptions at: index ifAbsent: [nil]))].
+	selection := self getSelectionIndex! !

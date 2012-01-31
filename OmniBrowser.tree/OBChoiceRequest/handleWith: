@@ -1,0 +1,4 @@
+
+!OBChoiceRequest methodsFor: 'dispatching' stamp: 'cwp 6/1/2007 16:38'!
+handleWith: anObject
+	^ anObject handleChoiceRequest: self! !

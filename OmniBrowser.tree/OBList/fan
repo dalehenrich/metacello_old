@@ -1,0 +1,4 @@
+
+!OBList methodsFor: 'accessing' stamp: 'lr 8/19/2009 22:21'!
+fan
+	^ fan ifNil: [ fan := OBFan new ] ! !

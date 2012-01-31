@@ -1,0 +1,4 @@
+
+!MetacelloHelp class methodsFor: 'accessing' stamp: 'tbn 2/19/2010 16:48'!
+bookName 
+	^'Metacello'! !

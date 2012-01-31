@@ -1,0 +1,4 @@
+
+!HelpHowToHelpTopicsFromCode class methodsFor: 'accessing' stamp: 'tbn 2/12/2010 23:57'!
+pages
+	^#(overview step1 step2 step3 step4 step5)! !

@@ -1,0 +1,5 @@
+
+!OBMetaNode methodsFor: 'children' stamp: 'cwp 5/4/2007 22:54'!
+- aSelector
+	^ edges add: (OBMetaEdge selector: aSelector).
+	! !

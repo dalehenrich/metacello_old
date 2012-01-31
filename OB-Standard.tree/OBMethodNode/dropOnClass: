@@ -1,0 +1,11 @@
+
+!OBMethodNode methodsFor: 'drag and drop' stamp: 'lr 5/28/2010 13:54'!
+dropOnClass: aNode
+	aNode theClass 
+		compile: self source
+		classified: (self theClass organization 
+			categoryOfElement: self selector).
+	(Sensor shiftPressed or: [ self theClass = aNode theClass ])
+		ifFalse: [ self theClass removeSelector: self selector ].
+	aNode signalChildrenChanged.
+	^ true! !

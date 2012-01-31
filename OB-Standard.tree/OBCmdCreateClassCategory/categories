@@ -1,0 +1,10 @@
+
+!OBCmdCreateClassCategory methodsFor: 'accessing' stamp: 'lr 9/24/2010 08:06'!
+categories
+	| categories |
+	categories := Set new.
+	PackageOrganizer default packages
+		do: [ :package | categories add: package systemCategoryPrefix ].
+	target categories
+		do: [ :node | categories add: node name ].
+	^ categories! !

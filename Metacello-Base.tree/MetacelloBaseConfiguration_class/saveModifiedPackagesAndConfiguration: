@@ -1,0 +1,10 @@
+
+!MetacelloBaseConfiguration class methodsFor: 'development support' stamp: 'DaleHenrichs 1/11/2011 15:10'!
+saveModifiedPackagesAndConfiguration: commitMessage
+	"Save modified mcz files, update the #development version and then save the configuration."
+
+	"self saveModifiedPackagesAndConfiguration: '- fixed bug'"
+
+	<apiDocumentation>
+	self ensureMetacello.
+	(Smalltalk at: #MetacelloToolBox) saveModifiedPackagesAndConfigurationIn: self description: commitMessage! !

@@ -1,0 +1,4 @@
+
+!OBCompletionDialog methodsFor: 'callbacks' stamp: 'lr 9/22/2010 11:47'!
+clickIconAt: anInteger
+	"Ignore this request."! !

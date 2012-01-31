@@ -1,0 +1,5 @@
+
+!MetacelloPackageSpec methodsFor: 'loading' stamp: 'dkh 6/8/2009 16:16'!
+packageSpecsInLoadOrder
+
+	^{ self. }! !

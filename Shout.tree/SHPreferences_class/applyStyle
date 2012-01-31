@@ -1,0 +1,6 @@
+
+!SHPreferences class methodsFor: 'private' stamp: ''!
+applyStyle
+	SHTextStylerST80
+		styleTable: (Groups values
+				gather: [:group | group styleForTable])! !

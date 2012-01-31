@@ -1,0 +1,4 @@
+
+!OBList methodsFor: 'nodes' stamp: 'jk 4/7/2008 10:30'!
+children
+	^ self fan childrenAt: self selection! !

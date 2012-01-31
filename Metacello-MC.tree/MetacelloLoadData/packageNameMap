@@ -1,0 +1,6 @@
+
+!MetacelloLoadData methodsFor: 'accessing' stamp: 'dkh 08/10/2009 16:17'!
+packageNameMap
+
+	packageNameMap == nil ifTrue: [ packageNameMap := Dictionary new ].
+	^packageNameMap! !

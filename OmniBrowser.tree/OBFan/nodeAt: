@@ -1,0 +1,4 @@
+
+!OBFan methodsFor: 'accessing' stamp: 'jk 3/23/2008 11:08'!
+nodeAt: index
+	^ self children at: index ifAbsent: []! !

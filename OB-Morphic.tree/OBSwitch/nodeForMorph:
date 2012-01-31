@@ -1,0 +1,13 @@
+
+!OBSwitch methodsFor: '*ob-morphic' stamp: 'lr 5/28/2010 19:31'!
+nodeForMorph: aButtonMorph
+	| edge nodes |
+	edge := filter metaNode edges
+		at: (aButtonMorph owner submorphs
+			indexOf: aButtonMorph
+			ifAbsent: [ ^ nil ])
+		ifAbsent: [ ^ nil ].
+	nodes := column metaNode filters
+		inject: (edge nodesForParent: column parent)
+		into: [ :result :each | each nodesFrom: result forNode: column parent ].	
+	^ nodes at: column selection ifAbsent: [ ^ nil ]! !

@@ -1,0 +1,5 @@
+
+!MetacelloCleanNotification class methodsFor: 'exceptioninstantiator' stamp: 'DaleHenrichs 11/21/2010 19:16'!
+signal: aMetacelloVersion
+
+	^ self new signal: aMetacelloVersion! !

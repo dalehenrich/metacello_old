@@ -1,0 +1,5 @@
+
+!OBMethodNode methodsFor: 'private' stamp: 'lr 4/23/2010 08:35'!
+sendersOf: aSelector
+	^ (SystemNavigation default allCallsOn: aSelector) asArray sort
+			collect: [:ref | OBMessageNode on: aSelector inMethodReference: ref]! !

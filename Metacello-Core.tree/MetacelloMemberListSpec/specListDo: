@@ -1,0 +1,5 @@
+
+!MetacelloMemberListSpec methodsFor: 'enumeration' stamp: 'DaleHenrichs 11/12/2010 15:14'!
+specListDo: aBlock
+
+	self list do: [:member |  aBlock value: member spec ]! !

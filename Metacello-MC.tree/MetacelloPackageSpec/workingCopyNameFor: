@@ -1,0 +1,7 @@
+
+!MetacelloPackageSpec methodsFor: 'gofer' stamp: 'dkh 9/25/2009 10:52'!
+workingCopyNameFor: anMCLoader
+
+	| vi |
+	(vi := anMCLoader currentVersionInfoFor: self) == nil ifTrue: [ ^nil ].
+	^vi name! !

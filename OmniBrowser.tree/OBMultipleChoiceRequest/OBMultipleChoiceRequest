@@ -1,0 +1,6 @@
+
+OBChoiceRequest subclass: #OBMultipleChoiceRequest
+	instanceVariableNames: 'selection'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Notifications'!

@@ -1,0 +1,4 @@
+
+!MetacelloMethodSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 11/19/2010 10:36'!
+versionString: aStringOrSymbol
+	versionString := aStringOrSymbol! !

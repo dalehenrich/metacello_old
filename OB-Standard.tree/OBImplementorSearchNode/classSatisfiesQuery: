@@ -1,0 +1,4 @@
+
+!OBImplementorSearchNode methodsFor: 'private' stamp: 'cwp 4/15/2007 20:40'!
+classSatisfiesQuery: aClass
+	^ aClass includesSelector: query! !

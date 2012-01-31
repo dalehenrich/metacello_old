@@ -1,0 +1,8 @@
+
+!MetacelloToolBox class methodsFor: 'utility' stamp: 'DaleHenrichs 12/17/2010 12:54'!
+checkForCriticalValidationIssues: configurationBasename
+	"Validate the named configuration and filter out all non-critical issues."
+	<apiDocumentation>
+	^ (MetacelloMCVersionValidator
+		validateConfiguration: (Smalltalk at: (self configurationNameFrom: configurationBasename) asSymbol))
+		select: [ :issue | issue isCritical ]! !

@@ -1,0 +1,29 @@
+
+!ConfigurationOfOmniBrowser methodsFor: 'versions' stamp: 'MarianoMartinezPeck 4/29/2010 23:47'!
+version10: spec
+	<version: '1.0' imports: #('1.0-baseline')>
+
+	spec for: #common do: [
+		spec blessing: #broken.
+		spec author: 'MarianoMartinezPeck'.
+		spec description: 'First release 1.0 of this project '.
+	].
+	
+	spec for: #pharo do: [
+		spec
+			project: 'Refactoring-Core' with: '1.0'.
+		
+		spec 
+			package: 'OmniBrowser' with: 'OmniBrowser-DamienCassou.462';
+			package: 'OB-Morphic' with: 'OB-Morphic-lr.110';
+			package: 'OB-Standard' with: 'OB-Standard-DamienCassou.438';
+			package: 'OB-Refactory' with: 'OB-Refactory-lr.180';
+			package: 'OB-Regex' with: 'OB-Regex-lr.21';
+			package: 'OB-Shout' with: 'OB-Shout-cwp.2';
+			package: 'OB-SUnitIntegration' with: 'OB-SUnitIntegration-lr.16';
+			package: 'OB-Tests-Core' with: 'OB-Tests-Core-cwp.72';
+			package: 'OB-Tests-Morphic' with: 'OB-Tests-Morphic-cwp.19';
+			package: 'BogusInfo' with: 'BogusInfo-cwp.17';
+			package: 'OB-Tests-Standard' with: 'OB-Tests-Standard-cwp.95';
+			package: 'OCForOB' with: 'OCForOB-rr.2'.
+	] ! !

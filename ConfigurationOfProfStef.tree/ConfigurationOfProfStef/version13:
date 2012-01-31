@@ -1,0 +1,20 @@
+
+!ConfigurationOfProfStef methodsFor: 'versions' stamp: 'jannikLaval 11/20/2010 08:46'!
+version13: spec
+	<version: '1.3' imports: #('1.2-baseline')>
+
+	spec for: #common do: [
+		spec blessing: #release.
+		spec author: 'AlexandreBergel'.
+		spec description: 'Updated Shout'.
+	].
+	
+	spec for: #pharo do: [		
+		spec 
+			project: 'Shout' with: '1.1.1';
+			package: 'ProfStef-Core' with: 'ProfStef-Core-LaurentLaffont.11';
+			package: 'ProfStef-Tests' with: 'ProfStef-Tests-LaurentLaffont.8';
+			package: 'ProfStefBrowser' with: 'ProfStefBrowser-LaurentLaffont.26';
+			package: 'ProfStef-Help' with: 'ProfStef-Help-LaurentLaffont.1'.
+	]
+			! !

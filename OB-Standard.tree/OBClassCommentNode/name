@@ -1,0 +1,4 @@
+
+!OBClassCommentNode methodsFor: 'public' stamp: 'cwp 12/13/2004 00:51'!
+name
+	^ self theClass name! !

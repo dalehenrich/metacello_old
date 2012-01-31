@@ -1,0 +1,4 @@
+
+!OBInformRequest methodsFor: 'accessing' stamp: 'dc 7/22/2007 20:28'!
+message
+	^ message! !

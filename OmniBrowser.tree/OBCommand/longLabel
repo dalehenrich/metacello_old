@@ -1,0 +1,6 @@
+
+!OBCommand methodsFor: 'accessing' stamp: 'lr 9/24/2010 21:46'!
+longLabel
+	^ self cluster isNil
+		ifTrue: [ self label ]
+		ifFalse: [ self cluster , ' > ' , self label ]! !

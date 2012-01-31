@@ -1,0 +1,10 @@
+
+!OBBrowser methodsFor: 'initializing' stamp: 'lr 10/29/2010 10:28'!
+initializeCommands
+	"Initialize the command factories of the receiver. These are all commands returned by methods annotated with <command>; excluding the factories returned from methods annotated with <obsolete>."
+
+	commandFactories := Set new.
+	(Pragma allNamed: #command from: self class to: OBBrowser) do: [ :pragma |
+		self command: pragma do: [ :factory | commandFactories add: factory ] ].
+	(Pragma allNamed: #obsolete from: self class to: OBBrowser) do: [ :pragma |
+		self command: pragma do: [ :factory | commandFactories remove: factory ] ]! !

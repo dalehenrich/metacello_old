@@ -1,0 +1,4 @@
+
+!OBCopyTextCommand methodsFor: 'accessing' stamp: 'lr 12/10/2010 09:29'!
+order
+	^ '2'! !

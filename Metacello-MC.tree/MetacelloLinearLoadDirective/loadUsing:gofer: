@@ -1,0 +1,7 @@
+
+!MetacelloLinearLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 3/21/2010 13:40'!
+loadUsing: aLoaderDirective gofer: aGofer
+
+	self loadDirectives isEmpty ifTrue: [ ^self ].
+	aLoaderDirective loadLinearLoadDirective: self gofer: aGofer.
+! !

@@ -1,0 +1,4 @@
+
+!OBAutoSelection methodsFor: 'accessing' stamp: 'dr 1/28/2009 15:33'!
+fan: aFan
+	fan := aFan.! !

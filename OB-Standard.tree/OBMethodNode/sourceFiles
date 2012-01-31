@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'accessing' stamp: ''!
+sourceFiles
+	^ OBSourceFilesRequest signal! !

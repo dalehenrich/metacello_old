@@ -1,0 +1,4 @@
+
+!OBDefinitionPanel methodsFor: 'accessing' stamp: 'lr 3/4/2009 08:31'!
+node: aNode 
+	self definition: (aNode isNil ifFalse: [ aNode definition ])! !

@@ -1,0 +1,4 @@
+
+!OBCmdBrowseMethodVersions methodsFor: 'testing' stamp: 'lr 4/25/2007 09:40'!
+wantsButton
+	^ (target isKindOf: OBMethodVersionNode) not! !

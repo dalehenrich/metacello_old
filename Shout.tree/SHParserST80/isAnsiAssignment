@@ -1,0 +1,4 @@
+
+!SHParserST80 methodsFor: 'token testing' stamp: ''!
+isAnsiAssignment
+	^ currentToken = ':='! !

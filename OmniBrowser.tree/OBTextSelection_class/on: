@@ -1,0 +1,4 @@
+
+!OBTextSelection class methodsFor: 'instance creation' stamp: 'cwp 10/13/2006 16:52'!
+on: anOBPluggableTextMorph 
+	^ self new! !

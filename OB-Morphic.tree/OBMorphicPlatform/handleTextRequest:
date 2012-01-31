@@ -1,0 +1,10 @@
+
+!OBMorphicPlatform methodsFor: 'interaction' stamp: 'DamienCassou 9/20/2009 15:55'!
+handleTextRequest: request
+	| text |
+	text := UIManager default
+				request:request prompt
+				initialAnswer: request template.
+	^ (text isNil or: [text isEmpty])
+		ifTrue: [nil]
+		ifFalse: [text]! !

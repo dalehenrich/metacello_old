@@ -1,0 +1,4 @@
+
+!MetacelloMCVersionDiffReport methodsFor: 'accessing' stamp: 'DaleHenrichs 1/14/2011 11:24'!
+configuration
+	^ configuration! !

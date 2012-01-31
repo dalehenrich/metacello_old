@@ -1,0 +1,4 @@
+
+!OBCmdRevertMethod methodsFor: 'testing' stamp: 'lr 4/25/2007 09:38'!
+wantsButton
+	^ target isKindOf: OBMethodVersionNode! !

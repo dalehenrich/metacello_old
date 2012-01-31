@@ -1,0 +1,5 @@
+
+!MetacelloSpec methodsFor: 'merging' stamp: 'dkh 9/23/2009 11:41'!
+nonOverridable
+
+	^#()! !

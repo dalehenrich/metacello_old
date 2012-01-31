@@ -1,0 +1,6 @@
+
+!OBMetagraphBuilder methodsFor: 'accessing' stamp: 'dc 9/7/2007 11:55'!
+addMetaNode: aMetaNode
+	^ self metaNodes
+		at: aMetaNode name
+		put: aMetaNode! !

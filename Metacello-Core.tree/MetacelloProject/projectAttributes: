@@ -1,0 +1,5 @@
+
+!MetacelloProject methodsFor: 'private' stamp: 'dkh 9/2/2009 08:31'!
+projectAttributes: aList
+
+	projectAttributes := aList! !

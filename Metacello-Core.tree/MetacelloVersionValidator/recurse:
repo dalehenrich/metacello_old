@@ -1,0 +1,4 @@
+
+!MetacelloVersionValidator methodsFor: 'accessing' stamp: 'DaleHenrichs 11/5/2010 09:39'!
+recurse: anObject
+	recurse := anObject! !

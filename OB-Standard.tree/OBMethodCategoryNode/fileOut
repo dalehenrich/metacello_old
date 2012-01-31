@@ -1,0 +1,4 @@
+
+!OBMethodCategoryNode methodsFor: 'services' stamp: ''!
+fileOut
+	self theClass fileOutCategory: name! !

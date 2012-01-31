@@ -1,0 +1,4 @@
+
+!MetacelloMCPartiallyLoadedStatus class methodsFor: 'instance creation' stamp: 'dkh 7/11/2011 14:47'!
+new
+	^ self basicNew initialize! !

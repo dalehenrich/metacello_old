@@ -1,0 +1,4 @@
+
+!MetacelloProject methodsFor: 'accessing' stamp: 'tg 8/30/2009 17:48'!
+configuration: anObject
+	configuration := anObject! !

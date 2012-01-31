@@ -1,0 +1,6 @@
+
+Object subclass: #OBCommandCluster
+	instanceVariableNames: 'commands label'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Commands'!

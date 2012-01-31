@@ -1,0 +1,6 @@
+
+!MetacelloMCVersion methodsFor: 'actions' stamp: 'DaleHenrichs 3/11/2010 10:06'!
+record: required
+
+	^required recordRequiredForMetacelloMCVersion: self
+! !

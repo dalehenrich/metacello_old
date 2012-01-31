@@ -1,0 +1,9 @@
+
+OBCodeBrowser subclass: #OBHierarchyBrowser
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Browsers'!
+
+!OBHierarchyBrowser commentStamp: 'cwp 1/7/2005 23:50' prior: 0!
+OBHierarchyBrowser provides a three-pane browers that displays a class within it's surrounding hierarchy - both superclasses and subclasses!

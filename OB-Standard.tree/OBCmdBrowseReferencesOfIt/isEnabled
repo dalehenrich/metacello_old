@@ -1,0 +1,4 @@
+
+!OBCmdBrowseReferencesOfIt methodsFor: 'testing' stamp: 'lr 4/9/2011 17:48'!
+isEnabled
+	^ self globalReference notNil or: [ self localReference notNil ]! !

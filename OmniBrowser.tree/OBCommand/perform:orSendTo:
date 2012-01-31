@@ -1,0 +1,4 @@
+
+!OBCommand methodsFor: 'user interface' stamp: 'cwp 10/15/2006 12:37'!
+perform: aSelector orSendTo: anObject
+	self perform: aSelector! !

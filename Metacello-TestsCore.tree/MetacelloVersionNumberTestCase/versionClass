@@ -1,0 +1,5 @@
+
+!MetacelloVersionNumberTestCase methodsFor: 'private' stamp: 'dkh 6/14/2009 09:34'!
+versionClass
+
+	^MetacelloVersionNumber! !

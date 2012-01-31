@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCmdAutoCategorize
+	instanceVariableNames: ''
+	classVariableNames: 'CategorizationRules IgnoredCategories'
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

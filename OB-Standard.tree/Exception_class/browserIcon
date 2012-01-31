@@ -1,0 +1,4 @@
+
+!Exception class methodsFor: '*ob-standard' stamp: 'lr 3/28/2009 15:56'!
+browserIcon
+	^ #exception! !

@@ -1,0 +1,9 @@
+
+!MetacelloHTTPRepositoryLoadTestCase methodsFor: 'tests' stamp: 'dkh 12/30/2009 10:22'!
+testLoad
+
+	self enabled ifFalse: [ ^self ].
+	(self project version: 'default') load.
+	self assert: (self hasPackage: 'Bogus'); assertClass: #BogusA.
+	self assert: (self hasPackage: 'BogusExt'); assertClass: #BogusA selector: #isFake.
+! !

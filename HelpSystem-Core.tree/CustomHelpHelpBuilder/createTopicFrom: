@@ -1,0 +1,16 @@
+
+!CustomHelpHelpBuilder methodsFor: 'private' stamp: 'tbn 3/8/2010 09:17'!
+createTopicFrom: aDescription
+	"Create a topic from a description stored on a class"
+	
+	|topic page method pragma   |
+	topic := HelpTopic named: aDescription bookName.
+	topic key: aDescription key.
+	topic icon: aDescription icon.	
+	aDescription pages do: [:pageSelector|
+		page := aDescription perform: pageSelector.	 
+		topic addSubtopic: page.
+	].	
+	aDescription subclasses do: [:subclass |
+		topic subtopics add: subclass asHelpTopic ].
+	^topic! !

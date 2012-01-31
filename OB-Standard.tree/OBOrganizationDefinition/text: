@@ -1,0 +1,6 @@
+
+!OBOrganizationDefinition methodsFor: 'callbacks' stamp: 'lr 12/3/2010 10:24'!
+text: aText
+	organizer changeFromString: aText asString.
+	OBAnnouncer current announce: OBRefreshRequired.
+	^ true! !

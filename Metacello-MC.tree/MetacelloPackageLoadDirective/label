@@ -1,0 +1,5 @@
+
+!MetacelloPackageLoadDirective methodsFor: 'printing' stamp: 'DaleHenrichs 3/9/2010 16:36'!
+label
+
+	^self file! !

@@ -1,0 +1,10 @@
+
+!MetacelloDetermineCurrentVersionForLoadTest methodsFor: 'running' stamp: 'DaleHenrichs 2/8/2010 15:48'!
+tearDownPackages: aGoferInstance
+
+	super tearDownPackages: aGoferInstance.
+	(self hasPackage: 'MetacelloTestConfigurationOfFan')
+		ifTrue: [ aGoferInstance package: 'MetacelloTestConfigurationOfFan' ].
+	(self hasPackage: 'MetacelloTestConfigurationOfFoo')
+		ifTrue: [ aGoferInstance package: 'MetacelloTestConfigurationOfFoo' ].
+! !

@@ -1,0 +1,5 @@
+
+!MetacelloDirective methodsFor: 'actions' stamp: 'DaleHenrichs 3/9/2010 14:53'!
+loadUsing: aLoaderDirective gofer: aGofer
+
+	self subclassResponsibility! !

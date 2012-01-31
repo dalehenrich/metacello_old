@@ -1,0 +1,5 @@
+
+!MetacelloValidationWarning methodsFor: 'testing' stamp: 'DaleHenrichs 11/3/2010 16:45'!
+isWarning
+
+	^true! !

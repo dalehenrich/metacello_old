@@ -1,0 +1,4 @@
+
+!OBCodeBrowser class methodsFor: 'configuration' stamp: 'lr 8/15/2010 15:31'!
+annotationPanel
+	^ CodeHolder showAnnotationPane ifTrue: [ OBAnnotationPanel new ]! !

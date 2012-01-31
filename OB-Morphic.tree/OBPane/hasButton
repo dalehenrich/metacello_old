@@ -1,0 +1,4 @@
+
+!OBPane methodsFor: 'testing' stamp: 'cwp 2/12/2004 18:35'!
+hasButton
+	^ button notNil! !

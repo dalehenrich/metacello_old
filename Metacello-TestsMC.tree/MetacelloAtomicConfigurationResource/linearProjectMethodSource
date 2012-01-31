@@ -1,0 +1,7 @@
+
+!MetacelloAtomicConfigurationResource methodsFor: 'ConfigurationOfAtomicFoo' stamp: 'DaleHenrichs 3/16/2010 11:43'!
+linearProjectMethodSource
+
+	^(self class sourceCodeAt: #project) asString copyReplaceAll: 'atomic' with: 'linear'
+
+! !

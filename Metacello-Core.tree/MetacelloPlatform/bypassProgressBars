@@ -1,0 +1,6 @@
+
+!MetacelloPlatform methodsFor: 'accessing' stamp: 'DaleHenrichs 3/11/2010 19:24'!
+bypassProgressBars
+
+	bypassProgressBars == nil ifTrue: [ bypassProgressBars := false ].
+	^ bypassProgressBars! !

@@ -1,0 +1,7 @@
+
+!OBPane methodsFor: 'constructing' stamp: 'lr 4/26/2010 09:41'!
+buttonHeight
+	^ self hasButton
+		ifTrue: [ button height ]
+		ifFalse: [ 0 ]
+! !

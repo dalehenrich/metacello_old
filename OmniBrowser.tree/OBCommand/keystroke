@@ -1,0 +1,5 @@
+
+!OBCommand methodsFor: 'accessing' stamp: 'cwp 9/27/2006 22:53'!
+keystroke
+	^ nil
+! !

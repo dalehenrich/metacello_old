@@ -1,0 +1,22 @@
+
+!OBSystemWindow methodsFor: 'actions' stamp: 'lr 9/26/2010 11:15'!
+selectCommand
+	| scan column commands command |
+	scan := self model announce: OBNodeCommandScan.
+	column := self model navigationPanel currentColumn.
+	commands := SortedCollection sortBlock: [ :a :b | a longLabel < b longLabel ].
+	[ column notNil ] whileTrue: [
+		[ :node |
+			node notNil ifTrue: [
+				(scan commandsOn: node for: column) do: [ :each | 
+					(each isActive and: [ each isEnabled and: [ commands noneSatisfy: [ :cmd | cmd longLabel = each longLabel ] ] ])
+						ifTrue:  [ commands add: each ] ] ] ]
+			value: column selectedNode; value: column parent.
+		column := column previous ].
+	command := OBCompletionRequest new
+		collection: commands;
+		prompt: 'Select Command';
+		labelBlock: [ :value | value longLabel ];
+		signal.
+	command isNil
+		ifFalse: [ command execute ]! !

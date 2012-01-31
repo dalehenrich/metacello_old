@@ -1,0 +1,6 @@
+
+Object subclass: #OBPlatform
+	instanceVariableNames: ''
+	classVariableNames: 'Current'
+	poolDictionaries: ''
+	category: 'OmniBrowser-Kernel'!

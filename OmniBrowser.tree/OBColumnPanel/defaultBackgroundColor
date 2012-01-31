@@ -1,0 +1,4 @@
+
+!OBColumnPanel methodsFor: 'callbacks' stamp: 'cwp 11/26/2004 21:55'!
+defaultBackgroundColor
+	^ browser defaultBackgroundColor! !

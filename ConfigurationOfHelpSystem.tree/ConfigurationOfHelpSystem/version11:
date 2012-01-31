@@ -1,0 +1,12 @@
+
+!ConfigurationOfHelpSystem methodsFor: 'versions' stamp: 'tbn 4/25/2010 21:09'!
+version11: spec 
+	<version: '1.1' imports: #('1.0-baseline') >
+	
+	spec for: #common do: [
+		spec blessing: #release.
+		spec 
+			package: 'HelpSystem-Core' with: 'HelpSystem-Core-tbn.40';
+			package: 'HelpSystem-Tests' with: 'HelpSystem-Tests-tbn.9';
+			package: 'Pharo-Project-Help' with: 'Pharo-Project-Help-tbn.8';
+			package: 'Squeak-Project-Help' with: 'Squeak-Project-Help-tbn.3'].! !

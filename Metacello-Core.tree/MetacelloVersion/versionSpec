@@ -1,0 +1,5 @@
+
+!MetacelloVersion methodsFor: 'accessing' stamp: 'dkh 6/15/2009 20:07'!
+versionSpec
+
+	^self spec! !

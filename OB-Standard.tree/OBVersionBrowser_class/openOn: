@@ -1,0 +1,4 @@
+
+!OBVersionBrowser class methodsFor: 'opening' stamp: 'lr 4/25/2007 09:51'!
+openOn: aMethodVersionNode
+	^ (self root: aMethodVersionNode selection: aMethodVersionNode versions first) open! !

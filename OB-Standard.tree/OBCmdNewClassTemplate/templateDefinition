@@ -1,0 +1,5 @@
+
+!OBCmdNewClassTemplate methodsFor: 'private' stamp: 'dc 7/16/2007 18:42'!
+templateDefinition
+	^ OBClassDefinition environment: self currentEnvironment
+		template: (Class template: self currentCategory)! !

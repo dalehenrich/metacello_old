@@ -1,0 +1,6 @@
+
+!GoferOperation methodsFor: 'accessing' stamp: 'lr 8/20/2009 10:13'!
+model
+	"Answer the Monticello model of this operation."
+	
+	^ model! !

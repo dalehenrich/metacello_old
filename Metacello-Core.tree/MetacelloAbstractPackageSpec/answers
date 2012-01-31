@@ -1,0 +1,6 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'querying' stamp: 'dkh 1/4/2010 18:54'!
+answers
+
+	answers == nil ifTrue: [ answers := #() ].
+	^answers! !

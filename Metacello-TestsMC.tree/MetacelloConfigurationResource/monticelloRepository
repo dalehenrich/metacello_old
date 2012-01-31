@@ -1,0 +1,4 @@
+
+!MetacelloConfigurationResource methodsFor: 'accessing' stamp: 'dkh 12/30/2009 15:14'!
+monticelloRepository
+	^ monticelloRepository! !

@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'navigating' stamp: 'lr 8/2/2010 15:59'!
+selectorAndMessages
+	^ self messages copyWithFirst: self messageNode! !

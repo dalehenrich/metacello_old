@@ -1,0 +1,4 @@
+
+!OBSystemBrowser class methodsFor: 'configuration' stamp: 'lr 7/4/2009 16:48'!
+title
+	^ 'System Browser'! !

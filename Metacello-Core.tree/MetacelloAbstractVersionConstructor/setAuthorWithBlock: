@@ -1,0 +1,10 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'api callbacks' stamp: 'DaleHenrichs 11/12/2010 09:54'!
+setAuthorWithBlock: aBlock
+
+	| spec |
+	(spec := self root getAuthor) == nil
+		ifTrue: [ 
+			spec := self project valueHolderSpec.
+			self root setAuthor: spec ].
+	self with: spec during: aBlock! !

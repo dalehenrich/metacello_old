@@ -1,0 +1,5 @@
+
+!MetacelloProject class methodsFor: 'instance creation' stamp: 'dkh 9/4/2009 01:43'!
+on: aConfig
+
+	^self basicNew configuration: aConfig; yourself! !

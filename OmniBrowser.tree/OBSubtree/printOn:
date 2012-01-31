@@ -1,0 +1,8 @@
+
+!OBSubtree methodsFor: 'printing' stamp: 'jk 4/2/2008 12:48'!
+printOn: aStream
+	aStream
+		nextPutAll: 'Subtree< '.
+	self state readStream do: [ :e | e printOn: aStream. aStream nextPut: Character space].
+	aStream
+		nextPut: $>! !

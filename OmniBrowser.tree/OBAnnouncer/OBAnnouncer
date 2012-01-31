@@ -1,0 +1,6 @@
+
+Object subclass: #OBAnnouncer
+	instanceVariableNames: 'subscriptions'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Announcements'!

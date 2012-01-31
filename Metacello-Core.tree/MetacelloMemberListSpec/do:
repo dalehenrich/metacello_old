@@ -1,0 +1,5 @@
+
+!MetacelloMemberListSpec methodsFor: 'enumeration' stamp: 'dkh 6/12/2009 13:38'!
+do: aBlock
+
+	self map values do: aBlock! !

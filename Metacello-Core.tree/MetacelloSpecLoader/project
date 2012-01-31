@@ -1,0 +1,5 @@
+
+!MetacelloSpecLoader methodsFor: 'accessing' stamp: 'dkh 6/12/2009 14:17'!
+project
+
+	^self spec project! !

@@ -1,0 +1,5 @@
+
+!MetacelloRepositorySpec methodsFor: 'accessing' stamp: 'dkh 06/03/2009 12:15'!
+type: aString
+
+	type := aString! !

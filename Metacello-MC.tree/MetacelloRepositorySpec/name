@@ -1,0 +1,5 @@
+
+!MetacelloRepositorySpec methodsFor: 'querying' stamp: 'dkh 6/7/2009 10:33'!
+name
+
+	^self description! !

@@ -1,0 +1,4 @@
+
+!OBCmdBrowseHierarchy methodsFor: 'accessing' stamp: 'dc. 12/15/2007 15:46'!
+keystroke
+	^ $h! !

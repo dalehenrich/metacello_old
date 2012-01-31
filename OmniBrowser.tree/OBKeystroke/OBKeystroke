@@ -1,0 +1,6 @@
+
+Object subclass: #OBKeystroke
+	instanceVariableNames: 'key shift control option command'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Utilities'!

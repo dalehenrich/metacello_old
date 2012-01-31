@@ -1,0 +1,5 @@
+
+!OBTextSelection methodsFor: 'initialization' stamp: 'dr 9/1/2008 10:23'!
+setSelection: anInterval inText: aString
+	selection := anInterval.
+	text := aString ! !

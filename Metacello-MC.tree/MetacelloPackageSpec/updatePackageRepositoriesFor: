@@ -1,0 +1,8 @@
+
+!MetacelloPackageSpec methodsFor: 'development support' stamp: 'dkh 11/01/2009 11:15'!
+updatePackageRepositoriesFor: aVersionSpec
+	"Don't update the repository unless the package is loaded in the image"
+	
+	self workingCopy == nil ifTrue: [ ^self ].
+	self updatePackageRepositories: self repositorySpecs, aVersionSpec repositorySpecs.	
+! !

@@ -1,0 +1,5 @@
+
+!MetacelloSpec methodsFor: 'spec creation' stamp: 'dkh 06/02/2009 16:54'!
+removeMember
+
+	^MetacelloRemoveMemberSpec for: self project! !

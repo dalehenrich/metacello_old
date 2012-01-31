@@ -1,0 +1,4 @@
+
+!OBBrowser class methodsFor: 'instance creation' stamp: 'cwp 12/5/2004 15:26'!
+root: aNode 
+	^ self root: aNode selection: nil! !

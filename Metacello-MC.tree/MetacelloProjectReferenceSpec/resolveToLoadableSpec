@@ -1,0 +1,5 @@
+
+!MetacelloProjectReferenceSpec methodsFor: '*metacello-mc' stamp: 'dkh 11/10/2009 09:48'!
+resolveToLoadableSpec
+
+	^self resolveProjectSpec resolveToLoadableSpec! !

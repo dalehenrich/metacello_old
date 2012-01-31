@@ -1,0 +1,9 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'copying' stamp: 'dkh 1/4/2010 18:55'!
+postCopy
+
+	super postCopy.
+	requires := requires copy.
+	includes := includes copy.
+	answers := answers copy.
+! !

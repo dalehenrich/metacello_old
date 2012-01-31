@@ -1,0 +1,6 @@
+
+SystemWindow subclass: #OBSystemWindow
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Morphic-Morphs'!

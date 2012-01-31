@@ -1,0 +1,4 @@
+
+!OBMultiLineTextRequest methodsFor: 'dispatching' stamp: 'dkh 12/19/2007 09:12'!
+handleWith: anObject
+	^ anObject handleMultiLineTextRequest: self! !

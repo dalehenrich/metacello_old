@@ -1,0 +1,4 @@
+
+!OBConfirmationRequest methodsFor: 'responding' stamp: 'cwp 2/28/2004 12:11'!
+ok
+	self resume: true! !

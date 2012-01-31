@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'testing' stamp: 'dr 9/19/2008 16:53'!
+includesNode: aNode  
+	^ self listHolder includesNode: aNode! !

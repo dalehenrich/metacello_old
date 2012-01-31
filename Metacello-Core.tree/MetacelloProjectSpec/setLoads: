@@ -1,0 +1,5 @@
+
+!MetacelloProjectSpec methodsFor: 'private' stamp: 'dkh 10/4/2009 12:04'!
+setLoads: aCollection
+
+	loads := aCollection! !

@@ -1,0 +1,4 @@
+
+!HelpBuilder methodsFor: 'accessing' stamp: 'tbn 3/5/2010 23:15'!
+topicToBuild
+	^topicToBuild! !

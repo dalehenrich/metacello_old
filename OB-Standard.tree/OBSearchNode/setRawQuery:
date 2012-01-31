@@ -1,0 +1,4 @@
+
+!OBSearchNode methodsFor: 'initialize-release' stamp: 'PDC 6/29/2007 06:37'!
+setRawQuery: aString 
+	query := aString! !

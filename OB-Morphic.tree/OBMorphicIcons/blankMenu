@@ -1,0 +1,4 @@
+
+!OBMorphicIcons methodsFor: 'icons' stamp: 'lr 5/9/2011 18:44'!
+blankMenu
+	^ Form extent: 16 @ 1 depth: 8! !

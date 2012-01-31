@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'operations' stamp: 'lr 8/20/2009 10:15'!
+revert
+	"Revert the specified packages to the currently loaded version."
+	
+	^ self execute: GoferRevert! !

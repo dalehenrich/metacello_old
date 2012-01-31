@@ -1,0 +1,4 @@
+
+!OBButtonBar methodsFor: 'building' stamp: 'cwp 7/21/2007 21:35'!
+styleWith: aBuilder
+	aBuilder styleButtonBar: self! !

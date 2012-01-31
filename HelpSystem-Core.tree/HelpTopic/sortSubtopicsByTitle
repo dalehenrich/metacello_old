@@ -1,0 +1,6 @@
+
+!HelpTopic methodsFor: 'operating' stamp: 'tbn 3/8/2010 09:12'!
+sortSubtopicsByTitle
+	"Sort the subtopics by title"
+	
+	subtopics := SortedCollection withAll: self subtopics  ! !

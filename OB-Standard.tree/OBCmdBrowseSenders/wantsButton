@@ -1,0 +1,4 @@
+
+!OBCmdBrowseSenders methodsFor: 'testing' stamp: 'cwp 7/7/2007 21:03'!
+wantsButton
+	^ true! !

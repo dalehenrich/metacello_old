@@ -1,0 +1,4 @@
+
+!OBList methodsFor: 'accessing' stamp: 'dr 9/12/2008 10:40'!
+column: aColumn
+	column := aColumn! !

@@ -1,0 +1,7 @@
+
+!OBColumn methodsFor: 'initializing' stamp: 'lr 7/3/2009 22:27'!
+setPanel: aPanel 
+	panel := aPanel.
+	switch := OBSwitch inColumn: self.
+	self subscribe.
+	self listHolder clearAll! !

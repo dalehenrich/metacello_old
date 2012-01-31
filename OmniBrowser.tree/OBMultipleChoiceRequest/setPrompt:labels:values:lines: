@@ -1,0 +1,5 @@
+
+!OBMultipleChoiceRequest methodsFor: 'initializing' stamp: 'lr 4/5/2008 10:35'!
+setPrompt: aString labels: labelArray values: valueArray lines: lineArray
+	super setPrompt: aString labels: labelArray values: valueArray lines: lineArray.
+	selection := IdentitySet withAll: valueArray! !

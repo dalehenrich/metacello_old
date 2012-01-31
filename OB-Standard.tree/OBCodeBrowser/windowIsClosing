@@ -1,0 +1,4 @@
+
+!OBCodeBrowser methodsFor: 'morphic' stamp: 'dr 11/20/2008 09:51'!
+windowIsClosing
+	self unregister! !

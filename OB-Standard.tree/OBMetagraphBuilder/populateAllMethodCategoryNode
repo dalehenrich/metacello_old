@@ -1,0 +1,6 @@
+
+!OBMetagraphBuilder methodsFor: 'private' stamp: 'lr 4/23/2010 08:38'!
+populateAllMethodCategoryNode
+	<populate>
+	
+	self allMethodCategoryMetaNode childAt: #methods put: self methodMetaNode! !

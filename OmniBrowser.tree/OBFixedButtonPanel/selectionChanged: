@@ -1,0 +1,4 @@
+
+!OBFixedButtonPanel methodsFor: 'callbacks' stamp: 'cwp 3/11/2007 21:14'!
+selectionChanged: ann
+	self changed: #commands! !

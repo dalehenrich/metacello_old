@@ -1,0 +1,21 @@
+
+!ConfigurationOfProfStef methodsFor: 'versions' stamp: 'MarianoMartinezPeck 4/29/2011 20:06'!
+version17: spec
+	<version: '1.7' imports: #('1.6-baseline')>
+
+	spec for: #common do: [
+		spec blessing: #development.
+		spec author: 'Mariano Martinez Peck'.
+		spec description: '- Updated for Pharo 1.3'.
+	].
+	
+	spec for: #pharo do: [		
+		spec 
+			project: 'Shout' with: '1.3';
+			package: 'ProfStef-Core' with: 'ProfStef-Core-MarianoMartinezPeck.24';
+			package: 'ProfStef-Tests' with: 'ProfStef-Tests-MarianoMartinezPeck.14';
+			package: 'ProfStefBrowser' with: 'ProfStefBrowser-LaurentLaffont.30';
+			package: 'ProfStef-Help' with: 'ProfStef-Help-MarianoMartinezPeck.6'.
+	]
+			
+		! !

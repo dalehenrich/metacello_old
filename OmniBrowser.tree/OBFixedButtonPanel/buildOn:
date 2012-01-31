@@ -1,0 +1,4 @@
+
+!OBFixedButtonPanel methodsFor: 'building' stamp: 'cwp 7/25/2007 23:52'!
+buildOn: aBuilder 
+	^aBuilder fixedButtonBar: self with: []! !

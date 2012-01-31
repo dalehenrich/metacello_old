@@ -1,0 +1,11 @@
+
+Notification subclass: #OBSourceFilesRequest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Utilities'!
+
+!OBSourceFilesRequest commentStamp: 'cwp 1/8/2005 13:09' prior: 0!
+OBSourceFilesRequest is used to work around the fact that Squeak's source files are stored in a global array called SourceFiles. When testing OBMethodVersion and OBVersionBrowser, we don't want to use the real source files, as they are too unpredictable. Instead the test cases supply a source file array with known contents.
+
+Therefore, OBMethodVersion never refers directly to the SourceFiles global. Instead it raises an OBSourceFiles request. If this occurs during a test, the test catches the notification and resumes using the test source files. Otherwise, the default action resumes using the global source file array.!

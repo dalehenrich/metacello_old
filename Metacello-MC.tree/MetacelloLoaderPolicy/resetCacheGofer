@@ -1,0 +1,5 @@
+
+!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 03/08/2010 16:23'!
+resetCacheGofer
+
+	cacheGofer := nil! !

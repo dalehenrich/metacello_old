@@ -1,0 +1,4 @@
+
+!OBCmdFindMethod methodsFor: 'accessing' stamp: 'cwp 6/8/2007 20:37'!
+icon
+	^ #findIcon! !

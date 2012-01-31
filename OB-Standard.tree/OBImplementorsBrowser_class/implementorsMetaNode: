@@ -1,0 +1,16 @@
+
+!OBImplementorsBrowser class methodsFor: 'configuration' stamp: 'lr 8/15/2010 15:28'!
+implementorsMetaNode: aNavigationSelector
+	| selector message implementor |
+	selector := OBMetaNode named: 'Selector'.
+	message := OBMetaNode named: 'Message'.
+	implementor := OBMetaNode named: 'Implementor'.
+	selector 
+		childAt: aNavigationSelector put: implementor;
+		addFilter: OBClassSortFilter new.
+	implementor
+		displaySelector: #fullNameWithProtocol.
+	self chasingBrowsersEnabled ifTrue: [
+		implementor childAt: #messages put: message.
+		message childAt: aNavigationSelector put: implementor ].
+	^ selector! !

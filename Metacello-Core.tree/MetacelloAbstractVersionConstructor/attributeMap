@@ -1,0 +1,6 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'accessing' stamp: 'dkh 10/3/2009 16:28'!
+attributeMap
+
+	attributeMap == nil ifTrue: [ attributeMap := Dictionary new ].
+	^attributeMap! !

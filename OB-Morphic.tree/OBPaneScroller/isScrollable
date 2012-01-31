@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'scrolling' stamp: 'lr 4/29/2011 23:34'!
+isScrollable
+	^ self leftoverScrollRange > 0! !

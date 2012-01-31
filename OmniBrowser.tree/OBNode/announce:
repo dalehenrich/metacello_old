@@ -1,0 +1,6 @@
+
+!OBNode methodsFor: 'updating' stamp: 'lr 11/25/2010 23:56'!
+announce: anObject
+	"Announce anObject using the current announcer."
+
+	^ OBAnnouncer current announce: anObject! !

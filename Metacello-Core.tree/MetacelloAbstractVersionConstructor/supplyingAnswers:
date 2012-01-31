@@ -1,0 +1,5 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'DaleHenrichs 11/12/2010 09:54'!
+supplyingAnswers: aCollection
+
+	self root answers: aCollection! !

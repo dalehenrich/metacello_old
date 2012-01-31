@@ -1,0 +1,5 @@
+
+!OBPaneScroller methodsFor: 'updating' stamp: 'cwp 3/25/2007 00:23'!
+update: aSymbol
+	aSymbol = #sizing ifTrue: [^ self updateSizing].
+	aSymbol = #columns ifTrue: [^ self updatePanes].! !

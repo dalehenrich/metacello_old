@@ -1,0 +1,5 @@
+
+!MetacelloMCVersionSpecLoader methodsFor: 'loading' stamp: 'dkh 6/18/2009 11:04'!
+repositories
+
+	^self repositorySpecs! !

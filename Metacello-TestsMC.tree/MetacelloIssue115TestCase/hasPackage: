@@ -1,0 +1,8 @@
+
+!MetacelloIssue115TestCase methodsFor: 'utilities' stamp: 'dkh 3/22/2011 14:58'!
+hasPackage: aString
+	| package |
+	package := MCWorkingCopy allManagers
+		detect: [ :each | each packageName = aString ]
+		ifNone: [ nil ].
+	^ package notNil! !

@@ -1,0 +1,4 @@
+
+!OBButtonModel methodsFor: 'accessing' stamp: 'dr 3/23/2009 16:02'!
+longDescription
+	^longDescription! !

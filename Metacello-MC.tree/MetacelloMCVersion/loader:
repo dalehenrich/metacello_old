@@ -1,0 +1,5 @@
+
+!MetacelloMCVersion methodsFor: 'private' stamp: 'dkh 6/18/2009 10:12'!
+loader: aLoader
+
+	self versionSpec loader: aLoader! !

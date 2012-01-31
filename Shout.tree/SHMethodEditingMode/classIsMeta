@@ -1,0 +1,4 @@
+
+!SHMethodEditingMode methodsFor: 'accessing' stamp: 'AlainPlantec 9/20/2011 08:58'!
+classIsMeta
+	^ classIsMeta ifNil: [classIsMeta := false]! !

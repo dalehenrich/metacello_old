@@ -1,0 +1,6 @@
+
+!OBSystemBrowser class methodsFor: 'opening' stamp: 'lr 4/9/2011 17:50'!
+openOnClass: aClass selector: aSelector
+      ^ aSelector isNil
+		ifTrue: [ (self onClass: aClass) open ]
+		ifFalse: [ (self onClass: aClass selector: aSelector) open ]! !

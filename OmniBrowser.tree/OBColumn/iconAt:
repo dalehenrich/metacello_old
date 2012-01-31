@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'callbacks' stamp: 'jk 3/23/2008 11:11'!
+iconAt: index 
+	^ self listHolder iconAt: index! !

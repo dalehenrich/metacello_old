@@ -1,0 +1,5 @@
+
+!MetacelloTestsPackageInfo methodsFor: 'listing' stamp: 'DaleHenrichs 12/18/2010 20:09'!
+overriddenMethods
+	"Test packages don't override methods and skipping this operation is a significant performance gain for running tests"
+	^ #()! !

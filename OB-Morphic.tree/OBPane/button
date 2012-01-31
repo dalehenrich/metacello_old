@@ -1,0 +1,4 @@
+
+!OBPane methodsFor: 'accessing' stamp: 'cwp 3/14/2007 23:28'!
+button
+	^ button! !

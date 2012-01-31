@@ -1,0 +1,6 @@
+
+!OBBrowser methodsFor: 'commands-text' stamp: 'lr 12/10/2010 09:50'!
+clipboardTextCommands
+	<command>
+	
+	^ Array with: OBCutTextCommand with: OBCopyTextCommand with: OBPasteTextCommand! !

@@ -1,0 +1,10 @@
+
+!OBCmdBrowseReferencesOfIt methodsFor: 'private' stamp: 'lr 7/13/2011 09:29'!
+globalReference
+	| binding |
+	target hasSelector
+		ifFalse: [ ^ nil ].
+	((binding := Smalltalk classNamed: target selector) notNil and: [ binding value notNil ])
+		ifTrue: [ ^ binding value asNode ].
+	^ nil
+! !

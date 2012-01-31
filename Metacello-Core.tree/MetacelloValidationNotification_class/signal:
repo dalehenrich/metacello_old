@@ -1,0 +1,5 @@
+
+!MetacelloValidationNotification class methodsFor: 'exceptioninstantiator' stamp: 'DaleHenrichs 11/4/2010 10:00'!
+signal: aMetacelloValidationIssue
+
+	^ self new signal: aMetacelloValidationIssue! !

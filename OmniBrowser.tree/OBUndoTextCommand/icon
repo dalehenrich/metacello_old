@@ -1,0 +1,4 @@
+
+!OBUndoTextCommand methodsFor: 'accessing' stamp: 'lr 5/9/2011 18:52'!
+icon
+	^ #undoIcon! !

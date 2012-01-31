@@ -1,0 +1,5 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'accessing' stamp: 'dkh 6/23/2009 11:24'!
+name: aString
+
+	name := aString! !

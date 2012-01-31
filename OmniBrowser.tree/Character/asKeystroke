@@ -1,0 +1,9 @@
+
+!Character methodsFor: '*omnibrowser-converting' stamp: 'lr 5/20/2011 19:20'!
+asKeystroke
+	^ OBKeystroke
+		key: self asLowercase
+		shift: self isUppercase
+		control: false
+		option: false
+		command: true! !

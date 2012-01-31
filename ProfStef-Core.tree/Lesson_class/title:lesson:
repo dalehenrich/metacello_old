@@ -1,0 +1,4 @@
+
+!Lesson class methodsFor: 'instance creation' stamp: 'LaurentLaffont 1/15/2010 09:27'!
+title: aStringForTitle lesson: aStringForLesson
+	^ self new title: aStringForTitle; lesson: aStringForLesson; yourself.! !

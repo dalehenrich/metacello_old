@@ -1,0 +1,5 @@
+
+!OBCmdRemoveEmptyCats methodsFor: 'execution' stamp: 'lr 6/21/2009 17:07'!
+execute
+	target organization removeEmptyCategories.
+	requestor browser announce: OBRefreshRequired! !

@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'layout' stamp: 'lr 4/29/2011 23:11'!
+scrollBarHeight
+	^ UITheme current settings scrollBarThickness! !

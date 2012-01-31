@@ -1,0 +1,4 @@
+
+!OBClassAwareNode methodsFor: 'actions' stamp: 'lr 9/23/2010 11:35'!
+browseHierarchy
+	OBHierarchyBrowser openOnClass: self theClass! !

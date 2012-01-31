@@ -1,0 +1,5 @@
+
+!MetacelloVersion methodsFor: 'accessing' stamp: 'dkh 05/04/2009 20:26'!
+spec: aMetacellVersionSpec
+
+	spec := aMetacellVersionSpec! !

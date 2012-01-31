@@ -1,0 +1,12 @@
+
+!OBPluggableFilter methodsFor: 'filtering' stamp: 'lr 3/4/2009 08:32'!
+nodesFrom: aCollection forNode: aNode 
+	^ nodes isNil 
+		ifTrue: 
+			[ super 
+				nodesFrom: aCollection
+				forNode: aNode ]
+		ifFalse: 
+			[ nodes 
+				value: aCollection
+				value: aNode ]! !

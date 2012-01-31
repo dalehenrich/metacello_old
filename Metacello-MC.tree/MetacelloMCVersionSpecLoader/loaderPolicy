@@ -1,0 +1,4 @@
+
+!MetacelloMCVersionSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/6/2010 08:41'!
+loaderPolicy
+	^ loaderPolicy! !

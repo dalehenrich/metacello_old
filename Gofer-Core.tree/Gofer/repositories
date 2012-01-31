@@ -1,0 +1,10 @@
+
+!Gofer methodsFor: 'accessing' stamp: 'lr 12/13/2009 17:18'!
+repositories
+	"Answer the configured monticello repositories."
+
+	|  result |
+	result := OrderedCollection withAll: repositories.
+	packageCacheRepository isNil
+		ifFalse: [ result addFirst: packageCacheRepository ].
+	^ result asArray! !

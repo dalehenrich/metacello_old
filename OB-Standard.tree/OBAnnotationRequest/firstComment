@@ -1,0 +1,6 @@
+
+!OBAnnotationRequest methodsFor: 'requests' stamp: 'lr 8/15/2010 17:10'!
+firstComment
+	"The first comment in the method, if any."
+	
+	^ class firstCommentAt: selector! !

@@ -1,0 +1,11 @@
+
+!OBCommand methodsFor: 'user interface' stamp: 'lr 4/25/2011 11:07'!
+addItemToMenu: aMenu
+	self isActive ifTrue: [
+		aMenu
+			add: self label
+			target: self 
+			selector: #execute
+			enabled: self isEnabled
+			icon: self icon
+			keystroke: self keystroke ]! !

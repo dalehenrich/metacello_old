@@ -1,0 +1,7 @@
+
+!OBCmdRenameClass methodsFor: 'private' stamp: 'lr 11/25/2010 23:41'!
+doRename: oldName to: newName
+	target theNonMetaClass environment
+		renameClassNamed: oldName
+		as: newName.
+	target announceChangedWith: requestor announcer! !

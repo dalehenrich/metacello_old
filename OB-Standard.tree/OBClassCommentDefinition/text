@@ -1,0 +1,8 @@
+
+!OBClassCommentDefinition methodsFor: 'callbacks' stamp: 'lr 5/29/2010 08:53'!
+text
+	| comment |
+	comment := theClass organization classComment.
+	^ comment isEmpty 
+		ifTrue: [ self template ] 
+		ifFalse: [ comment ]! !

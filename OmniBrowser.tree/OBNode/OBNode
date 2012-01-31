@@ -1,0 +1,13 @@
+
+Object subclass: #OBNode
+	instanceVariableNames: 'metaNode'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Kernel'!
+
+!OBNode commentStamp: 'cwp 3/4/2004 22:20' prior: 0!
+A node is a wrapper for an object in the browser's domain graph. OBNode is an abstract superclass for concrete nodes which might appear in the browser.
+
+iVars:
+
+metaNode - the MetaNode which produced this node!

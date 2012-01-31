@@ -1,0 +1,8 @@
+
+!MetacelloPackageSpec methodsFor: 'loading' stamp: 'DaleHenrichs 4/12/2010 13:57'!
+fetchPackage: aLoaderPolicy
+
+	self fetchUsing: 
+		(self loader
+			loaderPolicy: aLoaderPolicy;
+			yourself)! !

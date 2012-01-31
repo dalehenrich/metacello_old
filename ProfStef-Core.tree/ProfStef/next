@@ -1,0 +1,5 @@
+
+!ProfStef methodsFor: 'navigating' stamp: 'tg 2/1/2010 16:02'!
+next
+	self player next.
+	^ self showCurrentLesson.! !

@@ -1,0 +1,4 @@
+
+!OBVariableNode class methodsFor: 'instance creation' stamp: ''!
+on: instVarName inClass: aClassReference 
+	^ self new setName: instVarName class: aClassReference! !

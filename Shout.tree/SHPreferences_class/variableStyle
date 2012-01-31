@@ -1,0 +1,4 @@
+
+!SHPreferences class methodsFor: 'accessing-styles' stamp: ''!
+variableStyle
+	^ Groups at: #variable! !

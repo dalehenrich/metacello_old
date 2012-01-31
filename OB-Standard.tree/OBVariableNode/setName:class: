@@ -1,0 +1,5 @@
+
+!OBVariableNode methodsFor: 'initializing' stamp: ''!
+setName: aString class: aClass
+	name := aString.
+	self theClass: aClass! !

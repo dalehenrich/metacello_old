@@ -1,0 +1,4 @@
+
+!TutorialPlayer methodsFor: 'accessing' stamp: 'LaurentLaffont 1/21/2010 15:19'!
+tutorial
+	^ tutorial  ifNil: [tutorial := SmalltalkSyntaxTutorial new]! !

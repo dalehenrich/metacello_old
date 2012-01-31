@@ -1,0 +1,7 @@
+
+!MetacelloGoferCommit methodsFor: 'running' stamp: 'dkh 4/17/2011 14:42'!
+execute: aWorkingCopy
+	| version |
+	version := aWorkingCopy newVersion.
+	self gofer repositories
+		do: [ :repository | repository storeVersion: version ]! !

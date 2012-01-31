@@ -1,0 +1,5 @@
+
+!MetacelloAbstractPackageSpec methodsFor: '*metacello-mc' stamp: 'dkh 12/22/2009 09:56'!
+packagesNeedSavingVisited: visitedProjects using: repos into: aCollection
+	"noop by default"
+! !

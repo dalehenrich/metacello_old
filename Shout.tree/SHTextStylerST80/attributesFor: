@@ -1,0 +1,4 @@
+
+!SHTextStylerST80 methodsFor: 'private' stamp: ''!
+attributesFor: aSymbol 
+	^ self class attributesFor: aSymbol pixelHeight: self pixelHeight! !

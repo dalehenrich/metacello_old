@@ -1,0 +1,4 @@
+
+!OBMethodCategoryNode methodsFor: 'accessing' stamp: ''!
+container
+	^ self theClass! !

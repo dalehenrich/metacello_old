@@ -1,0 +1,9 @@
+
+!OBSystemWindow methodsFor: 'events' stamp: 'lr 12/3/2010 15:20'!
+handlesKeyboard: anEvent
+	(super handlesKeyboard: anEvent) 
+		ifTrue: [ ^ true ].
+	^ anEvent shiftPressed
+		and: [ anEvent commandKeyPressed
+		and: [ anEvent keyCharacter = $T
+		or: [ anEvent keyCharacter = $W ] ] ]! !

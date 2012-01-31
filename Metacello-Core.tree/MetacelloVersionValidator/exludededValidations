@@ -1,0 +1,6 @@
+
+!MetacelloVersionValidator methodsFor: 'accessing' stamp: 'DaleHenrichs 11/30/2010 13:17'!
+exludededValidations
+
+	exludededValidations == nil ifTrue: [ exludededValidations := self extractExcludedValidations ].
+	^exludededValidations! !

@@ -1,0 +1,5 @@
+
+!MetacelloMCVersionSpec methodsFor: 'testing' stamp: 'dkh 7/8/2011 14:45'!
+isPartiallyCurrent
+
+	^self isPartiallyCurrentAgainst: (self expandToLoadableSpecNames: #('ALL'))! !

@@ -1,0 +1,4 @@
+
+!GoferCommit methodsFor: 'accessing' stamp: 'lr 10/2/2009 10:12'!
+message: aString
+	message := aString! !

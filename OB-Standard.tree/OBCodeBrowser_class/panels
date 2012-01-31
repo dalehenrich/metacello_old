@@ -1,0 +1,4 @@
+
+!OBCodeBrowser class methodsFor: 'configuration' stamp: 'lr 8/15/2010 15:40'!
+panels
+	^ Array with: self mercuryPanel with: self navigationPanel with: self annotationPanel with: self buttonPanel with: self definitionPanel! !

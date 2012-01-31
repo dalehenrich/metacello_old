@@ -1,0 +1,4 @@
+
+!OBClassAwareNode methodsFor: 'ancestry' stamp: 'lr 8/29/2010 11:41'!
+isDescendantOfClassCat: aClassCategoryNode
+	^ self theNonMetaClass category = aClassCategoryNode name! !

@@ -1,0 +1,5 @@
+
+!GoferWorking methodsFor: 'initialization' stamp: 'lr 8/19/2009 13:14'!
+initialize
+	super initialize.
+	workingCopies := OrderedCollection new! !

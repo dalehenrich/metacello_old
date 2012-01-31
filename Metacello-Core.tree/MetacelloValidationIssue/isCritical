@@ -1,0 +1,5 @@
+
+!MetacelloValidationIssue methodsFor: 'testing' stamp: 'DaleHenrichs 11/4/2010 12:27'!
+isCritical
+
+	^self isError or: [ self isCriticalWarning ]! !

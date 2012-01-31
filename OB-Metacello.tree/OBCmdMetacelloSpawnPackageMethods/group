@@ -1,0 +1,4 @@
+
+!OBCmdMetacelloSpawnPackageMethods methodsFor: 'accessing' stamp: 'dkh 10/7/2009 14:09'!
+group
+	^ #metacelloPackages! !

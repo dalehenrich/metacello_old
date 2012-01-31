@@ -1,0 +1,5 @@
+
+!OBTextMorphSelection methodsFor: 'accessing' stamp: 'lr 12/10/2010 09:44'!
+selection: anInterval
+	morph setSelection: anInterval.
+	super selection: morph selectionInterval! !

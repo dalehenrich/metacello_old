@@ -1,0 +1,5 @@
+
+!MetacelloPackageSpec methodsFor: 'accessing' stamp: 'dkh 1/2/2010 15:44'!
+repository: aStringOrMetacelloRepositorySpec
+
+	self repositories repository: aStringOrMetacelloRepositorySpec! !

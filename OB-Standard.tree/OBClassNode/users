@@ -1,0 +1,7 @@
+
+!OBClassNode methodsFor: 'navigating' stamp: 'cwp 10/17/2007 23:58'!
+users
+	| nodes |
+	nodes := (SystemNavigation default allCallsOn: (theClass environment associationAt: theClass name))
+				collect: [:ref | OBClassRefNode on: self name inMethod: ref].
+	^ nodes asArray sort: [:a :b | a theClassName <= b theClassName]! !

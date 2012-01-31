@@ -1,0 +1,4 @@
+
+!OBCommand methodsFor: 'execution' stamp: 'cwp 10/15/2006 14:12'!
+execute
+	! !

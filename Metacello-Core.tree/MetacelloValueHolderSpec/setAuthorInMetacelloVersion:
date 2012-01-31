@@ -1,0 +1,5 @@
+
+!MetacelloValueHolderSpec methodsFor: 'private' stamp: 'dkh 9/13/2009 07:46'!
+setAuthorInMetacelloVersion: aMetacelloVersionSpec
+
+	aMetacelloVersionSpec setAuthor: self! !

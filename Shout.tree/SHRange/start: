@@ -1,0 +1,4 @@
+
+!SHRange methodsFor: 'accessing' stamp: ''!
+start: anInteger 
+	start := anInteger! !

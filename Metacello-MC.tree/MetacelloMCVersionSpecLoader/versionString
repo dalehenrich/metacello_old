@@ -1,0 +1,5 @@
+
+!MetacelloMCVersionSpecLoader methodsFor: 'spec compatibility' stamp: 'DaleHenrichs 3/11/2010 17:49'!
+versionString
+
+	^self versionSpec versionString! !

@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'operations' stamp: 'lr 11/10/2009 10:08'!
+commit
+	"Commit the modified packages."
+
+	^ self execute: GoferCommit! !

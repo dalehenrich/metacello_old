@@ -1,0 +1,6 @@
+
+!MetacelloConfigAPIToolBoxTestCase methodsFor: 'running' stamp: 'DaleHenrichs 12/20/2010 13:21'!
+configurationRepository
+	"MetacelloConfigurationResource reset"
+
+	^ MetacelloConfigurationResource current monticelloRepository! !

@@ -1,0 +1,4 @@
+
+!SHPreferences class methodsFor: 'accessing-styles' stamp: ''!
+messageSendsStyle: aGroupStyle 
+	^ Groups at: #messageSends put: aGroupStyle! !

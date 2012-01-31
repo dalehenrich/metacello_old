@@ -1,0 +1,12 @@
+
+!OBPluggableFilter methodsFor: 'filtering' stamp: 'lr 3/4/2009 08:32'!
+noteParent: pNode child: cNode 
+	^ note isNil 
+		ifTrue: 
+			[ super 
+				noteParent: pNode
+				child: cNode ]
+		ifFalse: 
+			[ note 
+				value: pNode
+				value: cNode ]! !

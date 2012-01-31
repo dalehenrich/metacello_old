@@ -1,0 +1,4 @@
+
+!OBDefinition methodsFor: 'callbacks' stamp: 'cwp 12/26/2007 23:00'!
+selectedClass
+	^ nil! !

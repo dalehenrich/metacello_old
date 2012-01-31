@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'ancestry' stamp: 'cwp 5/11/2007 00:18'!
+isAncestorOf: aNode
+	^ self isAncestorOf: aNode using: self ancestrySelector! !

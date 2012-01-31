@@ -1,0 +1,4 @@
+
+!OBDoItTextCommand class methodsFor: 'testing' stamp: 'lr 3/6/2011 14:55'!
+takesText
+	^ true! !

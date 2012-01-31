@@ -1,0 +1,4 @@
+
+!SHTextStylerST80 methodsFor: 'accessing' stamp: ''!
+font: aFont 
+	font := aFont! !

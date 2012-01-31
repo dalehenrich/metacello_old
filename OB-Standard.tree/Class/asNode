@@ -1,0 +1,4 @@
+
+!Class methodsFor: '*ob-standard-converting' stamp: 'lr 2/12/2009 10:38'!
+asNode
+	^ OBClassNode on: self! !

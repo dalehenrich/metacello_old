@@ -1,0 +1,12 @@
+
+!OBHierarchyBrowser class methodsFor: 'configuration' stamp: 'lr 3/14/2010 09:55'!
+defaultMetaNode
+	| rootClass |
+	rootClass := OBMetaNode named: 'root'.
+	self 
+		buildMetagraphOn: rootClass
+		class: #classHierarchy 
+		comment: #commentHierarchy 
+		metaclass: #metaclassHierarchy.
+	rootClass edges do: [ :each | each metaNode doubleClickSelector: #focusHierarchy: ].
+	^ rootClass! !

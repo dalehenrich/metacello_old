@@ -1,0 +1,5 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'accessing' stamp: 'dkh 10/3/2009 16:26'!
+configuration: aConfig
+
+	configuration := aConfig! !

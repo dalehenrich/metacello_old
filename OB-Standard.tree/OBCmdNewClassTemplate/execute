@@ -1,0 +1,9 @@
+
+!OBCmdNewClassTemplate methodsFor: 'execution' stamp: 'dc 4/23/2007 15:08'!
+execute
+	| class definition |
+	class := target theNonMetaClass.
+	definition := (OBClassDefinition 
+					environment: class environment 
+					template: (Class template: class category)).
+	requestor announce: (OBDefinitionChanged definition: definition)! !

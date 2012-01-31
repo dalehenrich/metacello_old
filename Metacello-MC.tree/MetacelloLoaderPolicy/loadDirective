@@ -1,0 +1,6 @@
+
+!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 3/10/2010 11:11'!
+loadDirective
+
+	loadDirective == nil ifTrue: [ loadDirective := MetacelloLinearLoadDirective new ].
+	^ loadDirective! !

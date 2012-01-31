@@ -1,0 +1,7 @@
+
+!ProfStef methodsFor: 'navigating' stamp: 'DannyChan 2/1/2010 21:23'!
+tutorial: aTutorialClass lesson: aSelector
+	| tutorial |
+	tutorial := aTutorialClass new.
+	self player tutorial: tutorial.
+	self tutorial: aTutorialClass lessonAt: (tutorial indexOfLesson: aSelector).! !

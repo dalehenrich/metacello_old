@@ -1,0 +1,9 @@
+
+!OBColumn methodsFor: '*ob-morphic' stamp: 'lr 9/5/2010 18:48'!
+wantsDroppedMorph: transferMorph event: evt inMorph: listMorph 
+	| node passenger |
+	(transferMorph isKindOf: TransferMorph) ifFalse: [ ^ false ].
+	transferMorph dragTransferType = self dragTransferType ifFalse: [ ^ false ].
+	node := self nodeForDropEvent: evt inMorph: listMorph.
+	passenger := transferMorph passenger.
+	^ self canDrop: passenger on: node! !

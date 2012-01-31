@@ -1,0 +1,6 @@
+
+!OBInformRequest class methodsFor: 'exceptionInstantiator' stamp: 'dc 7/22/2007 20:31'!
+message: aString
+	^ (self new
+		message: aString;
+		yourself) signal! !

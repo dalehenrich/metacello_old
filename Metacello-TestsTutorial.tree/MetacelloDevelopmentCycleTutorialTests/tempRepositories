@@ -1,0 +1,6 @@
+
+!MetacelloDevelopmentCycleTutorialTests methodsFor: 'accessing' stamp: 'dkh 4/18/2011 18:20'!
+tempRepositories
+
+	tempRepositories ifNil: [ tempRepositories := OrderedCollection new ].
+	^tempRepositories! !

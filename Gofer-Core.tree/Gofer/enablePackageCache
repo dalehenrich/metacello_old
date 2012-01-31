@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'repositories-options' stamp: 'lr 12/13/2009 16:33'!
+enablePackageCache
+	"Enable the use of the package-cache repository."
+
+	packageCacheRepository := MCCacheRepository default! !

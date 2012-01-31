@@ -1,0 +1,5 @@
+
+!OBColumn methodsFor: 'callbacks' stamp: 'cwp 3/13/2007 00:51'!
+menu: aMenu 
+	self isEmpty ifFalse: [self addCommandsToMenu: aMenu].
+	^aMenu! !

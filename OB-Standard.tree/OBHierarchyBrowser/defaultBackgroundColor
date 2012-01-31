@@ -1,0 +1,4 @@
+
+!OBHierarchyBrowser methodsFor: 'building' stamp: 'lr 8/15/2010 15:34'!
+defaultBackgroundColor
+	^ Color lightGreen! !

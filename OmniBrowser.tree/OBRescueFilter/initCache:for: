@@ -1,0 +1,5 @@
+
+!OBRescueFilter methodsFor: 'filtering' stamp: 'cwp 7/19/2007 01:06'!
+initCache: aCollection for: aNode
+	cache at: aNode put: aCollection.
+	^ #()! !

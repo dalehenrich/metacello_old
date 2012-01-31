@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'accessing' stamp: 'lr 12/13/2009 17:18'!
+references
+	"Answer the configured references."
+
+	^ Array withAll: references! !

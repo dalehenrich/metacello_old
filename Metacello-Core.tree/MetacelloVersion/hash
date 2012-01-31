@@ -1,0 +1,5 @@
+
+!MetacelloVersion methodsFor: 'comparing' stamp: 'dkh 6/14/2009 09:41'!
+hash
+
+	^self versionNumber hash! !

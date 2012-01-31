@@ -1,0 +1,8 @@
+
+!TutorialPlayer methodsFor: 'accessing' stamp: 'LaurentLaffont 1/21/2010 20:43'!
+tutorialPosition 
+	^ tutorialPosition  ifNil: [
+		self rewind.
+		tutorialPosition.
+	].
+	! !

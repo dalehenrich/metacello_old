@@ -1,0 +1,4 @@
+
+!OBCodeBrowser methodsFor: 'updating' stamp: 'dr 10/24/2008 16:06'!
+register
+	SystemChangeNotifier uniqueInstance notify: self ofAllSystemChangesUsing: #event:.! !

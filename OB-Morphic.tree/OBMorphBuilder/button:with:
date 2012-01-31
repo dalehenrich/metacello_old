@@ -1,0 +1,17 @@
+
+!OBMorphBuilder methodsFor: 'building' stamp: 'lr 6/5/2010 18:19'!
+button: aButtonModel with: aBlock 
+	| morph |
+	morph := OBPluggableButtonMorph 
+		on: aButtonModel
+		getState: #isSelected
+		action: #push
+		label: #label.
+	morph
+		enableDrop: true;
+		hResizing: #spaceFill;
+		vResizing: #shrinkWrap;
+		styleWith: OBPlatform current builder.
+	current isNil
+		ifFalse: [ current addMorphBack: morph ].
+	^ self current: morph do: aBlock! !

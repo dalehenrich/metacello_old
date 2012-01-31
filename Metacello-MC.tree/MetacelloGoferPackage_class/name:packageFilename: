@@ -1,0 +1,4 @@
+
+!MetacelloGoferPackage class methodsFor: 'instance creation' stamp: 'dkh 12/15/2009 10:32'!
+name: aString packageFilename: packageFilename
+	^ self basicNew initializeName: aString packageFilename: packageFilename! !

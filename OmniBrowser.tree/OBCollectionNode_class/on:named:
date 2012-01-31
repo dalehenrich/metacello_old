@@ -1,0 +1,6 @@
+
+!OBCollectionNode class methodsFor: 'instance creation' stamp: 'cwp 12/24/2007 02:48'!
+on: aCollection named: aString
+	^ (self on: aCollection)
+		name: aString;
+		yourself! !

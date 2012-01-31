@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCmdRemoveClass
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

@@ -1,0 +1,6 @@
+
+!AbstractTutorial methodsFor: 'tutorial' stamp: 'LaurentLaffont 1/21/2010 13:44'!
+tutorial
+	"Should return an Array of selectors which returns Lesson instances.
+	See SmalltalkSyntaxTutorial."
+	^ self shouldBeImplemented.! !

@@ -1,0 +1,5 @@
+
+!OBTextMorph methodsFor: 'callbacks' stamp: 'lr 4/25/2011 10:50'!
+keyStroke: anEvent
+	(anEvent anyModifierKeyPressed and: [ self editView model keystroke: anEvent asKeystroke selection: self editView selectionNode ])
+		ifFalse: [ super keyStroke: anEvent ]! !

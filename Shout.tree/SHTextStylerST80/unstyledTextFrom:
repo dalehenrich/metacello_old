@@ -1,0 +1,15 @@
+
+!SHTextStylerST80 methodsFor: 'converting' stamp: ''!
+unstyledTextFrom: aText 
+	| answer |
+	answer := super unstyledTextFrom: aText.
+	aText runs
+		withStartStopAndValueDo: [:start :stop :attribs | (attribs
+				detect: [:each | each isKindOf: TextAction]
+				ifNone: [])
+				ifNotNil: [attribs
+						do: [:eachAttrib | answer
+								addAttribute: eachAttrib
+								from: start
+								to: stop]]].
+	^ answer! !

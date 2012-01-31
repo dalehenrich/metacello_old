@@ -1,0 +1,5 @@
+
+!OBClassNode methodsFor: 'navigating' stamp: 'lr 11/7/2009 17:47'!
+classVariables
+	^ self theNonMetaClass allClassVarNames asArray sort
+		collect: [:ea | OBClassVariableNode on: ea inClass: self theClass]! !

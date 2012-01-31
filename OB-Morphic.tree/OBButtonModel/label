@@ -1,0 +1,4 @@
+
+!OBButtonModel methodsFor: 'accessing' stamp: 'cwp 3/2/2004 21:46'!
+label
+	^ label! !

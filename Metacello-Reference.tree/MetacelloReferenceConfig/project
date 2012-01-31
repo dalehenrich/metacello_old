@@ -1,0 +1,8 @@
+
+!MetacelloReferenceConfig methodsFor: 'accessing' stamp: 'dkh 10/10/2009 09:45'!
+project
+
+	^ project ifNil: [ | constructor |
+		"Construct Metacello project"
+		constructor := (Smalltalk at: #MetacelloVersionConstructor) on: self.
+		project := constructor project ]! !

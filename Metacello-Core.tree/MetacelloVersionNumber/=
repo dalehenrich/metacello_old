@@ -1,0 +1,12 @@
+
+!MetacelloVersionNumber methodsFor: 'comparing' stamp: 'DaleHenrichs 10/6/2010 11:14'!
+= aMetacelloVersionNumber
+
+	| condensed aCondensed |
+	aMetacelloVersionNumber species = self species
+		ifFalse: [ ^ false ].
+	condensed := self collapseZeros.
+	aCondensed := aMetacelloVersionNumber collapseZeros.
+	(condensed ~~ self or: [ aCondensed ~~ aMetacelloVersionNumber ])
+		ifTrue: [ ^ condensed compareEqualTo: aCondensed ].
+	^ self compareEqualTo: aMetacelloVersionNumber! !

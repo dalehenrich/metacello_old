@@ -1,0 +1,6 @@
+
+!Collection methodsFor: '*metacello-core' stamp: 'dkh 6/6/2009 11:42'!
+removeFromMetacelloPackages: aMetacelloPackagesSpec
+
+	self do: [:each | each removeFromMetacelloPackages: aMetacelloPackagesSpec ]
+! !

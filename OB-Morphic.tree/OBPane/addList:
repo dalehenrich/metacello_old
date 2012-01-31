@@ -1,0 +1,7 @@
+
+!OBPane methodsFor: 'updating' stamp: 'cwp 3/14/2007 23:33'!
+addList: aListMorph
+	list := aListMorph.
+	self addMorph: list.
+	list bounds: self innerBounds.
+! !

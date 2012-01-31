@@ -1,0 +1,4 @@
+
+!OBTextRequest methodsFor: 'dispatching' stamp: 'cwp 6/1/2007 16:40'!
+handleWith: anObject
+	^ anObject handleTextRequest: self! !

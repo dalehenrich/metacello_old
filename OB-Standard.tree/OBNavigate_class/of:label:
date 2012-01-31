@@ -1,0 +1,4 @@
+
+!OBNavigate class methodsFor: 'instance creation' stamp: 'dr 2/10/2009 16:25'!
+of: aNode label: aString
+	^(self of: aNode) label: aString; yourself! !

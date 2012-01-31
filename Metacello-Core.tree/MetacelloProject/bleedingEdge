@@ -1,0 +1,5 @@
+
+!MetacelloProject methodsFor: 'versions' stamp: 'DaleHenrichs 11/2/2010 13:20'!
+bleedingEdge
+
+	^self version: #bleedingEdge! !

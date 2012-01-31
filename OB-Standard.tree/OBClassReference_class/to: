@@ -1,0 +1,4 @@
+
+!OBClassReference class methodsFor: 'instance creation' stamp: ''!
+to: aClass
+	^ self named: aClass name! !

@@ -1,0 +1,12 @@
+
+!OBColumn methodsFor: 'selecting' stamp: 'lr 5/28/2010 21:47'!
+fan: aFan selection: index 
+	| node |
+	self listHolder 
+		fan: aFan
+		selection: index.
+	(node := self selectedNode) isNil
+		ifFalse: [ self listHolder noteChild: node ].
+	self switchFilter: self listHolder switchFilter.
+	switch refresh.
+	self changed: #list! !

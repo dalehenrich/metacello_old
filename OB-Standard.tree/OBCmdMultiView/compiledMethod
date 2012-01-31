@@ -1,0 +1,4 @@
+
+!OBCmdMultiView methodsFor: 'accessing' stamp: 'lr 1/28/2010 15:42'!
+compiledMethod
+	^ target theClass compiledMethodAt: target selector! !

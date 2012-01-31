@@ -1,0 +1,5 @@
+
+!MetacelloAddMemberSpec methodsFor: 'actions' stamp: 'dkh 06/02/2009 18:26'!
+applyToList: aListSpec
+
+	aListSpec add: self! !

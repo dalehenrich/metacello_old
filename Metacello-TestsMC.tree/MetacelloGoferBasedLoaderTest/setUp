@@ -1,0 +1,8 @@
+
+!MetacelloGoferBasedLoaderTest methodsFor: 'running' stamp: 'DaleHenrichs 5/19/2010 14:13'!
+setUp
+
+	super setUp.
+	Smalltalk at: #'Metacello_Configuration_Test_DoIt_Result' put: false.
+	preLoadExecuted := postLoadExecuted := false.
+! !

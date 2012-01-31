@@ -1,0 +1,9 @@
+
+!OBChoiceRequest class methodsFor: 'exceptionInstantiator' stamp: 'cwp 7/9/2006 00:05'!
+prompt: aString labels: labelArray values: valueArray lines: lineArray
+	^ (self new 
+		setPrompt: aString 
+		labels: labelArray 
+		values: valueArray 
+		lines: lineArray) 
+			signal! !

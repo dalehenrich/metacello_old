@@ -1,0 +1,4 @@
+
+!MetacelloValueHolderSpec methodsFor: 'accessing' stamp: 'dkh 6/5/2009 11:46'!
+value: anObject
+	value := anObject! !

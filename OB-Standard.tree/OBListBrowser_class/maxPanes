@@ -1,0 +1,4 @@
+
+!OBListBrowser class methodsFor: 'configuration' stamp: 'cwp 12/5/2004 17:54'!
+maxPanes
+	^ 2! !

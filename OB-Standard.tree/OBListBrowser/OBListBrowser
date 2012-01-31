@@ -1,0 +1,9 @@
+
+OBCodeBrowser subclass: #OBListBrowser
+	instanceVariableNames: 'labelPrefix label'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Browsers'!
+
+!OBListBrowser commentStamp: 'cwp 1/7/2005 23:53' prior: 0!
+OBListBrowsers are used to display simple lists of methods, such as senders or implementors.!

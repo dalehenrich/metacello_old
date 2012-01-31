@@ -1,0 +1,5 @@
+
+!MetacelloMCProject methodsFor: 'private' stamp: 'dkh 6/10/2009 10:56'!
+pragmaKeywords
+
+	^super pragmaKeywords, #(projectPackage:attribute: packages:attribute: repositories:attribute: )! !

@@ -1,0 +1,9 @@
+
+!MetacelloCommonMCSpecLoader methodsFor: 'private' stamp: 'dkh 4/6/2011 22:33'!
+linearLoadPackageSpecs: packageSpecs repositories: repositories
+	
+	| gofer |
+	gofer := MetacelloGofer new.
+	repositories do: [:repo | gofer repository: repo ].
+	packageSpecs do: [:pkg | pkg loadUsing: self gofer: gofer ].
+! !

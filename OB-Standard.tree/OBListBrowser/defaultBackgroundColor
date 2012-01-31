@@ -1,0 +1,4 @@
+
+!OBListBrowser methodsFor: 'morphic' stamp: 'dr 9/22/2008 11:28'!
+defaultBackgroundColor
+	^ Color lightBlue ! !

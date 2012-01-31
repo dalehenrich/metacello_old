@@ -1,0 +1,4 @@
+
+!OBSelectionChanged class methodsFor: 'instance creation' stamp: 'cwp 4/19/2006 00:51'!
+column: aColumn 
+	^ self new column: aColumn! !

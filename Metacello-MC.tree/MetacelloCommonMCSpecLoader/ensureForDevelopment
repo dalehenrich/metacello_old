@@ -1,0 +1,5 @@
+
+!MetacelloCommonMCSpecLoader methodsFor: 'testing' stamp: 'DaleHenrichs 3/11/2010 20:48'!
+ensureForDevelopment
+
+	^true! !

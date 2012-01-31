@@ -1,0 +1,4 @@
+
+!GoferLocalChanges methodsFor: 'queries' stamp: 'lr 12/12/2009 13:01'!
+targetSnapshotOf: aReference
+	^ aReference workingCopy package snapshot! !

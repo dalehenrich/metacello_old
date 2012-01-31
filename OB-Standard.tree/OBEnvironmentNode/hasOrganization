@@ -1,0 +1,4 @@
+
+!OBEnvironmentNode methodsFor: 'testing' stamp: 'cwp 6/30/2006 00:54'!
+hasOrganization
+	^ true! !

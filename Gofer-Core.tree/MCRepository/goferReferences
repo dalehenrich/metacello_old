@@ -1,0 +1,4 @@
+
+!MCRepository methodsFor: '*gofer-core-accessing' stamp: 'lr 12/9/2009 20:50'!
+goferReferences
+	^ #()! !

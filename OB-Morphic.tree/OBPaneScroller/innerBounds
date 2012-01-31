@@ -1,0 +1,8 @@
+
+!OBPaneScroller methodsFor: 'layout' stamp: 'lr 4/29/2011 23:25'!
+innerBounds
+	| rect |
+	rect := super innerBounds.
+	^ self scrollBarIsVisible
+		ifTrue: [ rect withHeight: rect height - self scrollBarHeight + 1 ]
+		ifFalse: [ rect ]! !

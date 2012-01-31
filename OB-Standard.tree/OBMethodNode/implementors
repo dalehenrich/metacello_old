@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'navigating' stamp: 'cwp 1/2/2005 23:12'!
+implementors
+	^ self implementorsOf: selector! !

@@ -1,0 +1,4 @@
+
+!OBFan methodsFor: 'selecting' stamp: 'jk 3/23/2008 11:12'!
+list
+	^ self children collect: [ :e | self displayStringForChild: e ]! !

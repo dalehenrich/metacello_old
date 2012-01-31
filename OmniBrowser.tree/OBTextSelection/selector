@@ -1,0 +1,4 @@
+
+!OBTextSelection methodsFor: 'querying' stamp: 'cwp 10/14/2006 21:31'!
+selector
+	^ self text asString findSelector! !

@@ -1,0 +1,5 @@
+
+!MetacelloDevelopmentCycleTutorialTests methodsFor: 'private' stamp: 'DaleHenrichs 1/5/2011 15:16'!
+repositoryName
+
+	^#'Metacello_Dev_Cycle_Repository'! !

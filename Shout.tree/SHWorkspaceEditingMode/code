@@ -1,0 +1,4 @@
+
+!SHWorkspaceEditingMode methodsFor: 'accessing' stamp: 'AlainPlantec 9/4/2011 10:19'!
+code
+	^ code ifNil: [code := '' asText]! !

@@ -1,0 +1,4 @@
+
+!OBListBrowser methodsFor: 'accessing' stamp: 'dr 2/10/2009 16:23'!
+label: aString
+	label := aString! !

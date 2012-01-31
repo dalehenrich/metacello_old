@@ -1,0 +1,13 @@
+
+!OBInheritanceBrowser class methodsFor: 'configuration' stamp: 'cwp 5/14/2007 13:45'!
+defaultMetaNode
+	| method root |
+	method := OBMetaNode named: 'Method'.
+	root := OBMetaNode named: 'Root'.
+	root
+		childAt: #children put: method.
+	method
+		displaySelector: #fullName;
+		ancestrySelector: #isDescendantOfMethod:;
+		childAt: #overrides put: method.
+	^ root! !

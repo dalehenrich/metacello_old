@@ -1,0 +1,5 @@
+
+!ConfigurationOfMetacello class methodsFor: 'metacello tool support' stamp: 'dkh 10/31/2009 13:44'!
+isMetacelloConfig
+
+	^true! !

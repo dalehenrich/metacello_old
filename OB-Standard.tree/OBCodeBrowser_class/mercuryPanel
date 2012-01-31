@@ -1,0 +1,4 @@
+
+!OBCodeBrowser class methodsFor: 'configuration' stamp: 'lr 8/15/2010 15:20'!
+mercuryPanel
+	^ self mercuryPanelEnabled ifTrue: [ OBMercuryPanel new ]! !

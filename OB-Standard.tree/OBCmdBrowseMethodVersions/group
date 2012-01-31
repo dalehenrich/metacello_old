@@ -1,0 +1,4 @@
+
+!OBCmdBrowseMethodVersions methodsFor: 'accessing' stamp: 'cwp 10/9/2006 18:09'!
+group
+	^ #navigation! !

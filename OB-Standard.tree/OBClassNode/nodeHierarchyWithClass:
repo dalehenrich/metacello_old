@@ -1,0 +1,4 @@
+
+!OBClassNode methodsFor: 'navigating' stamp: 'cwp 5/20/2007 00:27'!
+nodeHierarchyWithClass: aClass
+	^ self surroundingHierarchy collect: [:ea | aClass on: ea]! !

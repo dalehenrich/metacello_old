@@ -1,0 +1,10 @@
+
+!OBPaneScroller methodsFor: 'initialization' stamp: 'lr 4/29/2011 23:23'!
+initializeScrollbar
+	scrollBar := ScrollBar new model: self slotName: 'scrollBar'.
+	scrollBar
+		borderWidth: 1;
+		borderColor: Color black;
+		height: self scrollBarHeight.
+	self resizeScrollBar.
+! !

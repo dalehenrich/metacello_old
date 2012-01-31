@@ -1,0 +1,4 @@
+
+!OBRadioButtonBar methodsFor: 'accessing' stamp: 'lr 5/28/2010 17:49'!
+model
+	^ model! !

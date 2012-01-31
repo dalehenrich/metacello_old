@@ -1,0 +1,9 @@
+
+!OBCmdMetacello methodsFor: 'execution' stamp: 'DaleHenrichs 08/30/2010 15:38'!
+executeLoadLatestPackages
+
+	| version |
+	(version := self promptForBaselineVersion: 'Which version would you like to load from?') ~~ nil
+		ifTrue: [ 
+			version load: version defaultPackageNamesToLoad.
+			OBInformRequest message: version versionString, ' loaded.']! !

@@ -1,0 +1,4 @@
+
+!GoferOperationTest methodsFor: 'running' stamp: 'lr 3/16/2010 09:45'!
+runCase
+	^ SystemChangeNotifier uniqueInstance doSilently: [ super runCase ]! !

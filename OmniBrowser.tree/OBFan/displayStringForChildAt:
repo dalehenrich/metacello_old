@@ -1,0 +1,4 @@
+
+!OBFan methodsFor: 'selecting' stamp: 'jk 3/23/2008 11:14'!
+displayStringForChildAt: index
+	^ self displayStringForChild: (self children at: index ifAbsent: [^''])! !

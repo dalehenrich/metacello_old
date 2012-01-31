@@ -1,0 +1,8 @@
+
+!MetacelloProjectReferenceSpec methodsFor: '*metacello-mc' stamp: 'DaleHenrichs 3/5/2010 09:46'!
+loadUsing: aLoader gofer: ignored
+
+	| required |
+	required := self resolveToLoadableSpec.
+	required loader: aLoader.
+	^required load! !

@@ -1,0 +1,5 @@
+
+!MetacelloVersion methodsFor: 'testing' stamp: 'DaleHenrichs 2/4/2010 10:19'!
+isPossibleBaseline
+
+	^self spec isPossibleBaseline! !

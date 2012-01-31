@@ -1,0 +1,8 @@
+
+!OBColumn methodsFor: 'updating' stamp: 'lr 2/12/2009 10:32'!
+nodeDeleted: announcement 
+	"This gets called if an action causes the currently selected node to be deleted."
+	self selectedNode = announcement node ifFalse: [ ^ self ].
+	self listHolder refresh.
+	self changed: #list.
+	self selection: 0! !

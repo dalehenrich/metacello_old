@@ -1,0 +1,4 @@
+
+!OBList methodsFor: 'nodes - testing' stamp: 'jk 3/22/2008 22:17'!
+includesNode: aNode
+	^ self fan includesNode: aNode! !

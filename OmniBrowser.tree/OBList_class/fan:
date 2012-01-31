@@ -1,0 +1,4 @@
+
+!OBList class methodsFor: 'instance creation' stamp: 'dr 9/12/2008 10:34'!
+fan: aFan
+    ^self new fan: aFan! !

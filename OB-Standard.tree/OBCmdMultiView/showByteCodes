@@ -1,0 +1,4 @@
+
+!OBCmdMultiView methodsFor: 'actions' stamp: 'lr 1/28/2010 15:42'!
+showByteCodes
+	self definition: (OBTextDefinition text: self compiledMethod symbolic)! !

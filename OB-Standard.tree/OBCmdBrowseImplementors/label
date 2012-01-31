@@ -1,0 +1,6 @@
+
+!OBCmdBrowseImplementors methodsFor: 'accessing' stamp: 'lr 9/23/2011 20:36'!
+label
+	^ (requestor isKindOf: OBFixedButtonPanel)
+		ifTrue: [ 'Implementors' ]
+		ifFalse: [ 'Implementors...' ]! !

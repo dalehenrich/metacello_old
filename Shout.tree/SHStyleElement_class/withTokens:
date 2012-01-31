@@ -1,0 +1,5 @@
+
+!SHStyleElement class methodsFor: 'instance-creation' stamp: ''!
+withTokens: aCollection 
+	^ self new tokens: aCollection;
+		 yourself! !

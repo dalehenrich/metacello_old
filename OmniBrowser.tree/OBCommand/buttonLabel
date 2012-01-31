@@ -1,0 +1,4 @@
+
+!OBCommand methodsFor: 'accessing' stamp: 'lr 4/25/2007 09:27'!
+buttonLabel
+	^ self label! !

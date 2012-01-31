@@ -1,0 +1,4 @@
+
+!OBClassCategoryNode methodsFor: 'ancestry' stamp: ''!
+ancestrySelector
+	^ #isDescendantOfClassCat:! !

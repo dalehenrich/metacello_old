@@ -1,0 +1,9 @@
+
+!OBAnnouncer methodsFor: 'subscription' stamp: 'lr 4/18/2011 22:28'!
+announce: anObject
+	| ann |
+	ann := anObject asAnnouncement.
+	subscriptions keysAndValuesDo: [ :class :action |
+		(ann isKindOf: class)
+			ifTrue: [ action valueWithArguments: (Array with: ann) ] ].
+	^ ann! !

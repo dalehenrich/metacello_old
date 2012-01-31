@@ -1,0 +1,6 @@
+
+!MetacelloProjectSpecLoadError methodsFor: 'private' stamp: 'DaleHenrichs 2/5/2010 16:18'!
+isResumable
+	"Determine whether an exception is resumable."
+
+	^ false! !

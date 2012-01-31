@@ -1,0 +1,4 @@
+
+!OBSystemBrowser class methodsFor: 'opening' stamp: 'cwp 12/15/2004 21:54'!
+openOnEnvironment: anEnvironment category: aSymbol
+	^ (self onEnvironment: anEnvironment category: aSymbol) open! !

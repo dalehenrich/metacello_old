@@ -1,0 +1,13 @@
+
+!SystemHelp class methodsFor: 'conversion' stamp: 'tbn 3/8/2010 08:52'!
+asHelpTopic 
+	|topic helpOnHelp sortedTopics |
+	topic := CustomHelp asHelpTopic.
+	topic sortSubtopicsByTitle.
+	helpOnHelp := topic subtopics detect: [:t | t key = 'HelpOnHelp'] ifNone: [self error: 'Help for the help system is removed'].
+	sortedTopics := topic subtopics.
+	sortedTopics remove: helpOnHelp.
+	sortedTopics addLast: helpOnHelp.
+	topic subtopics: sortedTopics.
+	^topic.
+! !

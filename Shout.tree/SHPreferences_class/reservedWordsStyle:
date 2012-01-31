@@ -1,0 +1,4 @@
+
+!SHPreferences class methodsFor: 'accessing-styles' stamp: ''!
+reservedWordsStyle: aGroupStyle 
+	^ Groups at: #reservedWords put: aGroupStyle! !

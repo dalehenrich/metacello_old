@@ -1,0 +1,9 @@
+
+!MetacelloAtomicMonticelloResource methodsFor: 'running' stamp: 'DaleHenrichs 6/9/2010 12:10'!
+setUp
+	super setUp.
+	self
+		setUpVersionReferences;
+		setUpMonticelloRepository;
+		setUpDependency;
+		setUpNewerDependency! !

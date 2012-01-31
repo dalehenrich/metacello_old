@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'private' stamp: 'lr 12/13/2009 16:28'!
+basicReferencesIn: aRepository
+	^ [ aRepository goferReferences asSortedCollection asArray ] 
+		on: GoferRepositoryError
+		do: errorBlock! !

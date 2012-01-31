@@ -1,0 +1,4 @@
+
+!OBHierarchyBrowser class methodsFor: 'configuration' stamp: 'cwp 12/13/2004 01:00'!
+titleForRoot: aNode
+	^ aNode name, ' Hierarchy'! !

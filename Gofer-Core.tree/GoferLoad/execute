@@ -1,0 +1,7 @@
+
+!GoferLoad methodsFor: 'running' stamp: 'dkh 10/12/2009 12:56'!
+execute
+	self model goferHasVersions
+		ifTrue: [ self model load ].
+	self updateRepositories.
+	self updateCategories! !

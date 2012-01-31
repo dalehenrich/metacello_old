@@ -1,0 +1,5 @@
+
+!OBList methodsFor: 'selecting' stamp: 'jk 3/23/2008 10:45'!
+clearAll
+	self clearFan.
+	self clearSelection! !

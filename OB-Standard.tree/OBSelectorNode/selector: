@@ -1,0 +1,4 @@
+
+!OBSelectorNode methodsFor: 'accessing' stamp: 'cwp 10/31/2004 01:10'!
+selector: aSelector
+	selector := aSelector! !

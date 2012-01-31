@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'navigating' stamp: 'cwp 9/17/2005 17:48'!
+root
+	^self navigationPanel root! !

@@ -1,0 +1,6 @@
+
+!GoferWorking methodsFor: 'initialization' stamp: 'lr 12/13/2009 19:16'!
+initializeOn: aGofer
+	super initializeOn: aGofer.
+	aGofer references 
+		do: [ :each | self addReference: each ]! !

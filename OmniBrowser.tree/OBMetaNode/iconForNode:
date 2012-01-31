@@ -1,0 +1,4 @@
+
+!OBMetaNode methodsFor: 'filtering' stamp: 'dr 6/27/2008 14:53'!
+iconForNode: aNode
+	^ filters inject: nil into: [:icon :filter | filter icon: icon forNode: aNode]! !

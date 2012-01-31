@@ -1,0 +1,7 @@
+
+!CustomHelpHelpBuilder methodsFor: 'building' stamp: 'tbn 3/6/2010 00:28'!
+build
+	"Start building a help topic from a code description"
+	
+	topicToBuild := self createTopicFrom: rootToBuildFrom 
+! !

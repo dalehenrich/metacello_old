@@ -1,0 +1,4 @@
+
+!Gofer methodsFor: 'repositories-places' stamp: 'lr 7/10/2009 16:27'!
+impara: aString
+	self url: 'http://source.impara.de/' , aString! !

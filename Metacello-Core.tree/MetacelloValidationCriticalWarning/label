@@ -1,0 +1,5 @@
+
+!MetacelloValidationCriticalWarning methodsFor: 'accessing' stamp: 'DaleHenrichs 11/4/2010 12:27'!
+label
+
+	^'Critical Warning'! !

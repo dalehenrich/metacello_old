@@ -1,0 +1,4 @@
+
+!OBVariablesBrowser class methodsFor: 'configuration' stamp: 'avi 5/30/2007 22:13'!
+minPanes
+	^ 2! !

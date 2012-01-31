@@ -1,0 +1,4 @@
+
+!OBShowSenders methodsFor: 'accessing' stamp: 'lr 8/2/2010 16:42'!
+noChildrenMessage
+	^ 'No senders'! !

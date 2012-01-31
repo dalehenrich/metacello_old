@@ -1,0 +1,8 @@
+
+!ProfStefTutorialsHelp class methodsFor: 'menu' stamp: 'LaurentLaffont 11/22/2010 22:00'!
+menuCommandOn: aBuilder 
+	<worldMenu> 
+	(aBuilder item: #'ProfStef Tutorials')
+			parent: #Help;
+			action:[ HelpBrowser openOn: self ]; 
+			help: 'Browse and create ProfStef tutorials'..! !

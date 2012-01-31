@@ -1,0 +1,3 @@
+
+!OBMercuryPanel methodsFor: 'user interface' stamp: 'cwp 4/19/2007 22:30'!
+addTextCommandsToMenu: aMenu selection: aTextSelection! !

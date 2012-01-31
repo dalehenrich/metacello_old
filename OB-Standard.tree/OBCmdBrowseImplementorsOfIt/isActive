@@ -1,0 +1,4 @@
+
+!OBCmdBrowseImplementorsOfIt methodsFor: 'testing' stamp: 'cwp 10/16/2006 21:32'!
+isActive
+	^ true! !

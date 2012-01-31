@@ -1,0 +1,4 @@
+
+!SHPreferences class methodsFor: 'initialization' stamp: ''!
+initialize
+	self customStyleTable: SHTextStylerST80 defaultStyleTable! !

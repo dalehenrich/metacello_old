@@ -1,0 +1,4 @@
+
+!OBDefinition methodsFor: 'callbacks' stamp: 'cwp 3/22/2004 20:51'!
+accept: aText notifying: aController
+	^ self text: aText! !

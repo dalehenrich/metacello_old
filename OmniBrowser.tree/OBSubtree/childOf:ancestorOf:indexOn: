@@ -1,0 +1,7 @@
+
+!OBSubtree methodsFor: 'public' stamp: 'dr 12/5/2008 15:59'!
+childOf: current ancestorOf: leaf indexOn: stream 
+	| fan |
+	fan := current asFan. 
+	stream nextPut: fan.           
+	^fan ancestorOf: leaf in: [:index | stream nextPut: index] ! !

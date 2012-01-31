@@ -1,0 +1,4 @@
+
+!MetacelloMethodSection methodsFor: 'accessing' stamp: 'DaleHenrichs 11/15/2010 10:09'!
+attribute: anObject
+	attribute := anObject! !

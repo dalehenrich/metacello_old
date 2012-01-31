@@ -1,0 +1,8 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'DaleHenrichs 11/12/2010 11:37'!
+for: attribute version: aString
+	"conditional symbolicVersion support"
+
+	self attributeMap at: attribute put: aString.
+	self addAttribute: attribute
+! !

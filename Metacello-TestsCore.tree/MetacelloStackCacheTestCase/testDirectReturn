@@ -1,0 +1,6 @@
+
+!MetacelloStackCacheTestCase methodsFor: 'tests' stamp: 'DaleHenrichs 1/31/2010 13:02'!
+testDirectReturn
+
+	| x |
+	self assert: (x := self directReturnOfValue) == 6! !

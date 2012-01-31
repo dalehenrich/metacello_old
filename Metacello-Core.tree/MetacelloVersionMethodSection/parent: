@@ -1,0 +1,4 @@
+
+!MetacelloVersionMethodSection methodsFor: 'accessing' stamp: 'DaleHenrichs 12/22/2010 11:47'!
+parent: anObject
+	parent := anObject! !

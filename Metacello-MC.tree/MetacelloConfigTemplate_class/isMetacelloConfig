@@ -1,0 +1,6 @@
+
+!MetacelloConfigTemplate class methodsFor: 'metacello tool support' stamp: 'DaleHenrichs 11/2/2010 14:58'!
+isMetacelloConfig
+	"Answer true and the Metacello tools will operate on you"
+	
+	^true! !

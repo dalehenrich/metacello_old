@@ -1,0 +1,4 @@
+
+!OBClassCategoryNode methodsFor: 'actions' stamp: 'cwp 6/11/2009 16:59'!
+renameTo: aString 
+	self container organization renameCategory: self name toBe: aString.	! !

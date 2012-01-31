@@ -1,0 +1,6 @@
+
+!OBColumnPanel methodsFor: 'accessing columns' stamp: 'dr 9/24/2008 11:12'!
+pushColumn: aColumn
+	self columns addLast: aColumn. 
+	self changed: #columns.
+! !

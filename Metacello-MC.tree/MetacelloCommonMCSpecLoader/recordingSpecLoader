@@ -1,0 +1,8 @@
+
+!MetacelloCommonMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/11/2010 16:37'!
+recordingSpecLoader
+
+	^(MetacelloNullRecordingMCSpecLoader on: self spec)
+		shouldDisablePackageCache: self shouldDisablePackageCache;
+		loaderPolicy: self loaderPolicy copy;
+		yourself! !

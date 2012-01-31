@@ -1,0 +1,7 @@
+
+!OBColumn class methodsFor: 'instance creation' stamp: 'dr 12/18/2008 15:24'!
+inPanel: aPanel metaNode: aMetaNode node: aNode
+	^ self new
+			setPanel: aPanel
+			metaNode: aMetaNode
+			node: aNode! !

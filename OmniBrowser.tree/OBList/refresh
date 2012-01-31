@@ -1,0 +1,8 @@
+
+!OBList methodsFor: 'nodes - testing' stamp: 'lr 7/18/2010 15:16'!
+refresh
+	| node result |
+	node := self selectedNode.
+	result := self fan refresh.
+	result ifTrue: [ self select: node ].
+	^ result! !

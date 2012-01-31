@@ -1,0 +1,4 @@
+
+!Morph class methodsFor: '*ob-standard' stamp: 'lr 3/28/2009 16:02'!
+browserIcon
+	^ #morph! !

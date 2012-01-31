@@ -1,0 +1,8 @@
+
+!MetacelloMCProject methodsFor: 'development support' stamp: 'dkh 4/17/2011 14:37'!
+goferBranch: branchName project: commitMessage
+
+	| pkgSpec |
+	(pkgSpec := self projectPackage) == nil ifTrue: [ ^false ].
+	pkgSpec file: pkgSpec name, '.', branchName.
+	^pkgSpec goferBranchPackage: branchName message: commitMessage! !

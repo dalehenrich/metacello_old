@@ -1,0 +1,5 @@
+
+!MetacelloBaseConfiguration methodsFor: 'private' stamp: 'DaleHenrichs 11/4/2010 14:22'!
+versionDoesNotExistError: versionStringOrSymbol
+
+	((Smalltalk at: #MetacelloSymbolicVersionDoesNotExistError) project: self project versionString: versionStringOrSymbol) signal! !

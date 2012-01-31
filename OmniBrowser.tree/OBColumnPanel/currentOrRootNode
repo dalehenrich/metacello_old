@@ -1,0 +1,4 @@
+
+!OBColumnPanel methodsFor: 'accessing' stamp: 'dr 11/4/2008 19:59'!
+currentOrRootNode
+	^ current ifNil: [root] ! !

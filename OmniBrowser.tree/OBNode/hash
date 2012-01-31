@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'comparing' stamp: 'cwp 1/31/2004 14:57'!
+hash
+	^ self name hash! !

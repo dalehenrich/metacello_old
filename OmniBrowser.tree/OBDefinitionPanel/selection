@@ -1,0 +1,4 @@
+
+!OBDefinitionPanel methodsFor: 'callbacks' stamp: 'lr 2/9/2008 11:17'!
+selection
+	^ selection ifNil: [ selection := self withDefinitionDo: [ :def | def textSelection ] ifNil: [ 1 to: 0 ] ]! !

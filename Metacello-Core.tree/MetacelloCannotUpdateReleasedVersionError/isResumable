@@ -1,0 +1,6 @@
+
+!MetacelloCannotUpdateReleasedVersionError methodsFor: 'private' stamp: 'DaleHenrichs 12/20/2010 11:52'!
+isResumable
+	"Determine whether an exception is resumable."
+
+	^ true! !

@@ -1,0 +1,9 @@
+
+Object subclass: #TutorialPlayer
+	instanceVariableNames: 'tutorialPosition tutorial'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'ProfStef-Core'!
+
+!TutorialPlayer commentStamp: 'LaurentLaffont 1/21/2010 20:34' prior: 0!
+I can navigate through an AbstractTutorial subclass. With #next and #previous you can go forward and backward through the tutorial. !

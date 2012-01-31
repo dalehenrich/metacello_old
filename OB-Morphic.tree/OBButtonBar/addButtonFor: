@@ -1,0 +1,6 @@
+
+!OBButtonBar methodsFor: 'updating' stamp: 'dc 9/8/2007 15:02'!
+addButtonFor: aCommand
+       self addMorphBack: ((self buttonFor: aCommand)
+								position: self position;
+								yourself)! !

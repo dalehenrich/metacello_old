@@ -1,0 +1,4 @@
+
+!GoferReference class methodsFor: 'instance creation' stamp: 'lr 12/9/2009 22:42'!
+name: aString
+	^ self basicNew initializeName: aString! !

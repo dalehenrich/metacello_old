@@ -1,0 +1,6 @@
+
+!CustomHelp class methodsFor: 'accessing' stamp: 'tbn 3/29/2010 13:18'!
+key
+	"Returns a unique key identifying the receiver in the help system"
+	
+	^''! !

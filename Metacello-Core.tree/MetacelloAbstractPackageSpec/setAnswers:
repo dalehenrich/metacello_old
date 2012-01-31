@@ -1,0 +1,5 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'private' stamp: 'dkh 1/4/2010 18:54'!
+setAnswers: aCollection
+
+	answers := aCollection! !

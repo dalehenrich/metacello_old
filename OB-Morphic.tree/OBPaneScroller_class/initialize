@@ -1,0 +1,4 @@
+
+!OBPaneScroller class methodsFor: 'initialization' stamp: 'lr 3/13/2010 19:58'!
+initialize
+	animationDuration := 200! !

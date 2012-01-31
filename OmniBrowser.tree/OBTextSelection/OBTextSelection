@@ -1,0 +1,6 @@
+
+Object subclass: #OBTextSelection
+	instanceVariableNames: 'selection text'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Utilities'!

@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'callbacks' stamp: 'jk 3/22/2008 21:05'!
+selection
+	^ self listHolder selection! !

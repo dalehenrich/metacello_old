@@ -1,0 +1,7 @@
+
+!ConfigurationOfMetacello class methodsFor: 'loading' stamp: 'DaleHenrichs 3/24/2010 15:29'!
+loadLatestVersion
+	"self loadLatestVersion"
+
+	self project updateProject.
+	^self project latestVersion load! !

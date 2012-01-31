@@ -1,0 +1,4 @@
+
+!OBCmdRemoveMethod methodsFor: 'testing' stamp: 'dr 9/30/2008 11:27'!
+isActive
+	^ (target isKindOf: OBMethodNode) and: [requestor isSelected: target]! !

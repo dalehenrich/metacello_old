@@ -1,0 +1,5 @@
+
+!MetacelloGoferBasedLoaderTest methodsFor: 'doits' stamp: 'DaleHenrichs 4/9/2010 12:31'!
+postloadExecute
+
+	postLoadExecuted := true! !

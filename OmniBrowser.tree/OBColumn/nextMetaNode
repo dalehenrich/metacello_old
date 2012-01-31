@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'nodes' stamp: 'cwp 3/3/2004 00:11'!
+nextMetaNode
+	^ self selectedNode metaNode! !

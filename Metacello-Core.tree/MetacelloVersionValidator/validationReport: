@@ -1,0 +1,4 @@
+
+!MetacelloVersionValidator methodsFor: 'accessing' stamp: 'DaleHenrichs 11/3/2010 14:01'!
+validationReport: anObject
+	validationReport := anObject! !

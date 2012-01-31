@@ -1,0 +1,6 @@
+
+!OBFixedButtonPanel methodsFor: 'callbacks' stamp: 'lr 12/3/2010 09:19'!
+subscribe
+	self announcer
+		on: OBSelectionChanged send: #selectionChanged: to: self;
+		on: OBNodeChanged send: #selectionChanged: to: self! !

@@ -1,0 +1,6 @@
+
+!GoferOperation methodsFor: 'accessing' stamp: 'lr 10/3/2009 11:38'!
+gofer
+	"Answer the Gofer instance that triggered this operation."
+
+	^ gofer! !

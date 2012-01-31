@@ -1,0 +1,4 @@
+
+!OBMethodVersion methodsFor: 'comparing' stamp: 'cwp 10/17/2004 23:45'!
+= other
+	^ self species = other species and: [self pointer = other pointer]! !

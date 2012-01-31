@@ -1,0 +1,5 @@
+
+!OBClassDefinition methodsFor: 'initializing' stamp: ''!
+setEnvironment: anEnvironment template: aText
+	environment := anEnvironment.
+	template := aText.! !

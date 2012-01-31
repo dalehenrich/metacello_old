@@ -1,0 +1,4 @@
+
+!OBCollectionNode methodsFor: '*ob-standard-testing' stamp: 'cwp 8/22/2009 11:18'!
+isEnvironmentNode
+	^ false! !

@@ -1,0 +1,6 @@
+
+!OBMetaNode methodsFor: 'filtering' stamp: 'EL 12/13/2008 11:51'!
+switchFilter
+	^ filters 
+		detect: [:ea | ea wantsSwitch]
+		ifNone: [nil]! !

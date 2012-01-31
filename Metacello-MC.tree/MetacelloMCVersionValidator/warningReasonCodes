@@ -1,0 +1,4 @@
+
+!MetacelloMCVersionValidator methodsFor: 'private' stamp: 'DaleHenrichs 12/4/2010 10:32'!
+warningReasonCodes
+	^ super warningReasonCodes, #(#loadWarning #notDevelopmentVersion #stableDevelopmentVersion)! !

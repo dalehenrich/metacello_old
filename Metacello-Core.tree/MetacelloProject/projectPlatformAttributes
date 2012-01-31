@@ -1,0 +1,9 @@
+
+!MetacelloProject methodsFor: 'private' stamp: 'dkh 9/2/2009 07:38'!
+projectPlatformAttributes
+
+	| list aBlock |
+	list := OrderedCollection new.
+	(aBlock := self projectAttributes) ~~ nil 
+		ifTrue: [ list addAll: aBlock value ].
+	^self defaultPlatformAttributes, list! !

@@ -1,0 +1,4 @@
+
+!OBCmdCompareToCurrent methodsFor: 'accessing' stamp: 'dr 12/16/2008 10:29'!
+longDescription
+	^ 'compare current method version to current selection'! !

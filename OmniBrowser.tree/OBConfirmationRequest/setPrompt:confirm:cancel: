@@ -1,0 +1,6 @@
+
+!OBConfirmationRequest methodsFor: 'initalizing' stamp: 'lr 7/3/2009 22:27'!
+setPrompt: promptString confirm: confirmString cancel: cancelString 
+	prompt := promptString.
+	confirm := confirmString.
+	cancel := cancelString! !

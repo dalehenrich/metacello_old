@@ -1,0 +1,4 @@
+
+!OBClassDefinition methodsFor: 'confirmation' stamp: ''!
+definedClassExists: definition
+	^ environment hasClassNamed: (self nameOfClassDefinedBy: definition)! !

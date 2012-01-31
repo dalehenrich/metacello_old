@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'column' stamp: 'dr 9/17/2008 12:10'!
+nextColumnWithFan: aFan selection: anInteger 
+	^ aFan columnAfter: self selection: anInteger! !

@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: '*metacello-testsmc' stamp: 'DaleHenrichs 12/18/2010 20:07'!
+metacelloUnload
+	"Unload the specified packages."
+	
+	^ self execute: MetacelloTestsGoferUnload! !

@@ -1,0 +1,4 @@
+
+!OBMercuryQuery methodsFor: 'actions' stamp: 'PDC 6/29/2007 06:18'!
+openSearchBrowser
+	^ self openSearchBrowserOn: self searchNode! !

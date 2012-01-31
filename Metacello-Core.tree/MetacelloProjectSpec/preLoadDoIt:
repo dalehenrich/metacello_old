@@ -1,0 +1,5 @@
+
+!MetacelloProjectSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 12/21/2010 13:56'!
+preLoadDoIt: anObject
+
+	anObject setPreLoadDoItInMetacelloSpec: self! !

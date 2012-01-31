@@ -1,0 +1,4 @@
+
+!OBCmdBrowseReferences methodsFor: 'accessing' stamp: 'ben 8/3/2007 12:12'!
+keystroke
+	^ $N! !

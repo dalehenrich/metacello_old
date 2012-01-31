@@ -1,0 +1,4 @@
+
+!GoferRepositoryError methodsFor: 'private' stamp: 'lr 12/9/2009 22:32'!
+isResumable
+	^ true! !

@@ -1,0 +1,4 @@
+
+!FileList methodsFor: '*Shout-Styling' stamp: 'AlainPlantec 8/27/2011 00:26'!
+shoutAboutToStyle: aPluggableShoutMorphOrView 
+	^ false! !

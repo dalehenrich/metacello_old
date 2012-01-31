@@ -1,0 +1,4 @@
+
+!OBDefinition methodsFor: 'callbacks' stamp: 'cwp 3/23/2004 22:16'!
+textSelection
+	^ self selection! !

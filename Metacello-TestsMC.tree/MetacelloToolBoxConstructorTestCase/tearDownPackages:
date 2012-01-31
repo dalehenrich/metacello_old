@@ -1,0 +1,8 @@
+
+!MetacelloToolBoxConstructorTestCase methodsFor: 'running' stamp: 'DaleHenrichs 12/20/2010 15:22'!
+tearDownPackages: aGoferInstance
+	super tearDownPackages: aGoferInstance.
+	self fullConfigurationNameList
+		do: [ :configurationName | 
+			(self hasPackage: configurationName)
+				ifTrue: [ aGoferInstance package: configurationName ] ]! !

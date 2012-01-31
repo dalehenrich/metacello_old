@@ -1,0 +1,4 @@
+
+!OBDebugItTextCommand methodsFor: 'execution' stamp: 'lr 8/27/2011 09:58'!
+execute
+	target debugIt! !

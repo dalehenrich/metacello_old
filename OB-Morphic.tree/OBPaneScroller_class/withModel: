@@ -1,0 +1,4 @@
+
+!OBPaneScroller class methodsFor: 'instance creation' stamp: 'cwp 11/17/2004 22:01'!
+withModel: aModel
+	^ self new model: aModel! !

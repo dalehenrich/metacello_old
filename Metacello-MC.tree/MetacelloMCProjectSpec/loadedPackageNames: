@@ -1,0 +1,11 @@
+
+!MetacelloMCProjectSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 11/5/2010 15:57'!
+loadedPackageNames: aLoader
+
+	| vrsn pkgs |
+	(vrsn := self versionOrNil) == nil ifTrue: [ ^#() ].
+	pkgs := OrderedCollection new.
+	(self loadListForVersion: vrsn) do: [:nm |
+		(vrsn packagesForSpecNamed: nm ) do: [:pkg |
+			(pkg isPackageLoaded: aLoader) ifTrue: [ pkgs add: pkg name ]]].
+	^pkgs! !

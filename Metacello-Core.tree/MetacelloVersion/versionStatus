@@ -1,0 +1,6 @@
+
+!MetacelloVersion methodsFor: 'accessing' stamp: 'DaleHenrichs 2/6/2010 16:49'!
+versionStatus
+
+	versionStatus == nil ifTrue: [ versionStatus := self computeVersionStatus].
+	^versionStatus! !

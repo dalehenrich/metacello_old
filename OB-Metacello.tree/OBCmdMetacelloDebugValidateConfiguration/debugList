@@ -1,0 +1,5 @@
+
+!OBCmdMetacelloDebugValidateConfiguration methodsFor: 'accessing' stamp: 'DaleHenrichs 11/24/2010 09:07'!
+debugList
+
+	^#(error criticalWarning)! !

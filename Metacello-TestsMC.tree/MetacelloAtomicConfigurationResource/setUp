@@ -1,0 +1,13 @@
+
+!MetacelloAtomicConfigurationResource methodsFor: 'running' stamp: 'DaleHenrichs 6/24/2010 15:45'!
+setUp
+	super setUp.
+	self
+		setUpMonticelloRepository;
+		setUpConfigurationOfAtomicFoo;
+		setUpConfigurationOfLinearFoo;
+		setUpConfigurationOfAtomicFan;
+		setUpConfigurationOfUmbrellaA;
+		setUpConfigurationOfUmbrellaB;
+		setUpConfigurationOfProjectIssue86;
+		yourself! !

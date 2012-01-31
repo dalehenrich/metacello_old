@@ -1,0 +1,4 @@
+
+!OBCodeBrowser methodsFor: 'updating' stamp: 'dr 10/24/2008 18:57'!
+event: anEvent
+	self noteChanges! !

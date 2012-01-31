@@ -1,0 +1,6 @@
+
+OBSendersBrowser subclass: #OBHierarchySendersBrowser
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Browsers'!

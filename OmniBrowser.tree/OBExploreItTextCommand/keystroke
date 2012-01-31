@@ -1,0 +1,4 @@
+
+!OBExploreItTextCommand methodsFor: 'accessing' stamp: 'lr 3/6/2011 15:05'!
+keystroke
+	^ $I! !

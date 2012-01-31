@@ -1,0 +1,4 @@
+
+!MetacelloVersionSpec methodsFor: 'accessing' stamp: 'dkh 12/30/2009 13:25'!
+getPostLoadDoIt
+	^postLoadDoIt! !

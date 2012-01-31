@@ -1,0 +1,4 @@
+
+!OBMultipleChoiceRequest methodsFor: 'accessing' stamp: 'lr 4/5/2008 10:30'!
+selection
+	^ selection! !

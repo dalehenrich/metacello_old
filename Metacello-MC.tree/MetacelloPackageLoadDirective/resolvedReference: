@@ -1,0 +1,4 @@
+
+!MetacelloPackageLoadDirective methodsFor: 'accessing' stamp: 'DaleHenrichs 3/9/2010 15:24'!
+resolvedReference: anObject
+	resolvedReference := anObject! !

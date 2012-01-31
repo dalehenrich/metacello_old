@@ -1,0 +1,7 @@
+
+!MetacelloProject methodsFor: 'accessing' stamp: 'dkh 9/10/2009 13:27'!
+loadType
+	"#atomic or #linear"
+
+	loadType == nil ifTrue: [ ^#atomic ].
+	^loadType! !

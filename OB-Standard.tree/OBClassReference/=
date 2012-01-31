@@ -1,0 +1,4 @@
+
+!OBClassReference methodsFor: 'comparing' stamp: 'lr 11/13/2008 13:44'!
+= other 
+	^ (other isKindOf: self class) and: [ name = other theNonMetaName and: [ isMeta = other isMeta ] ]! !

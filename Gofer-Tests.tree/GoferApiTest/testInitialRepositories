@@ -1,0 +1,6 @@
+
+!GoferApiTest methodsFor: 'testing' stamp: 'dkh 12/15/2009 11:26'!
+testInitialRepositories
+	gofer := Gofer new.
+	self assert: (gofer repositories size = 1).
+	self assert: (gofer repositories first isKindOf: MCCacheRepository default class)! !

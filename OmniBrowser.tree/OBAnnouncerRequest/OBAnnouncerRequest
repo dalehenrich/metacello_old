@@ -1,0 +1,6 @@
+
+Notification subclass: #OBAnnouncerRequest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Notifications'!

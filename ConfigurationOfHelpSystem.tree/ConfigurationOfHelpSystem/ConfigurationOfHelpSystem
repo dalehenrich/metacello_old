@@ -1,0 +1,6 @@
+
+Object subclass: #ConfigurationOfHelpSystem
+	instanceVariableNames: 'project'
+	classVariableNames: 'LastVersionLoad'
+	poolDictionaries: ''
+	category: 'ConfigurationOfHelpSystem'!

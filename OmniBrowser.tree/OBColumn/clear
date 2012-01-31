@@ -1,0 +1,7 @@
+
+!OBColumn methodsFor: 'updating' stamp: 'jk 3/23/2008 11:04'!
+clear
+	self switchFilter: nil.
+	self listHolder clearAll.
+	self changed: #list.
+	self changed: #selection! !

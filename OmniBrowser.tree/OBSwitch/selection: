@@ -1,0 +1,7 @@
+
+!OBSwitch methodsFor: 'accessing' stamp: 'lr 3/21/2009 20:02'!
+selection: anInteger 
+	filter isNil ifTrue: [ ^ self ].
+	filter selection: anInteger.
+	self changed: #selection.
+	column listChanged! !

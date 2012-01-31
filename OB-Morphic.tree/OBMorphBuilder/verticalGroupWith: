@@ -1,0 +1,9 @@
+
+!OBMorphBuilder methodsFor: 'building' stamp: 'lr 6/5/2010 18:21'!
+verticalGroupWith: aBlock 
+	| morph |
+	morph := OBGroupingMorph new.
+	morph layoutPolicy: TableLayout new.
+	current isNil
+		ifFalse: [ current addMorph: morph frame: (0 @ 0 extent: 1 @ 1) ].
+	^ self current: morph do: aBlock! !

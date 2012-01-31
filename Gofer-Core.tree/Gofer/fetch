@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'operations' stamp: 'lr 12/3/2009 21:06'!
+fetch
+	"Download versions from remote repositories into the local cache."
+
+	^ self execute: GoferFetch! !

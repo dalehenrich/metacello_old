@@ -1,0 +1,8 @@
+
+!String methodsFor: '*metacello-core' stamp: 'dkh 6/5/2009 11:48'!
+setBlessingInMetacelloVersion: aMetacelloVersionSpec
+
+	aMetacelloVersionSpec setBlessing: 
+		(aMetacelloVersionSpec project valueHolderSpec
+			value: self;
+			yourself)! !

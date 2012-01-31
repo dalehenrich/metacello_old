@@ -1,0 +1,5 @@
+
+!MetacelloPackageSpec methodsFor: 'querying' stamp: 'DaleHenrichs 1/21/2010 20:40'!
+postLoadDoIt
+
+	^postLoadDoIt! !

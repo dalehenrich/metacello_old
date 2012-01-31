@@ -1,0 +1,7 @@
+
+!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 3/11/2010 12:59'!
+loadData
+
+ 	loadData == nil ifTrue: [ loadData := MetacelloLoadData new ].
+	^loadData
+! !

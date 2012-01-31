@@ -1,0 +1,4 @@
+
+!OBSelectorNode methodsFor: 'navigating' stamp: 'cwp 10/31/2004 01:12'!
+name
+	^ selector printString! !

@@ -1,0 +1,6 @@
+
+!ConfigurationOfGofer class methodsFor: 'loading' stamp: 'DaleHenrichs 1/25/2010 13:14'!
+load
+	"self load"
+
+	^self project latestVersion load! !

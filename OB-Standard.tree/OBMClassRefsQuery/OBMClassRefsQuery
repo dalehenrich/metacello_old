@@ -1,0 +1,9 @@
+
+OBMercuryQuery subclass: #OBMClassRefsQuery
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Utilities'!
+
+!OBMClassRefsQuery commentStamp: 'PDC 6/29/2007 07:13' prior: 0!
+I handle mercury queries like '#Object'. I find references to classes.!

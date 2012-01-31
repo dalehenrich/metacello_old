@@ -1,0 +1,4 @@
+
+!OBVersionBrowser methodsFor: 'morphic' stamp: 'avi 11/29/2004 21:52'!
+defaultBackgroundColor
+	^ Color lightMagenta! !

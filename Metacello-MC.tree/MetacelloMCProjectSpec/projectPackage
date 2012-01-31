@@ -1,0 +1,4 @@
+
+!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'dkh 6/7/2009 09:19'!
+projectPackage
+	^ projectPackage! !

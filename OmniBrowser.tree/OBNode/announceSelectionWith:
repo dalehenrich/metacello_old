@@ -1,0 +1,5 @@
+
+!OBNode methodsFor: 'updating' stamp: 'lr 11/25/2010 23:29'!
+announceSelectionWith: anAnnouncer
+	(anAnnouncer announce: OBAboutToChange) isVetoed
+		ifFalse: [ anAnnouncer announce: (OBSelectingNode node: self) ]! !

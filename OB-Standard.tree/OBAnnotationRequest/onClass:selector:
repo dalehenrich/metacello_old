@@ -1,0 +1,6 @@
+
+!OBAnnotationRequest methodsFor: 'initialization' stamp: 'MAD 1/14/2009 11:44'!
+onClass: aClass selector: aSelector
+	class := aClass.
+	selector := aSelector.
+	separator := ' - '.! !

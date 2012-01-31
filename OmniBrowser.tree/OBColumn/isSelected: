@@ -1,0 +1,4 @@
+
+!OBColumn methodsFor: 'testing' stamp: 'cwp 10/9/2006 15:41'!
+isSelected: aNode
+	^ self selectedNode == aNode! !

@@ -1,0 +1,4 @@
+
+!MetacelloMonticelloResource methodsFor: 'accessing' stamp: 'dkh 1/12/2010 13:50'!
+versionReferences
+	^ versionReferences! !

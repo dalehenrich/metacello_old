@@ -1,0 +1,4 @@
+
+!OBSearchNode methodsFor: 'private' stamp: 'PDC 6/25/2007 21:23'!
+classSatisfiesQuery: aClass
+	self subclassResponsibility ! !

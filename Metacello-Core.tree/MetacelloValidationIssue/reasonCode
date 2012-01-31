@@ -1,0 +1,6 @@
+
+!MetacelloValidationIssue methodsFor: 'accessing' stamp: 'DaleHenrichs 11/3/2010 20:36'!
+reasonCode
+
+	reasonCode == nil ifTrue: [ reasonCode := #none ].
+	^ reasonCode! !

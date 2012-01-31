@@ -1,0 +1,9 @@
+
+!ConfigurationOfMetacello class methodsFor: 'metacello release process' stamp: 'DaleHenrichs 5/12/2010 12:12'!
+releaseMetacelloVersion
+	"self releaseMetacelloVersion"
+	
+	self 
+		copyConfigToRepos;
+		backupToSqueakSource;
+		yourself! !

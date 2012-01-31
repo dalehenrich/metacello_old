@@ -1,0 +1,4 @@
+
+!OBClassNode methodsFor: 'drag and drop' stamp: 'lr 4/6/2006 11:31'!
+dropSelector
+	^ #dropOnClass:! !

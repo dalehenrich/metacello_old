@@ -1,0 +1,14 @@
+
+OBTextPanel subclass: #OBDefinitionPanel
+	instanceVariableNames: 'definition selection'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Panels'!
+
+!OBDefinitionPanel commentStamp: 'cwp 1/7/2005 23:35' prior: 0!
+OBDefinition serves as the model for the text pane of a typical browser. It's main responsibility is to act as a relay between a PluggableTextMorph and a Definition supplied by the currently selected node.
+
+iVars:
+
+browser - The browser of which this panel is a part.
+!

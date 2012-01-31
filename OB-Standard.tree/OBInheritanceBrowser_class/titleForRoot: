@@ -1,0 +1,4 @@
+
+!OBInheritanceBrowser class methodsFor: 'configuration' stamp: 'cwp 11/25/2004 22:05'!
+titleForRoot: aCollectionNode
+	^ 'Inheritance of ', aCollectionNode children first selector printString! !

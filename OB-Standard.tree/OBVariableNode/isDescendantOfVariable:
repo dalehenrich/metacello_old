@@ -1,0 +1,4 @@
+
+!OBVariableNode methodsFor: 'ancestry' stamp: 'lr 4/9/2011 18:13'!
+isDescendantOfVariable: aNode
+	^ self name = aNode name and: [ self theClass withAllSuperclasses includes: aNode theClass ]! !

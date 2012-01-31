@@ -1,0 +1,6 @@
+
+!MetacelloVersionNumberTestCase methodsFor: 'tests' stamp: 'dkh 8/31/2009 06:22'!
+testVersion20
+
+	self assert: (MetacelloVersionNumber fromString: '') printString = ''.
+! !

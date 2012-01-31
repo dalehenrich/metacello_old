@@ -1,0 +1,4 @@
+
+!GoferReference class methodsFor: 'instance creation' stamp: 'lr 12/9/2009 22:42'!
+new
+	self error: 'Use #name: to initialize the receiver.'! !

@@ -1,0 +1,4 @@
+
+!OBCompletionDialog class methodsFor: 'instance creation' stamp: 'lr 9/22/2010 20:21'!
+on: aRequest
+	^ self basicNew initializeOn: aRequest! !

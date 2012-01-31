@@ -1,0 +1,4 @@
+
+!PluggableButtonMorph methodsFor: '*ob-morphic' stamp: 'cwp 7/21/2007 21:18'!
+styleWith: aBuilder
+	aBuilder styleButton: self! !

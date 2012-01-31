@@ -1,0 +1,4 @@
+
+!MetacelloPackageSpec methodsFor: 'querying' stamp: 'dkh 1/2/2010 15:41'!
+repositories: anObject
+	repositories := anObject! !

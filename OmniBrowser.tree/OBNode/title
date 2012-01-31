@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'displaying' stamp: 'cwp 8/28/2004 00:14'!
+title
+	^ nil! !

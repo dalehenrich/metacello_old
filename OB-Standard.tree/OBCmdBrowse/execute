@@ -1,0 +1,4 @@
+
+!OBCmdBrowse methodsFor: 'execution' stamp: 'dr 9/5/2008 11:23'!
+execute 
+	target browse! !

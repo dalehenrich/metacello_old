@@ -1,0 +1,4 @@
+
+!MetacelloVersionValidator methodsFor: 'private' stamp: 'DaleHenrichs 11/30/2010 11:45'!
+warningReasonCodes
+	^ #(#onlyBaselineVersion )! !

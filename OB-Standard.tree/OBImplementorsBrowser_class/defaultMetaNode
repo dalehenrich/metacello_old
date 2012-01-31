@@ -1,0 +1,4 @@
+
+!OBImplementorsBrowser class methodsFor: 'configuration' stamp: 'lr 3/13/2010 12:15'!
+defaultMetaNode
+	 ^self implementorsMetaNode: #implementors.! !

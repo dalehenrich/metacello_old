@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'scrolling' stamp: 'cwp 8/23/2003 16:21'!
+scrollDeltaWidth
+	^ 1! !

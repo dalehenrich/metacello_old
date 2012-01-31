@@ -1,0 +1,4 @@
+
+!OBHierarchyBrowser class methodsFor: 'configuration' stamp: 'cwp 12/13/2004 00:37'!
+paneCount
+	^ 3! !

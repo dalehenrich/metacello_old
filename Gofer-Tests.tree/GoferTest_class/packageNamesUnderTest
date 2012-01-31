@@ -1,0 +1,4 @@
+
+!GoferTest class methodsFor: 'accessing' stamp: 'lr 1/5/2010 11:06'!
+packageNamesUnderTest
+	^ #('Gofer-Core')! !

@@ -1,0 +1,5 @@
+
+!MetacelloIssue136TestCase methodsFor: 'accessing' stamp: 'dkh 9/7/2011 14:52'!
+projectClass
+
+	^(Smalltalk at: #MetacelloTestConfigurationOfProjectIssue136)! !

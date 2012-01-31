@@ -1,0 +1,4 @@
+
+!OBSystemBrowser class methodsFor: 'instance creation' stamp: 'cwp 12/15/2004 21:42'!
+onClass: aClass category: aSymbol
+	^ self selection: (OBMethodCategoryNode on: aSymbol inClass: aClass)! !

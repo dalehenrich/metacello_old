@@ -1,0 +1,4 @@
+
+!OBList methodsFor: 'nodes' stamp: 'jk 3/22/2008 22:23'!
+noteChild: aNode
+	self fan noteChild: aNode! !

@@ -1,0 +1,4 @@
+
+!OBCodeNode methodsFor: 'testing' stamp: 'cwp 8/22/2009 11:17'!
+isMethodCategoryNode
+	^ false! !

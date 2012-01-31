@@ -1,0 +1,4 @@
+
+!Collection class methodsFor: '*ob-standard' stamp: 'lr 3/28/2009 15:54'!
+browserIcon
+	^ #collection! !

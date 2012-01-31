@@ -1,0 +1,5 @@
+
+!MetacelloProjectReferenceSpec methodsFor: '*metacello-mc' stamp: 'dkh 12/7/2009 16:24'!
+versionString
+
+	^self projectReference versionString! !

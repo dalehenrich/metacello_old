@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'private' stamp: 'lr 4/23/2010 08:35'!
+messageSelectors
+	^ ((self theClass compiledMethodAt: self selector ifAbsent: [^ #()]) messages) asArray sort! !

@@ -1,0 +1,11 @@
+
+!OBFan methodsFor: 'selecting' stamp: 'lr 2/12/2009 10:32'!
+ancestorOf: aNode from: aCollection in: aBlock 
+	aCollection keysAndValuesDo: 
+		[ :index :node | 
+		(node 
+			isAncestorOf: aNode
+			using: node metaNode ancestrySelector) ifTrue: 
+			[ aBlock value: index.
+			^ node ] ].
+	^ nil! !

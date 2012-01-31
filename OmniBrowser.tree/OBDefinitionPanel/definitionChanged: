@@ -1,0 +1,6 @@
+
+!OBDefinitionPanel methodsFor: 'updating' stamp: 'lr 4/3/2010 17:41'!
+definitionChanged: ann 
+	definition := ann definition.
+	selection := nil.
+	self changed: #text! !

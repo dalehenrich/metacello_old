@@ -1,0 +1,6 @@
+
+!MessageSend methodsFor: '*omnibrowser-evaluating' stamp: 'cwp 6/24/2006 18:19'!
+valueWithPossibleArgs: anArray
+	^ receiver 
+		perform: selector 
+		withArguments: (self collectArguments: anArray)! !

@@ -1,0 +1,6 @@
+
+!OBMMethodSendersQuery methodsFor: 'executing' stamp: 'cwp 8/31/2007 23:54'!
+find
+	| node |
+	node := OBSelectorNode on: pattern asSymbol.
+	(browser announce: (OBShowSenders of: node)) execute! !

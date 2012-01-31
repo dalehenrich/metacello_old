@@ -1,0 +1,4 @@
+
+!GoferBrowseRemoteChanges methodsFor: 'running' stamp: 'lr 12/14/2009 23:50'!
+execute
+	^ super execute browse! !

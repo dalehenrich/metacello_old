@@ -1,0 +1,15 @@
+
+!OBReferencesBrowser class methodsFor: 'configuration' stamp: 'lr 8/15/2010 15:28'!
+defaultMetaNode
+	| class method sender |
+	class := OBMetaNode named: 'Class'.
+	method := OBMetaNode named: 'References'.
+	sender := OBMetaNode named: 'Sender'.
+	class childAt: #users put: method.
+	method displaySelector: #fullNameWithProtocol.
+	self chasingBrowsersEnabled ifTrue: [
+		method childAt: #senders put: sender.
+		sender
+			displaySelector: #fullNameWithProtocol;
+			childAt: #senders put: sender ].
+	^ class! !

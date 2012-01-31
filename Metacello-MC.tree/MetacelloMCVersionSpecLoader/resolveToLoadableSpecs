@@ -1,0 +1,5 @@
+
+!MetacelloMCVersionSpecLoader methodsFor: 'private' stamp: 'DaleHenrichs 1/19/2010 11:57'!
+resolveToLoadableSpecs
+
+	self versionSpec resolveToLoadableSpecs: required map: packages! !

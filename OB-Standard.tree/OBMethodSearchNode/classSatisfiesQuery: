@@ -1,0 +1,4 @@
+
+!OBMethodSearchNode methodsFor: 'private' stamp: 'dr 10/22/2008 09:54'!
+classSatisfiesQuery: aClass
+	^ aClass selectors anySatisfy: [:ea | ea includesSubstring: query caseSensitive: true]! !

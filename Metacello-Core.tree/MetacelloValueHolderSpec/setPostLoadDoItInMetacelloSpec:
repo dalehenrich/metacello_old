@@ -1,0 +1,5 @@
+
+!MetacelloValueHolderSpec methodsFor: 'private' stamp: 'DaleHenrichs 12/21/2010 13:54'!
+setPostLoadDoItInMetacelloSpec: aMetacelloSpec
+
+	aMetacelloSpec setPostLoadDoIt: self! !

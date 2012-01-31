@@ -1,0 +1,6 @@
+
+!MetacelloStackCacheTestCase methodsFor: 'tests' stamp: 'DaleHenrichs 2/5/2010 22:12'!
+testCacheNil
+
+	| x |
+	self assert: (x := self cacheNil) == nil! !

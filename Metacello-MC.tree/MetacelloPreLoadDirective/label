@@ -1,0 +1,5 @@
+
+!MetacelloPreLoadDirective methodsFor: 'printing' stamp: 'DaleHenrichs 12/21/2010 11:49'!
+label
+
+	^super label, ' >> ', self spec preLoadDoIt value asString! !

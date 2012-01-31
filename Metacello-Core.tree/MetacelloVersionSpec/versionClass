@@ -1,0 +1,5 @@
+
+!MetacelloVersionSpec methodsFor: 'private' stamp: 'dkh 10/7/2009 14:44'!
+versionClass
+
+	^MetacelloVersion! !

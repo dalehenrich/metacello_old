@@ -1,0 +1,4 @@
+
+!OBDefinitionChanged methodsFor: 'accessing' stamp: 'cwp 6/4/2006 11:25'!
+definition
+	^ definition! !

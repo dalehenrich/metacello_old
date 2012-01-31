@@ -1,0 +1,5 @@
+
+!ProfStef methodsFor: 'navigating' stamp: 'DannyChan 2/9/2010 19:28'!
+last
+	self player last.
+	^ self showCurrentLesson.! !

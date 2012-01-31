@@ -1,0 +1,4 @@
+
+!OBCmdSelectMethodCategory methodsFor: 'accessing' stamp: 'dc. 12/15/2007 15:36'!
+keystroke
+	^ $C! !

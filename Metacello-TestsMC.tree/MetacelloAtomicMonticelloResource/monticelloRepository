@@ -1,0 +1,4 @@
+
+!MetacelloAtomicMonticelloResource methodsFor: 'accessing' stamp: 'DaleHenrichs 3/16/2010 10:17'!
+monticelloRepository
+	^ monticelloRepository! !

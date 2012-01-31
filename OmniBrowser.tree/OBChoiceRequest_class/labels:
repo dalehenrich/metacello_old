@@ -1,0 +1,8 @@
+
+!OBChoiceRequest class methodsFor: 'exceptionInstantiator' stamp: 'cwp 7/9/2006 00:07'!
+labels: anArray
+	^ self
+		prompt: nil
+		labels: anArray
+		values: anArray
+		lines: #()! !

@@ -1,0 +1,4 @@
+
+!GoferRepositoryError methodsFor: 'accessing' stamp: 'lr 12/9/2009 19:14'!
+repository: aRepository
+	repository := aRepository! !

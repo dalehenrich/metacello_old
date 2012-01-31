@@ -1,0 +1,5 @@
+
+!MetacelloMemberListSpec methodsFor: 'private' stamp: 'dkh 06/02/2009 19:33'!
+mapAdd: aMemberSpec into: map
+	
+	map at: aMemberSpec name put: aMemberSpec spec! !

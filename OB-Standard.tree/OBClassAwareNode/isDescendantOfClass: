@@ -1,0 +1,4 @@
+
+!OBClassAwareNode methodsFor: 'ancestry' stamp: ''!
+isDescendantOfClass: aClassNode
+	^ self theClassName = aClassNode theClassName! !

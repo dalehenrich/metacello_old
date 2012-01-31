@@ -1,0 +1,5 @@
+
+!MetacelloNullRecordingMCSpecLoader methodsFor: 'testing' stamp: 'DaleHenrichs 3/11/2010 17:18'!
+ensureForDevelopment
+
+	^false! !

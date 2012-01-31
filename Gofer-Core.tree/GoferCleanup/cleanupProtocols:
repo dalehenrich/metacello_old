@@ -1,0 +1,11 @@
+
+!GoferCleanup methodsFor: 'cleaning' stamp: 'lr 10/3/2009 11:37'!
+cleanupProtocols: aWorkingCopy
+	aWorkingCopy packageInfo extensionClasses do: [ :class |
+		(aWorkingCopy packageInfo extensionCategoriesForClass: class) do: [ :category |
+			(class organization listAtCategoryNamed: category) isEmpty
+				ifTrue: [ class organization removeCategory: category ] ] ].
+	aWorkingCopy packageInfo classesAndMetaClasses do: [ :class |
+		(aWorkingCopy packageInfo coreCategoriesForClass: class) do: [ :category |
+			(class organization listAtCategoryNamed: category) isEmpty
+				ifTrue: [ class organization removeCategory: category ] ] ]! !

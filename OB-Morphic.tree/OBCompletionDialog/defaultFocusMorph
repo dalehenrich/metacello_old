@@ -1,0 +1,4 @@
+
+!OBCompletionDialog methodsFor: 'morphic' stamp: 'lr 9/22/2010 20:09'!
+defaultFocusMorph
+	^ textMorph! !

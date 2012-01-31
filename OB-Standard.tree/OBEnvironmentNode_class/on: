@@ -1,0 +1,4 @@
+
+!OBEnvironmentNode class methodsFor: 'instance creation' stamp: ''!
+on: anEnvironment
+	^ self new setEnvironment: anEnvironment! !

@@ -1,0 +1,7 @@
+
+!ConfigurationOfHelpSystem class methodsFor: 'metacello tool support' stamp: 'tbn 1/26/2010 09:50'!
+lastMetacelloVersionLoad
+	"Answer the last version loaded and the list of packages loaded for that version."
+
+	LastVersionLoad == nil ifTrue: [ LastVersionLoad := nil -> 'default' ].
+	^LastVersionLoad! !

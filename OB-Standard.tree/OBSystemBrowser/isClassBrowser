@@ -1,0 +1,4 @@
+
+!OBSystemBrowser methodsFor: 'testing' stamp: 'cwp 4/18/2007 23:49'!
+isClassBrowser
+	^ true! !

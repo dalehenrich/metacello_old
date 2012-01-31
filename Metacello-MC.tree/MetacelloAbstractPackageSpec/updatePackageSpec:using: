@@ -1,0 +1,5 @@
+
+!MetacelloAbstractPackageSpec methodsFor: '*metacello-mc' stamp: 'dkh 10/5/2009 16:16'!
+updatePackageSpec: updatedSpecs using: anMCLoader
+	"Add pkg copy to updatedSpecs if the file in current image is different from the receiver's file"
+! !

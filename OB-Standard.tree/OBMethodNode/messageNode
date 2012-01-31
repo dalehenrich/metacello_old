@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'navigating' stamp: 'lr 8/2/2010 15:59'!
+messageNode
+	^ OBMessageNode fromMethodNode: self! !

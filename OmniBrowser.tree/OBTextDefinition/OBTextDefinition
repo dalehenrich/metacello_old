@@ -1,0 +1,6 @@
+
+OBDefinition subclass: #OBTextDefinition
+	instanceVariableNames: 'text'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Utilities'!

@@ -1,0 +1,6 @@
+
+!MetacelloProject methodsFor: 'spec classes' stamp: 'dkh 6/9/2009 16:04'!
+loaderClass
+
+	loaderClass == nil ifTrue: [ loaderClass := self defaultLoaderClass ].
+	^loaderClass! !

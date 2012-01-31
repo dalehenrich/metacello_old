@@ -1,0 +1,4 @@
+
+!OBNavigate class methodsFor: 'instance creation' stamp: 'dr 9/17/2008 14:02'!
+of: aNode
+	^ self new setRoot: aNode! !

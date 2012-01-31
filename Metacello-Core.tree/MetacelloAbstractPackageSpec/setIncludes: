@@ -1,0 +1,5 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'private' stamp: 'dkh 9/23/2009 08:45'!
+setIncludes: aCollection
+
+	includes := aCollection! !

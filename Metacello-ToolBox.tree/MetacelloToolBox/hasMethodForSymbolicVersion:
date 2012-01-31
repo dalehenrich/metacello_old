@@ -1,0 +1,6 @@
+
+!MetacelloToolBox methodsFor: 'testing' stamp: 'DaleHenrichs 11/15/2010 13:08'!
+hasMethodForSymbolicVersion: versionSymbol
+
+	^(self constructor extractSymbolicVersionPragmas at: versionSymbol ifAbsent: [ ^ false ]) size > 0
+! !

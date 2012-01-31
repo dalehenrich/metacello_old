@@ -1,0 +1,14 @@
+
+!String methodsFor: '*metacello-core' stamp: 'dkh 06/03/2009 12:41'!
+addToMetacelloPackages: aMetacelloPackagesSpec
+
+	| spec |
+	spec := 
+		(aMetacelloPackagesSpec project packageSpec)
+			file: self;
+			yourself.
+	aMetacelloPackagesSpec addMember: 
+		(aMetacelloPackagesSpec addMember 
+			name: spec name;
+			spec: spec;
+			yourself)! !

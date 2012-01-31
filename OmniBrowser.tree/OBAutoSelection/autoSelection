@@ -1,0 +1,4 @@
+
+!OBAutoSelection methodsFor: 'selecting' stamp: 'dr 1/28/2009 14:49'!
+autoSelection
+	^fan children detect: [:ea | ea metaNode == metaNode] ifNone: [nil]! !

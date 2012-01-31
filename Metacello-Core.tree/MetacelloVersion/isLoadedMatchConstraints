@@ -1,0 +1,6 @@
+
+!MetacelloVersion methodsFor: 'testing' stamp: 'DaleHenrichs 2/5/2010 11:08'!
+isLoadedMatchConstraints
+	"all loaded projects and packages match constraints"
+	
+	^self spec isLoadedMatchConstraints! !

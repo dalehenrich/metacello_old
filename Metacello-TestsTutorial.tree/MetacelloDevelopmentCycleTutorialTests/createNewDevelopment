@@ -1,0 +1,8 @@
+
+!MetacelloDevelopmentCycleTutorialTests methodsFor: 'lessons' stamp: 'dkh 1/16/2011 10:54'!
+createNewDevelopment
+
+	MetacelloToolBox
+		createNewDevelopmentVersionIn: (Smalltalk at: self configurationName)
+		description: ''.
+! !

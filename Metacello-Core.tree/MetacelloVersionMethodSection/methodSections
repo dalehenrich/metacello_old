@@ -1,0 +1,6 @@
+
+!MetacelloVersionMethodSection methodsFor: 'accessing' stamp: 'DaleHenrichs 12/21/2010 17:00'!
+methodSections
+
+	methodSections ifNil: [ methodSections := OrderedCollection new ].
+	^methodSections! !

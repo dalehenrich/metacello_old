@@ -1,0 +1,9 @@
+
+OBVariableNode subclass: #OBClassVariableNode
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Nodes'!
+
+!OBClassVariableNode commentStamp: 'cwp 1/8/2005 12:51' prior: 0!
+OBClassVariable provides a method for finding methods which refer to a shared variable, ie, by searching for an association in the literal frame rather than for bytecodes refering to an instance variable.!

@@ -1,0 +1,4 @@
+
+!OBClassReference methodsFor: 'accessing' stamp: ''!
+theNonMetaName
+	^ name! !

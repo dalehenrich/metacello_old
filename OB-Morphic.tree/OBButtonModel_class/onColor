@@ -1,0 +1,4 @@
+
+!OBButtonModel class methodsFor: 'accessing' stamp: 'cwp 8/29/2004 13:30'!
+onColor
+	^ Color lightGray lighter! !

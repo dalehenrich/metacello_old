@@ -1,0 +1,5 @@
+
+!MetacelloAtomicConfigurationResource class methodsFor: 'accessing' stamp: 'DaleHenrichs 12/20/2010 12:21'!
+project
+
+	^self new project! !

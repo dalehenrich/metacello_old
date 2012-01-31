@@ -1,0 +1,11 @@
+
+AbstractTutorial subclass: #HowToMakeYourOwnTutorial
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'ProfStef-Core'!
+
+!HowToMakeYourOwnTutorial commentStamp: 'LaurentLaffont 2/15/2011 22:20' prior: 0!
+I'm a ProfStef tutorial which teach to create a ProfStef tutorial. Open me with
+
+ProfStef goOn: HowToMakeYourOwnTutorial.!

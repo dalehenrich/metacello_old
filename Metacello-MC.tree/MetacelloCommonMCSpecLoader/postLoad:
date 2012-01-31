@@ -1,0 +1,4 @@
+
+!MetacelloCommonMCSpecLoader methodsFor: 'doits' stamp: 'DaleHenrichs 03/12/2010 16:43'!
+postLoad: packageOrVersionSpec
+	"subclassResponsibility, but it gets called during an upgrade, so leave it as NOOP"! !

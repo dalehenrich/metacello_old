@@ -1,0 +1,14 @@
+
+!OBCmdSelectMethodCategory methodsFor: 'execution' stamp: 'cb 4/15/2008 22:24'!
+execute
+
+	(requestor parent isKindOf: OBAllMethodCategoryNode) 
+		ifTrue: [self 
+					select: (OBMethodCategoryNode 
+						on: (target theClass organization categoryOfElement: target selector)
+						inClass: target theClass)
+					with: requestor announcer ]
+		ifFalse: 	[self 
+					select: (OBAllMethodCategoryNode on: target theClass)
+					with: requestor announcer   ].
+	self select: target with: requestor announcer! !

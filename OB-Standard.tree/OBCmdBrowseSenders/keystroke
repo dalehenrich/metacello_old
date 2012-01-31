@@ -1,0 +1,4 @@
+
+!OBCmdBrowseSenders methodsFor: 'command' stamp: 'cwp 10/11/2006 20:35'!
+keystroke
+	^ $n! !

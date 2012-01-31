@@ -1,0 +1,4 @@
+
+!OBShowSenders methodsFor: 'accessing' stamp: 'cwp 8/26/2007 00:33'!
+browserClass
+	^ OBSendersBrowser! !

@@ -1,0 +1,5 @@
+
+!MetacelloProjectSpec methodsFor: 'loading' stamp: 'dkh 6/9/2009 10:16'!
+load
+
+	self subclassResponsibility! !

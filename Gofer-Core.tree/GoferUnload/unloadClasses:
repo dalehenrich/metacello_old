@@ -1,0 +1,6 @@
+
+!GoferUnload methodsFor: 'unloading' stamp: 'DaleHenrichs 3/5/2010 09:25'!
+unloadClasses: aWorkingCopy
+	aWorkingCopy packageInfo methods do: [ :each |
+		(each classIsMeta and: [ each methodSymbol = #unload ])
+			ifTrue: [ each actualClass theNonMetaClass unload ] ]! !

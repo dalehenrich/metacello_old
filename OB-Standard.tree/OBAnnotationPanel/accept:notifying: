@@ -1,0 +1,4 @@
+
+!OBAnnotationPanel methodsFor: 'callbacks' stamp: 'lr 5/2/2007 17:23'!
+accept: aString notifying: aController
+	^ false! !

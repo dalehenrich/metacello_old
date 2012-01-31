@@ -1,0 +1,14 @@
+
+Object subclass: #OBButtonModel
+	instanceVariableNames: 'bar label longDescription'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Morphic-Morphs'!
+
+!OBButtonModel commentStamp: 'cwp 3/5/2004 12:15' prior: 0!
+An OBButtonModel serves as a model for PluggableButtonMorphs used OBRadioButtonBar. OBRadioButtonBar cannot be a direct model for its PBMs, since it can contain a variable number of buttons.
+
+iVars:
+
+bar		- the OBRadioButton bar to which this button belongs
+label	- the label of the button!

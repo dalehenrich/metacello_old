@@ -1,0 +1,10 @@
+
+!MetacelloFetchingMCSpecLoader methodsFor: 'private' stamp: 'DaleHenrichs 3/4/2010 19:29'!
+resolvePackageSpec: packageSpec cachedGofer: gofer
+
+	|  versionReference references |
+	versionReference := packageSpec goferLoaderReference.
+	(references := versionReference resolveAllWith: gofer) isEmpty 
+		ifTrue: [ ^nil ].
+	^references last asMetacelloCachingResolvedReference.
+! !

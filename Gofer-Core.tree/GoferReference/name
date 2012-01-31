@@ -1,0 +1,6 @@
+
+!GoferReference methodsFor: 'accessing' stamp: 'lr 12/11/2009 22:02'!
+name
+	"Answer the name of this reference."
+	
+	^ name! !

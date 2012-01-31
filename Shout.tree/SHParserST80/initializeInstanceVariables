@@ -1,0 +1,6 @@
+
+!SHParserST80 methodsFor: 'parse support' stamp: ''!
+initializeInstanceVariables
+	instanceVariables := classOrMetaClass notNil
+				ifTrue: [classOrMetaClass allInstVarNames asArray]
+				ifFalse: [Set new]! !

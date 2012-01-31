@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'accessing' stamp: 'cwp 12/1/2004 00:37'!
+selection
+	^ 1 to: 0! !

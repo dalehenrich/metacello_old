@@ -1,0 +1,4 @@
+
+!OBMercuryPanel methodsFor: 'private' stamp: 'cwp 7/20/2007 00:33'!
+environment
+	^ Smalltalk! !

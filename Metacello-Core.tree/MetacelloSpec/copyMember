@@ -1,0 +1,5 @@
+
+!MetacelloSpec methodsFor: 'spec creation' stamp: 'dkh 10/4/2009 10:44'!
+copyMember
+
+	^MetacelloCopyMemberSpec for: self project! !

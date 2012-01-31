@@ -1,0 +1,6 @@
+
+!MetacelloMCVersionSpec methodsFor: 'enumerating' stamp: 'dkh 10/20/2009 17:16'!
+projectDo: projectBlock packageDo: packageBlock groupDo: groupBlock
+
+	self packageSpecsInLoadOrder do: [:pkgSpec |
+		pkgSpec projectDo: projectBlock packageDo: packageBlock groupDo: groupBlock ]! !

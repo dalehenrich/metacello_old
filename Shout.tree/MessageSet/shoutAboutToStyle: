@@ -1,0 +1,7 @@
+
+!MessageSet methodsFor: '*Shout-Styling' stamp: 'AlainPlantec 8/27/2011 00:16'!
+shoutAboutToStyle: aPluggableShoutMorphOrView 
+	self shoutIsModeStyleable
+		ifFalse: [^ false].
+	aPluggableShoutMorphOrView classOrMetaClass: self selectedClass.
+	^ true! !

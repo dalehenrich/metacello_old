@@ -1,0 +1,4 @@
+
+!OBInheritanceBrowser class methodsFor: 'configuration' stamp: ''!
+title
+	^ 'Inheritance'! !

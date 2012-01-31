@@ -1,0 +1,6 @@
+
+!MetacelloToolBoxConstructor methodsFor: 'private' stamp: 'DaleHenrichs 12/23/2010 15:21'!
+methodSection: methodSection do: aBlock
+
+	methodSection methodSections do: aBlock.
+	methodSection methodSections do: [ :ms | self methodSection: ms do: aBlock ]! !

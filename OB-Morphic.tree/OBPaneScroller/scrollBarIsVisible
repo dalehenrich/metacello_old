@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'scrolling' stamp: 'cwp 2/8/2004 10:56'!
+scrollBarIsVisible
+	^ submorphs includes: scrollBar! !

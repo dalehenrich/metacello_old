@@ -1,0 +1,4 @@
+
+!OBList methodsFor: 'accessing' stamp: 'dr 9/17/2008 10:24'!
+fan: anObject
+	fan := anObject! !

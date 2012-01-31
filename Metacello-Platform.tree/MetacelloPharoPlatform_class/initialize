@@ -1,0 +1,6 @@
+
+!MetacelloPharoPlatform class methodsFor: 'initialize-release' stamp: 'dkh 8/20/2009 15:33'!
+initialize
+	"implmented to force initialize on load"
+	
+	super initialize! !

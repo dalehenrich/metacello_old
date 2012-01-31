@@ -1,0 +1,4 @@
+
+!MetacelloAPIDocumentation class methodsFor: 'defaults' stamp: 'DaleHenrichs 11/29/2010 12:11'!
+builder
+	^MetacelloPackageAPIHelpBuilder! !

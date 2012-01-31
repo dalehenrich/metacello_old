@@ -1,0 +1,8 @@
+
+!ConfigurationOfMetacello class methodsFor: 'loading' stamp: 'DaleHenrichs 1/20/2011 09:25'!
+load
+	"Load a minimum installation of Metacello"
+
+	"self load"
+
+	^ self project latestVersion load! !

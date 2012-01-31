@@ -1,0 +1,8 @@
+
+!OBMorphicIcons class methodsFor: 'private' stamp: 'lr 5/9/2011 19:25'!
+findIcon: aSymbol
+	(self canUnderstand: aSymbol)
+		ifTrue: [ ^ self default perform: aSymbol ].
+	^ UITheme current
+		iconNamed: ('small' , aSymbol capitalized) asSymbol
+		ifNone: [ UITheme current iconNamed: aSymbol ]! !

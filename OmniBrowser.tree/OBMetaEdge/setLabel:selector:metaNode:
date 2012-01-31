@@ -1,0 +1,6 @@
+
+!OBMetaEdge methodsFor: 'initializing' stamp: 'lr 7/3/2009 22:27'!
+setLabel: aString selector: aSelector metaNode: aMetaNode 
+	label := aString.
+	selector := aSelector.
+	metaNode := aMetaNode! !

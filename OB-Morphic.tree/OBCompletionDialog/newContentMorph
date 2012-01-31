@@ -1,0 +1,7 @@
+
+!OBCompletionDialog methodsFor: 'morphic' stamp: 'lr 3/6/2011 15:54'!
+newContentMorph
+	^ (self newColumn: (Array with: self newTextMorph with: self newListMorph))
+		minWidth: 320;
+		minHeight: 200;
+		yourself! !

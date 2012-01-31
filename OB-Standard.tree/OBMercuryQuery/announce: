@@ -1,0 +1,4 @@
+
+!OBMercuryQuery methodsFor: 'executing' stamp: 'cwp 7/20/2007 00:24'!
+announce: anAnnouncement
+	^ browser announce: anAnnouncement! !

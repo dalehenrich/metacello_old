@@ -1,0 +1,4 @@
+
+!OBFan methodsFor: 'accessing' stamp: 'dr 9/17/2008 12:13'!
+childAt: index
+	^ self children at: index ifAbsent: [nil]! !

@@ -1,0 +1,6 @@
+
+!Gofer methodsFor: 'copying' stamp: 'lr 12/13/2009 16:52'!
+postCopy
+	references := references copy.
+	repositories := repositories copy.
+	resolvedReferencesCache := nil! !

@@ -1,0 +1,11 @@
+
+!MetacelloToolBox methodsFor: 'api-configuration' stamp: 'DaleHenrichs 11/20/2010 07:47'!
+symbolicVersionMethod: versionSymbol
+	(self hasMethodForSymbolicVersion: versionSymbol)
+		ifTrue: [ self modifySymbolicVersionMethodFor: versionSymbol ]
+		ifFalse: [ 
+			self
+				createSymbolicVersionMethod: versionSymbol asString , ':'
+				inCategory: 'symbolic versions'
+				forVersion: versionSymbol ].
+! !

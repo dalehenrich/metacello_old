@@ -1,0 +1,4 @@
+
+!OBPaneScroller class methodsFor: 'settings' stamp: 'lr 3/13/2010 19:54'!
+animationDuration
+	^ animationDuration! !

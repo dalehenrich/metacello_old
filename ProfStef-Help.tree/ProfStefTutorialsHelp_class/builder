@@ -1,0 +1,4 @@
+
+!ProfStefTutorialsHelp class methodsFor: 'defaults' stamp: 'LaurentLaffont 9/19/2010 15:17'!
+builder
+	^ ProfStefHelpTutorialBuilder! !

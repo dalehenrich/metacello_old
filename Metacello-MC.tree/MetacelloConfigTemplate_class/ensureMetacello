@@ -1,0 +1,5 @@
+
+!MetacelloConfigTemplate class methodsFor: 'private' stamp: 'DaleHenrichs 12/6/2010 13:34'!
+ensureMetacello
+
+	(self baseConfigurationClassIfAbsent: []) ensureMetacello! !

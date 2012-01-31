@@ -1,0 +1,7 @@
+
+!OBListBrowser class methodsFor: 'opening' stamp: 'lr 4/9/2011 17:50'!
+browseRoot: aNode label: aString 
+	^ (self metaNode: self defaultMetaNode root: aNode selection: nil)
+		label: aString;
+		open
+	! !

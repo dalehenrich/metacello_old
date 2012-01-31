@@ -1,0 +1,4 @@
+
+!OBFixedButtonPanel methodsFor: 'callbacks' stamp: 'lr 3/13/2010 17:05'!
+isSelected: aNode
+	^ aNode notNil! !

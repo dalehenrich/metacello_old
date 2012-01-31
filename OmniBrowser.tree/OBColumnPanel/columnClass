@@ -1,0 +1,4 @@
+
+!OBColumnPanel methodsFor: 'constructing' stamp: 'dr 9/24/2008 10:42'!
+columnClass
+   ^OBColumn! !

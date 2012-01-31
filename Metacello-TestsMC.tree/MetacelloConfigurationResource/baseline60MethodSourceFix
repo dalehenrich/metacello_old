@@ -1,0 +1,7 @@
+
+!MetacelloConfigurationResource methodsFor: 'ConfigurationOfFix' stamp: 'DaleHenrichs 4/16/2010 11:07'!
+baseline60MethodSourceFix
+
+	^(self class sourceCodeAt: #baseline60Fix:) asString
+
+! !

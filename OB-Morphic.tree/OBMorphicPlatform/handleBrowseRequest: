@@ -1,0 +1,5 @@
+
+!OBMorphicPlatform methodsFor: 'interaction' stamp: 'lr 4/9/2011 09:28'!
+handleBrowseRequest: request
+	(OBPlatform current build: request browser) openInWorld.
+	^ request browser! !

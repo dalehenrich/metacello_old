@@ -1,0 +1,4 @@
+
+!ConfigurationOfOmniBrowser methodsFor: 'baselines' stamp: 'MarianoMartinezPeck 4/15/2011 14:08'!
+postLoadOBShoutPharo12
+	Smalltalk at: #OBTextMorphEditorWithShout ifPresent: [(Smalltalk at: #OBTextMorphEditorWithShout) initialize]! !

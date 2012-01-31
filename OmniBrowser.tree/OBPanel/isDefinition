@@ -1,0 +1,4 @@
+
+!OBPanel methodsFor: 'testing' stamp: 'dr 5/24/2007 12:20'!
+isDefinition
+   ^false! !

@@ -1,0 +1,5 @@
+
+!MetacelloTutorialTestCase methodsFor: 'private' stamp: 'dkh 10/17/2009 13:17'!
+project
+
+	^MetacelloTutorialConfig project! !

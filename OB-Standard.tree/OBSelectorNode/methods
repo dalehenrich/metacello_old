@@ -1,0 +1,10 @@
+
+!OBSelectorNode methodsFor: 'navigating' stamp: 'lr 7/6/2010 22:13'!
+methods
+	methods ifNil: [
+		methods := SystemNavigation default selectAllMethods: [ :method | 
+			method hasLiteralSuchThat: [ :literal | 
+				literal isString 
+					and: [ literal isSymbol not 
+					and: [ literal includesSubstring: selector string caseSensitive: false ] ] ] ] ].
+	^ methods collect: [ :method | OBMethodNode on: method ]! !

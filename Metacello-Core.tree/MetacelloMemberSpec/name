@@ -1,0 +1,5 @@
+
+!MetacelloMemberSpec methodsFor: 'accessing' stamp: 'dkh 06/02/2009 16:36'!
+name
+
+	^name! !

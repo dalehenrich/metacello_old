@@ -1,0 +1,4 @@
+
+!GoferOperation class methodsFor: 'instance creation' stamp: 'TestRunner 12/12/2009 11:09'!
+new
+	self error: 'Gofer operations can only work on Gofer instances.'! !

@@ -1,0 +1,6 @@
+
+!OBModalFilter methodsFor: 'callbacks' stamp: 'dr 10/19/2008 10:47'!
+selection: anInteger
+	selection := anInteger.
+	self changed: #selection.
+	! !

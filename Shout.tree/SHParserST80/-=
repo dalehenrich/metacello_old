@@ -1,0 +1,4 @@
+
+!SHParserST80 methodsFor: 'scan' stamp: ''!
+-= aSymbol 
+	^ 1 -= 2! !

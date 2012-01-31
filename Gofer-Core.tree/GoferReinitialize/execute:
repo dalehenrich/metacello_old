@@ -1,0 +1,6 @@
+
+!GoferReinitialize methodsFor: 'running' stamp: 'DaleHenrichs 3/5/2010 09:25'!
+execute: aWorkingCopy
+	aWorkingCopy packageInfo methods do: [ :each |
+		(each classIsMeta and: [ each methodSymbol = #initialize ])
+			ifTrue: [ each actualClass theNonMetaClass initialize ] ]! !

@@ -1,0 +1,5 @@
+
+!OBMultipleChoiceRequest methodsFor: 'accessing' stamp: 'lr 4/29/2010 09:34'!
+label: anObject
+	^ ((selection includes: anObject) ifTrue: [ '<yes>' ] ifFalse: [ '<no>' ]) , 
+	  (labels at: (values indexOf: anObject ifAbsent: [ ^ nil ])) asString! !

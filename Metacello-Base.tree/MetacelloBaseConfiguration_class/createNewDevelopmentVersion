@@ -1,0 +1,10 @@
+
+!MetacelloBaseConfiguration class methodsFor: 'development support' stamp: 'DaleHenrichs 1/11/2011 15:00'!
+createNewDevelopmentVersion
+	"Create a new development version using the #stable version as model."
+
+	"self createNewDevelopmentVersion"
+
+	<apiDocumentation>
+	self ensureMetacello.
+	(Smalltalk at: #MetacelloToolBox) createNewDevelopmentVersionIn: self description: ''! !

@@ -1,0 +1,4 @@
+
+!OBCloseRequest methodsFor: 'accessing' stamp: 'avi 12/5/2007 13:17'!
+browser
+	^ browser! !

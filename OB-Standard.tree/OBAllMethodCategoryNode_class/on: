@@ -1,0 +1,4 @@
+
+!OBAllMethodCategoryNode class methodsFor: 'instance creation' stamp: ''!
+on: className
+	^ self on: '-- all --' inClass: className! !

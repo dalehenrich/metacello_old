@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'accessing' stamp: 'cwp 8/31/2004 13:04'!
+defaultLabel
+	^ self class titleForRoot: self root! !

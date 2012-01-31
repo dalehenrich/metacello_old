@@ -1,0 +1,5 @@
+
+!MetacelloMergeMemberSpec methodsFor: 'actions' stamp: 'dkh 6/5/2009 16:06'!
+applyToList: aListSpec
+
+	aListSpec merge: self! !

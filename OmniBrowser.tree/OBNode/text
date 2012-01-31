@@ -1,0 +1,4 @@
+
+!OBNode methodsFor: 'public' stamp: 'cwp 12/7/2003 19:27'!
+text
+	^ ''! !

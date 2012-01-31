@@ -1,0 +1,7 @@
+
+!OBColumnPanel methodsFor: 'updating' stamp: 'lr 2/12/2009 10:32'!
+nodeDeleted: ann 
+	ann node = self root ifFalse: [ ^ self ].
+	current := nil.
+	self columns first clear.
+	self announcer announce: (OBSelectionChanged column: self)! !

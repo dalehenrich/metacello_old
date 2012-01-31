@@ -1,0 +1,4 @@
+
+!OBFilter methodsFor: 'filtering' stamp: 'cwp 7/23/2007 01:08'!
+icon: aSymbol forNode: aNode
+	^ aSymbol! !

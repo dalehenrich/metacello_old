@@ -1,0 +1,4 @@
+
+!OBMetaNode class methodsFor: 'instance creation' stamp: 'cwp 3/3/2004 23:08'!
+new
+	^ self basicNew initialize! !

@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCmdRevertMethod
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

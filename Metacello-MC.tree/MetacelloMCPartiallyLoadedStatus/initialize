@@ -1,0 +1,12 @@
+
+!MetacelloMCPartiallyLoadedStatus methodsFor: 'initialization' stamp: 'dkh 7/11/2011 14:52'!
+initialize
+	super initialize.
+	hasNoPackage := hasNoProject := true.
+	aProjectIsLoaded := aPackageIsLoaded := false.
+	aLoadedProjectIsExact := aLoadedPackageIsExact := false.
+	aLoadedProjectIsCurrent := aLoadedPackageIsCurrent := false.
+	aLoadedProjectIsNotCurrent := aLoadedPackageIsNotCurrent := false.
+	aProjectNotLoaded := aPackageNotLoaded := false.
+	vrsnStatus := Set new.
+	abort := false! !

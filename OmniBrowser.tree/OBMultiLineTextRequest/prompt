@@ -1,0 +1,4 @@
+
+!OBMultiLineTextRequest methodsFor: 'accessing' stamp: 'dkh 12/19/2007 09:11'!
+prompt
+	^ prompt! !

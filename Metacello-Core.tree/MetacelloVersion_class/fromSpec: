@@ -1,0 +1,7 @@
+
+!MetacelloVersion class methodsFor: 'instance creation' stamp: 'tg 8/30/2009 18:07'!
+fromSpec: aMetacelloVersionSpec
+
+	^(self fromString: aMetacelloVersionSpec versionString) 
+		spec: aMetacelloVersionSpec;
+		yourself! !

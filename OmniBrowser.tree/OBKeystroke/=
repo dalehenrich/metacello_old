@@ -1,0 +1,12 @@
+
+!OBKeystroke methodsFor: 'comparing' stamp: 'lr 5/20/2011 19:22'!
+= anObject
+	self == anObject
+		ifTrue: [ ^ true ].
+	self class = anObject class
+		ifFalse: [ ^ false ].
+	^ self key = anObject key
+		and: [ self isShift = anObject isShift
+		and: [ self isControl = anObject isControl
+		and: [ self isOption = anObject isOption
+		and: [ self isCommand = anObject isCommand ] ] ] ]! !

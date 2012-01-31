@@ -1,0 +1,4 @@
+
+!OBClassNode methodsFor: 'navigating' stamp: 'cwp 1/7/2005 23:05'!
+allCategory
+	^ Array with: (OBAllMethodCategoryNode on: self theClass)! !

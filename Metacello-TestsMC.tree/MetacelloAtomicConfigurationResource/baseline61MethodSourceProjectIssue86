@@ -1,0 +1,7 @@
+
+!MetacelloAtomicConfigurationResource methodsFor: 'Issue 86' stamp: 'DaleHenrichs 6/24/2010 16:54'!
+baseline61MethodSourceProjectIssue86
+
+	^(self class sourceCodeAt: #baseline61ProjectIssue86:) asString
+
+! !

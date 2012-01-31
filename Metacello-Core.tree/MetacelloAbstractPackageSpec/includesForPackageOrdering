@@ -1,0 +1,5 @@
+
+!MetacelloAbstractPackageSpec methodsFor: 'private' stamp: 'dkh 10/10/2009 10:59'!
+includesForPackageOrdering
+
+	^#()! !

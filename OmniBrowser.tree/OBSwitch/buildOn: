@@ -1,0 +1,4 @@
+
+!OBSwitch methodsFor: 'building' stamp: 'dr 10/21/2008 13:34'!
+buildOn: aBuilder
+	^aBuilder radioButtonBar: self with: []! !

@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCancelTextCommand
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Commands'!

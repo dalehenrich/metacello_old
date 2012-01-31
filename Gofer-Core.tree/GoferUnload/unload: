@@ -1,0 +1,6 @@
+
+!GoferUnload methodsFor: 'unloading' stamp: 'lr 10/3/2009 11:46'!
+unload: aWorkingCopy
+	self unloadClasses: aWorkingCopy.
+	self unloadPackage: aWorkingCopy
+! !

@@ -1,0 +1,4 @@
+
+!MetacelloToolBox methodsFor: 'private' stamp: 'DaleHenrichs 11/16/2010 16:50'!
+configurationNameFrom: baseName	
+	^self class configurationNameFrom: baseName! !

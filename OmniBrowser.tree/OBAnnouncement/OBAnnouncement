@@ -1,0 +1,6 @@
+
+Object subclass: #OBAnnouncement
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Announcements'!

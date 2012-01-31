@@ -1,0 +1,4 @@
+
+!OBMethodNode methodsFor: 'displaying' stamp: 'cwp 6/11/2009 15:25'!
+fullNameWithProtocol
+    ^ self fullName , ' {' ,  self category , '}'! !

@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBCmdCopyClass
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Commands'!

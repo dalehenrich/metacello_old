@@ -1,0 +1,4 @@
+
+!MetacelloVersionSpec methodsFor: 'accessing' stamp: 'dkh 6/5/2009 10:44'!
+setBlessing: anObject
+	blessing := anObject! !

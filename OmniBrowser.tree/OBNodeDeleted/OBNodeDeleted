@@ -1,0 +1,6 @@
+
+OBAnnouncement subclass: #OBNodeDeleted
+	instanceVariableNames: 'node'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Announcements'!

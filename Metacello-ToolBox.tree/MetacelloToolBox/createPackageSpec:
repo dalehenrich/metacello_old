@@ -1,0 +1,6 @@
+
+!MetacelloToolBox methodsFor: 'spec creation' stamp: 'DaleHenrichs 11/14/2010 01:17'!
+createPackageSpec: baseName
+	^ (project packageSpec)
+		name: baseName;
+		yourself! !

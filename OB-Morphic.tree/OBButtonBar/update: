@@ -1,0 +1,4 @@
+
+!OBButtonBar methodsFor: 'updating' stamp: 'cwp 3/11/2007 15:58'!
+update: aSymbol
+	aSymbol == #commands ifTrue: [self updateCommands]! !

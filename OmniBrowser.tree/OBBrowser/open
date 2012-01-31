@@ -1,0 +1,4 @@
+
+!OBBrowser methodsFor: 'opening' stamp: 'cwp 10/17/2004 21:31'!
+open
+	^ OBBrowseRequest signal: self! !

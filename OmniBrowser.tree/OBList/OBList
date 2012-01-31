@@ -1,0 +1,6 @@
+
+Object subclass: #OBList
+	instanceVariableNames: 'column selection fan'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Kernel'!

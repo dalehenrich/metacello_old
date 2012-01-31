@@ -1,0 +1,4 @@
+
+!OBMercuryPanel methodsFor: 'actions' stamp: 'cwp 3/3/2007 00:28'!
+string: aString
+	self systemNavigation browseMethodsWithString: aString! !

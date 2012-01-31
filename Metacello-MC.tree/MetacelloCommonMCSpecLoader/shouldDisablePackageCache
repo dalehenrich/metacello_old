@@ -1,0 +1,6 @@
+
+!MetacelloCommonMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/10/2010 14:34'!
+shouldDisablePackageCache
+
+	disablePackageCache == nil ifTrue: [ disablePackageCache := false ].
+	^ disablePackageCache! !

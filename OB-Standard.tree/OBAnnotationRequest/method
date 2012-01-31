@@ -1,0 +1,4 @@
+
+!OBAnnotationRequest methodsFor: 'accessing' stamp: 'dc 6/18/2007 18:55'!
+method
+	^ class compiledMethodAt: selector ifAbsent: [nil]! !

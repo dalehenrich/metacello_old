@@ -1,0 +1,4 @@
+
+!OBPluggableButtonMorph methodsFor: 'drag and drop' stamp: 'lr 5/28/2010 17:12'!
+acceptDroppingMorph: aMorph event: anEvent 
+	^ self model acceptDroppingMorph: aMorph event: anEvent inMorph: self! !

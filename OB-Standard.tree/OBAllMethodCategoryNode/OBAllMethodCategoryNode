@@ -1,0 +1,9 @@
+
+OBMethodCategoryNode subclass: #OBAllMethodCategoryNode
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Nodes'!
+
+!OBAllMethodCategoryNode commentStamp: 'cwp 1/8/2005 12:31' prior: 0!
+OBAllMethodCategory implements the synthetic '-- all --' category, which contains all the methods in a class.!

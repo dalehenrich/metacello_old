@@ -1,0 +1,4 @@
+
+!OBListBrowser methodsFor: 'accessing' stamp: 'cwp 11/25/2004 22:18'!
+labelPrefix
+	^ labelPrefix ifNil: [labelPrefix := self root metaNode edges first label capitalized, ' of']! !

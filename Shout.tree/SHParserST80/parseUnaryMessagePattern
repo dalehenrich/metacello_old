@@ -1,0 +1,4 @@
+
+!SHParserST80 methodsFor: 'parse' stamp: ''!
+parseUnaryMessagePattern
+	self scanPast: #patternUnary! !

@@ -1,0 +1,5 @@
+
+!OBCmdSelectMethodCategory methodsFor: 'testing' stamp: 'dc. 12/15/2007 15:18'!
+isActive
+	^ (target isKindOf: OBMethodNode)
+		and: [requestor isSelected: target]! !

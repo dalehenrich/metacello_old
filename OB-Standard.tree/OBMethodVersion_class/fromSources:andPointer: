@@ -1,0 +1,4 @@
+
+!OBMethodVersion class methodsFor: 'instance creation' stamp: ''!
+fromSources: sources andPointer: pointer
+	^ self new setSources: sources pointer: pointer! !

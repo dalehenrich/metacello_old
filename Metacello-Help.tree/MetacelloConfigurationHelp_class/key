@@ -1,0 +1,5 @@
+
+!MetacelloConfigurationHelp class methodsFor: 'accessing' stamp: 'dkh 4/9/2011 09:55'!
+key
+
+	^'Metacello Configuration help'! !

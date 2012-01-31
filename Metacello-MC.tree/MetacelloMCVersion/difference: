@@ -1,0 +1,6 @@
+
+!MetacelloMCVersion methodsFor: 'querying' stamp: 'DaleHenrichs 11/8/2010 12:58'!
+difference: aMetacelloVersion
+	"Return a a dictionary of additions, removals and modifications"
+	
+	^self spec difference: aMetacelloVersion spec! !

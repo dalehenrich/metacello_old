@@ -1,0 +1,5 @@
+
+!MetacelloPackageSpec methodsFor: 'gofer' stamp: 'dkh 9/25/2009 10:53'!
+workingCopy
+
+	^self goferPackage workingCopy! !

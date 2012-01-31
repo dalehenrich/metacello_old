@@ -1,0 +1,50 @@
+
+!ConfigurationOfShout methodsFor: 'baselines' stamp: 'StephaneDucasse 2/27/2011 17:36'!
+baseline12: spec 
+	<version: '1.2-baseline'>
+	
+	spec for: #common do: [
+		spec blessing: #baseline.
+	].
+		
+	spec for: #pharo do: [
+		spec repository: 'http://www.squeaksource.com/shout'.
+		spec 
+			package: 'Shout';
+			package: 'ShoutTests' with: [ spec requires: 'Shout' ].
+			
+		spec
+			group: 'default' with: #('Core' );
+			group: 'Core' with: #( 'Shout' );
+			group: 'Tests' with: #('ShoutTests' );
+			group: 'Core Tests' with: #('Core' 'Tests' );
+			
+			yourself.	
+			
+	].
+	spec for: #squeak do: [
+		spec repository: 'http://source.squeak.org/trunk'.
+
+		spec package: 'ShoutCore'.
+
+		spec
+			group: 'default' with: #('Core' );
+			group: 'Core' with: #( 'ShoutCore'  );
+			group: 'Tests' with: #('Core');
+			group: 'Core Tests' with: #('Core' 'Tests' );
+			
+			yourself.	
+	].
+	spec for: #gemstone do: [
+		spec repository: 'http://seaside.gemstone.com/ss/shout'.
+
+		spec package: 'ShoutCore'.
+
+		spec
+			group: 'default' with: #('Core' );
+			group: 'Core' with: #( 'ShoutCore'  );
+			group: 'Tests' with: #('Core');
+			group: 'Core Tests' with: #('Core' 'Tests' );
+			
+			yourself.	
+	].! !

@@ -1,0 +1,11 @@
+
+!MetacelloProject methodsFor: 'versions' stamp: 'dkh 7/8/2011 19:56'!
+currentVersion
+	| cacheKey cv |
+	cacheKey := self configuration class.
+	^ MetacelloPlatform current
+		stackCacheFor: #currentVersion
+		at: cacheKey
+		doing: [ :cache | 
+			cv := self currentVersionAgainst: nil.
+			^ cache at: cacheKey put: cv ]! !

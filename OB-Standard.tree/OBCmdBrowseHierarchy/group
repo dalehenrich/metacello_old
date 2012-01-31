@@ -1,0 +1,4 @@
+
+!OBCmdBrowseHierarchy methodsFor: 'accessing' stamp: 'cwp 10/11/2006 00:17'!
+group
+	^ #navigation! !

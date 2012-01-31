@@ -1,0 +1,4 @@
+
+!SHOneEditorShoutedASecondNotShouted methodsFor: 'accessing' stamp: 'AlainPlantec 9/1/2011 18:48'!
+code
+	^ code ifNil: [code := '' asText]! !

@@ -1,0 +1,9 @@
+
+!GoferChanges methodsFor: 'queries' stamp: 'lr 12/12/2009 13:06'!
+patchsetOf: aReference
+	"Answer the source snapshot of aReference."
+	
+	| source target |
+	source := self sourceSnapshotOf: aReference.
+	target := self targetSnapshotOf: aReference.
+	^ target patchRelativeToBase: source! !

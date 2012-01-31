@@ -1,0 +1,7 @@
+
+!OBClassCommentDefinition methodsFor: 'callbacks' stamp: 'lr 9/26/2010 18:14'!
+text: aText
+	theClass
+		comment: aText asString
+		stamp: OBBrowserPlatform changeStamp.
+	^ true! !

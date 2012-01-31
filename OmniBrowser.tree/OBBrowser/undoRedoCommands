@@ -1,0 +1,6 @@
+
+!OBBrowser methodsFor: 'commands-text' stamp: 'lr 12/10/2010 09:50'!
+undoRedoCommands
+	<command>
+	
+	^ Array with: OBUndoTextCommand with: OBRedoTextCommand! !

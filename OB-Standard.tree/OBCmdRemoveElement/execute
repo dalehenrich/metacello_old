@@ -1,0 +1,6 @@
+
+!OBCmdRemoveElement methodsFor: 'execution' stamp: 'cb 7/19/2007 14:49'!
+execute
+
+	target removeChild: requestor selectedNode.
+	requestor listChanged! !

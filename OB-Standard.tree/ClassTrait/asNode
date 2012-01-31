@@ -1,0 +1,4 @@
+
+!ClassTrait methodsFor: '*ob-standard-converting' stamp: 'lr 2/19/2009 15:28'!
+asNode
+	^ OBMetaclassNode on: self! !

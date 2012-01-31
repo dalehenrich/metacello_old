@@ -1,0 +1,4 @@
+
+!OBCollectionNode methodsFor: 'displaying' stamp: 'cwp 12/24/2007 02:34'!
+name
+	^ name ifNil: [collection species name]! !

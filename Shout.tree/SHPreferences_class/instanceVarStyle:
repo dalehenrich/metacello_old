@@ -1,0 +1,4 @@
+
+!SHPreferences class methodsFor: 'accessing-styles' stamp: ''!
+instanceVarStyle: aGroupStyle 
+	^ Groups at: #instanceVar put: aGroupStyle! !

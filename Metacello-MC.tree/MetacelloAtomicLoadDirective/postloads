@@ -1,0 +1,6 @@
+
+!MetacelloAtomicLoadDirective methodsFor: 'accessing' stamp: 'DaleHenrichs 4/9/2010 13:00'!
+postloads
+
+	postloads == nil ifTrue: [ postloads := OrderedCollection new ].
+	^ postloads! !

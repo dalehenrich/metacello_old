@@ -1,0 +1,4 @@
+
+!HelpHowToHelpTopics class methodsFor: 'accessing' stamp: 'tbn 3/29/2010 14:47'!
+bookName
+	^'Implementation'! !

@@ -1,0 +1,6 @@
+
+OBNavigate subclass: #OBShowHierarchySenders
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Announcements'!

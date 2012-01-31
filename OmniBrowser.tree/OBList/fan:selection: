@@ -1,0 +1,5 @@
+
+!OBList methodsFor: 'selecting' stamp: 'dr 12/15/2008 18:48'!
+fan: aFan selection: index
+	self fan: aFan.
+	self selection: index! !

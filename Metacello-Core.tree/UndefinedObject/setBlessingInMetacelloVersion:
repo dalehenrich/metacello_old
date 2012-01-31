@@ -1,0 +1,5 @@
+
+!UndefinedObject methodsFor: '*metacello-core' stamp: 'dkh 6/5/2009 10:56'!
+setBlessingInMetacelloVersion: aMetacelloVersionSpec
+
+	aMetacelloVersionSpec setBlessing: self! !

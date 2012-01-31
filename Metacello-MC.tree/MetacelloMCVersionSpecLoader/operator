@@ -1,0 +1,5 @@
+
+!MetacelloMCVersionSpecLoader methodsFor: 'accessing' stamp: 'dkh 08/10/2009 15:13'!
+operator
+
+	^self loader operator! !

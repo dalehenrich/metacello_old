@@ -1,0 +1,5 @@
+
+!OBCmdMetacelloLoadConfigurationVersion methodsFor: 'execution' stamp: 'dkh 10/23/2009 12:00'!
+execute
+
+	MetacelloPlatform current transact: [ self executeLoadProject ]! !

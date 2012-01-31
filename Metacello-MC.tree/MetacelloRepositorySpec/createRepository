@@ -1,0 +1,5 @@
+
+!MetacelloRepositorySpec methodsFor: 'mc support' stamp: 'dkh 10/22/2009 08:52'!
+createRepository
+
+	^self project createRepository: self ! !

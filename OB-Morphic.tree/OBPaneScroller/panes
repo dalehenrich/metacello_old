@@ -1,0 +1,4 @@
+
+!OBPaneScroller methodsFor: 'accessing' stamp: 'cwp 11/17/2004 23:09'!
+panes
+	^ panes ifNil: [self updatePanes. panes]! !

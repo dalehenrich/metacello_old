@@ -1,0 +1,7 @@
+
+!OBMethodDefinition methodsFor: 'callbacks' stamp: 'lr 3/4/2009 08:20'!
+selection
+	^ selection ifNil: 
+		[ 1 to: (source isNil 
+				ifTrue: [ self text size ]
+				ifFalse: [ 0 ]) ]! !

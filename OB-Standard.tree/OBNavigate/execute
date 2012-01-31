@@ -1,0 +1,4 @@
+
+!OBNavigate methodsFor: 'execution' stamp: 'cwp 8/20/2007 22:51'!
+execute
+	^ action value! !

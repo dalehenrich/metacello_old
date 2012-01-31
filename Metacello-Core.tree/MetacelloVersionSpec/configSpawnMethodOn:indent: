@@ -1,0 +1,9 @@
+
+!MetacelloVersionSpec methodsFor: 'printing' stamp: 'DaleHenrichs 12/23/2010 09:39'!
+configSpawnMethodOn: aStream indent: indent
+
+	self configMethodValueOn: aStream for: self getBlessing selector: 'blessing:' last: false indent: indent.
+	self configMethodValueOn: aStream for: self getAuthor selector: 'author:' last: false indent: indent.
+	self configMethodValueOn: aStream for: self getTimestamp selector: 'timestamp:' last: false indent: indent.
+
+! !

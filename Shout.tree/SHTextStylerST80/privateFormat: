@@ -1,0 +1,6 @@
+
+!SHTextStylerST80 methodsFor: 'private' stamp: ''!
+privateFormat: aText 
+	aText asString = Object sourceCodeTemplate
+		ifTrue: [^ self parseableSourceCodeTemplate asText].
+	^ aText! !

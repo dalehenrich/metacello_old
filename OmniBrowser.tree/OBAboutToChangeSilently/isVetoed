@@ -1,0 +1,4 @@
+
+!OBAboutToChangeSilently methodsFor: 'vetos' stamp: 'cwp 3/3/2007 22:28'!
+isVetoed
+	^ veto notNil! !

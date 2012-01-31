@@ -1,0 +1,4 @@
+
+!OBChildrenChanged methodsFor: 'accessing' stamp: 'cwp 6/5/2006 00:49'!
+node
+	^ node! !

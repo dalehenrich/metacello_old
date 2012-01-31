@@ -1,0 +1,6 @@
+
+!OBColumnPanel methodsFor: 'accessing columns' stamp: 'lr 3/4/2009 09:29'!
+selected: aColumn 
+	| next |
+	(next := aColumn next) isNil
+		ifFalse: [ next parent: aColumn selectedNode ]! !

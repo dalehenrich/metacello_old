@@ -1,0 +1,6 @@
+
+!OBCmdBrowseSenders methodsFor: 'accessing' stamp: 'lr 9/8/2011 19:52'!
+label
+	^ (requestor isKindOf: OBFixedButtonPanel)
+		ifTrue: [ 'Senders' ]
+		ifFalse: [ 'Senders...' ]! !

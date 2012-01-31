@@ -1,0 +1,5 @@
+
+!MetacelloAbstractVersionConstructor methodsFor: 'api callbacks' stamp: 'DaleHenrichs 11/12/2010 09:54'!
+setAuthorWithString: aString
+
+	self root author: aString! !

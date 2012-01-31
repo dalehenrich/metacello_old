@@ -1,0 +1,11 @@
+
+!MetacelloIssue108TestCase methodsFor: 'baselines' stamp: 'dkh 2/22/2011 21:01'!
+baseline10: spec 
+	<version: '1.0-baseline'>
+	
+	spec for: #common do: [
+		spec repository: 'dictionary://Metacello_Repository'.
+		spec 
+			package: 'GoferBar';
+			yourself ].
+! !

@@ -1,0 +1,6 @@
+
+!OBPane methodsFor: 'geometry' stamp: 'cwp 2/12/2004 18:32'!
+bounds: aRectangle
+	super bounds: aRectangle.
+	self adjustList.
+	self adjustButton.! !

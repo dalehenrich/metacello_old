@@ -1,0 +1,6 @@
+
+!MetacelloNullRecordingMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/10/2010 14:50'!
+beforeLoads
+
+	beforeLoads == nil ifTrue: [ beforeLoads := OrderedCollection new ].
+	^beforeLoads! !

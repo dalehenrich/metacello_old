@@ -1,0 +1,4 @@
+
+!TraitDescription methodsFor: '*ob-standard-converting' stamp: 'lr 2/19/2009 15:26'!
+asCommentNode
+	^ OBClassCommentNode on: self baseTrait! !

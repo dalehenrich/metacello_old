@@ -1,0 +1,8 @@
+
+!MetacelloToolBox methodsFor: 'accessing' stamp: 'DaleHenrichs 11/15/2010 13:05'!
+constructor
+
+	| constructor |
+	constructor := MetacelloToolBoxConstructor new.
+	constructor configuration: project configuration class new.
+	^constructor! !

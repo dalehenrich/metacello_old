@@ -1,0 +1,4 @@
+
+!OBCollectionNode methodsFor: 'ancestry' stamp: 'dr 9/18/2008 10:09'!
+isAncestorOf: aNode 
+    ^ collection anySatisfy: [:ea | ea = aNode or: [ea isAncestorOf: aNode]]! !

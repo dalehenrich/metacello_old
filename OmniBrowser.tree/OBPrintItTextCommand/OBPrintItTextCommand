@@ -1,0 +1,6 @@
+
+OBCommand subclass: #OBPrintItTextCommand
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OmniBrowser-Commands'!

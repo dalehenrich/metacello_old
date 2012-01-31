@@ -1,0 +1,10 @@
+
+!MetacelloSpec methodsFor: 'accessing' stamp: 'dkh 6/18/2009 10:30'!
+loader
+
+	loader == nil 
+		ifTrue: [ | prjctLoader |
+			(prjctLoader := self project loader) == nil
+				ifTrue: [ self loader: (self project loaderClass on: self) ]
+				ifFalse: [ self loader: prjctLoader ]].
+	^loader! !

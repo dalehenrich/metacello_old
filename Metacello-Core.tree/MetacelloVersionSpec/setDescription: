@@ -1,0 +1,4 @@
+
+!MetacelloVersionSpec methodsFor: 'accessing' stamp: 'dkh 6/5/2009 11:40'!
+setDescription: anObject
+	description := anObject! !

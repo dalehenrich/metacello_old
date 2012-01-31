@@ -1,0 +1,6 @@
+
+OBCodeBrowser subclass: #OBSearchBrowser
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Browsers'!

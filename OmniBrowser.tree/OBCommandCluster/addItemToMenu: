@@ -1,0 +1,8 @@
+
+!OBCommandCluster methodsFor: 'accessing' stamp: 'lr 7/3/2009 22:27'!
+addItemToMenu: aMenu 
+	| submenu |
+	submenu := aMenu 
+		addSubmenu: label
+		enabled: self isEnabled.
+	self populateMenu: submenu! !

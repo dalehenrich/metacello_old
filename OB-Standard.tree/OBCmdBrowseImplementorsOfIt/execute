@@ -1,0 +1,6 @@
+
+!OBCmdBrowseImplementorsOfIt methodsFor: 'execution' stamp: 'cwp 8/24/2007 01:34'!
+execute
+	| node |
+	node := OBSelectorNode on: target selector.
+	(requestor announce: (OBShowImplementors of: node)) execute! !

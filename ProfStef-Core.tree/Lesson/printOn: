@@ -1,0 +1,8 @@
+
+!Lesson methodsFor: 'printing' stamp: 'LaurentLaffont 2/15/2011 22:46'!
+printOn: aStream
+	super printOn: aStream.  
+	aStream 
+		nextPutAll: '(';
+		nextPutAll: self title;
+		nextPutAll: ')'.    ! !

@@ -1,0 +1,8 @@
+
+!MetacelloIssue108TestCase methodsFor: 'tests' stamp: 'dkh 4/18/2011 20:21'!
+expectedFailures
+
+	true ifTrue: [ ^#() ].
+	^#(
+		testMore "place holder to complete test coverage"
+	)! !

@@ -1,0 +1,4 @@
+
+!OBBuilder methodsFor: 'building' stamp: 'cwp 7/25/2007 23:48'!
+textarea: aPanel with: aBlock 
+	self subclassResponsibility! !

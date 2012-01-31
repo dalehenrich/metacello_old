@@ -1,0 +1,4 @@
+
+!OBMethodVersion methodsFor: 'accessing' stamp: ''!
+selector
+	^ selector ifNil: [self setSelector]! !

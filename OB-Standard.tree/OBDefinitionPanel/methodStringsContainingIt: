@@ -1,0 +1,5 @@
+
+!OBDefinitionPanel methodsFor: '*ob-standard-cmds' stamp: 'lr 12/10/2010 08:53'!
+methodStringsContainingIt: aString
+	OBMethodStringsBrowser browseRoot: (OBSelectorNode on: aString).
+	^ true! !

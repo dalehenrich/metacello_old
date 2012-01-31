@@ -1,0 +1,9 @@
+
+OBMercuryQuery subclass: #OBMMethodSendersQuery
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Utilities'!
+
+!OBMMethodSendersQuery commentStamp: 'PDC 6/29/2007 07:13' prior: 0!
+I handle queries like '#browse'. I find method senders.!

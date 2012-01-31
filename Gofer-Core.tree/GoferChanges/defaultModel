@@ -1,0 +1,4 @@
+
+!GoferChanges methodsFor: 'private' stamp: 'lr 8/19/2009 14:02'!
+defaultModel
+	^ MCPatch operations: OrderedCollection new! !

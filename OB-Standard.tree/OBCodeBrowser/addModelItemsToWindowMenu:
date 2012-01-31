@@ -1,0 +1,8 @@
+
+!OBCodeBrowser methodsFor: 'morphic' stamp: 'cwp 1/8/2005 21:55'!
+addModelItemsToWindowMenu: aMenu
+	Smalltalk 
+		at: #SystemBrowser 
+		ifPresent: [:class | class 
+								addRegistryMenuItemsTo: aMenu 
+								inAccountOf: OBSystemBrowserAdaptor new].! !

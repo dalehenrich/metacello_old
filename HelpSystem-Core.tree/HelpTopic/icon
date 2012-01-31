@@ -1,0 +1,6 @@
+
+!HelpTopic methodsFor: 'accessing' stamp: 'tbn 3/6/2010 00:19'!
+icon 
+ 	"Returns the receivers icon"
+	
+	^icon! !

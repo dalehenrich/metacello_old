@@ -1,0 +1,5 @@
+
+!SHTextStyler methodsFor: 'formatting' stamp: ''!
+format: aText 
+	self terminateBackgroundStylingProcess.
+	^ self privateFormat: aText! !

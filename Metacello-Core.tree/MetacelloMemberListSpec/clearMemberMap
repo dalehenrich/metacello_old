@@ -1,0 +1,5 @@
+
+!MetacelloMemberListSpec methodsFor: 'private' stamp: 'DaleHenrichs 9/24/2010 16:34'!
+clearMemberMap
+
+	memberMap := nil.! !

@@ -1,0 +1,11 @@
+
+OBDefinition subclass: #OBClassDefinition
+	instanceVariableNames: 'environment template'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'OB-Standard-Definitions'!
+
+!OBClassDefinition commentStamp: 'cwp 1/8/2005 13:13' prior: 0!
+OBClassDefinition presents a textual interface for examining, modifying and creating classes. Given a class, it knows how to display the definition expression that reflects it's current state, and knows how to create or modify a class given a definition expression.
+
+OBClassDefinition implements a number of safety checks when defining or redefining classes, to ensure that existing classes are not accidentally overwritten.!
