@@ -1,8 +1,11 @@
 
-!MetacelloToolBox methodsFor: 'validation' stamp: 'DaleHenrichs 12/4/2010 08:44'!
+!MetacelloToolBox methodsFor: 'validation' stamp: 'dkh 1/18/2012 14:08'!
 validateVersion: versionStringOrSymbol
-	| issues |
-	issues := (MetacelloMCVersionValidator validateProject: project version: versionStringOrSymbol)
-		select: [ :issue | issue isError ].
-	issues notEmpty
-		ifTrue: [ self error: 'There are error issues with version ' , versionStringOrSymbol printString ]! !
+    | issues |
+    issues := (MetacelloMCVersionValidator validateProject: project version: versionStringOrSymbol)
+        select: [ :issue | issue isError ].
+    issues notEmpty
+        ifTrue: [ 
+            MetacelloValidationFailure
+                issues: issues
+                message: 'There are error issues with version ' , versionStringOrSymbol printString ]! !

@@ -1,5 +1,4 @@
 
-!MetacelloProject methodsFor: 'spec classes' stamp: 'DaleHenrichs 10/27/2010 11:15'!
+!MetacelloProject methodsFor: 'spec classes' stamp: 'dkh 1/23/2012 15:36'!
 projectSpecClass
-
-	^self subclassResponsibility! !
+    ^ MetacelloProjectSpec! !

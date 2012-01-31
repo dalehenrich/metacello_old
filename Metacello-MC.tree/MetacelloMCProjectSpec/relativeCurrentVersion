@@ -1,18 +1,18 @@
 
-!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'dkh 7/8/2011 22:27'!
+!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'dkh 12/16/2011 10:29'!
 relativeCurrentVersion
 	"currentVersion calculated relative to the loadList"
-	
+
 	| vrsn expanded loadList |
-	(vrsn := self versionOrNil) == nil ifTrue: [ ^nil ].
-	expanded := [ vrsn expandToLoadableSpecNames: (loadList := self loadListForVersion: vrsn) ] 
-					on: Error 
-					do: [:ex |
-						vrsn blessing == #development
-							ifTrue: [ 
-								self projectPackage load.
-								vrsn := self versionOrNil.
-								ex return: (vrsn expandToLoadableSpecNames: loadList)].
-						ex pass].
-	^self projectClassProject currentVersionAgainst: expanded
-		! !
+	(vrsn := self versionOrNil) == nil
+		ifTrue: [ ^ nil ].
+	expanded := [ vrsn expandToLoadableSpecNames: (loadList := self loadListForVersion: vrsn) ]
+		on: Error
+		do: [ :ex | 
+			vrsn blessing == #development
+				ifTrue: [ 
+					self projectPackage ensureLoadUsing: self loader.
+					vrsn := self versionOrNil.
+					ex return: (vrsn expandToLoadableSpecNames: loadList) ].
+			ex pass ].
+	^ self projectClassProject currentVersionAgainst: expanded! !

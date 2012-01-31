@@ -1,4 +1,4 @@
 
-!MetacelloVersionValidator methodsFor: 'private' stamp: 'DaleHenrichs 12/17/2010 13:04'!
+!MetacelloVersionValidator methodsFor: 'private' stamp: 'dkh 1/26/2012 09:41'!
 criticalWarningReasonCodes
-	^ #(#packageNameMismatch #projectClassNameFileMismatch #duplicateVersionDefinitions)! !
+    ^ #(#'packageNameMismatch' #'projectClassNameFileMismatch' #'duplicateVersionDefinitions')! !

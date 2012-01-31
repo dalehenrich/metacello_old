@@ -1,17 +1,17 @@
 
-!MetacelloVersionConstructor methodsFor: 'initialization' stamp: 'dkh 7/8/2011 19:47'!
+!MetacelloVersionConstructor methodsFor: 'initialization' stamp: 'dkh 1/20/2012 15:46'!
 on: aConfig project: aProject
-
-	| cacheKey cachedProject |
-	cacheKey := aConfig class.
-	cachedProject := MetacelloPlatform current
-		stackCacheFor: #versionConstructor
-		at: cacheKey
-		doing: [ :cache | 
-			self calculate: aConfig project: aProject.
-			cache at: cacheKey put:  self project.
-			^self ].
-	aProject map: cachedProject map.
-	aProject symbolicVersionMap: cachedProject symbolicVersionMap.
-	aProject configuration: aConfig.
-	self setProject: aProject! !
+    | cacheKey cachedProject |
+    cacheKey := aConfig class.
+    cachedProject := MetacelloPlatform current
+        stackCacheFor: #'versionConstructor'
+        at: cacheKey
+        doing: [ :cache | 
+            self calculate: aConfig project: aProject.
+            cache at: cacheKey put: self project.
+            ^ self ].
+    aProject map: cachedProject map.
+    aProject errorMap: cachedProject errorMap.
+    aProject symbolicVersionMap: cachedProject symbolicVersionMap.
+    aProject configuration: aConfig.
+    self setProject: aProject! !

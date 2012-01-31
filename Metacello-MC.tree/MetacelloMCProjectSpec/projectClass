@@ -1,6 +1,6 @@
 
-!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'DaleHenrichs 11/11/2010 17:07'!
+!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'dkh 1/25/2012 15:57'!
 projectClass
-
-	self className == nil ifTrue: [ ^nil ].
-	^Smalltalk at: self className asSymbol  ifAbsent: []! !
+    className == nil
+        ifTrue: [ ^ nil ].
+    ^ Smalltalk at: self className asSymbol ifAbsent: [  ]! !

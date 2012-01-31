@@ -1,5 +1,5 @@
 
-!MetacelloMCProject methodsFor: 'development support' stamp: 'DaleHenrichs 03/20/2010 12:48'!
+!MetacelloMCProject methodsFor: 'development support' stamp: 'dkh 01/19/2012 16:05'!
 projectPackage
 
 	MCWorkingCopy
@@ -16,6 +16,6 @@ projectPackage
 				ifNone: [ 
 					Transcript cr; show: 'Using cache repository for ', self label, ' project package'.
 					MCCacheRepository default ].
-			pkgSpec repository: repo description.
+			pkgSpec repository: (repo asRepositorySpecFor: self).
 			^pkgSpec].
 	^nil! !

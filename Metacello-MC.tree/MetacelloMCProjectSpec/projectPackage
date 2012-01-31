@@ -1,4 +1,5 @@
 
-!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'dkh 6/7/2009 09:19'!
+!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'dkh 1/26/2012 15:18'!
 projectPackage
-	^ projectPackage! !
+    projectPackage ifNil: [ projectPackage := self project packageSpec ].
+    ^ projectPackage! !

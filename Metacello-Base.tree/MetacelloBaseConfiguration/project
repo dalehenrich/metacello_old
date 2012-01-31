@@ -1,12 +1,11 @@
 
-!MetacelloBaseConfiguration methodsFor: 'accessing' stamp: 'DaleHenrichs 11/2/2010 14:03'!
+!MetacelloBaseConfiguration methodsFor: 'accessing' stamp: 'dkh 1/23/2012 11:23'!
 project
-
-	^ project ifNil: [ | constructor |
-		"Bootstrap Metacello if it is not already loaded"
-		self class ensureMetacello.
-		"Construct Metacello project"
-		constructor := (Smalltalk at: #MetacelloVersionConstructor) on: self.
-		project := constructor project.
-		project loadType: #linear. "change to #atomic if desired"
-		project ]! !
+    ^ project
+        ifNil: [ 
+            "Bootstrap Metacello if it is not already loaded"
+            self class ensureMetacello.
+            project := MetacelloMCProject new projectAttributes: self customProjectAttributes.	"Create the Metacello project"
+            (Smalltalk at: #'MetacelloVersionConstructor') on: self project: project.	"Construct the project"
+            project loadType: #'linear'.	"change to #atomic if desired"
+            project ]! !

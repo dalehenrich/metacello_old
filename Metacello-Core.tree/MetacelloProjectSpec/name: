@@ -1,5 +1,6 @@
 
-!MetacelloProjectSpec methodsFor: 'accessing' stamp: 'dkh 06/02/2009 20:32'!
+!MetacelloProjectSpec methodsFor: 'accessing' stamp: 'dkh 1/20/2012 10:51'!
 name: aString
-
-	name := aString! !
+    ((aString at: 1) isSeparator or: [ (aString at: aString size) isSeparator ])
+        ifTrue: [ self error: 'Names are not allowed to have leading or trailing blanks: ' , aString printString ].
+    name := aString! !

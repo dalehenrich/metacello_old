@@ -1,31 +1,34 @@
 
-!MetacelloMCProjectSpec methodsFor: 'loading' stamp: 'dkh 9/7/2011 14:17'!
+!MetacelloMCProjectSpec methodsFor: 'loading' stamp: 'dkh 12/19/2011 16:13'!
 ensureLoadedForDevelopmentUsing: mcLoader
 	"for #development projects, always need latest version of package when contemplating a load"
 
 	| ensured |
 	ensured := mcLoader ensuredMap at: self name ifAbsent: [ nil ].
 	self projectClass ~~ nil
-		ifTrue: [  | vrsn |
+		ifTrue: [ 
+			| vrsn |
 			vrsn := self versionOrNil.
 			(vrsn ~~ nil and: [ vrsn blessing == #development ])
 				ifTrue: [ 
 					ensured ~~ #latest
-						ifTrue: [
+						ifTrue: [ 
 							mcLoader ensureForDevelopment
-								ifTrue: [  | pc |
+								ifTrue: [ 
+									| pc |
 									(pc := self projectClass) ~~ nil
-										ifTrue: [ MetacelloClearStackCacheNotification signal: #(#versionConstructor)].
-									self projectPackage loadUsing: mcLoader ]
+										ifTrue: [ MetacelloClearStackCacheNotification signal: #(#currentVersion #currentVersionAgainst: #currentVersionInfo #versionConstructor #loadableSpecNames), { pc} ].
+									self projectPackage ensureLoadUsing: mcLoader ]
 								ifFalse: [ self projectPackage fetchUsing: mcLoader ].
 							mcLoader ensuredMap at: self name put: #latest ].
-					^self]].
+					^ self ] ].
 	ensured == nil
-		ifTrue:  [
+		ifTrue: [ 
 			mcLoader ensureForDevelopment
-				ifTrue: [  | pc |
+				ifTrue: [ 
+					| pc |
 					(pc := self projectClass) ~~ nil
-						ifTrue: [ MetacelloClearStackCacheNotification signal: #(#versionConstructor)]. 
-					self projectPackage loadUsing: mcLoader ]
+						ifTrue: [ MetacelloClearStackCacheNotification signal: #(#currentVersion #currentVersionAgainst: #currentVersionInfo #versionConstructor #loadableSpecNames), { pc} ].
+					self projectPackage ensureLoadUsing: mcLoader ]
 				ifFalse: [ self projectPackage fetchUsing: mcLoader ].
 			mcLoader ensuredMap at: self name put: #present ]! !

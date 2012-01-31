@@ -1,8 +1,11 @@
 
-!MCDictionaryRepository methodsFor: '*metacello-mc' stamp: 'DaleHenrichs 3/5/2010 14:45'!
+!MCDictionaryRepository methodsFor: '*metacello-mc' stamp: 'dkh 01/19/2012 14:49'!
 asRepositorySpecFor: aMetacelloMCProject
 
+	| desc |
+	desc := self description.
+	desc ifNil: [ desc := 'dictionary://Metacello_Dictionary' ].
 	^(aMetacelloMCProject repositorySpec)
-		description:  'dictionary://Metacello_Dictionary';
+		description:  desc;
 	 	type: 'dictionary';
 		yourself! !

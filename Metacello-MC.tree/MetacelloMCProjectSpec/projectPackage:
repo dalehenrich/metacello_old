@@ -1,4 +1,4 @@
 
-!MetacelloMCProjectSpec methodsFor: 'accessing' stamp: 'dkh 6/7/2009 09:19'!
-projectPackage: anObject
-	projectPackage := anObject! !
+!MetacelloMCProjectSpec methodsFor: 'accessing' stamp: 'dkh 1/26/2012 16:33'!
+projectPackage: aProjectPackage
+    projectPackage := aProjectPackage! !

@@ -1,8 +1,8 @@
 
-!MetacelloToolBox methodsFor: 'validation' stamp: 'DaleHenrichs 11/17/2010 15:01'!
+!MetacelloToolBox methodsFor: 'validation' stamp: 'dkh 1/18/2012 14:14'!
 validateConfiguration
-	| issues |
-	issues := (MetacelloMCVersionValidator validateConfiguration: project configuration class recurse: false)
-		select: [ :issue | issue isCritical ].
-	issues notEmpty
-		ifTrue: [ self error: 'There are critical issues in the configuration']! !
+    | issues |
+    issues := (MetacelloMCVersionValidator validateConfiguration: project configuration class recurse: false)
+        select: [ :issue | issue isCritical ].
+    issues notEmpty
+        ifTrue: [ MetacelloValidationFailure issues: issues message: 'There are critical issues in the configuration' ]! !

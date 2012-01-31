@@ -1,5 +1,0 @@
-
-!MetacelloIssue115TestCase methodsFor: 'accessing' stamp: 'dkh 3/22/2011 14:57'!
-project
-
-	^self projectWith: #()! !

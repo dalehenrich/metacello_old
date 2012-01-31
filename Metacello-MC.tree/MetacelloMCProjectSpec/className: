@@ -1,7 +1,5 @@
 
-!MetacelloMCProjectSpec methodsFor: 'accessing' stamp: 'dkh 7/20/2011 11:51'!
+!MetacelloMCProjectSpec methodsFor: 'accessing' stamp: 'dkh 1/26/2012 16:41'!
 className: aString
-
-	super className: aString.
-	(projectPackage ~~ nil and: [ projectPackage getFile == nil ])
-		ifTrue: [ projectPackage name: aString; file: aString ]! !
+    super className: aString.
+    self projectPackage file: aString! !

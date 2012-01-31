@@ -1,4 +1,4 @@
 
-!MetacelloVersionValidator methodsFor: 'private' stamp: 'DaleHenrichs 11/30/2010 11:51'!
+!MetacelloVersionValidator methodsFor: 'private' stamp: 'dkh 1/20/2012 11:52'!
 errorReasonCodes
-	^ #(#duplicateNames #shadowedNames #invalidDoItSelector #invalidVersionString #missingVersionImport #projectCreationError #noVersionsDefined #cannotResolveVersion #incompleteProjectSpec #incorrectVersionString #versionCompositionError)! !
+    ^ #(#'duplicateNames' #'shadowedNames' #'invalidDoItSelector' #'invalidVersionString' #'missingVersionImport' #'projectCreationError' #'noVersionsDefined' #'cannotResolveVersion' #'incompleteProjectSpec' #'incorrectVersionString' #'versionCompositionError' #'versionCreationError')! !
