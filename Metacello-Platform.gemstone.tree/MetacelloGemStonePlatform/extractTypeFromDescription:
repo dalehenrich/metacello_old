@@ -1,0 +1,8 @@
+
+!MetacelloGemStonePlatform methodsFor: 'repository creation' stamp: 'DaleHenrichs 03/12/2010 01:24'!
+extractTypeFromDescription: description
+
+	description == nil ifTrue: [ ^nil ].
+	(description beginsWith: 'client://') ifTrue: [ ^'clientDirectory' ].
+	(description beginsWith: 'server://') ifTrue: [ ^'serverDirectory' ].
+	^super extractTypeFromDescription: description! !

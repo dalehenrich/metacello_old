@@ -1,0 +1,10 @@
+
+!MetacelloGemStonePlatform methodsFor: 'attributes' stamp: 'dkh 11/10/2011 09:52'!
+stoneVersionAttributes
+
+	stoneVersionAttribute isSymbol ifTrue: [ stoneVersionAttribute := nil ].
+	stoneVersionAttribute ifNil: [ | atts |
+				stoneVersionAttribute := self extractAtrributesFrom: (System stoneVersionAt: 'gsVersion').
+				(Globals at: #RubySystemExit otherwise:nil) ~~ nil
+					ifTrue: [ stoneVersionAttribute add: #'maglev' ]].
+	^ stoneVersionAttribute! !
