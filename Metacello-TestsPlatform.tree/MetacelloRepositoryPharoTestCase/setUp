@@ -1,0 +1,10 @@
+
+!MetacelloRepositoryPharoTestCase methodsFor: 'running' stamp: 'dkh 1/19/2012 14:51'!
+setUp
+    super setUp.
+    Smalltalk
+        at: #'Metacello_Platform_Test_GlobalDictionary'
+        put:
+            (MCDictionaryRepository new
+                description: 'dictionary://Metacello_Platform_Test_GlobalDictionary';
+                yourself)! !

@@ -1,0 +1,4 @@
+
+!MetacelloSpecTestCase methodsFor: 'specs' stamp: 'dkh 1/24/2012 09:54'!
+versionSpec
+    ^ self project versionSpec! !

@@ -1,0 +1,10 @@
+
+!MetacelloFetchingMCSpecLoader methodsFor: 'private' stamp: 'dkh 12/20/2011 10:03'!
+scheduleFetchFor: packageSpec reference: reference message: message
+	self loaderPolicy resetCacheGofer.
+	self preLoad: packageSpec.
+	(MetacelloDirective loadPackage: packageSpec externalReference: reference loader: self) addTo: self loadDirective.
+	self postLoad: packageSpec.
+	Transcript
+		cr;
+		show: message! !

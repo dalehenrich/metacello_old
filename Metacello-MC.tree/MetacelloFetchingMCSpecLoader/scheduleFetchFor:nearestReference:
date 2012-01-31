@@ -1,0 +1,6 @@
+
+!MetacelloFetchingMCSpecLoader methodsFor: 'private' stamp: 'dkh 12/20/2011 10:11'!
+scheduleFetchFor: packageSpec nearestReference: reference
+	"latest version in repository already matches the cached reference...no need to schedule fetch"
+
+	^ self! !

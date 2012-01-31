@@ -1,0 +1,4 @@
+
+!MetacelloProjectReferenceSpec methodsFor: 'querying' stamp: 'dkh 1/24/2012 16:23'!
+repositories
+    ^ self referencedSpec repositories! !

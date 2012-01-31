@@ -1,0 +1,4 @@
+
+!MetacelloSpecTestCase methodsFor: 'accessing' stamp: 'dkh 1/23/2012 13:20'!
+project
+    ^ self projectWith: #()! !

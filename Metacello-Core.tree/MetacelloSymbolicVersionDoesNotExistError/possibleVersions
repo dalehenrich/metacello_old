@@ -1,0 +1,4 @@
+
+!MetacelloSymbolicVersionDoesNotExistError methodsFor: 'accessing' stamp: 'dkh 1/25/2012 11:30'!
+possibleVersions
+    ^ self project symbolicVersionSymbols! !

@@ -1,0 +1,4 @@
+
+!MetacelloIssueTestCase methodsFor: 'accessing' stamp: 'dkh 1/26/2012 10:09'!
+projectClass
+    ^ Smalltalk at: self projectName asSymbol! !

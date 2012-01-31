@@ -1,0 +1,4 @@
+
+!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'dkh 1/24/2012 16:26'!
+repositorySpecs
+    ^ self repositories map values! !

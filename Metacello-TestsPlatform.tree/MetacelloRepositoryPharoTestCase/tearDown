@@ -1,0 +1,5 @@
+
+!MetacelloRepositoryPharoTestCase methodsFor: 'running' stamp: 'dkh 1/19/2012 14:31'!
+tearDown
+    super tearDown.
+    Smalltalk removeKey: #'Metacello_Platform_Test_GlobalDictionary' ifAbsent: [  ]! !

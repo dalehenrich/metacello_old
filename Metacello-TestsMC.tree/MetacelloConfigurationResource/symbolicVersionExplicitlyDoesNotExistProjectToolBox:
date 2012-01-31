@@ -1,0 +1,5 @@
+
+!MetacelloConfigurationResource methodsFor: 'ConfigurationOfProjectToolBox' stamp: 'dkh 1/25/2012 11:18'!
+symbolicVersionExplicitlyDoesNotExistProjectToolBox: spec
+    <symbolicVersion: #'explicitly does not exist'>
+    spec for: #'common' version: #'notDefined'! !

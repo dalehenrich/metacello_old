@@ -1,0 +1,5 @@
+
+!MetacelloSkipDirtyPackageLoad class methodsFor: 'signalling' stamp: 'dkh 11/16/2011 10:12'!
+signal: aMetacelloPackageSpec
+
+	^(self new packageSpec: aMetacelloPackageSpec) signal! !

@@ -1,0 +1,4 @@
+
+!MetacelloVersionDefinitionError methodsFor: 'accessing' stamp: 'dkh 1/20/2012 16:06'!
+exception: anObject
+	exception := anObject! !

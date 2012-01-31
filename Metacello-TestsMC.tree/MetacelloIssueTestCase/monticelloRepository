@@ -1,0 +1,5 @@
+
+!MetacelloIssueTestCase methodsFor: 'accessing' stamp: 'dkh 1/26/2012 10:08'!
+monticelloRepository
+	"MetacelloMonticelloResource reset"
+	^ MetacelloMonticelloResource current monticelloRepository! !

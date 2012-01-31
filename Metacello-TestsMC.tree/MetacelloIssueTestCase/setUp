@@ -1,0 +1,14 @@
+
+!MetacelloIssueTestCase methodsFor: 'running' stamp: 'dkh 1/26/2012 10:08'!
+setUp
+	| repo |
+	super setUp.
+	repo := self monticelloRepository.
+	gofer := Gofer new.
+	gofer disablePackageCache.
+	gofer repository: repo.
+	Smalltalk at: #'Metacello_Gofer_Test_Repository' put: repo.
+	repo := self configurationRepository.
+	gofer repository: repo.
+	Smalltalk at: #'Metacello_Configuration_Test_Repository' put: repo.
+! !

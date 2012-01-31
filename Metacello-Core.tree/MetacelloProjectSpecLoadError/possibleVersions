@@ -1,0 +1,4 @@
+
+!MetacelloProjectSpecLoadError methodsFor: 'accessing' stamp: 'dkh 1/25/2012 11:06'!
+possibleVersions
+    ^ self versionDoesNotExistException possibleVersions! !

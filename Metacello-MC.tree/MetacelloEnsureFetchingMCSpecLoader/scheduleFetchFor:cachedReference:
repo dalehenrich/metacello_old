@@ -1,0 +1,11 @@
+
+!MetacelloEnsureFetchingMCSpecLoader methodsFor: 'private' stamp: 'dkh 12/20/2011 10:13'!
+scheduleFetchFor: packageSpec cachedReference: reference
+	"reference already in the cache during fetch ...schedule a load directive for reference, so ensured load will come from cache"
+
+	^ self
+		scheduleFetchFor: packageSpec
+		reference: reference
+		message:
+			'Fetched -> (cached) ' , reference name , ' --- ' , reference repository description , ' --- '
+				, reference repository description! !
