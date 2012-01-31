@@ -1,0 +1,5 @@
+
+!MetacelloGemStonePlatform methodsFor: 'utilities' stamp: 'dkh 10/16/2009 11:53'!
+timestamp
+
+	^TimeStamp now printString! !

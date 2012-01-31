@@ -1,0 +1,6 @@
+
+!MetacelloGemStonePlatform classSide methodsFor: 'initialize-release' stamp: 'dkh 08/20/2009 15:32'!
+initialize
+	"implmented to force initialize on load"
+	
+	super initialize! !

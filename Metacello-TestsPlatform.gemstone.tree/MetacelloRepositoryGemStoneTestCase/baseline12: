@@ -1,0 +1,13 @@
+
+!MetacelloRepositoryGemStoneTestCase methodsFor: 'baselines' stamp: 'DaleHenrichs 03/12/2010 01:32'!
+baseline12: spec 
+	<version: '1.2-baseline'>
+	
+	spec for: #gemstone do: [
+		spec 
+			package: 'Example-Core' with: [ 
+				spec 
+					includes: 'Example-AddOn';
+					file: 'Example-Core-anon.1';
+					repository: 'server://home/dhenrich/monticello' ]].
+! !

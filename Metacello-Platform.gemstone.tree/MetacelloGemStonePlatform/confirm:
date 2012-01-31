@@ -1,0 +1,15 @@
+
+!MetacelloGemStonePlatform methodsFor: 'user interaction' stamp: 'dkh 01/06/2010 10:18'!
+confirm: aString
+	
+	Smalltalk 
+		at: #OBGemStonePlatform 
+		ifPresent: [:cl | 
+			(cl perform: #canConfirm)
+				ifTrue: [
+					Smalltalk 
+						at: #OBConfirmationRequest 
+						ifPresent: [:obClass |
+							^obClass perform: #prompt:  with: aString ]]].
+	Warning signal: aString.
+	^true! !

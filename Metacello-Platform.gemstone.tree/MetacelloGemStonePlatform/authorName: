@@ -1,0 +1,5 @@
+
+!MetacelloGemStonePlatform methodsFor: 'utilities' stamp: 'dkh 10/11/2011 11:32'!
+authorName: aString
+
+	^GsPackagePolicy current authorInitials: aString! !
