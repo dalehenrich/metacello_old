@@ -1,4 +1,0 @@
-
-!OBMetaNode methodsFor: 'accessing' stamp: 'dr 5/14/2008 15:16'!
-edges
-    ^edges! !

@@ -1,6 +1,0 @@
-
-!GoferApiTest methodsFor: 'testing-repositories' stamp: 'lr 12/13/2009 16:51'!
-testDirectoryRepository
-	gofer directory: FileDirectory default pathName.
-	self assert: gofer repositories: (Array with: FileDirectory default pathName).
-	self assert: (gofer repositories first isKindOf: MCDirectoryRepository)! !

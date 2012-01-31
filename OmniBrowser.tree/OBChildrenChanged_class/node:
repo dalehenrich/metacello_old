@@ -1,4 +1,0 @@
-
-!OBChildrenChanged class methodsFor: 'instance creation' stamp: 'cwp 6/5/2006 00:49'!
-node: aNode
-	^ self new node: aNode! !

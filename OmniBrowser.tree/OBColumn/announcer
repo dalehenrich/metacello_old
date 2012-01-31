@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'accessing' stamp: 'cwp 4/17/2006 15:52'!
-announcer
-	^ panel announcer! !

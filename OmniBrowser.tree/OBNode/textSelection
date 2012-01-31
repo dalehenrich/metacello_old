@@ -1,4 +1,0 @@
-
-!OBNode methodsFor: 'public' stamp: 'cwp 2/29/2004 18:30'!
-textSelection
-	^ 1 to: 0! !

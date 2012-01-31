@@ -1,4 +1,0 @@
-
-!OBCodeBrowser methodsFor: 'morphic' stamp: 'lr 3/13/2010 16:08'!
-wantsStepsIn: aSystemWindow
-	^ true! !

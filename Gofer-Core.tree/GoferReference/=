@@ -1,4 +1,0 @@
-
-!GoferReference methodsFor: 'comparing' stamp: 'lr 12/12/2009 13:33'!
-= aReference
-	^ self class = aReference class and: [ self name = aReference name ]! !

@@ -1,4 +1,0 @@
-
-!OBCollectionNode methodsFor: 'navigating' stamp: 'cwp 3/15/2004 23:19'!
-children
-	^ collection! !

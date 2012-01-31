@@ -1,4 +1,0 @@
-
-!OBCommandCluster methodsFor: 'accessing' stamp: 'cwp 9/30/2007 20:16'!
-label
-	^ label! !

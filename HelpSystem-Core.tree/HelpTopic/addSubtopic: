@@ -1,7 +1,0 @@
-
-!HelpTopic methodsFor: 'accessing' stamp: 'tbn 3/8/2010 16:40'!
-addSubtopic: aTopic
-	"Adds the given topic to the receivers collection of subtopics"
-	
-	self subtopics add: aTopic.
-	^aTopic! !

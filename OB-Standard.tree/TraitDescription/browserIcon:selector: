@@ -1,4 +1,0 @@
-
-!TraitDescription methodsFor: '*ob-standard' stamp: 'lr 1/3/2010 16:12'!
-browserIcon: aClassDescription selector: aSelector
-	^ #blank! !

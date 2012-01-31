@@ -1,4 +1,0 @@
-
-!OBMessageNode methodsFor: 'displaying' stamp: 'cwp 12/8/2004 21:26'!
-name
-	^ message! !

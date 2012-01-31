@@ -1,7 +1,0 @@
-
-!OBCommand methodsFor: 'testing' stamp: 'cwp 9/27/2006 22:53'!
-wantsButton
-	"Put this here for compatibility. Eventually this will be obsolete"
-
-	^ false
-! !

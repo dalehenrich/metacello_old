@@ -1,4 +1,0 @@
-
-!OBFixedButtonPanel methodsFor: 'building' stamp: 'cwp 3/18/2007 22:16'!
-vResizing
-	^ #rigid! !

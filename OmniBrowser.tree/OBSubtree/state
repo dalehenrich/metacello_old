@@ -1,4 +1,0 @@
-
-!OBSubtree methodsFor: 'accessing' stamp: 'dr 12/5/2008 15:57'!
-state
-	^ state ! !

@@ -1,5 +1,0 @@
-
-!OBRescueFilter methodsFor: 'private' stamp: 'lr 7/3/2009 22:27'!
-initialize
-	cache := Dictionary new.
-	rescued := Dictionary new! !

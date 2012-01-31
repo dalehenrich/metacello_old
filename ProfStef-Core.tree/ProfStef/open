@@ -1,5 +1,0 @@
-
-!ProfStef methodsFor: 'gui' stamp: 'tg 2/1/2010 16:02'!
-open
-	self player first.
-	^ self showCurrentLesson.! !

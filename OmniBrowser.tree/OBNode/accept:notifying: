@@ -1,4 +1,0 @@
-
-!OBNode methodsFor: 'public' stamp: 'cwp 2/29/2004 13:49'!
-accept: aText notifying: aController
-	^ self text: aText! !

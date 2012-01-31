@@ -1,7 +1,0 @@
-
-!OBPane methodsFor: 'updating' stamp: 'lr 2/12/2009 10:36'!
-removeButton
-	self hasButton ifFalse: [ ^ self ].
-	self removeMorph: button.
-	button := nil.
-	self adjustList! !

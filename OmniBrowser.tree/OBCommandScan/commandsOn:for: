@@ -1,4 +1,0 @@
-
-!OBCommandScan methodsFor: 'accessing' stamp: 'cwp 11/2/2006 00:30'!
-commandsOn: aNode for: aRequestor
-	^ factories collect: [:ea | ea on: aNode for: aRequestor]! !

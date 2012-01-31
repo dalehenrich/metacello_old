@@ -1,9 +1,0 @@
-
-OBCodeBrowser subclass: #OBInheritanceBrowser
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Browsers'!
-
-!OBInheritanceBrowser commentStamp: 'cwp 1/7/2005 23:51' prior: 0!
-OBInheritanceBrowser shows the inheritance hierarchy of a method, both superclass implementations which it overrides, and subclass implementations which override it.!

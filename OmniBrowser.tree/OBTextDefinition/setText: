@@ -1,4 +1,0 @@
-
-!OBTextDefinition methodsFor: 'initialize-release' stamp: 'dc 3/13/2008 21:51'!
-setText: aText
-	text := aText ! !

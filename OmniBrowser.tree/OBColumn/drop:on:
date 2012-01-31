@@ -1,6 +1,0 @@
-
-!OBColumn methodsFor: 'callbacks' stamp: 'dr 11/18/2008 20:09'!
-drop: passenger on: target
-	^ [target acceptDroppedNode: passenger] 
-		on: OBAnnouncerRequest
-		do: [:notification | notification resume: self announcer]! !

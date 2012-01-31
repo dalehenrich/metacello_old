@@ -1,9 +1,0 @@
-
-!GoferApiTest methodsFor: 'testing-repositories' stamp: 'lr 3/14/2010 21:13'!
-testFtpRepository
-	Smalltalk globals
-		at: #MCFtpRepository
-		ifPresent: [ :ftpRepositoryClass | 
-			gofer url: 'ftp://squeakfoundation.org/39a' username: 'foo' password: 'bar'.
-			self assert: gofer repositories: #('ftp://foo@squeakfoundation.org/39a').
-			self assert: (gofer repositories first isKindOf: ftpRepositoryClass) ]! !

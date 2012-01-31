@@ -1,5 +1,0 @@
-
-!OBCommand methodsFor: 'accessing' stamp: 'dc 8/3/2007 12:50'!
-longDescription
-	"Override this and return a string or a text for the fly-by-help (tooltip)"
-	^ nil! !

@@ -1,6 +1,0 @@
-
-!OBBrowser methodsFor: 'accessing' stamp: 'lr 1/16/2010 23:23'!
-definitionPanel
-	^ panels 
-		detect: [ :each | each isDefinition ] 
-		ifNone: [ self error: 'No navigation panel configured' ]! !

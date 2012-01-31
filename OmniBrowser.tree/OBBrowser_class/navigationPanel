@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'configuration' stamp: 'cwp 12/5/2004 16:55'!
-navigationPanel
-	^ OBColumnPanel minPanes: self minPanes maxPanes: self maxPanes! !

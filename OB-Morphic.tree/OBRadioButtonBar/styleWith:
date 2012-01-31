@@ -1,4 +1,0 @@
-
-!OBRadioButtonBar methodsFor: 'constructing' stamp: 'cwp 7/21/2007 21:54'!
-styleWith: aBuilder
-	aBuilder styleButtonBar: self! !

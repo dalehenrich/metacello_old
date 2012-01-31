@@ -1,6 +1,0 @@
-
-!GoferTest methodsFor: 'running' stamp: 'lr 12/13/2009 17:38'!
-setUp
-	super setUp.
-	gofer := Gofer new.
-	gofer disablePackageCache! !

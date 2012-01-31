@@ -1,4 +1,0 @@
-
-!OBCmdRemoveClass methodsFor: 'accessing' stamp: 'cwp 11/3/2006 00:15'!
-group
-	^ #identity! !

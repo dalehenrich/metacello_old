@@ -1,7 +1,0 @@
-
-!OBBrowser methodsFor: 'updating' stamp: 'lr 12/3/2010 09:17'!
-subscribe
-	self announcer
-		on: OBSelectionChanged send: #relabel: to: self;
-		on: OBNodeCommandScan send: #scanNodeCommands: to: self;
-		on: OBTextCommandScan send: #scanTextCommands: to: self! !

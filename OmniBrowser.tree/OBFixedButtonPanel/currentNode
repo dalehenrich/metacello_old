@@ -1,4 +1,0 @@
-
-!OBFixedButtonPanel methodsFor: 'callbacks' stamp: 'lr 3/13/2010 12:54'!
-currentNode
-	^ browser currentNode ! !

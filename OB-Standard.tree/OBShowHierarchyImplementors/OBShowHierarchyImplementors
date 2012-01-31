@@ -1,6 +1,0 @@
-
-OBNavigate subclass: #OBShowHierarchyImplementors
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Announcements'!

@@ -1,6 +1,0 @@
-
-!OBSelectionChanged methodsFor: 'accessing' stamp: 'lr 3/4/2009 08:32'!
-node
-	^ column isNil 
-		ifTrue: [ node ]
-		ifFalse: [ column selectedNode ]! !

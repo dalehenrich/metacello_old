@@ -1,4 +1,0 @@
-
-!Gofer methodsFor: 'repositories-places' stamp: 'dkh 10/16/2009 10:04'!
-gemsource: aString
-	self url: 'http://seaside.gemstone.com/ss/' , aString! !

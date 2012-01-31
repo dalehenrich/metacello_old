@@ -1,5 +1,0 @@
-
-!ConfigurationOfOmniBrowser class methodsFor: 'accessing' stamp: 'MarianoMartinezPeck 12/18/2009 16:57'!
-project
-
-	^self new project! !

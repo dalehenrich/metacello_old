@@ -1,7 +1,0 @@
-
-!OBColumnPanel methodsFor: 'updating' stamp: 'cwp 5/28/2007 01:35'!
-reclaimPanes
-	| old |
-	old := columns size.
-	[self okToReclaimPane] whileTrue: [self popColumn].
-	columns size = old ifFalse: [self changed: #columns]! !

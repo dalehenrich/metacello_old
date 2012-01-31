@@ -1,5 +1,0 @@
-
-!OBCmdRemoveMethod methodsFor: 'private' stamp: 'cwp 12/9/2006 20:37'!
-removeAndBrowse
-	self browseSenders.
-	self doRemove! !

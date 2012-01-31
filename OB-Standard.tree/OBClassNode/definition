@@ -1,6 +1,0 @@
-
-!OBClassNode methodsFor: 'accessing' stamp: ''!
-definition
-	^ OBClassDefinition 
-		environment: self theClass environment 
-		template: self theClass definition! !

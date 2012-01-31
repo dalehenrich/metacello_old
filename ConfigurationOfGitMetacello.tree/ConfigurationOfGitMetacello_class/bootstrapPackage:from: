@@ -1,0 +1,16 @@
+
+!ConfigurationOfGitMetacello class methodsFor: 'private' stamp: 'dkh 1/30/2012 17:07'!
+bootstrapPackage: aString from: aPath 
+	| repository version |
+	repository := (MCCacheRepository default includesVersionNamed: aString)
+		ifTrue: [MCCacheRepository default]
+		ifFalse: [MCHttpRepository
+				location: aPath
+				user: ''
+				password: ''].
+	repository
+		versionReaderForFileNamed: aString , '.mcz'
+		do: [:reader | 
+			version := reader version.
+			version load.
+			version workingCopy repositoryGroup addRepository: repository]! !

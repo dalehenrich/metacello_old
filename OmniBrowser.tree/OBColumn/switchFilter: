@@ -1,6 +1,0 @@
-
-!OBColumn methodsFor: 'accessing' stamp: 'lr 4/7/2010 08:08'!
-switchFilter: aFilter
-	switch filter = aFilter ifTrue:[ ^ self ].
-	switch filter: aFilter.
-	self changed: #switch! !

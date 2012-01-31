@@ -1,4 +1,0 @@
-
-!OBOrganizationDefinition methodsFor: 'accessing' stamp: 'cwp 9/22/2004 21:21'!
-organizer: anOrganizer
-	organizer := anOrganizer! !

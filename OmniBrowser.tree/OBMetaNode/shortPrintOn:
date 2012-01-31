@@ -1,4 +1,0 @@
-
-!OBMetaNode methodsFor: 'printing' stamp: 'dvf 8/16/2005 10:01'!
-shortPrintOn: aStream
-	aStream nextPutAll: self name.! !

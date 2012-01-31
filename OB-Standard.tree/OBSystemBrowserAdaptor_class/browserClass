@@ -1,4 +1,0 @@
-
-!OBSystemBrowserAdaptor class methodsFor: 'configuration' stamp: 'lr 7/2/2011 16:19'!
-browserClass
-	^ OBSystemBrowser! !

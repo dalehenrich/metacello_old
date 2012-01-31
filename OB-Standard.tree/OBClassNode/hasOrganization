@@ -1,4 +1,0 @@
-
-!OBClassNode methodsFor: 'testing' stamp: 'cwp 6/30/2006 00:57'!
-hasOrganization
-	^ true! !

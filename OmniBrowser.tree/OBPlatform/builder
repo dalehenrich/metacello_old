@@ -1,4 +1,0 @@
-
-!OBPlatform methodsFor: 'building' stamp: 'cwp 8/26/2009 22:11'!
-builder
-	self subclassResponsibility! !

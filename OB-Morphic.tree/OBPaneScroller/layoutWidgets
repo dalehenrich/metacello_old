@@ -1,8 +1,0 @@
-
-!OBPaneScroller methodsFor: 'layout' stamp: 'lr 4/29/2011 23:24'!
-layoutWidgets
-	| inner outer |
-	outer := super innerBounds.
-	inner := self innerBounds.
-	transform bounds: inner.
-	scrollBar bounds: (inner bottomLeft corner: outer bottomRight)! !

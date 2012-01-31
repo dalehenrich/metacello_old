@@ -1,7 +1,0 @@
-
-!HelpBrowser methodsFor: 'initialize-release' stamp: 'tbn 3/29/2010 12:42'!
-initWindow
-	
-	self class isSqueak 
-		ifTrue: [self initWindowInSqueak ]
-		ifFalse: [self initWindowInPharo ]! !

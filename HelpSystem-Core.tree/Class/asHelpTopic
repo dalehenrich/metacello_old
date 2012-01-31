@@ -1,4 +1,0 @@
-
-!Class methodsFor: '*HelpSystem-Core' stamp: 'tbn 3/11/2010 23:42'!
-asHelpTopic
-	^SystemReference forClass: self! !

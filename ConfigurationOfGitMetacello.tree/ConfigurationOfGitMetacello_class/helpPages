@@ -1,0 +1,8 @@
+
+!ConfigurationOfGitMetacello class methodsFor: 'help' stamp: 'dkh 1/30/2012 17:07'!
+helpPages
+	| pages |
+	pages := {#helpIntro. #helpInstallation. #helpGettingStarted}.
+	"include MetacelloHelp if installed"
+	Smalltalk at: #MetacelloHelp ifPresent: [ :cl | pages :=  pages , {cl} ].
+	^ pages! !

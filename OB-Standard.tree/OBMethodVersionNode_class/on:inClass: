@@ -1,7 +1,0 @@
-
-!OBMethodVersionNode class methodsFor: 'instance creation' stamp: 'lr 3/12/2010 10:24'!
-on: aMethodVersion inClass: aClass
-	^ self new 
-		setVersion: aMethodVersion;
-		theClass: aClass;
-		yourself! !

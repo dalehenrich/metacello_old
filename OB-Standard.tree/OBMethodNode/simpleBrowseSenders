@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'private' stamp: 'avi 9/17/2005 01:29'!
-simpleBrowseSenders
-	OBSendersBrowser browseRoot: self! !

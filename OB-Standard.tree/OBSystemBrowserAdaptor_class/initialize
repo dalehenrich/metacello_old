@@ -1,4 +1,0 @@
-
-!OBSystemBrowserAdaptor class methodsFor: 'initializing' stamp: 'cwp 12/5/2004 22:01'!
-initialize
-	self register! !

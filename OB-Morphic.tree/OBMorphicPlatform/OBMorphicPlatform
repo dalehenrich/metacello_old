@@ -1,6 +1,0 @@
-
-OBPlatform subclass: #OBMorphicPlatform
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Morphic-Core'!

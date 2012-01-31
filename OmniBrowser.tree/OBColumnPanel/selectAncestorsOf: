@@ -1,8 +1,0 @@
-
-!OBColumnPanel methodsFor: 'navigating' stamp: 'lr 3/4/2009 08:31'!
-selectAncestorsOf: aNode 
-	| subtree |
-	subtree := OBSubtree 
-		from: root
-		to: aNode.
-	subtree isNil ifFalse: [ self selectSubtree: subtree ]! !

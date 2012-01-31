@@ -1,4 +1,0 @@
-
-!OBCmdBrowseReferencesOfIt methodsFor: 'accessing' stamp: 'lr 8/16/2010 11:09'!
-label
-	^ 'References'! !

@@ -1,4 +1,0 @@
-
-!Lesson methodsFor: 'accessing' stamp: 'LaurentLaffont 1/15/2010 09:25'!
-title: aString
-	title := aString! !

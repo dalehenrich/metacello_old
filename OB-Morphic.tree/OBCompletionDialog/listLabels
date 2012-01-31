@@ -1,4 +1,0 @@
-
-!OBCompletionDialog methodsFor: 'accessing-list' stamp: 'lr 9/22/2010 11:43'!
-listLabels
-	^ listLabels! !

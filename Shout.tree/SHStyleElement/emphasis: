@@ -1,5 +1,0 @@
-
-!SHStyleElement methodsFor: 'accessing' stamp: ''!
-emphasis: anObject 
-	emphasis := anObject.
-	SHPreferences applyStyle! !

@@ -1,4 +1,0 @@
-
-!OBMClassRefsQuery class methodsFor: 'configuration' stamp: 'lr 3/13/2010 13:31'!
-isValidQuery: aString
-	^ aString size > 1 and: [ aString first = $# and: [ aString second isUppercase ] ]! !

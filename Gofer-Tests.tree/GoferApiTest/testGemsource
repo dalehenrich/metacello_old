@@ -1,5 +1,0 @@
-
-!GoferApiTest methodsFor: 'testing-repositories-places' stamp: 'lr 12/13/2009 13:36'!
-testGemsource
-	gofer gemsource: 'Seaside29'.
-	self assert: gofer repositories: #('http://seaside.gemstone.com/ss/Seaside29')! !

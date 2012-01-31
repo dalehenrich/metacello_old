@@ -1,4 +1,0 @@
-
-!OBDebugItTextCommand methodsFor: 'accessing' stamp: 'lr 8/27/2011 09:58'!
-label
-	^ 'Debug it'! !

@@ -1,4 +1,0 @@
-
-!Magnitude class methodsFor: '*ob-standard' stamp: 'lr 7/10/2009 11:19'!
-browserIcon
-	^ #magnitude! !

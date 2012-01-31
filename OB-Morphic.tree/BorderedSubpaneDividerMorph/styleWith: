@@ -1,6 +1,0 @@
-
-!BorderedSubpaneDividerMorph methodsFor: '*ob-morphic' stamp: 'cwp 7/23/2007 02:09'!
-styleWith: aBuilder
-	self vResizing = #spaceFill 
-		ifTrue: [aBuilder styleVerticalDivider: self]
-		ifFalse: [aBuilder styleHorizontalDivider: self]! !

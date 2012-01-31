@@ -1,4 +1,0 @@
-
-!OBPlatform class methodsFor: 'instance creation' stamp: 'cwp 6/1/2007 16:08'!
-current
-	^ Current ifNil: [self default]! !

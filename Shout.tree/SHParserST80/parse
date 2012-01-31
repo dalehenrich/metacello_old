@@ -1,4 +1,0 @@
-
-!SHParserST80 methodsFor: 'parse' stamp: ''!
-parse
-	^ self parse: classOrMetaClass notNil! !

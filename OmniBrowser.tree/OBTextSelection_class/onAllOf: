@@ -1,4 +1,0 @@
-
-!OBTextSelection class methodsFor: 'instance creation' stamp: 'cwp 10/14/2006 20:59'!
-onAllOf: aString 
-	^ self on: (1 to: aString size) inText: aString! !

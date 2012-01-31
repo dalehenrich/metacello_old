@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'updating' stamp: 'cwp 10/13/2006 09:05'!
-announce: anAnnouncement 
-	^ self browser announce: anAnnouncement! !

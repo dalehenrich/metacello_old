@@ -1,8 +1,0 @@
-
-!Text methodsFor: '*ob-morphic' stamp: 'lr 12/23/2009 15:18'!
-colorAt: characterIndex 
-	| textColor |
-	textColor := (self attributesAt: characterIndex) 
-		detect: [ :attribute | attribute isMemberOf: TextColor ]
-		ifNone: [ TextColor black ].
-	^ textColor color! !

@@ -1,4 +1,0 @@
-
-!OBCollectionNode methodsFor: '*ob-standard-testing' stamp: 'cwp 4/1/2007 23:00'!
-hasVersions
-	^ false! !

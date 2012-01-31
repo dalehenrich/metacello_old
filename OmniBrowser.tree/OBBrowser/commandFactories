@@ -1,4 +1,0 @@
-
-!OBBrowser methodsFor: 'accessing' stamp: 'lr 10/29/2010 11:08'!
-commandFactories
-	^ commandFactories! !

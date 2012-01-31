@@ -1,4 +1,0 @@
-
-!OBInteractionRequest methodsFor: 'testing' stamp: 'cwp 10/17/2004 19:31'!
-isBrowseRequest
-	^ false! !

@@ -1,4 +1,0 @@
-
-!OBModalFilter methodsFor: 'filtering' stamp: 'dr 9/15/2008 15:17'!
-edgesFrom: aCollection forNode: aNode  
-	^ Array with: (aCollection at: self selection)! !

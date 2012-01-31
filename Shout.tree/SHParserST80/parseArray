@@ -1,6 +1,0 @@
-
-!SHParserST80 methodsFor: 'parse' stamp: ''!
-parseArray
-	[currentTokenFirst == $)]
-		whileFalse: [self parseLiteralArrayElement].
-	self scanPast: #arrayEnd! !

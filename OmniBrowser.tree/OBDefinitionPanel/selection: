@@ -1,5 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'callbacks' stamp: 'lr 2/9/2008 11:17'!
-selection: anInterval
-	selection := anInterval.
-	self changed: #selection! !

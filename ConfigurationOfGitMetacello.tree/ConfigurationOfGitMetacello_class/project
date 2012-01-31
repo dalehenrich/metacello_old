@@ -1,0 +1,5 @@
+
+!ConfigurationOfGitMetacello class methodsFor: 'accessing' stamp: 'dkh 1/30/2012 17:07'!
+project
+
+	^self new project! !

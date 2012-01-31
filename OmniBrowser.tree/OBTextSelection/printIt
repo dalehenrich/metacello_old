@@ -1,6 +1,0 @@
-
-!OBTextSelection methodsFor: 'commands' stamp: 'lr 3/6/2011 15:09'!
-printIt
-	"Prints the current selection."
-	
-	self subclassResponsibility! !

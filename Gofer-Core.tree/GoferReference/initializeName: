@@ -1,4 +1,0 @@
-
-!GoferReference methodsFor: 'initialization' stamp: 'lr 12/9/2009 22:57'!
-initializeName: aString
-	name := aString! !

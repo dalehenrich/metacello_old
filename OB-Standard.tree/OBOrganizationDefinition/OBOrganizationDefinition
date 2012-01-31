@@ -1,9 +1,0 @@
-
-OBDefinition subclass: #OBOrganizationDefinition
-	instanceVariableNames: 'organizer'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Definitions'!
-
-!OBOrganizationDefinition commentStamp: 'cwp 1/8/2005 13:31' prior: 0!
-OBOrganizationDefinition knows how to display and edit the organization of classes or methods by a Categorizer.!

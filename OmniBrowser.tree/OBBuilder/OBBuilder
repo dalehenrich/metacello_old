@@ -1,6 +1,0 @@
-
-Object subclass: #OBBuilder
-	instanceVariableNames: 'current'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Kernel'!

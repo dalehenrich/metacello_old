@@ -1,4 +1,0 @@
-
-!OBList methodsFor: 'nodes' stamp: 'lr 3/4/2009 08:31'!
-parent: aNode 
-	aNode isNil ifFalse: [ self fan setDefaultParent: aNode ]! !

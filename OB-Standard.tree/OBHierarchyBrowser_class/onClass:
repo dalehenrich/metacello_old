@@ -1,4 +1,0 @@
-
-!OBHierarchyBrowser class methodsFor: 'instance creation' stamp: 'lr 3/6/2006 19:28'!
-onClass: aClass 
-	^self root: aClass asNode selection: aClass asNode! !

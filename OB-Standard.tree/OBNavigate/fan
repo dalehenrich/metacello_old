@@ -1,4 +1,0 @@
-
-!OBNavigate methodsFor: 'accessing' stamp: 'cwp 8/20/2007 23:10'!
-fan
-	^ fan! !

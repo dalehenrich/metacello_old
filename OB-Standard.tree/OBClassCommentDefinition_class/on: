@@ -1,4 +1,0 @@
-
-!OBClassCommentDefinition class methodsFor: 'instance creation' stamp: 'cwp 8/7/2007 00:09'!
-on: aClass
-	^ self new setClass: aClass! !

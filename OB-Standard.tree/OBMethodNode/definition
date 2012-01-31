@@ -1,7 +1,0 @@
-
-!OBMethodNode methodsFor: 'accessing' stamp: 'cwp 12/1/2004 00:36'!
-definition
-	^ OBMethodDefinition
-		selection: self selection
-		source: self source
-		inClass: self theClass! !

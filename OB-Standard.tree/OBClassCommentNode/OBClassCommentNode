@@ -1,9 +1,0 @@
-
-OBClassAwareNode subclass: #OBClassCommentNode
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Nodes'!
-
-!OBClassCommentNode commentStamp: 'cwp 1/8/2005 11:24' prior: 0!
-OBClassCommentNode represents the comment attached to a particular class. !

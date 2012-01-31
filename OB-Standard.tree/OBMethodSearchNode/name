@@ -1,4 +1,0 @@
-
-!OBMethodSearchNode methodsFor: 'display' stamp: 'cb 7/19/2007 21:18'!
-name
-	^ super name, '* (implementors)'! !

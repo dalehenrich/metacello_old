@@ -1,4 +1,0 @@
-
-!OBCmdBrowseHierarchy methodsFor: 'accessing' stamp: 'dc 8/26/2008 17:49'!
-longDescription
-  ^ 'browse the hierarchy of the class'! !

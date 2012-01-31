@@ -1,9 +1,0 @@
-
-LazyListMorph subclass: #OBLazyListMorph
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Morphic-Morphs'!
-
-!OBLazyListMorph commentStamp: 'dr 7/18/2007 14:28' prior: 0!
-I am an adapted version of LazyListMorph. I can display icons and colors for my elements.!

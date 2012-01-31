@@ -1,4 +1,0 @@
-
-!OBCmdAutoCategorize methodsFor: 'accessing' stamp: 'lr 8/17/2010 18:33'!
-organization
-	^ target organization! !

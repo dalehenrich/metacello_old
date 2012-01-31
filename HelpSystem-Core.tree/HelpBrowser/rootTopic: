@@ -1,6 +1,0 @@
-
-!HelpBrowser methodsFor: 'accessing' stamp: 'tbn 3/6/2010 00:11'!
-rootTopic: aHelpTopic
-
-	rootTopic := aHelpTopic. 
-	self refresh ! !

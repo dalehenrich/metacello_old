@@ -1,8 +1,0 @@
-
-!Gofer methodsFor: 'private' stamp: 'lr 12/13/2009 16:43'!
-execute: anOperationClass do: aBlock
-	| operation result |
-	operation := anOperationClass on: self copy.
-	aBlock isNil
-		ifFalse: [ aBlock value: operation ].
-	^ operation execute! !

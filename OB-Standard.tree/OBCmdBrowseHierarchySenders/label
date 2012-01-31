@@ -1,4 +1,0 @@
-
-!OBCmdBrowseHierarchySenders methodsFor: 'command' stamp: 'lr 9/1/2011 21:28'!
-label
-	^ 'Senders in hierarchy...'! !

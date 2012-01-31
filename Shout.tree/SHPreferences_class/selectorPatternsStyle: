@@ -1,4 +1,0 @@
-
-!SHPreferences class methodsFor: 'accessing-styles' stamp: ''!
-selectorPatternsStyle: aGroupStyle 
-	^ Groups at: #selectorPatterns put: aGroupStyle! !

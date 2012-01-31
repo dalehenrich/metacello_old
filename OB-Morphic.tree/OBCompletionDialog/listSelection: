@@ -1,4 +1,0 @@
-
-!OBCompletionDialog methodsFor: 'accessing-list' stamp: 'lr 9/22/2010 11:47'!
-listSelection: anObject
-	self listIndex: (listValues indexOf: anObject ifAbsent: [ 0 ])! !

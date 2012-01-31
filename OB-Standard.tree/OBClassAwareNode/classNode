@@ -1,4 +1,0 @@
-
-!OBClassAwareNode methodsFor: 'nodes' stamp: 'dvf 8/31/2005 13:11'!
-classNode
-	^self theClass asNode! !

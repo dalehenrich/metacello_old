@@ -1,4 +1,0 @@
-
-!OBSwitch methodsFor: 'public' stamp: 'cwp 5/18/2007 21:45'!
-refresh
-	self changed: #selection! !

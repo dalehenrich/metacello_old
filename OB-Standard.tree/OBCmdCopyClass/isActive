@@ -1,6 +1,0 @@
-
-!OBCmdCopyClass methodsFor: 'testing' stamp: 'cwp 11/2/2006 20:43'!
-isActive
-	^ (target isKindOf: OBClassNode)
-		and: [requestor isSelected: target]
-		! !

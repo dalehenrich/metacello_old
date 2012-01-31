@@ -1,7 +1,0 @@
-
-!OBMethodDefinition methodsFor: 'compiling' stamp: 'lr 3/4/2009 22:16'!
-compileNotifying: aController 
-	^ self compileClass 
-		compile: self compileText
-		classified: self compileCategory
-		notifying: aController! !

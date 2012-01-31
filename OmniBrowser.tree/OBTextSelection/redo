@@ -1,6 +1,0 @@
-
-!OBTextSelection methodsFor: 'commands' stamp: 'lr 12/10/2010 09:45'!
-redo
-	"Redoes the previous action."
-	
-	self subclassResponsibility! !

@@ -1,6 +1,0 @@
-
-!OBCommandCluster methodsFor: 'accessing' stamp: 'cwp 9/30/2007 21:01'!
-populateMenu: aMenu 
-	self groupedCommands	
-		do: [:group | group do: [:cmd | cmd addItemToMenu: aMenu]]
-		separatedBy: [aMenu addLine]! !

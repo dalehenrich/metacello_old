@@ -1,6 +1,0 @@
-
-!SHParserST80 methodsFor: 'token testing' stamp: ''!
-isKeyword
-	^ (currentTokenFirst isLetter
-			or: [currentTokenFirst == $_])
-		and: [currentToken last == $:]! !

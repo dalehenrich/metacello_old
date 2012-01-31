@@ -1,8 +1,0 @@
-
-!OBMethodDefinition methodsFor: 'initializing' stamp: 'cwp 10/17/2004 23:33'!
-setClass: aClass category: aString source: aText selection: anInterval
-	theClass := aClass.
-	category := aString.
-	source := aText.
-	selection := anInterval.
-	callback := [:sel | OBMethodNode on: sel inClass: theClass]! !

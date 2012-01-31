@@ -1,6 +1,0 @@
-
-!OBMethodVersion methodsFor: 'accessing' stamp: 'cwp 10/17/2004 23:51'!
-latest
-	^ self class 
-			fromSources: sources 
-			andPointer: (classRef theClass compiledMethodAt: selector) sourcePointer! !

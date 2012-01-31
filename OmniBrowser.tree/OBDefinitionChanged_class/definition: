@@ -1,6 +1,0 @@
-
-!OBDefinitionChanged class methodsFor: 'instance creation' stamp: 'cwp 6/4/2006 11:28'!
-definition: aDefinition
-	^ self new
-		definition: aDefinition;
-		yourself! !

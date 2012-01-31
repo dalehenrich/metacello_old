@@ -1,4 +1,0 @@
-
-!Gofer methodsFor: 'repositories-places' stamp: 'lr 7/10/2009 16:29'!
-saltypickle: aString
-	self url: 'http://squeak.saltypickle.com/' , aString! !

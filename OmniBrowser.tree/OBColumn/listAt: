@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'callbacks' stamp: 'dr 11/20/2008 15:10'!
-listAt: index 
-	^ self listHolder displayStringForChildAt: index ! !

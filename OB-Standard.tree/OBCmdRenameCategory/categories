@@ -1,4 +1,0 @@
-
-!OBCmdRenameCategory methodsFor: 'accessing' stamp: 'lr 9/22/2010 21:18'!
-categories
-	^ self subclassResponsibility! !

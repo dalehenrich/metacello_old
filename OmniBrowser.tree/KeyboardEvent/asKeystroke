@@ -1,9 +1,0 @@
-
-!KeyboardEvent methodsFor: '*omnibrowser-converting' stamp: 'lr 5/20/2011 19:20'!
-asKeystroke
-	^ OBKeystroke
-		key: self keyCharacter
-		shift: self shiftPressed
-		control: self controlKeyPressed
-		option: (buttons anyMask: 32)
-		command: self commandKeyPressed! !

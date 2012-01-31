@@ -1,6 +1,0 @@
-
-!HelpTopic methodsFor: 'accessing' stamp: 'tbn 3/6/2010 00:19'!
-contents: anObject
-	"Sets the receivers contents to the given object" 
-		
-	contents := anObject! !

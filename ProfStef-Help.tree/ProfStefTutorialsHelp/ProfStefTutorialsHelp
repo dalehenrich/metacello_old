@@ -1,9 +1,0 @@
-
-ProfStefHelp subclass: #ProfStefTutorialsHelp
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'ProfStef-Help'!
-
-!ProfStefTutorialsHelp commentStamp: 'LaurentLaffont 2/15/2011 22:18' prior: 0!
-I'm a HelpSystem book which list all ProfStef tutorials!

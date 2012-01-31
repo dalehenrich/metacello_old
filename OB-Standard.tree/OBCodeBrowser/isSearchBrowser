@@ -1,4 +1,0 @@
-
-!OBCodeBrowser methodsFor: 'testing' stamp: 'dr 2/7/2008 17:20'!
-isSearchBrowser
-	^ false! !

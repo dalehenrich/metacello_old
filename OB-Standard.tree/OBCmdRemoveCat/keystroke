@@ -1,4 +1,0 @@
-
-!OBCmdRemoveCat methodsFor: 'accessing' stamp: 'cwp 9/28/2006 08:37'!
-keystroke
-	^ $x! !

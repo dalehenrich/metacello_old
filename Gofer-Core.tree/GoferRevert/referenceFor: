@@ -1,7 +1,0 @@
-
-!GoferRevert methodsFor: 'private' stamp: 'TestRunner 12/13/2009 18:09'!
-referenceFor: aReference
-	| ancestors reference |
-	ancestors := aReference workingCopy ancestry ancestors.
-	ancestors isEmpty ifTrue: [ ^ MCSnapshot new ].
-	^ GoferVersionReference name: ancestors first name! !

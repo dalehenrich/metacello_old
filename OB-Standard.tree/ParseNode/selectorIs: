@@ -1,4 +1,0 @@
-
-!ParseNode methodsFor: '*ob-standard' stamp: 'cwp 7/18/2007 19:31'!
-selectorIs: aSymbol
-	^ false! !

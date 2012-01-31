@@ -1,4 +1,0 @@
-
-!OBSystemBrowserAdaptor class methodsFor: 'public' stamp: 'lr 4/9/2011 09:27'!
-openBrowser
-	^ self browserClass open! !

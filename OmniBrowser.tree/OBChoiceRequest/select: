@@ -1,8 +1,0 @@
-
-!OBChoiceRequest methodsFor: 'signaling' stamp: 'lr 7/3/2009 22:27'!
-select: aString 
-	| index |
-	index := labels indexOf: aString.
-	self resume: (values 
-			at: index
-			ifAbsent: [ nil ])! !

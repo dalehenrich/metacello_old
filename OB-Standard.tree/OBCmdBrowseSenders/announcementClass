@@ -1,4 +1,0 @@
-
-!OBCmdBrowseSenders methodsFor: 'configuration' stamp: 'cwp 8/20/2007 23:00'!
-announcementClass
-	^ OBShowSenders! !

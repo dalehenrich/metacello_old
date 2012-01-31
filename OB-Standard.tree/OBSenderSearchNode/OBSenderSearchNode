@@ -1,6 +1,0 @@
-
-OBSearchNode subclass: #OBSenderSearchNode
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Nodes'!

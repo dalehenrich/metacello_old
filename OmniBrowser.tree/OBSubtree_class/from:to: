@@ -1,4 +1,0 @@
-
-!OBSubtree class methodsFor: 'instance creation' stamp: 'cwp 8/19/2007 13:15'!
-from: root to: leaf
-	^ self new initializeWithRoot: root leaf: leaf! !

@@ -1,6 +1,0 @@
-
-!OBList methodsFor: 'nodes' stamp: 'lr 4/3/2009 14:49'!
-clickIconAt: anInteger
-	| node |
-	node := self fan nodeAt: anInteger.
-	node isNil ifFalse: [ node metaNode clickIconColumn: column forNode: node ]! !

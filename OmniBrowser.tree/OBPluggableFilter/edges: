@@ -1,4 +1,0 @@
-
-!OBPluggableFilter methodsFor: 'accessing' stamp: 'cwp 7/23/2007 01:02'!
-edges: anObject
-	edges := anObject! !

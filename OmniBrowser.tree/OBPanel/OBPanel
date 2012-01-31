@@ -1,9 +1,0 @@
-
-Object subclass: #OBPanel
-	instanceVariableNames: 'browser'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Panels'!
-
-!OBPanel commentStamp: 'cwp 1/7/2005 23:23' prior: 0!
-A panel is an object that manages part of the browser's window. It provides a protocol for receiving notifications when the current domain node changes, and reacts to these changes.!

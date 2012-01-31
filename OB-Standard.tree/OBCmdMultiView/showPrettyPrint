@@ -1,8 +1,0 @@
-
-!OBCmdMultiView methodsFor: 'actions' stamp: 'lr 1/28/2010 15:41'!
-showPrettyPrint
-	self definition: (OBMethodDefinition
-		source: (target theClass compilerClass 
-			format: target source in: target theClass
-			notifying: nil) 
-		inClass: target theClass)! !

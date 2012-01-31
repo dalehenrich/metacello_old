@@ -1,4 +1,0 @@
-
-!OBSearchNode methodsFor: 'ancestry' stamp: 'cwp 5/12/2007 23:12'!
-isAncestorOf: aNode using: aSelector
-	^ self = aNode or: [self classSatisfiesQuery: aNode theClass]! !

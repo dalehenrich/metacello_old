@@ -1,4 +1,0 @@
-
-!OBCmdFindMethod methodsFor: 'testing' stamp: 'dr 1/9/2008 14:13'!
-isActive
-	^ (target isKindOf: OBClassNode) and: [requestor isSelected: target]! !

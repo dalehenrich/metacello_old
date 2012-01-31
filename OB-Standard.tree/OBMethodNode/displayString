@@ -1,6 +1,0 @@
-
-!OBMethodNode methodsFor: 'displaying' stamp: 'lr 7/3/2009 21:59'!
-displayString
-	^ (self theClass includesLocalSelector: selector) 
-		ifTrue: [ super displayString ]
-		ifFalse: [ super displayString asText addAttribute: TextEmphasis italic ]! !

@@ -1,4 +1,0 @@
-
-!OBCmdBrowseImplementorsOfIt class methodsFor: 'testing' stamp: 'cwp 10/16/2006 22:01'!
-takesText
-	^ true! !

@@ -1,7 +1,0 @@
-
-!AbstractTutorial methodsFor: 'printing' stamp: 'LaurentLaffont 2/15/2011 22:47'!
-printOn: aStream
-	aStream 
-		nextPutAll: 'a ProfStef Tutorial (';
-		nextPutAll: self class title;
-		nextPutAll: ')'.    ! !

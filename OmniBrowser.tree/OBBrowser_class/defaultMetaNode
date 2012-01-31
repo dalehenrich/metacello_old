@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'configuration' stamp: 'avi 9/17/2005 01:10'!
-defaultMetaNode
-	self subclassResponsibility! !

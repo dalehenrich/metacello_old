@@ -1,4 +1,0 @@
-
-!HelpBrowser class methodsFor: 'instance creation' stamp: 'tbn 4/22/2010 17:01'!
-open
-	^self defaultHelpBrowser openOn: SystemHelp! !

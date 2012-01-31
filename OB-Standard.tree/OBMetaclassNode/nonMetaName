@@ -1,4 +1,0 @@
-
-!OBMetaclassNode methodsFor: 'displaying' stamp: ''!
-nonMetaName
-	^ self theNonMetaClass name! !

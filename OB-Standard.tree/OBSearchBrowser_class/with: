@@ -1,7 +1,0 @@
-
-!OBSearchBrowser class methodsFor: 'instance creation' stamp: 'cwp 4/15/2007 23:20'!
-with: aSearchNode
-	^ self
-		metaNode: self defaultMetaNode
-		root: (OBCollectionNode on: (OrderedCollection with: aSearchNode))
-		selection: aSearchNode! !

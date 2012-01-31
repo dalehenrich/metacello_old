@@ -1,4 +1,0 @@
-
-!OBModalFilter methodsFor: 'testing' stamp: 'cwp 5/17/2007 23:07'!
-wantsSwitch
-	^ true! !

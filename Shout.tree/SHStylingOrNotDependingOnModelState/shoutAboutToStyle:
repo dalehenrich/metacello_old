@@ -1,4 +1,0 @@
-
-!SHStylingOrNotDependingOnModelState methodsFor: 'shout' stamp: 'AlainPlantec 9/3/2011 18:29'!
-shoutAboutToStyle: ATextView
-	^ self codeEditing! !

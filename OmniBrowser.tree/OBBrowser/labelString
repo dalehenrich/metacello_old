@@ -1,4 +1,0 @@
-
-!OBBrowser methodsFor: 'callbacks' stamp: 'lr 8/19/2009 22:52'!
-labelString
-	^ self defaultLabel! !

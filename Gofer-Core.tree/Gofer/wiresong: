@@ -1,4 +1,0 @@
-
-!Gofer methodsFor: 'repositories-places' stamp: 'lr 7/10/2009 16:26'!
-wiresong: aString
-	self url: 'http://source.wiresong.ca/' , aString! !

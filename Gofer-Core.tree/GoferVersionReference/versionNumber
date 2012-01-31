@@ -1,6 +1,0 @@
-
-!GoferVersionReference methodsFor: 'accessing' stamp: 'lr 12/13/2009 17:20'!
-versionNumber
-	"Answer the version of the receiver."
-
-	^ versionNumber! !

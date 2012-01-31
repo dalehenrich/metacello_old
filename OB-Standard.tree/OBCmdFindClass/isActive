@@ -1,4 +1,0 @@
-
-!OBCmdFindClass methodsFor: 'testing' stamp: 'lr 9/22/2010 13:03'!
-isActive
-	^ target isEnvironmentNode! !

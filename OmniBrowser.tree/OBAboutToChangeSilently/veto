@@ -1,4 +1,0 @@
-
-!OBAboutToChangeSilently methodsFor: 'vetos' stamp: 'lr 7/3/2009 22:27'!
-veto
-	veto := true! !

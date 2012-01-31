@@ -1,5 +1,0 @@
-
-!TutorialPlayer methodsFor: 'navigating' stamp: 'DannyChan 2/9/2010 19:29'!
-last
-	tutorialPosition := self size.
-	^ self currentLesson! !

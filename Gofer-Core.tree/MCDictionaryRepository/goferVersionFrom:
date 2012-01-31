@@ -1,4 +1,0 @@
-
-!MCDictionaryRepository methodsFor: '*gofer-core-accessing' stamp: 'TestRunner 12/13/2009 14:57'!
-goferVersionFrom: aVersionReference
-	^ self dictionary detect: [ :version | version info name = aVersionReference name ]! !

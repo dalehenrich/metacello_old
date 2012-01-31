@@ -1,4 +1,0 @@
-
-!OBNode methodsFor: 'public' stamp: 'cwp 12/10/2003 22:27'!
-name
-	self subclassResponsibility! !

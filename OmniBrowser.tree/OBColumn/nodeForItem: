@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'commands' stamp: 'dr 9/22/2008 11:14'!
-nodeForItem: aString 
-	^ self listHolder nodeForItem: aString  ! !

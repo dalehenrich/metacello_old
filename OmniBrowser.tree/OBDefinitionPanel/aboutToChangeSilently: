@@ -1,4 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'updating' stamp: 'cwp 3/3/2007 23:11'!
-aboutToChangeSilently: ann
-	self canDiscardEdits ifFalse: [ann veto]! !

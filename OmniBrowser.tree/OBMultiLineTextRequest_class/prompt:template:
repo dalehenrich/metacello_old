@@ -1,4 +1,0 @@
-
-!OBMultiLineTextRequest class methodsFor: 'exceptionInstantiator' stamp: 'dkh 12/19/2007 09:11'!
-prompt: promptString template: templateString
-	^ (self new prompt: promptString; template: templateString) signal! !

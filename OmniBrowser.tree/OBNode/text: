@@ -1,4 +1,0 @@
-
-!OBNode methodsFor: 'public' stamp: 'cwp 3/14/2004 14:09'!
-text: aText
-	^ false! !

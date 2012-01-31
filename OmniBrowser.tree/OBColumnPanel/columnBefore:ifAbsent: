@@ -1,9 +1,0 @@
-
-!OBColumnPanel methodsFor: 'accessing columns' stamp: 'dr 11/12/2008 16:24'!
-columnBefore: aColumn ifAbsent: aBlock
-	^ [self columns before: aColumn]
-		on: Error 
-		do: [:err | aBlock value]
-
-
-! !

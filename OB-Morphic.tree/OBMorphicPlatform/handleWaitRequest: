@@ -1,4 +1,0 @@
-
-!OBMorphicPlatform methodsFor: 'interaction' stamp: 'lr 5/14/2008 15:42'!
-handleWaitRequest: request
-	^ Cursor wait showWhile: request block! !

@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'opening' stamp: 'cwp 1/22/2007 23:21'!
-openRoot: aNode
-	^ (self root: aNode) open! !

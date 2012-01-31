@@ -1,9 +1,0 @@
-
-!HelpTopic methodsFor: 'initialize-release' stamp: 'tbn 3/8/2010 08:44'!
-initialize 
-	"Initializes the receiver"
-	
-	super initialize.
-	self title: self defaultTitle.
-	self contents: ''.
-	self key: '' ! !

@@ -1,4 +1,0 @@
-
-!HelpBuilder methodsFor: 'private accessing' stamp: 'tbn 3/5/2010 23:13'!
-topicClass
-	^HelpTopic! !

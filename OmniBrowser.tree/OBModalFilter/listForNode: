@@ -1,4 +1,0 @@
-
-!OBModalFilter methodsFor: 'callbacks' stamp: 'cwp 7/14/2007 10:32'!
-listForNode: aNode
-	^ self list! !

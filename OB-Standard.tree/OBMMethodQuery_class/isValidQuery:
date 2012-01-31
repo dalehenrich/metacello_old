@@ -1,4 +1,0 @@
-
-!OBMMethodQuery class methodsFor: 'configuration' stamp: 'lr 3/13/2010 13:39'!
-isValidQuery: aString
-	^ true! !

@@ -1,4 +1,0 @@
-
-!OBSystemBrowserAdaptor class methodsFor: 'initializing' stamp: 'cwp 9/28/2009 01:25'!
-unload
-    	self unregister! !

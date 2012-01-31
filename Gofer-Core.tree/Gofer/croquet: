@@ -1,4 +1,0 @@
-
-!Gofer methodsFor: 'repositories-places' stamp: 'lr 7/10/2009 16:27'!
-croquet: aString
-	self url: 'http://hedgehog.software.umn.edu:8888/' , aString! !

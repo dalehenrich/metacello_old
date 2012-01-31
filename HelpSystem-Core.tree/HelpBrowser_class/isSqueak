@@ -1,6 +1,0 @@
-
-!HelpBrowser class methodsFor: 'private' stamp: 'tbn 3/29/2010 12:46'!
-isSqueak
-	"Return true if we are in Squeak"
-	
-	^(SystemVersion current version includesSubString: 'Squeak')! !

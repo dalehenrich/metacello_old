@@ -1,9 +1,0 @@
-
-Object subclass: #OBMethodVersion
-	instanceVariableNames: 'sources pointer classRef category stamp prior selector'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Utilities'!
-
-!OBMethodVersion commentStamp: 'cwp 1/8/2005 13:25' prior: 0!
-OBMethodVerison represents a version of a method found in the .sources or .changes files. It provides methods for parsing the method definition referenced by a source pointer, and for filing in the source to replace the current version of the method.!

@@ -1,4 +1,0 @@
-
-!OBDebugItTextCommand methodsFor: 'testing' stamp: 'lr 8/27/2011 09:58'!
-isActive
-	^ true! !

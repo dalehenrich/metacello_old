@@ -1,4 +1,0 @@
-
-!GoferPackageReference methodsFor: 'accessing' stamp: 'lr 12/13/2009 17:12'!
-packageName
-	^ name! !

@@ -1,5 +1,0 @@
-
-!OBCmdChaseVariables methodsFor: 'testing' stamp: 'dr 7/11/2008 11:23'!
-isActive
-	^ ((target isKindOf: OBClassAwareNode) or: [(target respondsTo: #theClass) and: [target theClass notNil]])
-		and: [requestor isSelected: target]! !

@@ -1,8 +1,0 @@
-
-!OBClassNode methodsFor: 'printing' stamp: 'cwp 12/10/2004 23:53'!
-printOn: aStream
-	aStream
-		print: self class;
-		nextPut: $<;
-		print: self theClass;
-		nextPut: $>! !

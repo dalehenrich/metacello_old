@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: '*ob-morphic' stamp: 'lr 9/23/2010 08:09'!
-taskbarIcon
-	^ UITheme current smallSystemBrowserIcon! !

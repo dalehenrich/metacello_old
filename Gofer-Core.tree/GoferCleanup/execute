@@ -1,5 +1,0 @@
-
-!GoferCleanup methodsFor: 'running' stamp: 'lr 10/3/2009 11:30'!
-execute
-	self workingCopies
-		do: [ :each | self cleanup: each ]! !

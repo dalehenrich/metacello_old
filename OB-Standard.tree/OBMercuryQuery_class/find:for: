@@ -1,6 +1,0 @@
-
-!OBMercuryQuery class methodsFor: 'instance creation' stamp: 'lr 3/13/2010 13:19'!
-find: aText for: aPanel
-	| query |
-	query := self from: aText panel: aPanel.
-	query isNil ifFalse: [ query find ]! !

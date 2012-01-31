@@ -1,4 +1,0 @@
-
-!SystemOrganizer methodsFor: '*ob-standard-testing' stamp: 'cwp 9/18/2004 23:58'!
-isClassOrganizer
-	^ false! !

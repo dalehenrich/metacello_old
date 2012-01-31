@@ -1,4 +1,0 @@
-
-!OBMClassQuery methodsFor: 'accessing' stamp: 'PDC 6/29/2007 06:17'!
-searchNode
-	^ OBClassSearchNode on: pattern! !

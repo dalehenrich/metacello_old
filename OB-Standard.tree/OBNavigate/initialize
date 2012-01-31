@@ -1,5 +1,0 @@
-
-!OBNavigate methodsFor: 'initialize-release' stamp: 'cwp 8/20/2007 22:52'!
-initialize
-	bid := 0.
-	action := self defaultAction! !

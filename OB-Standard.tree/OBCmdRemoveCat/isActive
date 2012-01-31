@@ -1,4 +1,0 @@
-
-!OBCmdRemoveCat methodsFor: 'testing' stamp: 'dr 10/30/2008 09:54'!
-isActive
-	^ target isCategoryNode and: [requestor isSelected: target]! !

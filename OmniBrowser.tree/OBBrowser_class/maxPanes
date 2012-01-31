@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'configuration' stamp: 'cwp 8/31/2004 11:01'!
-maxPanes
-	^ self paneCount! !

@@ -1,8 +1,0 @@
-
-!HelpBrowser class methodsFor: 'world menu' stamp: 'tbn 3/28/2010 21:12'!
-menuCommandOn: aBuilder 
-	<worldMenu> 
-	(aBuilder item: #'Help Browser')
-		parent: #Tools;
-		action:[self open]; 
-		icon: (HelpIcons iconNamed: #bookIcon)! !

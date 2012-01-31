@@ -1,4 +1,0 @@
-
-!OBSwitch methodsFor: 'accessing' stamp: 'cwp 5/18/2007 00:06'!
-filter
-	^ filter! !

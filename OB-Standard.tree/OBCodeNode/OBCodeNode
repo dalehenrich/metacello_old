@@ -1,9 +1,0 @@
-
-OBNode subclass: #OBCodeNode
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Nodes'!
-
-!OBCodeNode commentStamp: 'cwp 1/8/2005 11:12' prior: 0!
-OBCodeNode is an abstract superclass for node classes that represent program elements active in the image. Though it provides little functionality, it exists for structural purposes.!

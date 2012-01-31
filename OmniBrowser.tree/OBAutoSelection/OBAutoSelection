@@ -1,9 +1,0 @@
-
-Object subclass: #OBAutoSelection
-	instanceVariableNames: 'fan metaNode'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Kernel'!
-
-!OBAutoSelection commentStamp: 'dr 1/28/2009 14:52' prior: 0!
-A auto selection holds a strategy that returns the node to auto select in columns. An auto selection strategy is stored in the metanode representing the respective column. !

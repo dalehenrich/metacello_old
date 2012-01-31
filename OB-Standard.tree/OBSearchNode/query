@@ -1,4 +1,0 @@
-
-!OBSearchNode methodsFor: 'accessing' stamp: 'cwp 4/8/2007 00:26'!
-query
-	^ query! !

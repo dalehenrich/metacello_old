@@ -1,4 +1,0 @@
-
-!OBInteractionRequest methodsFor: 'dispatching' stamp: 'dc 7/22/2007 20:27'!
-handleWith: anObject
-	self subclassResponsibility ! !

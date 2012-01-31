@@ -1,4 +1,0 @@
-
-!OBClassDefinition methodsFor: 'confirmation' stamp: 'lr 11/22/2010 22:53'!
-selectedClass
-	^ environment at: (self nameOfClassDefinedBy: template) ifAbsent: [ environment at: (self nameOfMetaclassDefinedBy: template) ifAbsent: [ nil ] ]! !

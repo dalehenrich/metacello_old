@@ -1,6 +1,0 @@
-
-!HelpTopicListItemWrapper methodsFor: 'accessing' stamp: 'tbn 3/8/2010 17:26'!
-balloonText
-	"Returns a string used for fly by help"
-	
-	^self item title! !

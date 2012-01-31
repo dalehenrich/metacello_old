@@ -1,5 +1,0 @@
-
-!SHStylingOrNotDependingOnModelState methodsFor: 'accessing' stamp: 'AlainPlantec 9/3/2011 18:30'!
-code: someText
-	code := someText.
-	self changed: #code! !

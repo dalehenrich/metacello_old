@@ -1,5 +1,0 @@
-
-!OBSenderSearchNode methodsFor: 'navigation' stamp: 'cwp 4/15/2007 21:32'!
-classes
-	^ self nodesForRefs: (SystemNavigation default allCallsOn: query)
-	! !

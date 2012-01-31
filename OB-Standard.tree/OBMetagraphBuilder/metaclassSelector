@@ -1,4 +1,0 @@
-
-!OBMetagraphBuilder methodsFor: 'accessing-selectors' stamp: 'jk 8/26/2007 18:06'!
-metaclassSelector
-	^ self selectorAt: #metaclassSel! !

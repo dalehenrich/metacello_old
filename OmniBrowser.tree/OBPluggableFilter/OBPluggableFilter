@@ -1,6 +1,0 @@
-
-OBFilter subclass: #OBPluggableFilter
-	instanceVariableNames: 'edges nodeDisplay nodes note icon parentDisplay'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Filters'!

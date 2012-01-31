@@ -1,4 +1,0 @@
-
-!OBTextSelection methodsFor: 'testing' stamp: 'cwp 10/14/2006 20:44'!
-hasSelector
-	^ self selector notNil! !

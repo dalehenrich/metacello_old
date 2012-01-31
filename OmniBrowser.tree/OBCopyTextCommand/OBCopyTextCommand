@@ -1,6 +1,0 @@
-
-OBCommand subclass: #OBCopyTextCommand
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Commands'!

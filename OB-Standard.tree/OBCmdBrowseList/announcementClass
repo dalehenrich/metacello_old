@@ -1,4 +1,0 @@
-
-!OBCmdBrowseList methodsFor: 'accessing' stamp: 'lr 3/4/2009 22:07'!
-announcementClass
-	self subclassResponsibility! !

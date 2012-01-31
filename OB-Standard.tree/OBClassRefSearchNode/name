@@ -1,4 +1,0 @@
-
-!OBClassRefSearchNode methodsFor: 'display' stamp: 'cwp 7/20/2007 22:23'!
-name
-	^ (super name copyWithFirst: $#) , ' (class refs)'! !

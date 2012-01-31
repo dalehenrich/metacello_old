@@ -1,4 +1,0 @@
-
-!OBCodeBrowser methodsFor: 'updating' stamp: 'cwp 4/15/2007 23:07'!
-noteChanges
-	hasChanges := true! !

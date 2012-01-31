@@ -1,4 +1,0 @@
-
-!OBSystemBrowser methodsFor: 'morphic' stamp: 'lr 8/15/2010 15:35'!
-defaultBackgroundColor
-	^ Color lightGreen! !

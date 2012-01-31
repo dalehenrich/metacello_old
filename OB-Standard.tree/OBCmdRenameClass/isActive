@@ -1,5 +1,0 @@
-
-!OBCmdRenameClass methodsFor: 'testing' stamp: 'cwp 11/2/2006 23:01'!
-isActive
-	^ (target isKindOf: OBClassNode)
-		and: [requestor isSelected: target]! !

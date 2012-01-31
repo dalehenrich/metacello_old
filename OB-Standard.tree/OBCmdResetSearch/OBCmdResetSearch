@@ -1,6 +1,0 @@
-
-OBCommand subclass: #OBCmdResetSearch
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Commands'!

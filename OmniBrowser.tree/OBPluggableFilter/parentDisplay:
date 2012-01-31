@@ -1,4 +1,0 @@
-
-!OBPluggableFilter methodsFor: 'accessing' stamp: 'lr 3/13/2010 17:22'!
-parentDisplay: anObject
-	parentDisplay := anObject! !

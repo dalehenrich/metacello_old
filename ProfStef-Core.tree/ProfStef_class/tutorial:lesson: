@@ -1,4 +1,0 @@
-
-!ProfStef class methodsFor: 'starting' stamp: 'DannyChan 2/1/2010 19:23'!
-tutorial: aTutorialClass lesson: aSelector
-	self default tutorial: aTutorialClass lesson: aSelector.! !

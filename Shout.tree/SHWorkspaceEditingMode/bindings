@@ -1,4 +1,0 @@
-
-!SHWorkspaceEditingMode methodsFor: 'private bindings' stamp: 'AlainPlantec 9/20/2011 16:54'!
-bindings
-	^ #('shout' 'example')! !

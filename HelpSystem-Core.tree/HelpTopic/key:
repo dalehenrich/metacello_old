@@ -1,6 +1,0 @@
-
-!HelpTopic methodsFor: 'accessing' stamp: 'tbn 3/6/2010 00:20'!
-key: aUniqueKey
-	"Sets a unique key identifying the receiver in the help system"	
-		
-	key := aUniqueKey ! !

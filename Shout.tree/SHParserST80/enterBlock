@@ -1,5 +1,0 @@
-
-!SHParserST80 methodsFor: 'parse support' stamp: ''!
-enterBlock
-	blockDepth := blockDepth + 1.
-	bracketDepth := bracketDepth + 1! !

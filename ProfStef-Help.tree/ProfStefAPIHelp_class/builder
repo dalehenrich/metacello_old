@@ -1,4 +1,0 @@
-
-!ProfStefAPIHelp class methodsFor: 'defaults' stamp: 'LaurentLaffont 9/19/2010 15:14'!
-builder 
-	^ PackageAPIHelpBuilder! !

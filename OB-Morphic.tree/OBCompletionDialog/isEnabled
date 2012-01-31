@@ -1,6 +1,0 @@
-
-!OBCompletionDialog methodsFor: 'testing' stamp: 'lr 9/22/2010 21:32'!
-isEnabled
-	^ self model assisted
-		ifTrue: [ self text isEmptyOrNil not ]
-		ifFalse: [ self listIndex > 0 ]! !

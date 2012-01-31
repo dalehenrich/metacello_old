@@ -1,6 +1,0 @@
-
-!OBTextSelection methodsFor: 'accessing' stamp: 'lr 12/10/2010 09:41'!
-selection
-	"Answer the selection interval of the receiver."
-	
-	^ selection! !

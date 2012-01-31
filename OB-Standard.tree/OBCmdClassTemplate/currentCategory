@@ -1,4 +1,0 @@
-
-!OBCmdClassTemplate methodsFor: 'accessing' stamp: 'dc 7/16/2007 18:34'!
-currentCategory
-	^ target theNonMetaClass category! !

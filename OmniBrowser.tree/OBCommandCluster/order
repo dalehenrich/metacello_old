@@ -1,4 +1,0 @@
-
-!OBCommandCluster methodsFor: 'accessing' stamp: 'lr 4/8/2010 11:07'!
-order
-	^ self label! !

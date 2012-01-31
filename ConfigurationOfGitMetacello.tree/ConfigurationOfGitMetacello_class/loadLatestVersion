@@ -1,0 +1,7 @@
+
+!ConfigurationOfGitMetacello class methodsFor: 'loading' stamp: 'dkh 1/30/2012 17:07'!
+loadLatestVersion
+	"self loadLatestVersion"
+
+	self project updateProject.
+	^self project latestVersion load! !

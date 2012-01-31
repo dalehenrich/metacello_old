@@ -1,4 +1,0 @@
-
-!OBMetaNode methodsFor: 'accessing' stamp: 'cwp 3/6/2004 21:54'!
-name
-	^ name ifNil: ['MetaNode']! !

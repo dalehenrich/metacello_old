@@ -1,6 +1,0 @@
-
-!OBRadioButtonBar methodsFor: 'updating' stamp: 'cwp 11/27/2004 17:58'!
-updateList
-	self 
-		updateButtons; 
-		updateMorphs! !

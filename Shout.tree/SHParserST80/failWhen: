@@ -1,5 +1,0 @@
-
-!SHParserST80 methodsFor: 'error handling' stamp: ''!
-failWhen: aBoolean 
-	aBoolean
-		ifTrue: [self error]! !

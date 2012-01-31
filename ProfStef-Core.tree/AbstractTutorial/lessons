@@ -1,4 +1,0 @@
-
-!AbstractTutorial methodsFor: 'accessing' stamp: 'LaurentLaffont 9/19/2010 16:35'!
-lessons
-	^ self tutorial collect: [:aSelector| self perform: aSelector]! !

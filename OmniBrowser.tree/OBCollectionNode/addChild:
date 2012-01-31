@@ -1,4 +1,0 @@
-
-!OBCollectionNode methodsFor: 'navigating' stamp: 'lr 7/3/2009 22:27'!
-addChild: aNode 
-	(collection includes: aNode) ifFalse: [ collection := collection copyWith: aNode ]! !

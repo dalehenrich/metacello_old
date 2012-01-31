@@ -1,5 +1,0 @@
-
-!OBCmdAutoCategorize methodsFor: 'execution' stamp: 'lr 8/17/2010 18:33'!
-execute
-	(self organization listAtCategoryNamed: ClassOrganizer default) 
-		do: [ :each | self categorize: each ]! !

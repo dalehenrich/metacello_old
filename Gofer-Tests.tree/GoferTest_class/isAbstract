@@ -1,4 +1,0 @@
-
-!GoferTest class methodsFor: 'testing' stamp: 'lr 10/1/2009 22:00'!
-isAbstract
-	^ self name = #GoferTest! !

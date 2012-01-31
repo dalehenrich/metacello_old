@@ -1,8 +1,0 @@
-
-!OBDefinition methodsFor: 'callbacks' stamp: 'lr 3/4/2009 08:31'!
-doItReceiver
-	| class |
-	class := self selectedClass.
-	^ class isNil 
-		ifFalse: [ class theNonMetaClass ]
-		ifTrue: [ FakeClassPool new ]! !

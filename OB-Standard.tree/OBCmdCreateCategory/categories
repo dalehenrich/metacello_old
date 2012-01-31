@@ -1,4 +1,0 @@
-
-!OBCmdCreateCategory methodsFor: 'accessing' stamp: 'lr 9/22/2010 21:09'!
-categories
-	^ self subclassResponsibility! !

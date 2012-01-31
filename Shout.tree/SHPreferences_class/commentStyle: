@@ -1,4 +1,0 @@
-
-!SHPreferences class methodsFor: 'accessing-styles' stamp: ''!
-commentStyle: aGroupStyle 
-	^ Groups at: #comment put: aGroupStyle! !

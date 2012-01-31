@@ -1,4 +1,0 @@
-
-!OBBrowser methodsFor: 'accessing' stamp: 'cwp 9/17/2004 00:53'!
-panels
-	^ panels! !

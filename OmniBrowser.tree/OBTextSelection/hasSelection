@@ -1,4 +1,0 @@
-
-!OBTextSelection methodsFor: 'testing' stamp: 'lr 12/10/2010 09:32'!
-hasSelection
-	^ self selection notEmpty! !

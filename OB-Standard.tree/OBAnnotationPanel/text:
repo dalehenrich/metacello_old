@@ -1,5 +1,0 @@
-
-!OBAnnotationPanel methodsFor: 'updating' stamp: 'lr 8/15/2010 17:41'!
-text: aString
-	text := aString.
-	self changed: #text! !

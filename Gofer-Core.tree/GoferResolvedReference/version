@@ -1,6 +1,0 @@
-
-!GoferResolvedReference methodsFor: 'accessing' stamp: 'lr 12/13/2009 17:22'!
-version
-	"Answer a Monticello version of the receiver."
-
-	^ self repository goferVersionFrom: self! !

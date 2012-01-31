@@ -1,4 +1,0 @@
-
-!OBSystemBrowserAdaptor class methodsFor: 'configuration' stamp: 'cwp 9/28/2009 09:21'!
-nameForViewer
-	^ 'OmniBrowser'! !

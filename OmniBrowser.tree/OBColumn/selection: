@@ -1,8 +1,0 @@
-
-!OBColumn methodsFor: 'callbacks' stamp: 'dr 10/20/2008 14:58'!
-selection: anInteger
-	self listHolder selection: anInteger.
-	self signalSelectionChanged.
-	self changed: #selection.
-	switch currentNode: self selectedNode
-! !

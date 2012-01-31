@@ -1,4 +1,0 @@
-
-!HelpAPIDocumentation class methodsFor: 'accessing' stamp: 'tbn 3/29/2010 14:50'!
-bookName
-	^'API Documentation'! !

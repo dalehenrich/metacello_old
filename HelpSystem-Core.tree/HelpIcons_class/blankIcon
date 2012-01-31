@@ -1,4 +1,0 @@
-
-!HelpIcons class methodsFor: 'private icons' stamp: 'tbn 3/3/2010 23:53'!
-blankIcon
-	^Form extent: 12 @ 1 depth:8! !

@@ -1,4 +1,0 @@
-
-!OBTextSelection class methodsFor: 'instance creation' stamp: 'cwp 10/14/2006 20:10'!
-on: anInterval inText: aString
-	^ self new setSelection: anInterval inText: aString! !

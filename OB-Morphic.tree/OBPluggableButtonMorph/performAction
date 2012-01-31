@@ -1,5 +1,0 @@
-
-!OBPluggableButtonMorph methodsFor: 'public' stamp: 'lr 8/17/2010 17:58'!
-performAction
-	self enabled 
-		ifTrue: [ super performAction ]! !

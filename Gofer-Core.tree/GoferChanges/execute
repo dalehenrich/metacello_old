@@ -1,4 +1,0 @@
-
-!GoferChanges methodsFor: 'running' stamp: 'lr 12/14/2009 23:50'!
-execute
-	^ self model! !

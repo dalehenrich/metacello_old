@@ -1,4 +1,0 @@
-
-!OBFan methodsFor: 'accessing' stamp: 'cwp 8/16/2007 11:56'!
-parent
-	^ parent! !

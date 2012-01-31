@@ -1,6 +1,0 @@
-
-!OBColumn methodsFor: '*ob-morphic' stamp: 'lr 9/5/2010 17:20'!
-acceptDroppingMorph: transferMorph event: evt inMorph: listMorph 
-	| target |
-	target := self nodeForDropEvent: evt inMorph: listMorph.
-	^ self drop: transferMorph passenger on: target! !

@@ -1,4 +1,0 @@
-
-!GoferUnload methodsFor: 'unregistering' stamp: 'lr 8/20/2009 11:54'!
-unregisterWorkingCopy: aWorkingCopy
-	aWorkingCopy unregister! !

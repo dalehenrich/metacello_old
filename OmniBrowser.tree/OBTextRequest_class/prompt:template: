@@ -1,4 +1,0 @@
-
-!OBTextRequest class methodsFor: 'exceptionInstantiator' stamp: 'cwp 2/5/2004 20:31'!
-prompt: promptString template: templateString
-	^ (self new prompt: promptString; template: templateString) signal! !

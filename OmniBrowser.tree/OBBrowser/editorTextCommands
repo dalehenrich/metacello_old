@@ -1,6 +1,0 @@
-
-!OBBrowser methodsFor: 'commands-text' stamp: 'lr 12/10/2010 09:50'!
-editorTextCommands
-	<command>
-	
-	^ Array with: OBAcceptTextCommand with: OBCancelTextCommand! !

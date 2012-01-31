@@ -1,4 +1,0 @@
-
-!CommentReference methodsFor: '*ob-standard' stamp: 'lr 5/10/2011 22:12'!
-asNode
-	^ OBClassCommentNode on: class! !

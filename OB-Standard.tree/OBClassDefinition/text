@@ -1,4 +1,0 @@
-
-!OBClassDefinition methodsFor: 'callbacks' stamp: ''!
-text
-	^ template! !

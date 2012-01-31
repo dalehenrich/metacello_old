@@ -1,4 +1,0 @@
-
-!GoferLoad methodsFor: 'accessing' stamp: 'lr 12/18/2009 12:55'!
-versions
-	^ model goferVersions! !

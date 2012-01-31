@@ -1,4 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'building' stamp: 'cwp 7/25/2007 23:48'!
-buildOn: aBuilder 
-	^aBuilder textarea: self with: []! !

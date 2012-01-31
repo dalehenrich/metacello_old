@@ -1,4 +1,0 @@
-
-!OBCodeNode methodsFor: 'testing' stamp: 'cwp 6/30/2006 00:37'!
-hasOrganization
-	^ false! !

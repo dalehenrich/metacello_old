@@ -1,4 +1,0 @@
-
-!OBMethodIconFilter methodsFor: 'filtering' stamp: 'lr 1/3/2010 16:12'!
-icon: aSymbol forNode: aNode
-	^ aNode theNonMetaClass browserIcon: aNode theClass selector: aNode selector! !

@@ -1,4 +1,0 @@
-
-!SHWorkspaceEditingMode methodsFor: 'shout' stamp: 'AlainPlantec 9/19/2011 20:52'!
-shoutAboutToStyle: ATextView
-	^ true! !

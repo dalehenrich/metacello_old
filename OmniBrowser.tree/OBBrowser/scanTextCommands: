@@ -1,6 +1,0 @@
-
-!OBBrowser methodsFor: 'updating' stamp: 'lr 10/29/2010 11:54'!
-scanTextCommands: anAnnouncement
-	commandFactories do: [ :each |
-		each takesText
-			ifTrue: [ anAnnouncement addFactory: each ] ]! !

@@ -1,4 +1,0 @@
-
-!OBClassReference class methodsFor: 'instance creation' stamp: ''!
-named: aSymbol
-	^ self new setName: aSymbol! !

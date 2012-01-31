@@ -1,4 +1,0 @@
-
-!OBPane methodsFor: 'constructing' stamp: 'cwp 8/26/2009 23:21'!
-buttonFor: aSwitch 
-	^ aSwitch buildOn: OBPlatform current builder! !

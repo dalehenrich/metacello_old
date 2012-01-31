@@ -1,4 +1,0 @@
-
-!OBButtonModel methodsFor: 'building' stamp: 'cwp 7/25/2007 23:55'!
-buildOn: aBuilder 
-	^aBuilder button: self with: []! !

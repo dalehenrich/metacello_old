@@ -1,4 +1,0 @@
-
-!OBSendersBrowser class methodsFor: 'defaults' stamp: 'lr 3/13/2010 12:15'!
-defaultMetaNode
-	^self sendersMetaNode: #senders! !

@@ -1,8 +1,0 @@
-
-!OBVersionBrowser class methodsFor: 'configuration' stamp: 'dr 9/17/2008 13:48'!
-defaultMetaNode
-	| version |
-	version := OBMetaNode named: 'Version'.
-	version ancestrySelector: #isDescendantOfMethodVersion:.
-	^ (OBMetaNode named: 'Method') 
-		childAt: #versions put: version; yourself.! !

@@ -1,4 +1,0 @@
-
-!GoferPackageReference methodsFor: 'private' stamp: 'lr 1/21/2010 00:16'!
-matches: aResolvedReference
-	^ self packageName = aResolvedReference packageName! !

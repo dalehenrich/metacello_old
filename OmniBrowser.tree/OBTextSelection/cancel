@@ -1,6 +1,0 @@
-
-!OBTextSelection methodsFor: 'commands' stamp: 'lr 12/10/2010 09:34'!
-cancel
-	"Cancels the currently edited text."
-	
-	self subclassResponsibility! !

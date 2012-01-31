@@ -1,6 +1,0 @@
-
-!OBModalFilter methodsFor: 'filtering' stamp: 'lr 5/28/2010 20:50'!
-noteParent: pNode child: cNode 
-	pNode metaNode edges keysAndValuesDo: 
-		[ :index :edge | 
-		cNode metaNode = edge metaNode ifTrue: [ selection := index ] ]! !

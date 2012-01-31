@@ -1,6 +1,0 @@
-
-!CustomHelp class methodsFor: 'accessing' stamp: 'tbn 3/29/2010 13:20'!
-bookName
-	"Returns the name of the custom help book"
-	
-	^'Help'! !

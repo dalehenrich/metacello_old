@@ -1,6 +1,0 @@
-
-!SHParserST80 methodsFor: 'scan' stamp: ''!
-currentChar
-	^ source
-		at: sourcePosition
-		ifAbsent: []! !

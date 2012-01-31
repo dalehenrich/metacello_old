@@ -1,5 +1,0 @@
-
-!GoferOperation methodsFor: 'initialization' stamp: 'TestRunner 12/12/2009 11:09'!
-initializeOn: aGofer
-	gofer := aGofer.
-	self initialize! !

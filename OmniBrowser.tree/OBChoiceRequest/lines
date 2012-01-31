@@ -1,4 +1,0 @@
-
-!OBChoiceRequest methodsFor: 'accessing' stamp: 'cwp 7/9/2006 00:11'!
-lines
-	^ lines! !

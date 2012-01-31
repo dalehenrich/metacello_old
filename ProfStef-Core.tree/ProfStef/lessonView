@@ -1,4 +1,0 @@
-
-!ProfStef methodsFor: 'accessing' stamp: 'DannyChan 2/2/2010 19:39'!
-lessonView
-	^ lessonView ifNil: [lessonView := LessonView new]! !

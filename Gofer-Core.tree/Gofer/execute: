@@ -1,4 +1,0 @@
-
-!Gofer methodsFor: 'private' stamp: 'lr 10/2/2009 10:11'!
-execute: anOperationClass
-	^ self execute: anOperationClass do: nil! !

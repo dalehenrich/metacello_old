@@ -1,4 +1,0 @@
-
-!OBRadioButtonBar methodsFor: 'updating' stamp: 'cwp 7/9/2007 23:39'!
-withButtonAt: index do: aBlock
-	^ aBlock value: (buttons at: index ifAbsent: [^ self]) ! !

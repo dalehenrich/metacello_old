@@ -1,6 +1,0 @@
-
-!OBBrowser methodsFor: 'commands-text' stamp: 'lr 8/27/2011 10:00'!
-smalltalkTextCommands
-	<command>
-	
-	^ Array with: OBDoItTextCommand with: OBPrintItTextCommand with: OBInspectItTextCommand with: OBExploreItTextCommand with: OBDebugItTextCommand! !

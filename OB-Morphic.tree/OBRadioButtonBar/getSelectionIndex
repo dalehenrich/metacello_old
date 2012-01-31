@@ -1,4 +1,0 @@
-
-!OBRadioButtonBar methodsFor: 'updating' stamp: 'cwp 2/24/2004 18:53'!
-getSelectionIndex
-	^ model perform: getSelectionSelector! !

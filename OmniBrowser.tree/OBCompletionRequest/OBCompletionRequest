@@ -1,6 +1,0 @@
-
-OBInteractionRequest subclass: #OBCompletionRequest
-	instanceVariableNames: 'prompt default assisted searchBlock labelBlock iconBlock'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Notifications'!

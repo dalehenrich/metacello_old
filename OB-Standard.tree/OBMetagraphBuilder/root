@@ -1,4 +1,0 @@
-
-!OBMetagraphBuilder methodsFor: 'accessing-metanodes' stamp: 'jk 8/26/2007 16:54'!
-root
-	^ root! !

@@ -1,9 +1,0 @@
-
-OBDefinition subclass: #OBMethodDefinition
-	instanceVariableNames: 'theClass category source selection callback compileClass compileCategory compileText'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Definitions'!
-
-!OBMethodDefinition commentStamp: 'cwp 1/8/2005 13:20' prior: 0!
-OBMethodDefinition knows how to present method source in the browser's text pane and compile a new CompiledMethod when the source changes. It implements several safety checks to ensure that methods are not accidentally overwritten.!

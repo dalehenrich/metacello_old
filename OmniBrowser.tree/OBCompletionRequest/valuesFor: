@@ -1,4 +1,0 @@
-
-!OBCompletionRequest methodsFor: 'querying' stamp: 'lr 9/22/2010 20:07'!
-valuesFor: anObject
-	^ searchBlock value: anObject! !

@@ -1,8 +1,0 @@
-
-!OBKeystroke methodsFor: 'initialization' stamp: 'lr 5/20/2011 19:19'!
-initalizeKey: aCharacter shift: aShiftBoolean control: aControlBoolean option: anOptionBoolean command: aCommandBoolean
-	key := aCharacter.
-	shift := aShiftBoolean.
-	control := aControlBoolean.
-	option := anOptionBoolean.
-	command := aCommandBoolean! !

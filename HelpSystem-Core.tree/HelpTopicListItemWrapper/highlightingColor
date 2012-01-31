@@ -1,6 +1,0 @@
-
-!HelpTopicListItemWrapper methodsFor: 'accessing' stamp: 'tbn 3/8/2010 17:27'!
-highlightingColor
-	"Returns the text color when the receiver is selected in a list."
-
-	^Color blue  ! !

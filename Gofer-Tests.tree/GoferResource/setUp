@@ -1,7 +1,0 @@
-
-!GoferResource methodsFor: 'running' stamp: 'lr 12/13/2009 16:38'!
-setUp
-	super setUp.
-	self
-		setUpVersionReferences;
-		setUpMonticelloRepository! !

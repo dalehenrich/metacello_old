@@ -1,4 +1,0 @@
-
-!OBPaneScroller methodsFor: 'panes' stamp: 'cwp 12/6/2003 17:06'!
-clearPanes
-	transform removeAllMorphs! !

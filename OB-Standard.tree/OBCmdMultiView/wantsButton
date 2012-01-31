@@ -1,4 +1,0 @@
-
-!OBCmdMultiView methodsFor: 'testing' stamp: 'lr 1/28/2010 15:42'!
-wantsButton
-	^ true! !

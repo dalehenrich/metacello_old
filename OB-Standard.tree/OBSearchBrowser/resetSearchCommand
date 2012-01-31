@@ -1,6 +1,0 @@
-
-!OBSearchBrowser methodsFor: 'commands' stamp: 'lr 10/29/2010 11:40'!
-resetSearchCommand
-	<command>
-	
-	^ OBCmdResetSearch! !

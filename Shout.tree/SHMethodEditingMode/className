@@ -1,4 +1,0 @@
-
-!SHMethodEditingMode methodsFor: 'accessing' stamp: 'AlainPlantec 9/19/2011 22:12'!
-className
-	^ className ifNotNil: [className asSymbol]! !

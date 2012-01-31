@@ -1,4 +1,0 @@
-
-!GoferRepositoryError class methodsFor: 'instance creation' stamp: 'lr 12/9/2009 19:15'!
-signal: aString repository: aRepository
-	^ self new repository: aRepository; signal: aString! !

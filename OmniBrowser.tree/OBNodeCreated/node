@@ -1,4 +1,0 @@
-
-!OBNodeCreated methodsFor: 'accessing' stamp: 'cwp 6/4/2006 00:53'!
-node
-	^ node! !

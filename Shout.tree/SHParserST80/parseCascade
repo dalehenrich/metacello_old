@@ -1,7 +1,0 @@
-
-!SHParserST80 methodsFor: 'parse' stamp: ''!
-parseCascade
-	self parseKeyword.
-	[currentTokenFirst == $;]
-		whileTrue: [self scanPast: #cascadeSeparator.
-			self parseKeyword]! !

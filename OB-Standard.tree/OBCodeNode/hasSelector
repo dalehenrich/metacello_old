@@ -1,4 +1,0 @@
-
-!OBCodeNode methodsFor: 'testing' stamp: 'cwp 10/11/2006 20:47'!
-hasSelector
-	^ false! !

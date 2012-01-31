@@ -1,6 +1,0 @@
-
-!OBKeystroke methodsFor: 'testing' stamp: 'lr 4/25/2011 10:29'!
-isControl
-	"Answer true if the conrol key was pressed for this event."
-	
-	^ control! !

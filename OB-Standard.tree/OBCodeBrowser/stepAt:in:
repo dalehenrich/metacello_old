@@ -1,5 +1,0 @@
-
-!OBCodeBrowser methodsFor: 'morphic' stamp: 'lr 3/13/2010 16:07'!
-stepAt: milliseconds in: aSystemWindow
-	hasChanges ifTrue: [ self signalRefresh ].
-	self clearChanges! !

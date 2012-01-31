@@ -1,5 +1,0 @@
-
-!OBMercuryPanel methodsFor: 'callbacks' stamp: 'lr 3/13/2010 13:13'!
-accept: aText notifying: anObject
-	OBMercuryQuery find: aText asString withBlanksTrimmed for: self.
-	self changed: #text! !

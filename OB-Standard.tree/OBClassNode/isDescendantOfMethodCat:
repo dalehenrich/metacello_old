@@ -1,4 +1,0 @@
-
-!OBClassNode methodsFor: 'ancestry' stamp: 'dr 12/2/2008 18:42'!
-isDescendantOfMethodCat: category
-	^ false! !

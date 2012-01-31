@@ -1,4 +1,0 @@
-
-!OBClassSearchNode methodsFor: 'navigation' stamp: 'lr 11/13/2008 13:44'!
-classes
-	^ ((SystemNavigation default allClasses select: [ :ea | self classSatisfiesQuery: ea ]) collect: [ :ea | OBClassNode on: ea ]) asArray! !

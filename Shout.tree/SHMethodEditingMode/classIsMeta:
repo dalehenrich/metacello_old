@@ -1,9 +1,0 @@
-
-!SHMethodEditingMode methodsFor: 'accessing' stamp: 'AlainPlantec 9/20/2011 10:00'!
-classIsMeta: aBoolean
-	classIsMeta := aBoolean.
-	self selector: nil.
-	self changed: #selector.
-	self changed: #classIsMeta.
-	self code: ''.
-! !

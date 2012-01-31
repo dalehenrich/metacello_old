@@ -1,4 +1,0 @@
-
-!OBCmdBrowseImplementors methodsFor: 'accessing' stamp: 'dc 8/26/2008 17:50'!
-longDescription
-  ^ 'browse implementors of...'! !

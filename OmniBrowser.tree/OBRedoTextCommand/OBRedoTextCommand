@@ -1,6 +1,0 @@
-
-OBCommand subclass: #OBRedoTextCommand
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Commands'!

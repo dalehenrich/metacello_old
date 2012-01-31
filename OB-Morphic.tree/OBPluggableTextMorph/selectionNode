@@ -1,4 +1,0 @@
-
-!OBPluggableTextMorph methodsFor: 'accessing' stamp: 'lr 12/10/2010 09:40'!
-selectionNode
-	^ (OBTextMorphSelection on: self selectionInterval inText: self text) setMorph: self! !

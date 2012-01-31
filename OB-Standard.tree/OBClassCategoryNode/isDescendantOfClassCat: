@@ -1,4 +1,0 @@
-
-!OBClassCategoryNode methodsFor: 'ancestry' stamp: ''!
-isDescendantOfClassCat: other
-	^ other name = name! !

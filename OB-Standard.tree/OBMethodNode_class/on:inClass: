@@ -1,4 +1,0 @@
-
-!OBMethodNode class methodsFor: 'instance creation' stamp: 'dr 1/9/2008 14:18'!
-on: aSelector inClass: aClassReference
-	^ self new setSelector: aSelector class: aClassReference! !

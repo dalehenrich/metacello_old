@@ -1,4 +1,0 @@
-
-!OBCodeNode class methodsFor: 'instance creation' stamp: 'PDC 6/26/2007 21:40'!
-on: anObject
-	self subclassResponsibility ! !

@@ -1,4 +1,0 @@
-
-!OBImplementorsBrowser class methodsFor: 'configuration' stamp: 'avi 9/17/2005 01:36'!
-title
-	^ 'Implementors of'! !

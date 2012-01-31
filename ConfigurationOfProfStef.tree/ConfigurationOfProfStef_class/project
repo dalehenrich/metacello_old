@@ -1,5 +1,0 @@
-
-!ConfigurationOfProfStef class methodsFor: 'accessing' stamp: 'LaurentLaffont 1/21/2010 09:01'!
-project
-
-	^self new project! !

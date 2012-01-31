@@ -1,5 +1,0 @@
-
-!OBPaneScroller methodsFor: 'scrolling' stamp: 'cwp 2/8/2004 11:10'!
-hideScrollBar
-	self removeMorph: scrollBar.
-	self adjustPaneHeight.! !

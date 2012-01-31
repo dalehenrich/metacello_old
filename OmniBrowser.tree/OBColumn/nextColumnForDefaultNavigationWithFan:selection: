@@ -1,7 +1,0 @@
-
-!OBColumn methodsFor: 'column' stamp: 'jk 3/28/2008 12:51'!
-nextColumnForDefaultNavigationWithFan: anOBFan selection: aSmallInteger 
-	| column |
-	column := self next.
-	column fan: anOBFan selection: aSmallInteger.
-	^ column! !

@@ -1,4 +1,0 @@
-
-!OBSenderSearchNode methodsFor: 'display' stamp: 'cb 7/17/2007 11:53'!
-name
-	^ (super name copyWithFirst: $#) , ' (senders)'! !

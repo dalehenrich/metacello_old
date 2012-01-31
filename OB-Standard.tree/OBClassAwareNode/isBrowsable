@@ -1,4 +1,0 @@
-
-!OBClassAwareNode methodsFor: 'testing' stamp: 'lr 3/13/2010 12:09'!
-isBrowsable
-	^ true! !

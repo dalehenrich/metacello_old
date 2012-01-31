@@ -1,4 +1,0 @@
-
-!OBCmdAutoCategorize methodsFor: 'accessing' stamp: 'cwp 10/9/2006 15:07'!
-group
-	^ #category! !

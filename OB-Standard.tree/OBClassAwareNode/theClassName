@@ -1,4 +1,0 @@
-
-!OBClassAwareNode methodsFor: 'accessing' stamp: ''!
-theClassName
-	^ self theClass name! !

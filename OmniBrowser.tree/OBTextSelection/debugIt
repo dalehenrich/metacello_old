@@ -1,6 +1,0 @@
-
-!OBTextSelection methodsFor: 'commands' stamp: 'lr 8/27/2011 10:03'!
-debugIt
-	"Debugs the current selection."
-	
-	self subclassResponsibility! !

@@ -1,4 +1,0 @@
-
-!OBCompletionRequest methodsFor: 'accessing' stamp: 'lr 9/22/2010 20:04'!
-default
-	^ default! !

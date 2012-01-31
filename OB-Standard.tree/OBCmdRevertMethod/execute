@@ -1,4 +1,0 @@
-
-!OBCmdRevertMethod methodsFor: 'execution' stamp: 'lr 3/12/2010 10:32'!
-execute
-	target version fileIn: target theClass! !

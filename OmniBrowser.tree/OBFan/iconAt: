@@ -1,4 +1,0 @@
-
-!OBFan methodsFor: 'accessing' stamp: 'dr 9/17/2008 11:21'!
-iconAt: index
-	^ (self children at: index ifAbsent: [^nil]) icon! !

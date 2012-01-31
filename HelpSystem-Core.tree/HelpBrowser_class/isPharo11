@@ -1,6 +1,0 @@
-
-!HelpBrowser class methodsFor: 'private' stamp: 'tbn 3/29/2010 12:32'!
-isPharo11
-	"Return true if we are in Pharo 1.1."
-	
-	^(SystemVersion current version includesSubString: '1.1')! !

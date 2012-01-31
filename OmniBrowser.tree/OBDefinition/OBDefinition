@@ -1,9 +1,0 @@
-
-Object subclass: #OBDefinition
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Utilities'!
-
-!OBDefinition commentStamp: 'cwp 1/7/2005 23:38' prior: 0!
-The responsibility of a definition is to express a node's composition textually and respond to changes in the text by updating the node it represents. For example,a file browser might use a file definition to allow editing of a files contents.!

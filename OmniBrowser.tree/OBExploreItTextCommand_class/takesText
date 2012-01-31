@@ -1,4 +1,0 @@
-
-!OBExploreItTextCommand class methodsFor: 'testing' stamp: 'lr 3/6/2011 15:08'!
-takesText
-	^ true! !

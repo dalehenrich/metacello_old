@@ -1,5 +1,0 @@
-
-!OBImplementorSearchNode methodsFor: 'display' stamp: 'dr 10/22/2008 09:15'!
-name
-	^super name, ' (implementors)'
-	! !

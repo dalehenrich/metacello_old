@@ -1,5 +1,0 @@
-
-!OBBrowser methodsFor: 'initializing' stamp: 'lr 8/19/2009 22:42'!
-setMetaNode: aMetaNode node: aNode 
-	self navigationPanel setMetaNode: aMetaNode node: aNode.
-	self initializeCommands; subscribe! !

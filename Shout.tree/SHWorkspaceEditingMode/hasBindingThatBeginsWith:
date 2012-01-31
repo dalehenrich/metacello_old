@@ -1,5 +1,0 @@
-
-!SHWorkspaceEditingMode methodsFor: 'bindings' stamp: 'AlainPlantec 9/4/2011 10:31'!
-hasBindingThatBeginsWith: aString
-	^ self bindings anySatisfy: [:s | s beginsWith: aString]
-! !

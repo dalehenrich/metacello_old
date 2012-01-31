@@ -1,4 +1,0 @@
-
-!OBCategoryCommand methodsFor: 'accessing' stamp: 'avi 5/30/2007 23:07'!
-group
-	^ #category! !

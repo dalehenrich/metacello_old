@@ -1,4 +1,0 @@
-
-!OBMethodVersionNode methodsFor: 'accessing' stamp: 'cwp 10/11/2006 20:55'!
-selector
-	^ version selector! !

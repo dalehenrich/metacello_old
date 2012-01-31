@@ -1,4 +1,0 @@
-
-!OBTextRequest methodsFor: 'accessing' stamp: 'cwp 2/2/2004 21:00'!
-template
-	^ template! !

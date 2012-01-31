@@ -1,4 +1,0 @@
-
-!SHParserST80 methodsFor: 'scan' stamp: ''!
-skipBigDigits: baseInteger 
-	[self isBigDigit: self nextChar base: baseInteger] whileTrue! !

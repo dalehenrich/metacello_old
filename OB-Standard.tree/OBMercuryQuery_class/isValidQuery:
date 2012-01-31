@@ -1,4 +1,0 @@
-
-!OBMercuryQuery class methodsFor: 'configuration' stamp: 'lr 3/13/2010 13:11'!
-isValidQuery: aString
-	^ false! !

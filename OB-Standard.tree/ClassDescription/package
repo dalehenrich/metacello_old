@@ -1,4 +1,0 @@
-
-!ClassDescription methodsFor: '*ob-standard' stamp: 'lr 3/4/2009 22:06'!
-package
-   	^ PackageOrganizer default packageOfClass: self ifNone: [ nil ]! !

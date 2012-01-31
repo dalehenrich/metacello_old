@@ -1,6 +1,0 @@
-
-!GoferResolvedReference methodsFor: 'accessing' stamp: 'lr 12/11/2009 22:33'!
-repository
-	"Answer the repository of the receiver."
-	
-	^ repository! !

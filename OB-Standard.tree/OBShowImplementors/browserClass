@@ -1,4 +1,0 @@
-
-!OBShowImplementors methodsFor: 'accessing' stamp: 'cwp 8/26/2007 00:34'!
-browserClass
-	^ OBImplementorsBrowser! !

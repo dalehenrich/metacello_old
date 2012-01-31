@@ -1,6 +1,0 @@
-
-!GoferCleanup methodsFor: 'cleaning' stamp: 'dkh 10/12/2009 12:59'!
-cleanupCategories: aWorkingCopy
-	aWorkingCopy packageInfo systemCategories do: [ :category |
-		(SystemOrganization goferClassesInCategory: category) isEmpty
-			ifTrue: [ SystemOrganization removeSystemCategory: category ] ]! !

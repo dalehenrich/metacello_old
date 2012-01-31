@@ -1,6 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'accessing' stamp: 'lr 3/4/2009 09:29'!
-getDefinition
-	| node |
-	^ (node := browser currentNode) isNil
-		ifFalse: [ node definition ]! !

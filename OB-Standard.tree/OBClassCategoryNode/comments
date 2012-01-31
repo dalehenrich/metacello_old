@@ -1,4 +1,0 @@
-
-!OBClassCategoryNode methodsFor: 'navigating' stamp: 'dvf 8/17/2005 17:25'!
-comments
-	^ self classNames collect: [:ea | (environment at: ea) asCommentNode ]! !

@@ -1,4 +1,0 @@
-
-!OBCmdBrowseSendersOfIt methodsFor: 'testing' stamp: 'cwp 10/14/2006 21:06'!
-isActive
-	^ true! !

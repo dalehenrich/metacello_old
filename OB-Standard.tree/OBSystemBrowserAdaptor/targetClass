@@ -1,4 +1,0 @@
-
-!OBSystemBrowserAdaptor methodsFor: 'accessing' stamp: 'dr 4/24/2007 18:05'!
-targetClass
-	^class! !

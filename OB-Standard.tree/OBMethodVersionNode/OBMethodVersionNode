@@ -1,9 +1,0 @@
-
-OBMethodNode subclass: #OBMethodVersionNode
-	instanceVariableNames: 'version'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Nodes'!
-
-!OBMethodVersionNode commentStamp: 'cwp 1/8/2005 12:41' prior: 0!
-OBMethodVersions refer to OBMethodVersions, and are used by the VersionBrowser.!

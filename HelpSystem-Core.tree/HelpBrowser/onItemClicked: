@@ -1,5 +1,0 @@
-
-!HelpBrowser methodsFor: 'events' stamp: 'tbn 3/8/2010 15:17'!
-onItemClicked: anItem
-	anItem isNil ifTrue: [^contentMorph setText: rootTopic contents].
-	contentMorph setText: anItem contents! !

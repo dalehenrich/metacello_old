@@ -1,4 +1,0 @@
-
-!OBTextMorphSelection methodsFor: 'initialization' stamp: 'lr 12/10/2010 09:38'!
-setMorph: aMorph
-	morph := aMorph! !

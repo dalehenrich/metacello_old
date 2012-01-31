@@ -1,5 +1,0 @@
-
-!OBCodeBrowser class methodsFor: 'initialization' stamp: 'lr 8/15/2010 15:31'!
-initialize
-	self mercuryPanelEnabled: false.
-	self chasingBrowsersEnabled: true! !

@@ -1,4 +1,0 @@
-
-!OBFilter methodsFor: 'callbacks' stamp: 'dr 3/23/2009 15:39'!
-longDescriptionsForNode: aNode
-	^#()! !

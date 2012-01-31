@@ -1,4 +1,0 @@
-
-!OBClassNode methodsFor: 'displaying' stamp: 'dr 9/15/2008 17:13'!
-name
-	^ self theClass name! !

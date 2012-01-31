@@ -1,4 +1,0 @@
-
-!OBAnnotationPanel methodsFor: 'building' stamp: 'lr 5/2/2007 17:19'!
-vResizing
-	^ #rigid! !

@@ -1,4 +1,0 @@
-
-!OBMetaclassNode methodsFor: 'displaying' stamp: 'cwp 12/13/2004 00:56'!
-name 
-	^ self nonMetaName! !

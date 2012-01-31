@@ -1,4 +1,0 @@
-
-!OBClassNode methodsFor: 'nodes' stamp: 'dr 7/4/2008 16:49'!
-categoryNodeNamed: aString 
-	^ OBMethodCategoryNode on: aString inClass: theClass! !

@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'displaying' stamp: 'cwp 12/8/2004 21:08'!
-fullName
-	^ self theClassName, '>>', selector! !

@@ -1,4 +1,0 @@
-
-!OBMessageNode methodsFor: 'accessing' stamp: 'lr 8/2/2010 16:00'!
-unifySelectors
-	selector := message! !

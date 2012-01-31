@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'callbacks' stamp: 'dr 12/3/2008 15:57'!
-okToChange
-	^ (self announcer announce: OBAboutToChange) isVetoed not! !

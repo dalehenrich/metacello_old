@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'callbacks' stamp: 'dr 10/20/2008 14:57'!
-listSize
-	^ self listHolder listSize! !

@@ -1,4 +1,0 @@
-
-!OBNode methodsFor: 'ancestry' stamp: 'cwp 3/3/2004 00:44'!
-isDescendantOf: aNode
-	^ false! !

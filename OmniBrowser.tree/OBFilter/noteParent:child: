@@ -1,3 +1,0 @@
-
-!OBFilter methodsFor: 'filtering' stamp: 'cwp 5/8/2007 00:10'!
-noteParent: pNode child: cNode! !

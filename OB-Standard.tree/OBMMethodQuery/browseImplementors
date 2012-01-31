@@ -1,6 +1,0 @@
-
-!OBMMethodQuery methodsFor: 'private' stamp: 'cwp 9/1/2007 00:26'!
-browseImplementors
-	| node |
-	node := OBSelectorNode on: pattern asSymbol.
-	(browser announce: (OBShowImplementors of: node)) execute! !

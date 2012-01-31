@@ -1,6 +1,0 @@
-
-!GoferSynchronize methodsFor: 'initialization' stamp: 'TestRunner 12/13/2009 19:54'!
-initializeOn: aGofer
-	super initializeOn: aGofer disablePackageCache.
-	MCFileBasedRepository flushAllCaches.
-	cacheReferences := self gofer allResolvedIn: self cacheRepository! !

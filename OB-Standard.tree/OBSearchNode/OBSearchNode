@@ -1,6 +1,0 @@
-
-OBCodeNode subclass: #OBSearchNode
-	instanceVariableNames: 'query'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Nodes'!

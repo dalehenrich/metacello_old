@@ -1,4 +1,0 @@
-
-!OBClassAwareNode methodsFor: 'accessing' stamp: ''!
-theNonMetaClass
-	^ self theClass theNonMetaClass! !
