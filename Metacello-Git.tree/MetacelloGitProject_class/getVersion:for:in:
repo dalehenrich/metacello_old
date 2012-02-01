@@ -1,0 +1,8 @@
+
+!MetacelloGitProject class methodsFor: 'scripting' stamp: 'dkh 1/31/2012 20:02'!
+getVersion: aVersionString for: aProjectName in: aRepositoryDescription
+	"return the desired version from the named project from the configuration found in the given repository"
+
+	| configurationName repositorySpec repository |
+	configurationName := MetacelloToolBox configurationNameFrom: aProjectName.
+! !

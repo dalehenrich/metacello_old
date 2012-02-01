@@ -1,26 +1,26 @@
 
-!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 16:34'!
+!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 20:05'!
 version: spec
-    <version: 'version' imports: #('baseline')>
-    spec
-        for: #'common'
-        do: [ 
-            spec blessing: #'version'.
-            spec description: '- begin work on Git support and Metacello scripting'.
-            spec
-                project: 'Gofer Core' with: '1.0.5.1';
-                project: 'Gofer Tests' with: '1.0.5.1';
-                project: 'Montigitto' with: 'version' ].
-    spec
-        for: #'gemstone'
-        do: [ 
-            spec
-                project: 'OB' with: #'stable';
-                project: 'Monticello' with: '0.242' ].
-    spec
-        for: #'squeakCommon'
-        do: [ 
-            spec
-                project: 'OB' with: #'stable';
-                project: 'Help System' with: '1.1' ].
-    spec for: #'pharo' do: [ spec project: 'ProfStef' with: #'stable' ]! !
+	<version: 'version' imports: #('baseline')>
+	spec
+		for: #common
+		do: [ 
+			spec blessing: #version.
+			spec description: '- version creation from MC and Git repository (Git repository is versioned while version extracted form config file for MC)'.
+			spec
+				project: 'Gofer Core' with: '1.0.5.1';
+				project: 'Gofer Tests' with: '1.0.5.1';
+				project: 'Montigitto' with: 'version' ].
+	spec
+		for: #gemstone
+		do: [ 
+			spec
+				project: 'OB' with: #stable;
+				project: 'Monticello' with: '0.242' ].
+	spec
+		for: #squeakCommon
+		do: [ 
+			spec
+				project: 'OB' with: #stable;
+				project: 'Help System' with: '1.1' ].
+	spec for: #pharo do: [ spec project: 'ProfStef' with: #stable ]! !

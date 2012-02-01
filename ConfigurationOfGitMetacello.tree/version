@@ -1,8 +1,8 @@
-(name 'ConfigurationOfGitMetacello-dkh.5'
-message '- begin work on Git support and Metacello scripting'
-id '3ff4a4ce-1bb3-4cb0-b411-43e3f6380d3e'
+(name 'ConfigurationOfGitMetacello-dkh.6'
+message '- version creation from MC and Git repository (Git repository is versioned while version extracted form config file for MC)'
+id '193f8308-04cc-4c2b-99c1-f64fcca244d4'
 date '31 January 2012'
-time '5:03:14 pm'
+time '8:06:53 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
