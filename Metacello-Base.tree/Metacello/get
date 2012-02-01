@@ -1,0 +1,5 @@
+
+!Metacello methodsFor: 'actions api' stamp: 'dkh 1/31/2012 20:44'!
+get
+	self addStatement: #get args: #().
+	self execute! !

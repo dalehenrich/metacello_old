@@ -1,8 +1,8 @@
-(name 'Metacello-Git-dkh.2'
-message '- version creation from MC and Git repository (Git repository is versioned while version extracted form config file for MC)'
-id '99070539-f15f-4012-ae92-8b0c57ebac4e'
+(name 'Metacello-Git-dkh.3'
+message '- consider load and get ... (http://groups.google.com/group/metacello/browse_thread/thread/5970d6b4d16ccd50) ... refactor a bit'
+id '21f6c0a3-7704-4e9f-8cd5-75ada2ce275a'
 date '31 January 2012'
-time '8:08:05 pm'
+time '9:03:17 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

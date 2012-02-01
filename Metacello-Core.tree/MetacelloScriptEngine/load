@@ -1,5 +1,5 @@
 
-!MetacelloScriptEngine methodsFor: 'api' stamp: 'dkh 1/31/2012 20:00'!
+!MetacelloScriptEngine methodsFor: 'api' stamp: 'dkh 1/31/2012 20:52'!
 load
 	| version |
-	version := self projectClass getVersion: self versionString for: self projectName in: self repositoryDescription! !
+	version := self projectClass versionFrom: self! !

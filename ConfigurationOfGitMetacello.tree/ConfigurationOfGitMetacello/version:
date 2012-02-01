@@ -1,12 +1,14 @@
 
-!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 20:05'!
+!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 21:01'!
 version: spec
 	<version: 'version' imports: #('baseline')>
 	spec
 		for: #common
 		do: [ 
 			spec blessing: #version.
-			spec description: '- version creation from MC and Git repository (Git repository is versioned while version extracted form config file for MC)'.
+			spec
+				description:
+					'- consider load and get ... (http://groups.google.com/group/metacello/browse_thread/thread/5970d6b4d16ccd50) ... refactor a bit'.
 			spec
 				project: 'Gofer Core' with: '1.0.5.1';
 				project: 'Gofer Tests' with: '1.0.5.1';
