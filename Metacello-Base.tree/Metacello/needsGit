@@ -1,0 +1,6 @@
+
+!Metacello methodsFor: 'accessing' stamp: 'dkh 1/31/2012 16:38'!
+needsGit
+    needsGit
+        ifFalse: [ ^ false ].
+    ^ needsGit! !

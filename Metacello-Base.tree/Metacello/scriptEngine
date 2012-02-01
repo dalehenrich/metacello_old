@@ -1,0 +1,13 @@
+
+!Metacello methodsFor: 'private' stamp: 'dkh 1/31/2012 16:43'!
+scriptEngine
+    ^ (Smalltalk
+        at: #'MetacelloScriptEngine'
+        ifAbsent: [ 
+            MetacelloBaseConfiguration ensureMetacello.
+            self needsGit
+                ifTrue: [ 
+                    | project |
+                    project := (Smalltalk at: #'ConfigurationOfMetacello') project.
+                    project currentVersion load: #('Git') ].
+            Smalltalk at: #'MetacelloScriptEngine' ]) new! !

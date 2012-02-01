@@ -1,0 +1,4 @@
+
+!MetacelloGitProject methodsFor: 'versions' stamp: 'dkh 1/31/2012 16:52'!
+currentVersionAgainst: resolvedPackageAndProjectNames
+    ^ nil! !

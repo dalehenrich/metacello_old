@@ -1,5 +1,5 @@
 
-!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 13:41'!
+!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 16:41'!
 baseline: spec
     <version: 'baseline'>
     spec
@@ -17,6 +17,12 @@ baseline: spec
                                 repository: 'http://www.squeaksource.com/MetacelloRepository';
                                 repository: 'http://seaside.gemstone.com/ss/metacello' ];
                 project: 'Gofer Tests' copyFrom: 'Gofer Core' with: [ spec loads: #('Tests') ];
+                project: 'Montigitto'
+                    with: [ 
+                            spec
+                                className: 'ConfigurationOfMontigitto';
+                                versionString: 'version';
+                                repository: 'git://https://dalehenrich@github.com/dalehenrich/montigitto.git' ];
                 yourself.
             spec
                 package: 'Metacello-Base';
@@ -27,6 +33,7 @@ baseline: spec
                                 requires: 'Metacello-Base';
                                 includes: #('Metacello-MC' 'Metacello-Platform') ];
                 package: 'Metacello-MC' with: [ spec requires: #('Metacello-Core' 'Gofer Core') ];
+                package: 'Metacello-Git' with: [ spec requires: #('Metacello-MC' 'Montigitto') ];
                 package: 'Metacello-Platform' with: [ spec requires: #('Metacello-MC') ];
                 package: 'Metacello-Reference' with: [ spec requires: #('Metacello-MC') ];
                 package: 'Metacello-Tutorial' with: [ spec requires: #('Metacello-Core') ];
@@ -45,6 +52,7 @@ baseline: spec
                 group: 'default' with: #('Metacello-Core' 'Metacello-ToolBox');
                 group: 'Base Configuration' with: #('Metacello-Base');
                 group: 'Core' with: #('default');
+                group: 'Git' with: #('Metacello-Git');
                 group: 'Tutorial' with: #('Metacello-Tutorial' 'Metacello-Reference');
                 group: 'UI' with: #('OB-Metacello');
                 group: 'Tests'

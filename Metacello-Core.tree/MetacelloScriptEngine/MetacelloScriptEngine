@@ -1,0 +1,6 @@
+
+Object subclass: #MetacelloScriptEngine
+	instanceVariableNames: 'root projectName projectClass repositoryDescription versionString'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Metacello-Core-Scripts'!

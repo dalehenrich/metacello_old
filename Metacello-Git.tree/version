@@ -1,8 +1,8 @@
-(name 'Metacello-Core-dkh.478'
+(name 'Metacello-Git-dkh.1'
 message '- begin work on Git support and Metacello scripting'
-id '056c33ad-9920-4d61-8f99-78a5c2c868ab'
+id '4e885b7d-2550-40ff-b62a-4665b1d78f53'
 date '31 January 2012'
-time '5:03:50 pm'
+time '5:04:05 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

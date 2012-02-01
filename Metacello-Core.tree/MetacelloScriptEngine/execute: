@@ -1,0 +1,6 @@
+
+!MetacelloScriptEngine methodsFor: 'actions' stamp: 'dkh 1/31/2012 16:17'!
+execute: statements
+    statements
+        do: [ :assoc | assoc value ifNil: [ self perform: assoc key ] ifNotNil: [ self perform: assoc key withArguments: assoc value ] ].
+    ^ self root! !

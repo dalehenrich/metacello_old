@@ -1,0 +1,4 @@
+
+!Metacello methodsFor: 'api' stamp: 'dkh 1/31/2012 16:46'!
+version: versionString
+    self addStatement: #'version:' args: {versionString}! !

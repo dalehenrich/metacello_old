@@ -1,15 +1,16 @@
 
-!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 13:55'!
+!ConfigurationOfGitMetacello methodsFor: 'versions' stamp: 'dkh 1/31/2012 16:34'!
 version: spec
     <version: 'version' imports: #('baseline')>
     spec
         for: #'common'
         do: [ 
             spec blessing: #'version'.
-            spec description: '- add description ... could be useful'.
+            spec description: '- begin work on Git support and Metacello scripting'.
             spec
                 project: 'Gofer Core' with: '1.0.5.1';
-                project: 'Gofer Tests' with: '1.0.5.1' ].
+                project: 'Gofer Tests' with: '1.0.5.1';
+                project: 'Montigitto' with: 'version' ].
     spec
         for: #'gemstone'
         do: [ 
