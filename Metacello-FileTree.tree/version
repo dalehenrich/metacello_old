@@ -1,8 +1,8 @@
-(name 'Metacello-Git-dkh.4'
+(name 'Metacello-FileTree-dkh.1'
 message '- add new Metacello-FileTree package (dependent on FileTree project)- steal JsonParser from Seaside30- write JSON version of a baseline method spec'
-id '1bc3814c-50ca-4e23-b804-d482c92e0de2'
+id 'fb4cd6dd-5c42-4b88-8ea5-ffc4950f14e0'
 date '3 February 2012'
-time '5:18:31 pm'
+time '5:18:11 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

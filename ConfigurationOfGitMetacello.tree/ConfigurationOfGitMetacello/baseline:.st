@@ -1,0 +1,167 @@
+
+!ConfigurationOfGitMetacello methodsFor: 'versions'!
+baseline: spec
+    <version: 'baseline'>
+    spec
+        for: #'common'
+        do: [ 
+            spec blessing: #'baseline'.
+            spec repository: 'https://github.com/dalehenrich/metacello'.
+            spec
+                project: 'Gofer Core'
+                    with: [ 
+                            spec
+                                className: 'ConfigurationOfGofer';
+                                versionString: '1.0-baseline';
+                                loads: #('Core');
+                                repository: 'http://www.squeaksource.com/MetacelloRepository';
+                                repository: 'http://seaside.gemstone.com/ss/metacello' ];
+                project: 'Gofer Tests' copyFrom: 'Gofer Core' with: [ spec loads: #('Tests') ];
+                project: 'FileTree'
+                    with: [ 
+                            spec
+                                versionString: '1.0';
+                                repository: 'http://ss3.gemstone.com/ss/FileTree' ];
+                yourself.
+            spec
+                package: 'Metacello-Base';
+                package: 'Metacello-ToolBox' with: [ spec requires: #('Metacello-Base' 'Metacello-Core') ];
+                package: 'Metacello-Core'
+                    with: [ 
+                            spec
+                                requires: 'Metacello-Base';
+                                includes: #('Metacello-MC' 'Metacello-Platform') ];
+                package: 'Metacello-MC' with: [ spec requires: #('Metacello-Core' 'Gofer Core') ];
+                package: 'Metacello-FileTree' with: [ spec requires: #('Metacello-MC' 'FileTree') ];
+                package: 'Metacello-Git' with: [ spec requires: #('Metacello-MC' 'Metacello-FileTree') ];
+                package: 'Metacello-Platform' with: [ spec requires: #('Metacello-MC') ];
+                package: 'Metacello-Reference' with: [ spec requires: #('Metacello-MC') ];
+                package: 'Metacello-Tutorial' with: [ spec requires: #('Metacello-Core') ];
+                package: 'Metacello-TestsCore' with: [ spec requires: #('Metacello-Core') ];
+                package: 'Metacello-TestsMC'
+                    with: [ 
+                            spec
+                                postLoadDoIt: #'testsMC10beta25PostLoadDoIt';
+                                requires: #('Metacello-MC' 'Metacello-TestsCore' 'Gofer Tests') ];
+                package: 'Metacello-TestsReference' with: [ spec requires: #('Metacello-Reference') ];
+                package: 'Metacello-TestsTutorial' with: [ spec requires: #('Metacello-Tutorial' 'Metacello-TestsMC') ];
+                package: 'OB-Metacello'
+                    with: [ spec requires: #('Metacello-Platform' 'Metacello-Core' 'Metacello-ToolBox') ];
+                yourself.
+            spec
+                group: 'default' with: #('Metacello-Core' 'Metacello-ToolBox');
+                group: 'Base Configuration' with: #('Metacello-Base');
+                group: 'Core' with: #('default');
+                group: 'Git' with: #('Metacello-Git');
+                group: 'Tutorial' with: #('Metacello-Tutorial' 'Metacello-Reference');
+                group: 'UI' with: #('OB-Metacello');
+                group: 'Tests'
+                    with:
+                        #('default' 'Metacello-TestsCore' 'Metacello-TestsTutorial' 'Metacello-TestsMC' 'Metacello-TestsReference');
+                yourself ].
+    spec
+        for: #'squeakCommon'
+        do: [ 
+            spec
+                project: 'Help System'
+                    with: [ 
+                            spec
+                                className: 'ConfigurationOfHelpSystem';
+                                versionString: '1.0-baseline';
+                                loads: #('Core');
+                                repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+                project: 'OB'
+                    with: [ 
+                            spec
+                                className: 'ConfigurationOfOmniBrowser';
+                                versionString: '1.1-baseline';
+                                loads: #('Core');
+                                repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+                yourself.
+            spec
+                package: 'Metacello-TestsPlatform'
+                    with: [ 
+                            spec
+                                requires: #('Metacello-Platform');
+                                file: 'Metacello-TestsPlatform.squeakCommon' ];
+                package: 'Metacello-Help' with: [ spec requires: 'Help System' ];
+                package: 'OB-Metacello' with: [ spec requires: #('OB') ];
+                yourself.
+            spec
+                group: 'default' with: #('Metacello-Help');
+                group: 'Tests' with: #('Metacello-TestsPlatform');
+                yourself ].
+    spec
+        for: #'pharo'
+        do: [ 
+            spec
+                project: 'ProfStef'
+                    with: [ 
+                            spec
+                                className: 'ConfigurationOfProfStef';
+                                versionString: '1.0-baseline';
+                                repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+                yourself.
+            spec
+                package: 'Metacello-ProfStef'
+                    with: [ spec requires: #('Metacello-Core' 'ProfStef' 'Metacello-ToolBox') ];
+                package: 'Metacello-TestsProfStef' with: [ spec requires: #('Metacello-ProfStef') ];
+                package: 'Metacello-Platform' with: 'Metacello-Platform.pharo';
+                yourself.
+            spec
+                group: 'Tests' with: #('Metacello-TestsProfStef');
+                group: 'Tutorial' with: #('Metacello-ProfStef');
+                yourself ].
+    spec
+        for: #'pharo1.2.x'
+        do: [ 
+            spec
+                package: 'Metacello-TestsMC' with: [ spec includes: #('Metacello-Issue3758') ];
+                package: 'Metacello-Issue3758' with: [ spec requires: #('Metacello-TestsMC') ];
+                yourself ].
+    spec
+        for: #'pharo1.3.x'
+        do: [ 
+            spec
+                package: 'Metacello-TestsMC' with: [ spec includes: #('Metacello-Issue3758') ];
+                package: 'Metacello-Issue3758' with: [ spec requires: #('Metacello-TestsMC') ];
+                yourself ].
+    spec
+        for: #'squeak'
+        do: [ 
+            spec
+                package: 'Metacello-Platform' with: 'Metacello-Platform.squeak';
+                yourself ].
+    spec
+        for: #'gemstone'
+        do: [ 
+            spec
+                project: 'Monticello'
+                    with: [ 
+                            spec
+                                className: 'ConfigurationOfGsMonticello';
+                                repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+                project: 'OB'
+                    with: [ 
+                            spec
+                                className: 'ConfigurationOfGsOB';
+                                repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+                yourself.
+            spec
+                package: 'Metacello-MC' with: [ spec preLoadDoIt: #'gemstone10beta24PreLoadDoIt' ];
+                package: 'Metacello-Platform'
+                    with: [ 
+                            spec
+                                file: 'Metacello-Platform.gemstone';
+                                postLoadDoIt: #'gemstone10beta311PostLoadDoIt';
+                                requires: 'Monticello' ];
+                package: 'Metacello-TestsPlatform'
+                    with: [ 
+                            spec
+                                requires: #('Metacello-Platform');
+                                file: 'Metacello-TestsPlatform.gemstone' ];
+                package: 'OB-Metacello' with: [ spec requires: #('OB') ];
+                yourself.
+            spec
+                group: 'Tests' with: #('Metacello-TestsPlatform');
+                yourself ]! !

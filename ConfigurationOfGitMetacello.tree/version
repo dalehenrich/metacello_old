@@ -1,8 +1,8 @@
-(name 'ConfigurationOfGitMetacello-dkh.7'
-message '- consider load and get ... (http://groups.google.com/group/metacello/browse_thread/thread/5970d6b4d16ccd50) ... refactor a bit'
-id 'd306fd86-c46f-4bf4-9f71-4792d9d63632'
-date '31 January 2012'
-time '9:02:20 pm'
+(name 'ConfigurationOfGitMetacello-dkh.8'
+message '- add new Metacello-FileTree package (dependent on FileTree project)- steal JsonParser from Seaside30- write JSON version of a baseline method spec'
+id '4bb8b8b4-5e01-4b9f-8e8c-22e0ac32dc40'
+date '3 February 2012'
+time '5:19:16 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
