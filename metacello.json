@@ -1,0 +1,178 @@
+[
+	{"baseline" : [
+		{"common" : 
+			[
+			{"project" : {
+				"name" : "Gofer Core",
+				"version" : "1.0.5.1",
+				"load" : ["Core"],
+				"repository" : "http://www.squeaksource.com/MetacelloRepository",
+				"repository" : "http://seaside.gemstone.com/ss/metacello"}},
+			{"project" : {
+				"name" : "Gofer Tests",
+				"copyFrom" : "Gofer Core",
+				"load" : ["Tests"]}},
+			{"package" : {
+				"name" : "Metacello-Base"}},
+			{"package" : {
+				"name" : "Metacello-ToolBox",
+				"requires" : ["Metacello-Base", "Metacello-Core"]}},
+			{"package" : {
+				"name" : "Metacello-Core",
+				"requires" : ["Metacello-Base"],
+				"includes" : ["Metacello-MC", "Metacello-Platform"]}},
+			{"package" : {
+				"name" : "Metacello-MC",
+				"requires" : ["Metacello-Core", "Gofer Core"]}},
+			{"package" : {
+				"name" : "Metacello-FileTree",
+				"requires" : ["Metacello-MC"]}},
+			{"package" : {
+				"name" : "Metacello-Git",
+				"requires" : ["Metacello-MC", "Metacello-FileTree"]}},
+			{"package" : {
+				"name" : "Metacello-Platform",
+				"requires" : ["Metacello-MC"]}},
+			{"package" : {
+				"name" : "Metacello-Reference",
+				"requires" : ["Metacello-MC"]}},
+			{"package" : {
+				"name" : "Metacello-Tutorial",
+				"requires" : ["Metacello-Core"]}},
+			{"package" : {
+				"name" : "Metacello-TestsCore",
+				"requires" : ["Metacello-Core"]}},
+			{"package" : {
+				"name" : "Metacello-TestsMC",
+				"requires" : ["Metacello-MC", "Metacello-TestsCore", "Gofer Tests"],
+				"postLoadDoIt" : "testsMC10beta25PostLoadDoIt"}},
+			{"package" : {
+				"name" : "Metacello-TestsReference",
+				"requires" : ["Metacello-Reference"]}},
+			{"package" : {
+				"name" : "Metacello-TestsTutorial",
+				"requires" : ["Metacello-Tutorial", "Metacello-TestsMC"]}},
+			{"package" : {
+				"name" : "OB-Metacello",
+				"requires" : ["Metacello-Platform", "Metacello-Core", "Metacello-ToolBox"]}},
+			{"group" : {
+				"name" : "default",
+				"includes" : ["Metacello-Core", "Metacello-ToolBox"]}},
+			{"group" : {
+				"name" : "Base Configuration",
+				"includes" : ["Metacello-Base"]}},
+			{"group" : {
+				"name" : "Core",
+				"includes" : ["default"]}},
+			{"group" : {
+				"name" : "Git",
+				"includes" : ["Metacello-Git"]}},
+			{"group" : {
+				"name" : "Tutorial",
+				"includes" : ["Metacello-Tutorial", "Metacello-Reference"]}},
+			{"group" : {
+				"name" : "UI",
+				"includes" : ["OB-Metacello"]}},
+			{"group" : {
+				"name" : "Tests",
+				"includes" : ["default", "Metacello-TestsCore", "Metacello-TestsTutorial", "Metacello-TestsMC", "Metacello-TestsReference"]}}]},
+		{"squeakCommon" : 
+			[
+			{"project" : {
+				"name" : "Help System",
+				"version" : "1.1",
+				"load" : ["Core"],
+				"repository" : "http://www.squeaksource.com/MetacelloRepository"}},
+			{"project" : {
+				"name" : "OB",
+				"version" : "#stable",
+				"load" : ["Core"],
+				"repository" : "http://www.squeaksource.com/MetacelloRepository"}},
+			{"package" : {
+				"name" : "Metacello-TestsPlatform",
+				"file" : "Metacello-TestsPlatform.squeakCommon",
+				"requires" : ["Metacello-Platform"]}},
+			{"package" : {
+				"name" : "Metacello-Help",
+				"requires" : ["Help System"]}},
+			{"package" : {
+				"name" : "OB-Metacello",
+				"requires" : ["OB"]}},
+			{"group" : {
+				"name" : "default",
+				"includes" : ["Metacello-Help"]}},
+			{"group" : {
+				"name" : "Tests",
+				"includes" : ["Metacello-TestsPlatform"]}}]},
+		{"pharo" : 
+			[
+			{"project" : {
+				"name" : "ProfStef",
+				"version" : "#stable",
+				"repository" : "http://www.squeaksource.com/MetacelloRepository"}},
+			{"package" : {
+				"name" : "Metacello-ProfStef",
+				"requires" : ["Metacello-Core", "ProfStef", "Metacello-ToolBox"]}},
+			{"package" : {
+				"name" : "Metacello-TestsProfStef",
+				"requires" : ["Metacello-ProfStef"]}},
+			{"package" : {
+				"name" : "Metacello-Platform",
+				"file" : "Metacello-Platform.pharo"}},
+			{"group" : {
+				"name" : "Tests",
+				"includes" : ["Metacello-TestsProfStef"]}},
+			{"group" : {
+				"name" : "Tutorial",
+				"includes" : ["Metacello-ProfStef"]}}]},
+		{"pharo1.2.x" : 
+			[
+			{"package" : {
+				"name" : "Metacello-TestsMC",
+				"includes" : ["Metacello-Issue3758"]}},
+			{"package" : {
+				"name" : "Metacello-Issue3758",
+				"requires" : ["Metacello-TestsMC"]}}]},
+		{"pharo1.3.x" : 
+			[
+			{"package" : {
+				"name" : "Metacello-TestsMC",
+				"includes" : ["Metacello-Issue3758"]}},
+			{"package" : {
+				"name" : "Metacello-Issue3758",
+				"requires" : ["Metacello-TestsMC"]}}]},
+		{"squeak" : 
+			[
+			{"package" : {
+				"name" : "Metacello-Platform",
+				"file" : "Metacello-Platform.squeak"}}]},
+		{"gemstone" : 
+			[
+			{"project" : {
+				"name" : "Monticello",
+                "version" : "0.242",
+				"repository" : "http://seaside.gemstone.com/ss/MetacelloRepository"}},
+			{"project" : {
+				"name" : "OB",
+                "version" : "#stable",
+				"repository" : "http://seaside.gemstone.com/ss/MetacelloRepository"}},
+			{"package" : {
+				"name" : "Metacello-MC",
+				"preLoadDoIt" : "gemstone10beta24PreLoadDoIt"}},
+			{"package" : {
+				"name" : "Metacello-Platform",
+				"file" : "Metacello-Platform.gemstone",
+				"requires" : ["Monticello"],
+				"postLoadDoIt" : "gemstone10beta311PostLoadDoIt"}},
+			{"package" : {
+				"name" : "Metacello-TestsPlatform",
+				"file" : "Metacello-TestsPlatform.gemstone",
+				"requires" : ["Metacello-Platform"]}},
+			{"package" : {
+				"name" : "OB-Metacello",
+				"requires" : ["OB"]}},
+			{"group" : {
+				"name" : "Tests",
+				"includes" : ["Metacello-TestsPlatform"]}}]}
+	]}
+]
