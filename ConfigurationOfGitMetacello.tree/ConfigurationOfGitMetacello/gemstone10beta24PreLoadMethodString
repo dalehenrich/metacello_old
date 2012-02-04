@@ -1,7 +1,0 @@
-
-!ConfigurationOfGitMetacello methodsFor: 'doits' stamp: 'dkh 1/30/2012 17:07'!
-gemstone10beta24PreLoadMethodString
-
-	^'addVersion: aVersion
-
-	model addVersion: version'! !

@@ -1,5 +1,0 @@
-
-!ConfigurationOfGitMetacello class methodsFor: 'metacello tool support' stamp: 'dkh 1/30/2012 17:07'!
-isMetacelloConfig
-
-	^true! !

@@ -1,4 +1,0 @@
-
-!MetacelloScriptEngine methodsFor: '*metacello-git-api' stamp: 'dkh 1/31/2012 16:43'!
-git: projectName
-    self root: MetacelloGitProject new! !

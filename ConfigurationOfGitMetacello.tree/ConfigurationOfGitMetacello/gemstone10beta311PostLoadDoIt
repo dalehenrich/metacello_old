@@ -1,4 +1,0 @@
-
-!ConfigurationOfGitMetacello methodsFor: 'doits' stamp: 'dkh 1/30/2012 17:07'!
-gemstone10beta311PostLoadDoIt
-	(Smalltalk at: #MetacelloGemStonePlatform) initialize! !

@@ -1,8 +1,0 @@
-
-!ConfigurationOfGitMetacello class methodsFor: 'loading' stamp: 'dkh 1/30/2012 17:07'!
-load
-	"Load a minimum installation of Metacello"
-
-	"self load"
-
-	^ self project latestVersion load! !
