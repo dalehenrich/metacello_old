@@ -150,11 +150,11 @@
 			[
 			{"project" : {
 				"name" : "Monticello",
-                "version" : "0.242",
+				"version" : "0.242",
 				"repository" : "http://seaside.gemstone.com/ss/MetacelloRepository"}},
 			{"project" : {
 				"name" : "OB",
-                "version" : "#stable",
+				"version" : "#stable",
 				"repository" : "http://seaside.gemstone.com/ss/MetacelloRepository"}},
 			{"package" : {
 				"name" : "Metacello-MC",
