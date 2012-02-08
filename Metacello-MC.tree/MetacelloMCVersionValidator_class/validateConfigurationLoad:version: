@@ -1,5 +1,0 @@
-
-!MetacelloMCVersionValidator class methodsFor: 'instance creation' stamp: 'DaleHenrichs 12/7/2010 02:48'!
-validateConfigurationLoad: configurationClass version: versionString
-	^self validateConfigurationLoad: configurationClass version: versionString loads: #()
-! !

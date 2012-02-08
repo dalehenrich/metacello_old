@@ -1,7 +1,0 @@
-
-!MetacelloSpecLoader class methodsFor: 'instance creation' stamp: 'dkh 04/23/2009 11:24'!
-on: aMetacelloPackagesSpec
-
-	^(self new) 
-		spec: aMetacelloPackagesSpec;
-		yourself! !

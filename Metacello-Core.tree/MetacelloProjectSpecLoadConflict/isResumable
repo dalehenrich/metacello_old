@@ -1,6 +1,0 @@
-
-!MetacelloProjectSpecLoadConflict methodsFor: 'private' stamp: 'DaleHenrichs 2/5/2010 16:16'!
-isResumable
-	"Determine whether an exception is resumable."
-
-	^ true! !

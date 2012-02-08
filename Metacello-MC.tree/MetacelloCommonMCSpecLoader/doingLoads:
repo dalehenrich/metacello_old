@@ -1,6 +1,0 @@
-
-!MetacelloCommonMCSpecLoader methodsFor: 'actions' stamp: 'TestRunner 10/23/2009 11:33'!
-doingLoads: aBlock
-	"escape mechanism for recording and null loaders to skip doing loaderlike things"
-	
-	aBlock value! !

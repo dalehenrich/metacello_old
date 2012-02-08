@@ -1,8 +1,0 @@
-
-!MetacelloBaseConfiguration methodsFor: 'defaults' stamp: 'DaleHenrichs 1/7/2011 16:24'!
-defaultBleedingEdgeVersion
-	| bleedingEdgeVersion |
-	bleedingEdgeVersion := (self project map values select: [ :version | version blessing == #baseline ])
-		detectMax: [ :version | version ].
-	bleedingEdgeVersion ifNil: [ ^#'notDefined' ].
-	^ bleedingEdgeVersion versionString! !

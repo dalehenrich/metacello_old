@@ -1,6 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'accessing' stamp: 'dkh 1/6/2010 17:58'!
-info
-	"test compatibility method"
-
-	^self! !

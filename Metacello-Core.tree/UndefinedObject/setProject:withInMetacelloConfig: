@@ -1,5 +1,0 @@
-
-!UndefinedObject methodsFor: '*metacello-core' stamp: 'dkh 12/11/2009 13:29'!
-setProject: aString withInMetacelloConfig: aMetacelloConfig
-
-	aMetacelloConfig setProject: aString withString: self! !

@@ -1,6 +1,0 @@
-
-!MetacelloVersionValidator methodsFor: 'accessing' stamp: 'DaleHenrichs 11/24/2010 08:59'!
-debug
-
-	debug == nil ifTrue: [ debug := #() ].
-	^ debug! !

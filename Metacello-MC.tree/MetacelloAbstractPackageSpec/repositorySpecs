@@ -1,5 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: '*metacello-mc' stamp: 'dkh 08/03/2009 12:40'!
-repositorySpecs
-
-	^#()! !

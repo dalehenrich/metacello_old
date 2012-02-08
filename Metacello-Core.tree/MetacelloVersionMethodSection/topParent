@@ -1,6 +1,0 @@
-
-!MetacelloVersionMethodSection methodsFor: 'accessing' stamp: 'DaleHenrichs 12/23/2010 11:19'!
-topParent
-	self parent == nil
-		ifTrue: [ ^ self ].
-	^ self parent topParent! !

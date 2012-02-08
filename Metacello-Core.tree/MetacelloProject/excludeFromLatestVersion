@@ -1,5 +1,0 @@
-
-!MetacelloProject methodsFor: 'private' stamp: 'dkh 10/7/2009 10:05'!
-excludeFromLatestVersion
-
-	^#(development broken baseline)! !

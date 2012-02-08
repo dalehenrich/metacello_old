@@ -1,5 +1,0 @@
-
-!MetacelloVersion methodsFor: 'querying' stamp: 'dkh 6/8/2009 16:03'!
-project
-
-	^self spec project! !

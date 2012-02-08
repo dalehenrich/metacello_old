@@ -1,5 +1,0 @@
-
-!MetacelloMCVersion methodsFor: 'accessing' stamp: 'DaleHenrichs 3/7/2010 08:11'!
-repositoryOverrides: repositoriesCollection 
-
-	self loaderPolicy overrideRepositories: repositoriesCollection! !

@@ -1,5 +1,0 @@
-
-!MetacelloMemberListSpec methodsFor: 'actions' stamp: 'dkh 10/4/2009 11:23'!
-merge: aSpec
-
-	self subclassResponsibility! !

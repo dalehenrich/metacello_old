@@ -1,4 +1,0 @@
-
-!MetacelloMCProjectSpec methodsFor: 'accessing' stamp: 'dkh 1/26/2012 16:33'!
-projectPackage: aProjectPackage
-    projectPackage := aProjectPackage! !

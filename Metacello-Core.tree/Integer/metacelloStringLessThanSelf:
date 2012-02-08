@@ -1,6 +1,0 @@
-
-!Integer methodsFor: '*metacello-core' stamp: 'dkh 8/13/2009 12:04'!
-metacelloStringLessThanSelf: aString
-	"string version components are always '<' integer component"
-	
-	^true! !

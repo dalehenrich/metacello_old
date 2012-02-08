@@ -1,5 +1,0 @@
-
-!MetacelloVersionSpec methodsFor: 'querying' stamp: 'dkh 12/30/2009 13:15'!
-preLoadDoIt
-
-	^preLoadDoIt! !

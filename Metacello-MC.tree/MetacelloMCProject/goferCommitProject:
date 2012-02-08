@@ -1,7 +1,0 @@
-
-!MetacelloMCProject methodsFor: 'development support' stamp: 'DaleHenrichs 3/15/2010 11:37'!
-goferCommitProject: commitMessage
-
-	| pkgSpec |
-	(pkgSpec := self projectPackage) == nil ifTrue: [ ^false ].
-	^pkgSpec goferCommitPackage: commitMessage! !

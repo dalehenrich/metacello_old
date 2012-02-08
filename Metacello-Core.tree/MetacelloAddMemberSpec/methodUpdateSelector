@@ -1,5 +1,0 @@
-
-!MetacelloAddMemberSpec methodsFor: 'accessing' stamp: 'dkh 10/9/2009 11:43'!
-methodUpdateSelector
-
-	^#overrides:! !

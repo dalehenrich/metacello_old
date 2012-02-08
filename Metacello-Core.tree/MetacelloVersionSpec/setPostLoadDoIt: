@@ -1,5 +1,0 @@
-
-!MetacelloVersionSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 12/21/2010 11:37'!
-setPostLoadDoIt: aSymbol
-
-	postLoadDoIt := aSymbol! !

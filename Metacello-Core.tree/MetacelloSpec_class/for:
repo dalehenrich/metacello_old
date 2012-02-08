@@ -1,7 +1,0 @@
-
-!MetacelloSpec class methodsFor: 'instance creation' stamp: 'dkh 05/01/2009 12:22'!
-for: aVersionMap
-
-	^(self platformClass new)
-		for: aVersionMap;
-		yourself! !

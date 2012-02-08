@@ -1,7 +1,0 @@
-
-!MetacelloSpec methodsFor: 'printing' stamp: 'dkh 10/5/2009 09:14'!
-configMethodOn: aStream indent: indent
-
-	self subclassResponsibility
-
-! !

@@ -1,8 +1,0 @@
-
-!MetacelloVersionValidator class methodsFor: 'instance creation' stamp: 'DaleHenrichs 11/24/2010 09:01'!
-validateProject: aMetacelloProject debug: debugList recurse: aBool
-	^ ((self new)
-		recurse: aBool;
-		debug: debugList;
-		configurationClass: aMetacelloProject configuration class;
-		yourself) validateProject: aMetacelloProject! !

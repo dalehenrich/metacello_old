@@ -1,5 +1,0 @@
-
-!MetacelloVersionSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 12/21/2010 13:51'!
-postLoadDoIt: anObject
-
-	anObject setPostLoadDoItInMetacelloSpec: self! !

@@ -1,4 +1,0 @@
-
-!MetacelloVersionDoesNotExistError methodsFor: 'accessing' stamp: 'dkh 1/25/2012 11:30'!
-possibleVersions
-    ^ self project symbolicVersionSymbols , (self project versions collect: [ :each | each versionString ])! !

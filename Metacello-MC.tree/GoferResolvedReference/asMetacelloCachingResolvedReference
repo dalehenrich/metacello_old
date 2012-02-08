@@ -1,5 +1,0 @@
-
-!GoferResolvedReference methodsFor: '*metacello-mc' stamp: 'DaleHenrichs 1/12/2010 20:38'!
-asMetacelloCachingResolvedReference
-
-	^MetacelloCachingGoferResolvedReference name: self name repository: self repository! !

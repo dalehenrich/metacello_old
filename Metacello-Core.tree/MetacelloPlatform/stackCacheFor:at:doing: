@@ -1,5 +1,0 @@
-
-!MetacelloPlatform methodsFor: 'caching' stamp: 'dkh 4/6/2011 22:44'!
-stackCacheFor: cacheName at: key doing: aBlock
-
-	^self stackCacheFor: cacheName cacheClass: Dictionary at: key doing: aBlock! !

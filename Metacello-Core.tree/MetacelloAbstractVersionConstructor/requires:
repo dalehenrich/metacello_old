@@ -1,5 +1,0 @@
-
-!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'DaleHenrichs 11/12/2010 09:54'!
-requires: anObject
-
-	self root requires: anObject! !

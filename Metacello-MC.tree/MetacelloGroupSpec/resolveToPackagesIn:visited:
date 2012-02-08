@@ -1,9 +1,0 @@
-
-!MetacelloGroupSpec methodsFor: '*metacello-mc' stamp: 'dkh 10/21/2009 15:23'!
-resolveToPackagesIn: aVersionSpec visited: visited
-
-	| packages |
-	packages := Dictionary new.
-	self resolveToPackagesIn: aVersionSpec into: packages visited: visited.
-	^packages values asOrderedCollection
-! !

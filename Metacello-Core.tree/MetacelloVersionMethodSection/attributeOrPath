@@ -1,7 +1,0 @@
-
-!MetacelloVersionMethodSection methodsFor: 'accessing' stamp: 'DaleHenrichs 12/22/2010 12:53'!
-attributeOrPath
-	| path |
-	^self parent == nil
-		ifTrue: [ self attribute ]
-		ifFalse: [ self parent attributePath , {(self attribute)} ]! !

@@ -1,8 +1,0 @@
-
-!MetacelloNullRecordingMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/11/2010 13:45'!
-loadedPackages
-
-	| packages |
-	packages := OrderedCollection new.
-	self loadDirective packageDirectivesDo: [:directive | packages add: directive file ].
-	^packages! !

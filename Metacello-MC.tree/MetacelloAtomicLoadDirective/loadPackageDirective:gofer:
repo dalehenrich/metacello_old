@@ -1,6 +1,0 @@
-
-!MetacelloAtomicLoadDirective methodsFor: 'loading' stamp: 'DaleHenrichs 3/16/2010 01:53'!
-loadPackageDirective: aPackageLoadDirective gofer: aGofer
-	"accumulate packages"
-	
-	self packageloads add: aPackageLoadDirective! !

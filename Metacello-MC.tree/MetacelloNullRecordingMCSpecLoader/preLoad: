@@ -1,8 +1,0 @@
-
-!MetacelloNullRecordingMCSpecLoader methodsFor: 'doits' stamp: 'DaleHenrichs 4/8/2010 16:10'!
-preLoad: packageOrVersionSpec
-
-	self evalDoits ifFalse: [ ^self ].
-	packageOrVersionSpec preLoadDoItBlock ~~ nil
-		ifTrue: [ self beforeLoads add: packageOrVersionSpec name, ' load' ].
-	super preLoad: packageOrVersionSpec! !

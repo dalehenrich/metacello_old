@@ -1,4 +1,0 @@
-
-!MetacelloPlatform methodsFor: 'accessing' stamp: 'DaleHenrichs 12/18/2010 13:37'!
-bypassGoferLoadUpdateCategories: anObject
-	bypassGoferLoadUpdateCategories := anObject! !

@@ -1,0 +1,5 @@
+
+!MetacelloValidationIssue methodsFor: 'accessing'!
+label
+
+	^''! !

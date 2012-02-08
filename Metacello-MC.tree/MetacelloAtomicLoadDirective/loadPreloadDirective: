@@ -1,6 +1,0 @@
-
-!MetacelloAtomicLoadDirective methodsFor: 'loading' stamp: 'DaleHenrichs 4/14/2010 14:23'!
-loadPreloadDirective: aPreloadDirective 
-	"accumulate preloads"
-
-	self preloads add: aPreloadDirective! !

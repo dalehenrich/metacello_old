@@ -1,6 +1,0 @@
-
-!MetacelloPlatform methodsFor: 'utilities' stamp: 'dkh 10/28/2009 10:53'!
-authorName
-
-	Smalltalk at: #Author ifPresent: [:cl | ^cl perform: #initials ].
-	^'no developer initials'! !

@@ -1,5 +1,0 @@
-
-!MetacelloValueHolderSpec methodsFor: 'printing' stamp: 'dkh 10/5/2009 12:23'!
-configMethodOn: aStream indent: indent
-
-	aStream tab: indent; nextPutAll: 'spec value: ', self value printString! !

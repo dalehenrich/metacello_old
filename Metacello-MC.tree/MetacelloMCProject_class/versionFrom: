@@ -1,4 +1,0 @@
-
-!MetacelloMCProject class methodsFor: 'scripting' stamp: 'dkh 1/31/2012 20:57'!
-versionFrom: aScriptingEngine
-	^ (self projectFrom: aScriptingEngine) version: aScriptingEngine versionString! !

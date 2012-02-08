@@ -1,7 +1,0 @@
-
-!MetacelloFetchingMCSpecLoader methodsFor: 'accessing' stamp: 'dkh 12/20/2011 10:59'!
-ensureSpecLoader
-	^ (MetacelloEnsureFetchingMCSpecLoader on: self spec)
-		shouldDisablePackageCache: self shouldDisablePackageCache;
-		loaderPolicy: self loaderPolicy; "explicitly share the loaderPolicy"
-		yourself! !

@@ -1,9 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: 'adding' stamp: 'dkh 10/5/2009 12:07'!
-addToMetacelloPackages: aMetacelloPackagesSpec
-
-	aMetacelloPackagesSpec addMember: 
-		(aMetacelloPackagesSpec addMember 
-			name: self name;
-			spec: self;
-			yourself)! !

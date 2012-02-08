@@ -1,6 +1,0 @@
-
-!MetacelloVersionLoadDirective methodsFor: 'printing' stamp: 'DaleHenrichs 3/10/2010 11:07'!
-label
-
-	self spec == nil ifTrue: [ ^'' ].
-	^self spec label! !

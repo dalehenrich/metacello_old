@@ -1,6 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'accessing' stamp: 'dkh 10/30/2009 10:37'!
-getFile
-	"raw access to iv"
-	
-	^file! !

@@ -1,5 +1,0 @@
-
-!MetacelloProject methodsFor: 'versions' stamp: 'DaleHenrichs 1/17/2011 11:23'!
-stableVersion
-
-	^self version: #stable! !

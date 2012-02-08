@@ -1,4 +1,0 @@
-
-!DateAndTime methodsFor: '*metacello-core' stamp: 'dkh 1/25/2012 15:13'!
-setTimestampInMetacelloConfig: aMetacelloConfig
-    aMetacelloConfig setTimestampWithString: self printString! !

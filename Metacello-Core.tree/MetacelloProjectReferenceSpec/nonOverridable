@@ -1,5 +1,0 @@
-
-!MetacelloProjectReferenceSpec methodsFor: 'merging' stamp: 'dkh 10/8/2009 20:32'!
-nonOverridable
-
-	^super nonOverridable, #( projectReference )! !

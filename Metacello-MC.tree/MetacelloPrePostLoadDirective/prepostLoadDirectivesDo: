@@ -1,5 +1,0 @@
-
-!MetacelloPrePostLoadDirective methodsFor: 'enumerating' stamp: 'DaleHenrichs 4/8/2010 16:22'!
-prepostLoadDirectivesDo: aBlock
-
-	aBlock value: self! !

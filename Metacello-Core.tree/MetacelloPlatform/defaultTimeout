@@ -1,5 +1,0 @@
-
-!MetacelloPlatform methodsFor: 'tests' stamp: 'dkh 6/7/2011 15:58'!
-defaultTimeout
-	"squeak compatability"
-	^60! !

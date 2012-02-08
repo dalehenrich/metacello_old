@@ -1,6 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: 'querying' stamp: 'dkh 9/23/2009 08:45'!
-includes
-
-	includes == nil ifTrue: [ includes := #() ].
-	^includes! !

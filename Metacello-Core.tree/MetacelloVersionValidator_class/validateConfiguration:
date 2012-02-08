@@ -1,5 +1,0 @@
-
-!MetacelloVersionValidator class methodsFor: 'instance creation' stamp: 'DaleHenrichs 12/4/2010 08:39'!
-validateConfiguration: configurationClass
-
-	^self validateConfiguration: configurationClass debug: #() recurse: false! !

@@ -1,7 +1,0 @@
-
-!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'dkh 1/26/2012 16:48'!
-projectPackage: aBlock
-    | spec |
-    spec := self project packageSpec.
-    self root projectPackage: spec.
-    self with: spec during: aBlock! !

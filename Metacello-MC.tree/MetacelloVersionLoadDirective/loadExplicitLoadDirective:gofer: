@@ -1,4 +1,0 @@
-
-!MetacelloVersionLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 3/21/2010 13:38'!
-loadExplicitLoadDirective: aLoaderDirective gofer: aGofer
-	"load has already been performed, no need to load again"! !

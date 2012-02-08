@@ -1,6 +1,0 @@
-
-!Collection methodsFor: '*metacello-core' stamp: 'dkh 6/6/2009 11:46'!
-mergeIntoMetacelloPackages: aMetacelloPackagesSpec
-
-	self do: [:each | each mergeIntoMetacelloPackages: aMetacelloPackagesSpec ]
-! !

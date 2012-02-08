@@ -1,5 +1,0 @@
-
-!MetacelloProject methodsFor: 'accessing' stamp: 'dkh 6/18/2009 12:52'!
-defaultBlessing
-
-	^#release! !

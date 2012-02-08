@@ -1,5 +1,0 @@
-
-!MetacelloProjectSpecLoadError methodsFor: 'accessing' stamp: 'DaleHenrichs 1/19/2010 11:29'!
-projectSpec: aMetacelloMCProjectSpec
-
-	projectSpec := aMetacelloMCProjectSpec! !

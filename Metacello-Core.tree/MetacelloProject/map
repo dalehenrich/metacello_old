@@ -1,5 +1,0 @@
-
-!MetacelloProject methodsFor: 'accessing' stamp: 'dkh 6/24/2011 15:58'!
-map
-	versionMap ifNil: [ ^ Dictionary new ].
-	^ versionMap! !

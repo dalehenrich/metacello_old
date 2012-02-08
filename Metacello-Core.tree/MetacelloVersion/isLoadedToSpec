@@ -1,6 +1,0 @@
-
-!MetacelloVersion methodsFor: 'testing' stamp: 'DaleHenrichs 2/5/2010 11:07'!
-isLoadedToSpec
-	"all loaded projects and packages match specifications"
-	
-	^self spec isLoadedToSpec! !

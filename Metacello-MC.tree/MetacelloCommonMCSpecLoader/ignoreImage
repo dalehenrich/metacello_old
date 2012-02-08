@@ -1,5 +1,0 @@
-
-!MetacelloCommonMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 4/12/2010 11:30'!
-ignoreImage
-
-	^self loaderPolicy ignoreImage! !

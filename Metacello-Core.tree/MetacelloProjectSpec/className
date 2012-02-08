@@ -1,5 +1,0 @@
-
-!MetacelloProjectSpec methodsFor: 'querying' stamp: 'dkh 1/26/2012 15:06'!
-className
-    className ifNil: [ self name ifNotNil: [ className := 'ConfigurationOf' , self name ] ].
-    ^ className! !

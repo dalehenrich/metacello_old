@@ -1,4 +1,0 @@
-
-!MetacelloVersionValidator methodsFor: 'private' stamp: 'dkh 1/20/2012 11:52'!
-errorReasonCodes
-    ^ #(#'duplicateNames' #'shadowedNames' #'invalidDoItSelector' #'invalidVersionString' #'missingVersionImport' #'projectCreationError' #'noVersionsDefined' #'cannotResolveVersion' #'incompleteProjectSpec' #'incorrectVersionString' #'versionCompositionError' #'versionCreationError')! !

@@ -1,5 +1,0 @@
-
-!MetacelloGroupSpec methodsFor: '*metacello-mc' stamp: 'DaleHenrichs 1/19/2010 12:14'!
-resolveToLoadableSpec
-
-	^nil! !

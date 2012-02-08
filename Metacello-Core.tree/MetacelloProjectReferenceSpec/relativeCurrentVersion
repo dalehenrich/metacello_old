@@ -1,5 +1,0 @@
-
-!MetacelloProjectReferenceSpec methodsFor: 'querying' stamp: 'DaleHenrichs 2/5/2010 13:42'!
-relativeCurrentVersion
-
-	^self projectReference relativeCurrentVersion! !

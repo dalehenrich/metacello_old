@@ -1,4 +1,0 @@
-
-!MetacelloEnsureFetchingMCSpecLoader methodsFor: 'accessing' stamp: 'dkh 12/20/2011 10:35'!
-ensureSpecLoader
-	^ self! !

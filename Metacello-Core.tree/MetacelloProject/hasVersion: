@@ -1,6 +1,0 @@
-
-!MetacelloProject methodsFor: 'versions' stamp: 'DaleHenrichs 11/12/2010 06:43'!
-hasVersion: versionString
-
-	self version: versionString ifAbsent: [ ^false ].
-	^true! !

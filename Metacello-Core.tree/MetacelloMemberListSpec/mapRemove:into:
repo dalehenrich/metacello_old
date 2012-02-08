@@ -1,5 +1,0 @@
-
-!MetacelloMemberListSpec methodsFor: 'private' stamp: 'dkh 06/02/2009 19:58'!
-mapRemove: aMemberSpec into: map
-	
-	map removeKey: aMemberSpec name ifAbsent: []! !

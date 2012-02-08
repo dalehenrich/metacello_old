@@ -1,6 +1,0 @@
-
-!MetacelloValidationFailure class methodsFor: 'instance creation' stamp: 'dkh 1/18/2012 14:07'!
-issues: anObject message: aString
-    ^ self new
-        issues: anObject;
-        signal: aString! !

@@ -1,7 +1,0 @@
-
-!MetacelloMCProject methodsFor: 'development support' stamp: 'Dalehenrichs 02/10/2010 10:15'!
-saveProject
-
-	| pkgSpec |
-	(pkgSpec := self projectPackage) == nil ifTrue: [ ^false ].
-	^pkgSpec savePackage! !

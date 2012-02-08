@@ -1,5 +1,0 @@
-
-!MetacelloVersionValidator methodsFor: 'accessing' stamp: 'DaleHenrichs 11/5/2010 09:56'!
-recurse
-	recurse == nil ifTrue: [ recurse := false ].
-	^ recurse! !

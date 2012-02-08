@@ -1,4 +1,0 @@
-
-!MetacelloVersionSpec methodsFor: 'accessing' stamp: 'dkh 9/13/2009 07:44'!
-setAuthor: anObject
-	author := anObject! !

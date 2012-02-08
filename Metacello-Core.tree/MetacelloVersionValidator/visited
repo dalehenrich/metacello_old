@@ -1,6 +1,0 @@
-
-!MetacelloVersionValidator methodsFor: 'accessing' stamp: 'DaleHenrichs 11/08/2010 14:45'!
-visited
-
-	visited == nil ifTrue: [ visited := IdentitySet new ].
-	^visited! !

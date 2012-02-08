@@ -1,5 +1,0 @@
-
-!MetacelloMCProjectSpec methodsFor: 'merging' stamp: 'dkh 10/8/2009 20:34'!
-nonOverridable
-
-	^super nonOverridable, #( projectPackage )! !

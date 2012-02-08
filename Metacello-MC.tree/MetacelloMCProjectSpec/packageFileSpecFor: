@@ -1,9 +1,0 @@
-
-!MetacelloMCProjectSpec methodsFor: 'accessing' stamp: 'dkh 10/4/2009 11:44'!
-packageFileSpecFor: aMetacelloPackagesSpec
-
-	^(aMetacelloPackagesSpec project projectReferenceSpec)
-			name: self name;
-			projectReference: self copy;
-			yourself.
-! !

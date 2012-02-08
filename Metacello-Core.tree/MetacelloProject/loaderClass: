@@ -1,5 +1,0 @@
-
-!MetacelloProject methodsFor: 'spec classes' stamp: 'dkh 6/9/2009 16:05'!
-loaderClass: aMetacelloSpecLoader
-
-	loaderClass := aMetacelloSpecLoader! !

@@ -1,5 +1,0 @@
-
-!MetacelloFetchingMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/10/2010 14:39'!
-cacheRepository
-
-	^self loaderPolicy cacheRepository! !

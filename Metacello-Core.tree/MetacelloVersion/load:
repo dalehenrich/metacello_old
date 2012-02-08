@@ -1,5 +1,0 @@
-
-!MetacelloVersion methodsFor: 'actions' stamp: 'dkh 6/8/2009 17:45'!
-load: required
-
-	^self subclassResponsibility! !

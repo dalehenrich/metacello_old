@@ -1,8 +1,0 @@
-
-!MetacelloMCProjectSpec methodsFor: 'merging' stamp: 'dkh 10/4/2009 12:05'!
-mergeMap
-
-	| map |
-	map := super mergeMap.
-	map at: #projectPackage put: projectPackage.
-	^map! !

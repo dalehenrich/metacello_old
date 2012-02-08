@@ -1,4 +1,0 @@
-
-!MetacelloMCPartiallyLoadedStatus methodsFor: 'accessing' stamp: 'dkh 7/11/2011 15:03'!
-aLoadedProjectIsExact
-	^ aLoadedProjectIsExact! !

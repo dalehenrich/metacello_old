@@ -1,5 +1,0 @@
-
-!MetacelloVersion class methodsFor: 'instance creation' stamp: 'dkh 8/31/2009 05:13'!
-fromString: aString
-
-	^self new versionNumber: aString asMetacelloVersionNumber! !

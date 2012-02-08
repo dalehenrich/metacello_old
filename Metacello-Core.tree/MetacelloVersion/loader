@@ -1,5 +1,0 @@
-
-!MetacelloVersion methodsFor: 'querying' stamp: 'DaleHenrichs 10/27/2010 11:30'!
-loader
-
-	^self spec loader! !

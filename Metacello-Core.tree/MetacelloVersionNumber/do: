@@ -1,6 +1,0 @@
-
-!MetacelloVersionNumber methodsFor: 'enumerating' stamp: 'dkh 6/14/2009 09:37'!
-do: aBlock 
-	"Refer to the comment in Collection|do:."
-	1 to: self size do:
-		[:index | aBlock value: (self at: index)]! !

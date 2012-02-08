@@ -1,6 +1,0 @@
-
-!MetacelloPlatform class methodsFor: 'accessing' stamp: 'dkh 7/24/2009 15:21'!
-current
-	Current
-		ifNil: [Current := MetacelloPlatform new].
-	^ Current! !

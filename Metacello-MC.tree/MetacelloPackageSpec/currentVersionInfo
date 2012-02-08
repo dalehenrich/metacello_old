@@ -1,5 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'gofer' stamp: 'dkh 9/25/2009 11:26'!
-currentVersionInfo
-
-	^self goferPackage currentVersionInfo! !

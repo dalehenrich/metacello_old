@@ -1,5 +1,0 @@
-
-!MetacelloSpec methodsFor: 'querying' stamp: 'dkh 06/02/2009 14:42'!
-project
-
-	^project! !

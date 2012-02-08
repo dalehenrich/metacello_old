@@ -1,5 +1,0 @@
-
-!MetacelloVersionValidator methodsFor: 'accessing' stamp: 'DaleHenrichs 11/08/2010 14:49'!
-visited: anIdentitySet
-
-	visited := anIdentitySet! !

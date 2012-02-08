@@ -1,7 +1,0 @@
-
-!MetacelloVersionValidator methodsFor: 'accessing' stamp: 'DaleHenrichs 11/30/2010 13:30'!
-recordValidationWarning: aString callSite: callSite reasonCode: aSymbol
-
-				
-	^self recordValidationWarning: aString versionString: nil callSite: callSite reasonCode: aSymbol
-! !

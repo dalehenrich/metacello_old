@@ -1,4 +1,0 @@
-
-!MetacelloProject class methodsFor: 'scripting' stamp: 'dkh 1/31/2012 20:54'!
-versionFrom: aScriptingEngine
-	self subclassResponsibility! !

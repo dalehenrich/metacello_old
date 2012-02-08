@@ -1,5 +1,0 @@
-
-!MetacelloRemoveMemberSpec methodsFor: 'accessing' stamp: 'dkh 6/15/2009 10:27'!
-methodUpdateSelector
-
-	^#remove:! !

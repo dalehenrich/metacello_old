@@ -1,7 +1,0 @@
-
-!MetacelloProjectReferenceSpec methodsFor: 'copying' stamp: 'DaleHenrichs 11/17/2010 12:43'!
-postCopy
-
-	super postCopy.
-	projectReference := projectReference copy.
-! !

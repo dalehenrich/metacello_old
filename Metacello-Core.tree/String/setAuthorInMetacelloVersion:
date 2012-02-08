@@ -1,8 +1,0 @@
-
-!String methodsFor: '*metacello-core' stamp: 'dkh 9/13/2009 07:45'!
-setAuthorInMetacelloVersion: aMetacelloVersionSpec
-
-	aMetacelloVersionSpec setAuthor: 
-		(aMetacelloVersionSpec project valueHolderSpec
-			value: self;
-			yourself)! !

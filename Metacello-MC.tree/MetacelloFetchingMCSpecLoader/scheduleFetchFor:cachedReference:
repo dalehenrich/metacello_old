@@ -1,6 +1,0 @@
-
-!MetacelloFetchingMCSpecLoader methodsFor: 'private' stamp: 'dkh 12/20/2011 10:12'!
-scheduleFetchFor: packageSpec cachedReference: reference
-	"reference already in the cache during fetch ...no need to schedule fetch"
-
-	^ self! !

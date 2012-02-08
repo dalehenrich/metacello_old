@@ -1,8 +1,8 @@
-(name 'Metacello-MC-dkh.548'
-message '- consider load and get ... (http://groups.google.com/group/metacello/browse_thread/thread/5970d6b4d16ccd50) ... refactor a bit'
-id '81f3a75a-7b02-41d7-87b5-e0ea62b69ba7'
-date '31 January 2012'
-time '9:03:35 pm'
+(name 'Metacello-MC-dkh.549'
+message '- implementing ''get'' operation for Metacello scripting API- adding support for github downloads (readonly repo) in progress- examples scripts:  Metacello new     project: ''Seaside30'';     get.  Metacello new     project: ''Sample'';     filetree: ''/foos1/users/dhenrich/smalltalk/sample/'';     get.  Metacello new     project: ''Sample'';     filetree: ''/foos1/users/dhenrich/smalltalk/metacello/'';     get.  Metacello new     project: ''Sample'';     github: ''dalehenrich/sample'';     version: ''1.0'';     get.'
+id '49eb8e28-1e42-4462-9f38-01f072bed0f5'
+date '7 February 2012'
+time '5:13:46 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

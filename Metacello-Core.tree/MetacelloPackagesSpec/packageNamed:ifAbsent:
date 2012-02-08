@@ -1,5 +1,0 @@
-
-!MetacelloPackagesSpec methodsFor: 'accessing' stamp: 'dkh 10/9/2009 13:01'!
-packageNamed: aString ifAbsent: aBlock
-
-	^self map at: aString ifAbsent: aBlock! !

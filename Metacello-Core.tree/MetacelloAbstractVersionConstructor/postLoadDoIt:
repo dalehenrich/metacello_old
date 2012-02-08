@@ -1,6 +1,0 @@
-
-!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'DaleHenrichs 11/12/2010 09:54'!
-postLoadDoIt: aSymbol
-
-	self validateDoItSelector: aSymbol.
-	self root postLoadDoIt: aSymbol! !

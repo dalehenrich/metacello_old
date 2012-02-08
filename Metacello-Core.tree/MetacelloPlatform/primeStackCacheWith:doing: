@@ -1,7 +1,0 @@
-
-!MetacelloPlatform methodsFor: 'caching' stamp: 'DaleHenrichs 9/22/2010 14:26'!
-primeStackCacheWith: aDictionary doing: noArgBlock
-
-	self 
-		useStackCacheDuring: [:dict | ^noArgBlock value ] 
-		defaultDictionary: aDictionary! !

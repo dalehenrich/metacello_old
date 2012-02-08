@@ -1,9 +1,0 @@
-
-!MetacelloMemberSpec methodsFor: 'printing' stamp: 'dkh 10/5/2009 12:39'!
-configMethodCascadeOn: aStream last: lastCascade indent: indent
-
-	self spec 
-		configMethodCascadeOn: aStream 
-		member: self 
-		last: lastCascade 
-		indent: indent! !

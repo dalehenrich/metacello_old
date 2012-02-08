@@ -1,9 +1,0 @@
-
-!MetacelloProject methodsFor: 'versions' stamp: 'dkh 12/21/2009 13:59'!
-latestVersionMatching: versionPatternString includedBlessings: included
-
-	^self 
-		latestVersionMatching: versionPatternString 
-		includedBlessings: included
-		excludedBlessings: self excludeFromLatestVersion
-! !

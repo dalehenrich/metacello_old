@@ -1,9 +1,0 @@
-
-!MetacelloAbstractVersionConstructor methodsFor: 'private' stamp: 'dkh 10/3/2009 16:31'!
-with: aMetacelloSpec during: aBlock 
-
-	| previousRoot |
-	previousRoot := self root.
-	self root: aMetacelloSpec.
-	aBlock
-		ensure: [self root: previousRoot]! !

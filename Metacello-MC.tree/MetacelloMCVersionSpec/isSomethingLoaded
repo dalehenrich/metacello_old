@@ -1,7 +1,0 @@
-
-!MetacelloMCVersionSpec methodsFor: 'testing' stamp: 'dkh 07/12/2011 14:08'!
-isSomethingLoaded
-	"at least one package loaded"
-	
-	self isPartiallyCurrent isSomethingLoaded: [ :ignored | ^ true ].
-	^ false! !

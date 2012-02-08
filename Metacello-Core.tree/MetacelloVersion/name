@@ -1,5 +1,0 @@
-
-!MetacelloVersion methodsFor: 'testing' stamp: 'DaleHenrichs 2/8/2010 11:42'!
-name
-
-	^self versionString! !

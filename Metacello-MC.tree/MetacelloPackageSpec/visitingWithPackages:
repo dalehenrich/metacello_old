@@ -1,5 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'visiting' stamp: 'dkh 10/21/2009 15:51'!
-visitingWithPackages: packages
-
-	packages at: self name put: self! !

@@ -1,5 +1,0 @@
-
-!String methodsFor: '*metacello-core-version comparison' stamp: 'dkh 8/13/2009 11:23'!
-metacelloStringLessThanSelf: aString
-
-	^aString < self! !

@@ -1,4 +1,0 @@
-
-!MetacelloProject methodsFor: 'accessing' stamp: 'dkh 1/20/2012 15:45'!
-errorMap: anObject
-	errorMap := anObject! !

@@ -1,6 +1,0 @@
-
-!MetacelloLoaderPolicy methodsFor: 'actions' stamp: 'DaleHenrichs 3/10/2010 10:02'!
-load
-
-	overrideRepositories := Array with: self cacheRepository. "ensure that hasRepositoryOverrides is true"
-	self loadDirective loadWithPolicy: self! !

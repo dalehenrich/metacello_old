@@ -1,5 +1,0 @@
-
-!MetacelloAbstractVersionConstructor methodsFor: 'private' stamp: 'DaleHenrichs 11/12/2010 12:28'!
-evaluatePragma: pragma
-	currentContext := pragma.
-	[ self configuration perform: pragma selector with: self ] ensure: [ currentContext := nil ]! !

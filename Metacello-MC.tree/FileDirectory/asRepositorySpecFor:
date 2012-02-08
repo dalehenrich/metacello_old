@@ -1,8 +1,0 @@
-
-!FileDirectory methodsFor: '*metacello-mc' stamp: 'dkh 01/19/2012 12:08'!
-asRepositorySpecFor: aMetacelloMCProject
-
-	^(aMetacelloMCProject repositorySpec)
-		description:  self fullName;
-	 	type: 'directory';
-		yourself! !

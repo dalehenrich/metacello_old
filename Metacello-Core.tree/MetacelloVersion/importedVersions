@@ -1,6 +1,0 @@
-
-!MetacelloVersion methodsFor: 'accessing' stamp: 'dkh 1/7/2010 18:48'!
-importedVersions
-
-	importedVersions == nil ifTrue: [ importedVersions := #() ].
-	^importedVersions! !

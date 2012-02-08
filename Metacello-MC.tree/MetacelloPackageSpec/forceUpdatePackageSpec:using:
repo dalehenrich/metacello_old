@@ -1,5 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'development support' stamp: 'DaleHenrichs 11/12/2010 06:33'!
-forceUpdatePackageSpec: updatedSpecs using: anMCLoader
-	
-	self updatePackageSpec: updatedSpecs force: true using: anMCLoader! !

@@ -1,8 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'copying' stamp: 'dkh 1/2/2010 15:46'!
-postCopy
-
-	super postCopy.
-	goferPackage := nil.
-	repositories := repositories copy.
-! !

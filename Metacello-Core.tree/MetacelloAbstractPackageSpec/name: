@@ -1,6 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: 'accessing' stamp: 'dkh 1/20/2012 10:48'!
-name: aString
-    ((aString at: 1) isSeparator or: [ (aString at: aString size) isSeparator ])
-        ifTrue: [ self error: 'Names are not allowed to have leading or trailing blanks: ' , aString printString ].
-    name := aString! !

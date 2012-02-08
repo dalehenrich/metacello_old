@@ -1,9 +1,0 @@
-
-!MetacelloRepositorySpec methodsFor: 'private' stamp: 'dkh 6/7/2009 10:21'!
-mergeIntoMetacelloRepositories: aMetacelloRepositoriesSpec
-
-	aMetacelloRepositoriesSpec addMember: 
-		(aMetacelloRepositoriesSpec mergeMember 
-			name: self name;
-			spec: self;
-			yourself)! !

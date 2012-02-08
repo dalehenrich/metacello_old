@@ -1,5 +1,0 @@
-
-!MetacelloVersion methodsFor: 'accessing' stamp: 'DaleHenrichs 2/4/2010 10:10'!
-versionStatus: aSymbol
-
-	versionStatus := aSymbol! !

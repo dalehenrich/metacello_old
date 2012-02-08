@@ -1,4 +1,0 @@
-
-!MetacelloMCVersionValidator methodsFor: 'private' stamp: 'DaleHenrichs 11/20/2010 07:25'!
-errorReasonCodes
-	^ super errorReasonCodes, #(#loadError #testFailures )! !

@@ -1,4 +1,0 @@
-
-!MetacelloClearStackCacheNotification methodsFor: 'accessing' stamp: 'dkh 4/6/2011 23:14'!
-cacheNames
-	^ cacheNames! !

@@ -1,5 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'private' stamp: 'dkh 10/10/2009 11:00'!
-includesForPackageOrdering
-
-	^self includes! !

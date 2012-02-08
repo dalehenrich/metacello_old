@@ -1,5 +1,0 @@
-
-!MetacelloProjectReferenceSpec methodsFor: 'querying' stamp: 'dkh 10/24/2009 10:38'!
-version
-
-	^self projectReference version! !

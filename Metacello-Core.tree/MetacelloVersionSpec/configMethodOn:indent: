@@ -1,5 +1,0 @@
-
-!MetacelloVersionSpec methodsFor: 'printing' stamp: 'DaleHenrichs 12/23/2010 14:27'!
-configMethodOn: aStream indent: indent
-
-	self configMethodOn: aStream last: true indent: indent! !

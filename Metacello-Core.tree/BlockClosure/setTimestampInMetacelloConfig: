@@ -1,5 +1,0 @@
-
-!BlockClosure methodsFor: '*metacello-core' stamp: 'dkh 10/7/2009 00:15'!
-setTimestampInMetacelloConfig: aMetacelloConfig
-
-	aMetacelloConfig setTimestampWithBlock: self! !

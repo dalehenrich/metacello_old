@@ -1,5 +1,0 @@
-
-!MetacelloProject methodsFor: 'private' stamp: 'dkh 7/24/2009 15:37'!
-defaultPlatformAttributes
-
-	^ MetacelloPlatform current defaultPlatformAttributes! !

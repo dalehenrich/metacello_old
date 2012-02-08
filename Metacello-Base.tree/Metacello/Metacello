@@ -1,6 +1,0 @@
-
-Object subclass: #Metacello
-	instanceVariableNames: 'statements needsGit'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'Metacello-Base'!

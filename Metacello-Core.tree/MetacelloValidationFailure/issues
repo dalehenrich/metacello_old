@@ -1,4 +1,0 @@
-
-!MetacelloValidationFailure methodsFor: 'accessing' stamp: 'dkh 1/18/2012 14:05'!
-issues
-	^ issues! !

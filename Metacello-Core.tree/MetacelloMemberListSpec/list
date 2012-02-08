@@ -1,6 +1,0 @@
-
-!MetacelloMemberListSpec methodsFor: 'accessing' stamp: 'dkh 06/02/2009 18:51'!
-list
-
-	list == nil ifTrue: [ list := OrderedCollection new ].
-	^list! !

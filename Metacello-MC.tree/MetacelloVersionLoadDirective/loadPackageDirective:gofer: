@@ -1,7 +1,0 @@
-
-!MetacelloVersionLoadDirective methodsFor: 'loading' stamp: 'DaleHenrichs 4/9/2010 12:08'!
-loadPackageDirective: aPackageLoadDirective gofer: aGofer
-
-	aPackageLoadDirective loader loadingSpecLoader 
-		loadPackageDirective: aPackageLoadDirective 
-		gofer: aGofer! !

@@ -1,5 +1,0 @@
-
-!MetacelloProjectSpec methodsFor: 'querying' stamp: 'DaleHenrichs 1/21/2010 18:15'!
-postLoadDoIt
-
-	^postLoadDoIt! !

@@ -1,8 +1,0 @@
-
-!MetacelloProject methodsFor: 'private' stamp: 'dkh 10/14/2009 16:33'!
-attributes
-
-	^(OrderedCollection with: #common)
-		addAll: self platformAttributes;
-		yourself
-! !

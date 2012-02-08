@@ -1,5 +1,0 @@
-
-!MetacelloPackageLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 3/9/2010 14:58'!
-loadUsing: aLoaderDirective gofer: aGofer
-
-	aLoaderDirective loadPackageDirective: self gofer: aGofer! !

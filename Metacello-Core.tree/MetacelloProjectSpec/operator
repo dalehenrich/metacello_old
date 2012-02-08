@@ -1,6 +1,0 @@
-
-!MetacelloProjectSpec methodsFor: 'querying' stamp: 'dkh 10/6/2009 15:39'!
-operator
-
-	operator == nil ifTrue: [ ^#>= ].
-	^ operator! !

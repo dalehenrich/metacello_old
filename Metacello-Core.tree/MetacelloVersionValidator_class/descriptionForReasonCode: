@@ -1,4 +1,0 @@
-
-!MetacelloVersionValidator class methodsFor: 'accessing' stamp: 'DaleHenrichs 12/17/2010 15:16'!
-descriptionForReasonCode: reasonCode
-	^ self reasonCodeDescriptions at: reasonCode ifAbsent: [ self error: 'Unknown reasonCode: ' , reasonCode printString ]! !

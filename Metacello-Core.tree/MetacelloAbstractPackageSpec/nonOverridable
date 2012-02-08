@@ -1,5 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: 'merging' stamp: 'DaleHenrichs 1/21/2010 20:21'!
-nonOverridable
-
-	^#( includes requires answers )! !

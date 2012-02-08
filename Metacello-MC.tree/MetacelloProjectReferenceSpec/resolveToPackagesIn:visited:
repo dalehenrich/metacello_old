@@ -1,5 +1,0 @@
-
-!MetacelloProjectReferenceSpec methodsFor: '*metacello-mc' stamp: 'dkh 10/21/2009 15:22'!
-resolveToPackagesIn: aVersionSpec visited: visited
-
-	^#()! !

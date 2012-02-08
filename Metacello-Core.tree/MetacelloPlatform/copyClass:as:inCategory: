@@ -1,5 +1,0 @@
-
-!MetacelloPlatform methodsFor: 'reflection' stamp: 'DaleHenrichs 11/18/2010 16:14'!
-copyClass: oldClass as: newName inCategory: newCategoryName
-
-	self subclassResponsibility! !

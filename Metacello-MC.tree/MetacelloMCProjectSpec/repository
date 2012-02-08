@@ -1,5 +1,0 @@
-
-!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'dkh 1/2/2010 15:36'!
-repository
-	
-	^self projectPackage packageRepository! !

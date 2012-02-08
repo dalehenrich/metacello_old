@@ -1,8 +1,0 @@
-
-!MetacelloAbstractConstructor methodsFor: 'pragma extraction' stamp: 'DaleHenrichs 11/8/2010 10:16'!
-extractCommonDefaultSymbolicVersionPragmas
-
-	| aDict |
-	aDict := Dictionary new.
-	self extractPragmas: #defaultSymbolicVersion: for: MetacelloBaseConfiguration into: aDict.
-	^aDict! !

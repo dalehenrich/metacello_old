@@ -1,5 +1,0 @@
-
-!MetacelloPlatform methodsFor: 'reflection' stamp: 'dkh 1/16/2011 11:08'!
-globalNamed: globalName
-
-	^Smalltalk at: globalName! !

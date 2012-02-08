@@ -1,5 +1,0 @@
-
-!MetacelloRemoveMemberSpec methodsFor: 'actions' stamp: 'dkh 06/02/2009 18:27'!
-applyToList: aListSpec
-
-	aListSpec remove: self! !

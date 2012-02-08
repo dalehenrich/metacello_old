@@ -1,6 +1,0 @@
-
-!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'DaleHenrichs 03/12/2011 22:11'!
-project: aString
-
-	self project: aString with: ''
-! !

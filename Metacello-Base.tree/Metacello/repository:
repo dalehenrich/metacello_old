@@ -1,4 +1,0 @@
-
-!Metacello methodsFor: 'api' stamp: 'dkh 1/31/2012 16:05'!
-repository: repositoryDescription
-    self addStatement: #'repository:' args: {repositoryDescription}! !

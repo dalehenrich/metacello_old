@@ -1,6 +1,0 @@
-
-!MetacelloToolBoxConstructor methodsFor: 'enumeration' stamp: 'DaleHenrichs 12/23/2010 15:10'!
-methodSectionsDo: aBlock
-
-	self methodSection: self do: aBlock
-! !

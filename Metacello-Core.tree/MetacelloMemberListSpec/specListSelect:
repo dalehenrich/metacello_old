@@ -1,7 +1,0 @@
-
-!MetacelloMemberListSpec methodsFor: 'enumeration' stamp: 'DaleHenrichs 1/14/2011 13:27'!
-specListSelect: aBlock 
-	| newCollection |
-	newCollection := OrderedCollection new.
-	self specListDo: [:each | (aBlock value: each) ifTrue: [newCollection add: each]].
-	^newCollection! !

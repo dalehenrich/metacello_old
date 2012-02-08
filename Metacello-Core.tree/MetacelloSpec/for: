@@ -1,5 +1,0 @@
-
-!MetacelloSpec methodsFor: 'initialization' stamp: 'dkh 06/02/2009 18:05'!
-for: aProject
-
-	project := aProject! !

@@ -1,5 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: 'accessing' stamp: 'dkh 1/4/2010 19:01'!
-answers: aListOfPairs
-
-	self setAnswers: aListOfPairs! !

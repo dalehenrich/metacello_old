@@ -1,5 +1,0 @@
-
-!MetacelloProject methodsFor: 'spec classes' stamp: 'dkh 6/18/2009 10:10'!
-loader
-
-	^loader! !

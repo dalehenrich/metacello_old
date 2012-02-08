@@ -1,5 +1,0 @@
-
-!MetacelloPlatform methodsFor: 'notification' stamp: 'DaleHenrichs 03/08/2010 13:31'!
-do: aBlock displaying: aString
-
-	aBlock value! !

@@ -1,5 +1,0 @@
-
-!MetacelloMCVersionSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/10/2010 11:19'!
-label
-
-	^self versionSpec label! !

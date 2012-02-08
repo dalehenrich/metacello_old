@@ -1,7 +1,0 @@
-
-!MetacelloErrorInProjectConstructionNotification class methodsFor: 'instance creation' stamp: 'dkh 1/20/2012 11:32'!
-versionString: aString exception: anException
-    ^ self new
-        versionString: aString;
-        exception: anException;
-        signal! !

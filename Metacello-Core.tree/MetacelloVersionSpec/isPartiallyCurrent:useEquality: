@@ -1,5 +1,0 @@
-
-!MetacelloVersionSpec methodsFor: 'testing' stamp: 'dkh 12/14/2009 10:20'!
-isPartiallyCurrent: notLoadedMatters useEquality: useEquality
-
-	self subclassResponsibility! !

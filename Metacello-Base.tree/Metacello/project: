@@ -1,4 +1,0 @@
-
-!Metacello methodsFor: 'api' stamp: 'dkh 1/31/2012 16:04'!
-project: projectName
-    self addStatement: #'project:' args: {projectName}! !

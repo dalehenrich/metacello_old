@@ -1,4 +1,0 @@
-
-!MetacelloSymbolicVersionSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 11/14/2010 10:12'!
-versionString: anObject
-	versionString := anObject! !

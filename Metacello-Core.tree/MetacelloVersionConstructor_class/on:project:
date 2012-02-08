@@ -1,7 +1,0 @@
-
-!MetacelloVersionConstructor class methodsFor: 'instance creation' stamp: 'DaleHenrichs 11/12/2010 09:47'!
-on: aConfig project: aProject
-
-	^(self new)
-		on: aConfig project: aProject;
-		yourself! !

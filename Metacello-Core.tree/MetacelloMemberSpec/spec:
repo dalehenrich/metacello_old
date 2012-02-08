@@ -1,5 +1,0 @@
-
-!MetacelloMemberSpec methodsFor: 'accessing' stamp: 'dkh 06/02/2009 16:50'!
-spec: aMetacelloSpec
-
-	spec := aMetacelloSpec! !

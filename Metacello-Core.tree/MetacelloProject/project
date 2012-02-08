@@ -1,5 +1,0 @@
-
-!MetacelloProject methodsFor: 'accessing' stamp: 'dkh 9/2/2009 06:02'!
-project
-
-	^self! !

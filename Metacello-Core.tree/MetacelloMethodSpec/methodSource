@@ -1,5 +1,0 @@
-
-!MetacelloMethodSpec methodsFor: 'method generation' stamp: 'DaleHenrichs 11/14/2010 01:44'!
-methodSource
-
-	self subclassResponsibility! !

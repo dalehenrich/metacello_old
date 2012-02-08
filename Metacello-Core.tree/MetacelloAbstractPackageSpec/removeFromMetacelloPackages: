@@ -1,9 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: 'removing' stamp: 'dkh 6/23/2009 11:24'!
-removeFromMetacelloPackages: aMetacelloPackagesSpec
-
-	aMetacelloPackagesSpec addMember: 
-		(aMetacelloPackagesSpec removeMember 
-			name: self name;
-			spec: self;
-			yourself)! !

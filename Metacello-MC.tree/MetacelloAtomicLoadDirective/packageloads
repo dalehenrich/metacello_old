@@ -1,6 +1,0 @@
-
-!MetacelloAtomicLoadDirective methodsFor: 'accessing' stamp: 'DaleHenrichs 3/9/2010 15:05'!
-packageloads
-
-	packageloads == nil ifTrue: [ packageloads := OrderedCollection new ].
-	^ packageloads! !

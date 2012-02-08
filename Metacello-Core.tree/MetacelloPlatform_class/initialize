@@ -1,9 +1,0 @@
-
-!MetacelloPlatform class methodsFor: 'initialize-release' stamp: 'dkh 7/24/2009 15:29'!
-initialize
-	"MetacelloPlatform initialize"
-	"MetacelloGemStonePlatform initialize"
-	"MetacelloPharoPlatform initialize"
-	"MetacelloSqueakPlatform initialize"
-
-	Current := self new! !

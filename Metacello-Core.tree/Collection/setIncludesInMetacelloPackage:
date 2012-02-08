@@ -1,5 +1,0 @@
-
-!Collection methodsFor: '*metacello-core' stamp: 'dkh 9/23/2009 08:46'!
-setIncludesInMetacelloPackage: aMetacelloPackageSpec
-
-	aMetacelloPackageSpec setIncludes: self asArray.! !

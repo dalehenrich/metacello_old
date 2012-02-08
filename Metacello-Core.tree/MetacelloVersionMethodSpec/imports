@@ -1,5 +1,0 @@
-
-!MetacelloVersionMethodSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 11/14/2010 09:32'!
-imports
-	imports == nil ifTrue: [ imports := #() ].
-	^ imports! !

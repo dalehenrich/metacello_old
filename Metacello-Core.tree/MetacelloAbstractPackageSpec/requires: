@@ -1,5 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: 'accessing' stamp: 'dkh 6/23/2009 11:25'!
-requires: aCollection
-
-	aCollection setRequiresInMetacelloPackage: self! !

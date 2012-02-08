@@ -1,6 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'private' stamp: 'dkh 10/21/2009 15:22'!
-resolveToPackagesIn: aVersionSpec visited: visited
-
-	^{ self }
-! !

@@ -1,4 +1,0 @@
-
-!MetacelloMethodSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 11/14/2010 01:35'!
-methodSections: anObject
-	methodSections := anObject! !

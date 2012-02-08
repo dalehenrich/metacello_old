@@ -1,5 +1,0 @@
-
-!MetacelloVersionSpec methodsFor: 'querying' stamp: 'dkh 8/31/2009 05:10'!
-versionString
-	versionString == nil ifTrue: [ ^'' ].
-	^ versionString! !

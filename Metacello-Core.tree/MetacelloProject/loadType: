@@ -1,6 +1,0 @@
-
-!MetacelloProject methodsFor: 'accessing' stamp: 'dkh 9/10/2009 13:27'!
-loadType: aSymbol
-	"#atomic or #linear"
-
-	loadType := aSymbol! !

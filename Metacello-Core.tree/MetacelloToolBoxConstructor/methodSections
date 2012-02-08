@@ -1,6 +1,0 @@
-
-!MetacelloToolBoxConstructor methodsFor: 'private' stamp: 'DaleHenrichs 11/14/2010 02:08'!
-methodSections
-
-	methodSections == nil ifTrue: [ methodSections := OrderedCollection new ].
-	^methodSections! !

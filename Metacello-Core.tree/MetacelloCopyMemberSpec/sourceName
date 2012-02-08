@@ -1,5 +1,0 @@
-
-!MetacelloCopyMemberSpec methodsFor: 'accessing' stamp: 'dkh 10/4/2009 10:35'!
-sourceName
-
-	^sourceName! !

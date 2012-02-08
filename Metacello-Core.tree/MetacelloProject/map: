@@ -1,5 +1,0 @@
-
-!MetacelloProject methodsFor: 'accessing' stamp: 'dkh 10/3/2009 17:31'!
-map: aDictionary
-
-	versionMap := aDictionary! !

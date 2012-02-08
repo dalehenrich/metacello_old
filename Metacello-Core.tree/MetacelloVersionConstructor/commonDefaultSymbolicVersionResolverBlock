@@ -1,5 +1,0 @@
-
-!MetacelloVersionConstructor methodsFor: 'private' stamp: 'DaleHenrichs 11/12/2010 09:50'!
-commonDefaultSymbolicVersionResolverBlock
-	^ self defaultSymbolicVersionResolverBlock: (MetacelloBaseConfiguration new project: self project)
-! !

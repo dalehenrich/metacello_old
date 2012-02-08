@@ -1,5 +1,0 @@
-
-!MetacelloToolBoxConstructor methodsFor: 'initialization' stamp: 'DaleHenrichs 11/18/2010 16:40'!
-reset
-	super reset.	"not needed, but included for completeness"
-	methodSections := nil! !

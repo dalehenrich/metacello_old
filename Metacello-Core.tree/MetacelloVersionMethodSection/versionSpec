@@ -1,4 +1,0 @@
-
-!MetacelloVersionMethodSection methodsFor: 'accessing' stamp: 'DaleHenrichs 11/14/2010 00:48'!
-versionSpec
-	^ versionSpec! !

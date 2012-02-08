@@ -1,5 +1,0 @@
-
-!MetacelloNullRecordingMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/10/2010 14:46'!
-evalDoits: aBool
-
-	evalDoits := aBool! !

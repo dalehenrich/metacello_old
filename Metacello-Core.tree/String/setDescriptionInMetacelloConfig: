@@ -1,5 +1,0 @@
-
-!String methodsFor: '*metacello-core' stamp: 'dkh 10/7/2009 00:14'!
-setDescriptionInMetacelloConfig: aMetacelloConfig
-
-	aMetacelloConfig setDescriptionWithString: self! !

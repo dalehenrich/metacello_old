@@ -1,6 +1,0 @@
-
-!MetacelloVersion methodsFor: 'testing' stamp: 'DaleHenrichs 2/5/2010 11:15'!
-isSomethingLoaded
-	"at least one project or package has been loaded"
-	
-	^self spec isSomethingLoaded! !

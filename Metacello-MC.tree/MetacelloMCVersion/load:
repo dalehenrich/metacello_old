@@ -1,6 +1,0 @@
-
-!MetacelloMCVersion methodsFor: 'actions' stamp: 'dkh 6/15/2009 22:34'!
-load: required
-
-	^required loadRequiredForMetacelloMCVersion: self
-! !

@@ -1,8 +1,0 @@
-
-!MetacelloMCVersionSpec methodsFor: 'copying' stamp: 'dkh 10/9/2009 07:34'!
-postCopy
-
-	super postCopy.
-	packages := packages copy.
-	repositories := repositories copy.
-	! !

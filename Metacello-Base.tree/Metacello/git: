@@ -1,5 +1,0 @@
-
-!Metacello methodsFor: 'api' stamp: 'dkh 1/31/2012 16:39'!
-git: projectName
-    self needsGit: true.
-    self addStatement: #'git:' args: {projectName}! !

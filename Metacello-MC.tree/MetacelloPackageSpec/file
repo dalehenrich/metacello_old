@@ -1,7 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'querying' stamp: 'dkh 10/6/2009 15:12'!
-file
-
-	file == nil ifTrue: [ ^self name ].
-	^file
-! !

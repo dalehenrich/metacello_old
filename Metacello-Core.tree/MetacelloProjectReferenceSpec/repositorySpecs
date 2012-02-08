@@ -1,5 +1,0 @@
-
-!MetacelloProjectReferenceSpec methodsFor: 'loading' stamp: 'dkh 1/24/2012 16:25'!
-repositorySpecs
-
-	^self repositories map values ! !

@@ -1,5 +1,0 @@
-
-!MetacelloNullRecordingMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 4/9/2010 12:23'!
-loadingSpecLoader
-
-	^self! !

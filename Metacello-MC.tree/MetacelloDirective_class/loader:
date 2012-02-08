@@ -1,6 +1,0 @@
-
-!MetacelloDirective class methodsFor: 'instance creation' stamp: 'DaleHenrichs 3/9/2010 12:19'!
-loader: aLoader
-
-	^self new
-		loader: aLoader! !

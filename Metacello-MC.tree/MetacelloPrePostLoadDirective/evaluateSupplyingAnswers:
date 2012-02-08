@@ -1,8 +1,0 @@
-
-!MetacelloPrePostLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 4/9/2010 12:45'!
-evaluateSupplyingAnswers: loadBlock
-
-	| answers |
-	(answers := self spec answers) notEmpty
-		ifTrue: [ loadBlock valueSupplyingMetacelloAnswers: answers ]
-		ifFalse: [ loadBlock value]! !

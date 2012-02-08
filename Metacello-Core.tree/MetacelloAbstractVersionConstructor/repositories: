@@ -1,5 +1,0 @@
-
-!MetacelloAbstractVersionConstructor methodsFor: 'api' stamp: 'DaleHenrichs 11/12/2010 09:54'!
-repositories: aBlock
-
-	self with: self root repositories during: aBlock! !

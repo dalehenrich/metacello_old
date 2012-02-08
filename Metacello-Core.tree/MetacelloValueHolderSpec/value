@@ -1,4 +1,0 @@
-
-!MetacelloValueHolderSpec methodsFor: 'querying' stamp: 'dkh 6/5/2009 11:46'!
-value
-	^ value! !

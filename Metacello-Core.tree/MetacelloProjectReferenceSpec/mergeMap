@@ -1,8 +1,0 @@
-
-!MetacelloProjectReferenceSpec methodsFor: 'merging' stamp: 'dkh 10/5/2009 11:31'!
-mergeMap
-
-	| map |
-	map := super mergeMap.
-	map at: #projectReference put: projectReference.
-	^map! !

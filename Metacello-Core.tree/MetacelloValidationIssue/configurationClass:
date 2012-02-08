@@ -1,4 +1,0 @@
-
-!MetacelloValidationIssue methodsFor: 'accessing' stamp: 'DaleHenrichs 11/5/2010 10:20'!
-configurationClass: aClass
-	configurationClass := aClass! !

@@ -1,5 +1,0 @@
-
-!Object methodsFor: '*metacello-core' stamp: 'dkh 8/13/2009 10:20'!
-metacelloVersionComponentLessThan: aMetacelloVersonComponent
-
-	^self error: 'Invalid Metacello verson component - should be String or Integer.'! !

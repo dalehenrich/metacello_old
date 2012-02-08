@@ -1,7 +1,0 @@
-
-!MetacelloLoadingMCSpecLoader methodsFor: 'doits' stamp: 'DaleHenrichs 3/10/2010 14:31'!
-postLoad: packageOrVersionSpec
-
-	| block |
-	(block := packageOrVersionSpec postLoadDoItBlock) ~~ nil
-		ifTrue: [ block valueWithPossibleArgs: { self. packageOrVersionSpec. } ]! !

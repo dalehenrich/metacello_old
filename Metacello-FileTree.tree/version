@@ -1,8 +1,8 @@
-(name 'Metacello-FileTree-dkh.1'
-message '- add new Metacello-FileTree package (dependent on FileTree project)- steal JsonParser from Seaside30- write JSON version of a baseline method spec'
-id 'fb4cd6dd-5c42-4b88-8ea5-ffc4950f14e0'
-date '3 February 2012'
-time '5:18:11 pm'
+(name 'Metacello-FileTree-dkh.3'
+message '- implementing ''get'' operation for Metacello scripting API- adding support for github downloads (readonly repo) in progress- examples scripts:  Metacello new     project: ''Seaside30'';     get.  Metacello new     project: ''Sample'';     filetree: ''/foos1/users/dhenrich/smalltalk/sample/'';     get.  Metacello new     project: ''Sample'';     filetree: ''/foos1/users/dhenrich/smalltalk/metacello/'';     get.  Metacello new     project: ''Sample'';     github: ''dalehenrich/sample'';     version: ''1.0'';     get.'
+id '661c4c15-503e-4236-a0a4-eee823a29e8b'
+date '7 February 2012'
+time '5:13:18 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

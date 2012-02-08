@@ -1,6 +1,0 @@
-
-!MetacelloSpec methodsFor: 'doits' stamp: 'DaleHenrichs 12/21/2010 11:47'!
-postLoadDoItBlock
-
-	^self doItBlock: self postLoadDoIt value
-! !

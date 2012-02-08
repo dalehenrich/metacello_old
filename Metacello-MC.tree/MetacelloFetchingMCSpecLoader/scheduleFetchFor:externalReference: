@@ -1,8 +1,0 @@
-
-!MetacelloFetchingMCSpecLoader methodsFor: 'private' stamp: 'dkh 12/20/2011 10:05'!
-scheduleFetchFor: packageSpec externalReference: reference
-	^ self
-		scheduleFetchFor: packageSpec
-		reference: reference
-		message:
-			'Fetched -> ' , reference name , ' --- ' , reference repository description , ' --- ' , reference repository description! !

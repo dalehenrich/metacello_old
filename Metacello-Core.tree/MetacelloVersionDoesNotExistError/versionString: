@@ -1,4 +1,0 @@
-
-!MetacelloVersionDoesNotExistError methodsFor: 'accessing' stamp: 'DaleHenrichs 9/24/2010 11:46'!
-versionString: anObject
-	versionString := anObject! !

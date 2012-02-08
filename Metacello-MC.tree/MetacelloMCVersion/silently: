@@ -1,6 +1,0 @@
-
-!MetacelloMCVersion methodsFor: 'accessing' stamp: 'DaleHenrichs 3/29/2010 15:32'!
-silently: aBool 
-	"by default silently is false"
-	
-	self loaderPolicy silently: aBool! !

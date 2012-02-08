@@ -1,5 +1,0 @@
-
-!MetacelloAbstractVersionConstructor methodsFor: 'accessing' stamp: 'DaleHenrichs 12/4/2010 09:56'!
-addAttribute: anAttribute
-
-	self attributeOrder add: anAttribute! !

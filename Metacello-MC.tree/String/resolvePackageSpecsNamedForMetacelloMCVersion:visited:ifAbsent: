@@ -1,7 +1,0 @@
-
-!String methodsFor: '*metacello-mc' stamp: 'dkh 10/21/2009 19:18'!
-resolvePackageSpecsNamedForMetacelloMCVersion: aMetacelloMCVersion visited: visited ifAbsent: aBlock 
-
-	^ aMetacelloMCVersion 
-		allPackagesForSpecs:  {aMetacelloMCVersion spec packageNamed: self ifAbsent: aBlock}
-		visited: visited! !

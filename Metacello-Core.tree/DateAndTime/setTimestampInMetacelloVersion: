@@ -1,8 +1,0 @@
-
-!DateAndTime methodsFor: '*metacello-core' stamp: 'dkh 9/13/2009 07:49'!
-setTimestampInMetacelloVersion: aMetacelloVersionSpec
-
-	aMetacelloVersionSpec setTimestamp: 
-		(aMetacelloVersionSpec project valueHolderSpec
-			value: self printString;
-			yourself)! !

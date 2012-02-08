@@ -1,6 +1,0 @@
-
-!MetacelloMCProject methodsFor: 'development support' stamp: 'DaleHenrichs 3/7/2010 09:51'!
-fetchProject
-	"fetch the latest version of the configuration package"
-	
-	^self fetchProject: MetacelloLoaderPolicy new! !

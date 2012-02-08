@@ -1,4 +1,0 @@
-
-!MetacelloScriptEngine methodsFor: 'api' stamp: 'dkh 1/31/2012 20:58'!
-get
-	^ self projectClass projectFrom: self! !

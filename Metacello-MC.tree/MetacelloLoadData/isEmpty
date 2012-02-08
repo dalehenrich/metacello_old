@@ -1,5 +1,0 @@
-
-!MetacelloLoadData methodsFor: 'testing' stamp: 'dkh 07/08/2009 12:38'!
-isEmpty
-
-	^self dataMap isEmpty! !

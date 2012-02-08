@@ -1,5 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: 'private' stamp: 'dkh 6/23/2009 11:25'!
-setRequires: aCollection
-
-	requires := aCollection! !

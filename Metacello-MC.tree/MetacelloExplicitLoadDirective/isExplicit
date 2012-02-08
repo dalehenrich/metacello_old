@@ -1,5 +1,0 @@
-
-!MetacelloExplicitLoadDirective methodsFor: 'testing' stamp: 'DaleHenrichs 12/7/2010 02:25'!
-isExplicit
-
-	^true! !

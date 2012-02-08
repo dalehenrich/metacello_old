@@ -1,6 +1,0 @@
-
-!MetacelloMergeMemberSpec methodsFor: 'actions' stamp: 'dkh 10/4/2009 10:16'!
-applyAdd: addBlock copy: copyBlock merge: mergeBlock remove: removeBlock
-
-	mergeBlock value: self
-! !

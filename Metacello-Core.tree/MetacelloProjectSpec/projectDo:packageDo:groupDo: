@@ -1,4 +1,0 @@
-
-!MetacelloProjectSpec methodsFor: 'visiting' stamp: 'dkh 1/23/2012 16:13'!
-projectDo: projectBlock packageDo: packageBlock groupDo: groupBlock
-    projectBlock value: self! !

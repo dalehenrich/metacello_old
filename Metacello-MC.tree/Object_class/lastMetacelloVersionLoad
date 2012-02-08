@@ -1,7 +1,0 @@
-
-!Object class methodsFor: '*metacello-mc' stamp: 'dkh 11/03/2009 11:05'!
-lastMetacelloVersionLoad
-	"Answer the last version loaded and the list of packages loaded for that version.
-	 See MetacelloConfigTemplate."
-
-	^nil -> 'default'! !

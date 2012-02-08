@@ -1,6 +1,0 @@
-
-!MetacelloAbstractConstructor methodsFor: 'private' stamp: 'DaleHenrichs 11/8/2010 10:02'!
-extractPragmas: pragmaKeyword into: versionDict
-
-	^self extractPragmas: pragmaKeyword for: self configurationClass into: versionDict
-! !

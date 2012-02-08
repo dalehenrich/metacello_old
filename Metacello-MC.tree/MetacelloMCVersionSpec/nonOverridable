@@ -1,5 +1,0 @@
-
-!MetacelloMCVersionSpec methodsFor: 'merging' stamp: 'dkh 9/23/2009 11:54'!
-nonOverridable
-
-	^super nonOverridable, #( packages repositories)! !

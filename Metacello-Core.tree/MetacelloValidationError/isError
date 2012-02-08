@@ -1,5 +1,0 @@
-
-!MetacelloValidationError methodsFor: 'testing' stamp: 'DaleHenrichs 11/3/2010 16:44'!
-isError
-
-	^true! !

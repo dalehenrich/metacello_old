@@ -1,6 +1,0 @@
-
-!MetacelloVersionValidator methodsFor: 'accessing' stamp: 'DaleHenrichs 11/3/2010 14:02'!
-validationReport
-	
-	validationReport == nil ifTrue: [ validationReport := OrderedCollection new ].
-	^ validationReport! !

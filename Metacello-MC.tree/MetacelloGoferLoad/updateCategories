@@ -1,5 +1,0 @@
-
-!MetacelloGoferLoad methodsFor: 'private' stamp: 'DaleHenrichs 12/18/2010 13:39'!
-updateCategories
-	MetacelloPlatform current bypassGoferLoadUpdateCategories
-		ifFalse: [ super updateCategories ]! !

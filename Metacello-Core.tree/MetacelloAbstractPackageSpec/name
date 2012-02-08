@@ -1,5 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: 'querying' stamp: 'dkh 6/23/2009 11:24'!
-name
-
-	^name! !

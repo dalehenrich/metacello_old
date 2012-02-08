@@ -1,6 +1,0 @@
-
-!MetacelloPlatform methodsFor: 'utilities' stamp: 'dkh 1/5/2011 16:47'!
-authorName: aString
-	"Primarily used for testing"
-
-	self subclassResponsibility! !

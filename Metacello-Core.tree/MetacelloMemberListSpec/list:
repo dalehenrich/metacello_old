@@ -1,6 +1,0 @@
-
-!MetacelloMemberListSpec methodsFor: 'accessing' stamp: 'DaleHenrichs 9/24/2010 16:35'!
-list: aCollection
-
-	list := aCollection.
-	self clearMemberMap! !

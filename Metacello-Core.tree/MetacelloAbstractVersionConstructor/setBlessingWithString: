@@ -1,5 +1,0 @@
-
-!MetacelloAbstractVersionConstructor methodsFor: 'api callbacks' stamp: 'DaleHenrichs 11/12/2010 09:54'!
-setBlessingWithString: aString
-
-	self root blessing: aString! !

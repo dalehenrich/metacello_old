@@ -1,5 +1,0 @@
-
-!String methodsFor: '*metacello-mc' stamp: 'DaleHenrichs 3/7/2010 08:26'!
-loadRequiredForMetacelloMCVersion: aMetacelloMCVersion
-
-	^aMetacelloMCVersion doLoadRequiredFromArray: (Array with: self).! !

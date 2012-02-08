@@ -1,8 +1,0 @@
-
-!MetacelloValueHolderSpec methodsFor: 'merging' stamp: 'dkh 6/5/2009 11:46'!
-mergeMap
-
-	| map |
-	map := super mergeMap.
-	map at: #value put: value.
-	^map! !

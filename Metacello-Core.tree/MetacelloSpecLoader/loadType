@@ -1,6 +1,0 @@
-
-!MetacelloSpecLoader methodsFor: 'accessing' stamp: 'dkh 6/12/2009 14:17'!
-loadType
-	"#atomic or #linear"
-	
-	^self project loadType! !

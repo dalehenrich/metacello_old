@@ -1,4 +1,0 @@
-
-!MetacelloValidationIssue methodsFor: 'accessing' stamp: 'DaleHenrichs 11/3/2010 13:57'!
-explanation
-	^ explanation! !

@@ -1,6 +1,0 @@
-
-!MetacelloProjectSpecLoadConflict methodsFor: 'accessing' stamp: 'dkh 1/25/2012 11:34'!
-versionString
-    "not applicable to a Conflict error"
-
-    self shouldNotImplement! !

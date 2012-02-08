@@ -3,12 +3,22 @@
 jsonOn: aStream indent: indent
     "no cr at end"
 
+    | first |
+    self list isEmpty
+        ifTrue: [ ^ self ].
+    aStream
+        nextPut: $,;
+        cr;
+        tab: indent;
+        nextPutAll: '"repositories" : [ '.
+    first := true.
     self list
         do: [ :member | 
+            first
+                ifFalse: [ aStream nextPut: $, ].
             aStream
-                nextPut: $,;
-                cr;
-                tab: indent;
-                nextPutAll: '"repository" : "';
+                nextPut: $";
                 nextPutAll: member spec name;
-                nextPutAll: '"' ]! !
+                nextPut: $".
+            first := false ].
+    aStream nextPutAll: ']'! !
