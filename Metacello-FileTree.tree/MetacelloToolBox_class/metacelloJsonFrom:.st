@@ -52,4 +52,6 @@ metacelloJsonFrom: filetreeRepositoryPath
                                     sourceName == nil
                                         ifTrue: [ section versionSpec packages perform: memberSelector with: spec ]
                                         ifFalse: [ section versionSpec packages perform: memberSelector with: sourceName with: spec ] ] ] ] ].
-    ^ (MetacelloFileTreeConstructor new methodSections: sections) project! !
+    project := (MetacelloFileTreeConstructor new methodSections: sections) project.
+    (project version: 'baseline') spec repository: 'filetree://' , filetreeRepositoryPath.
+    ^ project! !

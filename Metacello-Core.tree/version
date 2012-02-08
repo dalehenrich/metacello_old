@@ -1,8 +1,8 @@
-(name 'Metacello-Core-dkh.482'
-message '- implementing ''get'' operation for Metacello scripting API- adding support for github downloads (readonly repo) in progress- examples scripts:  Metacello new     project: ''Seaside30'';     get.  Metacello new     project: ''Sample'';     filetree: ''/foos1/users/dhenrich/smalltalk/sample/'';     get.  Metacello new     project: ''Sample'';     filetree: ''/foos1/users/dhenrich/smalltalk/metacello/'';     get.  Metacello new     project: ''Sample'';     github: ''dalehenrich/sample'';     version: ''1.0'';     get.'
-id '8e3ab12e-a3a0-4faf-a0f0-9534f4f0194d'
+(name 'Metacello-Core-dkh.483'
+message '- implementing ''load'' operation for Metacello scripting API- example scripts:  Metacello new    project: ''Sample'';    filetree: ''/Users/dhenrich/Git/sample/'';    load.'
+id '272c4fce-0706-41bc-ba1a-5e44216f5bc3'
 date '7 February 2012'
-time '5:12:38 pm'
+time '8:23:33 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
