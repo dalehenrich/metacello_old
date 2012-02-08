@@ -4,14 +4,17 @@
 			[
 			{"project" : {
 				"name" : "Gofer Core",
-				"version" : "1.0.5.1",
+				"version" : "1.0-baseline",
 				"load" : ["Core"],
-				"repository" : "http://www.squeaksource.com/MetacelloRepository",
-				"repository" : "http://seaside.gemstone.com/ss/metacello"}},
+				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository","http://seaside.gemstone.com/ss/metacello"]}},
 			{"project" : {
 				"name" : "Gofer Tests",
 				"copyFrom" : "Gofer Core",
 				"load" : ["Tests"]}},
+			{"project" : {
+				"name" : "FileTree",
+				"version" : "1.0",
+				"repositories" : [ "http://ss3.gemstone.com/ss/FileTree"]}},
 			{"package" : {
 				"name" : "Metacello-Base"}},
 			{"package" : {
@@ -26,7 +29,7 @@
 				"requires" : ["Metacello-Core", "Gofer Core"]}},
 			{"package" : {
 				"name" : "Metacello-FileTree",
-				"requires" : ["Metacello-MC"]}},
+				"requires" : ["Metacello-MC", "FileTree"]}},
 			{"package" : {
 				"name" : "Metacello-Git",
 				"requires" : ["Metacello-MC", "Metacello-FileTree"]}},
@@ -80,14 +83,14 @@
 			[
 			{"project" : {
 				"name" : "Help System",
-				"version" : "1.1",
+				"version" : "1.0-baseline",
 				"load" : ["Core"],
-				"repository" : "http://www.squeaksource.com/MetacelloRepository"}},
+				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository"]}},
 			{"project" : {
 				"name" : "OB",
-				"version" : "#stable",
+				"version" : "1.1-baseline",
 				"load" : ["Core"],
-				"repository" : "http://www.squeaksource.com/MetacelloRepository"}},
+				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository"]}},
 			{"package" : {
 				"name" : "Metacello-TestsPlatform",
 				"file" : "Metacello-TestsPlatform.squeakCommon",
@@ -108,8 +111,8 @@
 			[
 			{"project" : {
 				"name" : "ProfStef",
-				"version" : "#stable",
-				"repository" : "http://www.squeaksource.com/MetacelloRepository"}},
+				"version" : "1.0-baseline",
+				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository"]}},
 			{"package" : {
 				"name" : "Metacello-ProfStef",
 				"requires" : ["Metacello-Core", "ProfStef", "Metacello-ToolBox"]}},
@@ -150,12 +153,10 @@
 			[
 			{"project" : {
 				"name" : "Monticello",
-				"version" : "0.242",
-				"repository" : "http://seaside.gemstone.com/ss/MetacelloRepository"}},
+				"repositories" : [ "http://seaside.gemstone.com/ss/MetacelloRepository"]}},
 			{"project" : {
 				"name" : "OB",
-				"version" : "#stable",
-				"repository" : "http://seaside.gemstone.com/ss/MetacelloRepository"}},
+				"repositories" : [ "http://seaside.gemstone.com/ss/MetacelloRepository"]}},
 			{"package" : {
 				"name" : "Metacello-MC",
 				"preLoadDoIt" : "gemstone10beta24PreLoadDoIt"}},
