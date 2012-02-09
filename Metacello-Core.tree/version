@@ -1,8 +1,8 @@
-(name 'Metacello-Core-dkh.483'
-message '- implementing ''load'' operation for Metacello scripting API- example scripts:  Metacello new    project: ''Sample'';    filetree: ''/Users/dhenrich/Git/sample/'';    load.'
-id '272c4fce-0706-41bc-ba1a-5e44216f5bc3'
-date '7 February 2012'
-time '8:23:33 pm'
+(name 'Metacello-Core-dkh.484'
+message '- getting started on shared project lookup'
+id '1bf3029f-7f06-4598-b60b-cc736a9b2d55'
+date '8 February 2012'
+time '7:24:12 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

@@ -1,13 +1,14 @@
 
 !MetacelloMCProject class methodsFor: 'scripting'!
 configurationFrom: aScriptingEngine unconditionalLoad: unconditionalLoad
-    | configurationName repository |
+    | configurationName |
     configurationName := MetacelloToolBox configurationNameFrom: aScriptingEngine projectName.
     (unconditionalLoad or: [ (Smalltalk at: configurationName asSymbol ifAbsent: [  ]) isNil ])
         ifTrue: [ 
-            repository := aScriptingEngine repository.
-            Gofer new
-                repository: repository;
+            | gofer |
+            gofer := Gofer new.
+            aScriptingEngine configurationRepositories do: [ :repository | gofer repository: repository ].
+            gofer
                 package: configurationName;
                 load ].
     ^ Smalltalk at: configurationName asSymbol! !
