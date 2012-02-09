@@ -1,8 +1,8 @@
-(name 'Metacello-Core-dkh.484'
-message '- getting started on shared project lookup'
-id '1bf3029f-7f06-4598-b60b-cc736a9b2d55'
-date '8 February 2012'
-time '7:24:12 pm'
+(name 'Metacello-Core-dkh.485'
+message '- add ''fetch'' scripting command- fix a problem with optional className implementation (Issue 154)- tinker with ConfigurationOfGiMetacello --> metacello.json'
+id '9b912463-e56d-44ed-ab38-5b8ce136afbb'
+date '9 February 2012'
+time '2:53:27 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

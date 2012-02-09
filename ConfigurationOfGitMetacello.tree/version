@@ -1,8 +1,8 @@
-(name 'ConfigurationOfGitMetacello-dkh.8'
-message '- add new Metacello-FileTree package (dependent on FileTree project)- steal JsonParser from Seaside30- write JSON version of a baseline method spec'
-id '4bb8b8b4-5e01-4b9f-8e8c-22e0ac32dc40'
-date '3 February 2012'
-time '5:19:16 pm'
+(name 'ConfigurationOfGitMetacello-dkh.9'
+message '- add ''fetch'' scripting command- fix a problem with optional className implementation (Issue 154)- tinker with ConfigurationOfGiMetacello --> metacello.json'
+id '788f254d-f246-40f2-8bf6-c6b28c4f3a9d'
+date '9 February 2012'
+time '2:52:53 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

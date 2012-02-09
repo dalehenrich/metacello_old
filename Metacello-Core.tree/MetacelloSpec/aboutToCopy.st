@@ -1,0 +1,4 @@
+
+!MetacelloSpec methodsFor: 'merging'!
+aboutToCopy
+    ! !

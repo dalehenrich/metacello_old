@@ -1,6 +1,6 @@
 
 !MetacelloMCProjectSpec methodsFor: 'querying'!
 projectClass
-    className == nil
+    self className == nil
         ifTrue: [ ^ nil ].
     ^ Smalltalk at: self className asSymbol ifAbsent: [  ]! !
