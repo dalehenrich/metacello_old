@@ -1,9 +1,0 @@
-
-!MetacelloConfigAPIToolBoxTestCase methodsFor: 'running' stamp: 'DaleHenrichs 12/20/2010 13:45'!
-runCase
-	| original |
-	original := MetacelloPlatform current bypassGoferLoadUpdateCategories.
-	[ 
-	MetacelloPlatform current bypassGoferLoadUpdateCategories: true.
-	^ SystemChangeNotifier uniqueInstance doSilently: [ super runCase ] ]
-		ensure: [ MetacelloPlatform current bypassGoferLoadUpdateCategories: original ]! !

@@ -1,6 +1,0 @@
-
-!Gofer methodsFor: '*metacello-testsmc' stamp: 'DaleHenrichs 12/18/2010 13:58'!
-metacelloLoad
-	"Load the specified packages into the image."
-	
-	^ self execute: MetacelloGoferLoad! !

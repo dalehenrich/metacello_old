@@ -1,4 +1,0 @@
-
-!MetacelloSpecTestCase methodsFor: '*metacello-testsmc-specs' stamp: 'dkh 1/24/2012 11:45'!
-repositorySpec
-    ^ self project repositorySpec! !

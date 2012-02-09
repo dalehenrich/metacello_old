@@ -1,6 +1,0 @@
-
-!MetacelloConfigAPITestCase methodsFor: 'running' stamp: 'DaleHenrichs 12/20/2010 13:56'!
-setUp
-
-	super setUp.
-	alternatePreLoadExecuted := preLoadExecuted := postLoadExecuted := false! !

@@ -1,5 +1,0 @@
-
-!MetacelloConfigAPIToolBoxTestCase methodsFor: 'accessing' stamp: 'DaleHenrichs 12/20/2010 13:22'!
-monticelloRepository
-	"MetacelloMonticelloResource reset"
-	^ MetacelloMonticelloResource current monticelloRepository! !

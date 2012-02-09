@@ -1,9 +1,0 @@
-
-!MetacelloVersionQueryLatestVersionConfig methodsFor: 'baselines' stamp: 'dkh 12/21/2009 14:48'!
-baseline10: spec 
-	<version: '1.0-baseline'>
-	
-	spec for: #common do: [
-		spec blessing: #baseline.
-		spec description: 'simple baseleine:)'].
-! !

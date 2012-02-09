@@ -2,11 +2,11 @@
 !MetacelloProjectSpec methodsFor: 'printing'!
 configMethodBodyOn: aStream indent: indent
     | hasVersionString hasOperator hasProjectPackage hasLoads hasClassName hasPreLoadDoIt hasPostLoadDoIt |
-    hasClassName := className ~~ nil.
+    hasClassName := className ~~ nil and: [ className ~= self constructClassName ].
     hasVersionString := self versionString ~~ nil.
     hasOperator := operator ~~ nil.
-    hasProjectPackage := self projectPackage ~~ nil
-        and: [ self projectPackage packageRepository ~~ nil or: [ self projectPackage name ~= className ] ].
+    hasProjectPackage := self getProjectPackage ~~ nil
+        and: [ self projectPackage packageRepository ~~ nil or: [ hasClassName & (self projectPackage file ~= className) ] ].
     hasLoads := self loads ~~ nil.
     hasPreLoadDoIt := self getPreLoadDoIt ~~ nil.
     hasPostLoadDoIt := self getPostLoadDoIt ~~ nil.
@@ -98,7 +98,7 @@ configMethodBodyOn: aStream indent: indent
     hasProjectPackage
         ifTrue: [ 
             | hasName hasRepo |
-            hasName := className notNil and: [ self projectPackage name ~= self className ].
+            hasName := className notNil and: [ self projectPackage file ~= self className ].
             hasRepo := self projectPackage packageRepository ~~ nil.
             hasName
                 ifTrue: [ 
@@ -108,7 +108,7 @@ configMethodBodyOn: aStream indent: indent
                                 cr;
                                 tab: indent + 1 ]
                         ifFalse: [ aStream space ].
-                    aStream nextPutAll: 'file: ' , self projectPackage name printString.
+                    aStream nextPutAll: 'file: ' , self projectPackage file printString.
                     hasRepo
                         ifTrue: [ aStream nextPut: $; ] ].
             hasRepo

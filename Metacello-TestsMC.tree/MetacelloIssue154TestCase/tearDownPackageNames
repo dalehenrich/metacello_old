@@ -1,4 +1,0 @@
-
-!MetacelloIssue154TestCase methodsFor: 'running' stamp: 'dkh 1/26/2012 14:29'!
-tearDownPackageNames
-    ^ super tearDownPackageNames , #('MetacelloTestConfigurationOfFoo' 'ConfigurationOfMetacelloExample')! !

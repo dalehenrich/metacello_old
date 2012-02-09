@@ -1,4 +1,0 @@
-
-!MetacelloIssueTestCase methodsFor: 'running' stamp: 'dkh 1/26/2012 10:17'!
-tearDownPackageNames
-    ^ {(self projectName)}! !

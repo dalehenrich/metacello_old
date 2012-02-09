@@ -1,7 +1,0 @@
-
-!MetacelloConfigurationResource methodsFor: 'ConfigurationOfFum' stamp: 'DaleHenrichs 2/2/2010 10:42'!
-baseline40MethodSourceProjectFum
-
-	^(self class sourceCodeAt: #baseline40ProjectFum:) asString
-
-! !

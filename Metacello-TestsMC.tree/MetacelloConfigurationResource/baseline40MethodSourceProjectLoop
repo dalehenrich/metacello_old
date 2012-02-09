@@ -1,7 +1,0 @@
-
-!MetacelloConfigurationResource methodsFor: 'Issue 95' stamp: 'DaleHenrichs 8/27/2010 16:04'!
-baseline40MethodSourceProjectLoop
-
-	^(self class sourceCodeAt: #baseline40ProjectLoop:) asString
-
-! !

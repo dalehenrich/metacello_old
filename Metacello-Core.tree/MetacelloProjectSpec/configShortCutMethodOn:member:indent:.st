@@ -2,11 +2,11 @@
 !MetacelloProjectSpec methodsFor: 'printing'!
 configShortCutMethodOn: aStream member: aMember indent: indent
     | hasVersionString hasOperator hasProjectPackage hasLoads hasClassName hasPreLoadDoIt hasPostLoadDoIt |
-    hasClassName := className ~~ nil.
+    hasClassName := className ~~ nil and: [ className ~= self constructClassName ].
     hasVersionString := self versionString ~~ nil.
     hasOperator := operator ~~ nil.
-    hasProjectPackage := self projectPackage ~~ nil
-        and: [ self projectPackage name ~~ nil or: [ self projectPackage packageRepository ~~ nil ] ].
+    hasProjectPackage := self getProjectPackage ~~ nil
+        and: [ self projectPackage packageRepository ~~ nil or: [ hasClassName & (self projectPackage file ~= className) ] ].
     hasLoads := self loads ~~ nil.
     hasPreLoadDoIt := self getPreLoadDoIt ~~ nil.
     hasPostLoadDoIt := self getPostLoadDoIt ~~ nil.

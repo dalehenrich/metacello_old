@@ -1,7 +1,0 @@
-
-!MetacelloAtomicConfigurationResource methodsFor: 'ConfigurationOfUmbrella' stamp: 'DaleHenrichs 6/10/2010 17:39'!
-version51MethodSourceUmbrella
-
-	^(self class sourceCodeAt: #version51Umbrella:) asString
-
-! !

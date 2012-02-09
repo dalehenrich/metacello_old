@@ -1,8 +1,0 @@
-
-!MetacelloConfigurationResource methodsFor: 'Issue 154' stamp: 'dkh 1/26/2012 14:31'!
-setUpConfigurationOfProjectIssue154
-    "self reset"
-
-    | versionInfo |
-    versionInfo := self setUpConfigurationOfMetacelloExampledkh1.
-    versionInfo := self setUpConfigurationOfProjectIssue154dkh1! !

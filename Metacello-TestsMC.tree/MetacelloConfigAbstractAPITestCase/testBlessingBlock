@@ -1,8 +1,0 @@
-
-!MetacelloConfigAbstractAPITestCase methodsFor: 'test version' stamp: 'dkh 12/30/2009 12:56'!
-testBlessingBlock
-	| project version |
-	project := self project.
-
-	version := project version: '1.0.1-baseline'.
-	self assert: version blessing = #testBlessing! !

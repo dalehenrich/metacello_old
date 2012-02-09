@@ -1,6 +1,0 @@
-
-!MetacelloHTTPRepositoryLoadTestCase methodsFor: 'accessing' stamp: 'dkh 10/18/2009 09:27'!
-project
-
-	^(MetacelloVersionConstructor on: self) project
-! !

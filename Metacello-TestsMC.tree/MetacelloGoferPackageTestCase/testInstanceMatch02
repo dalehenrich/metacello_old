@@ -1,8 +1,0 @@
-
-!MetacelloGoferPackageTestCase methodsFor: 'tests' stamp: 'dkh 2/22/2011 18:09'!
-testInstanceMatch02
-
-	self deny: 
-		((MetacelloGoferPackage name: 'GoferBar' packageFilename: 'GoferBar.branch-lr.2')
-			matches: (GoferVersionReference name: 'GoferBar-jf.1')).
-! !

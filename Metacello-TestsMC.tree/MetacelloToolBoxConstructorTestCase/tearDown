@@ -1,7 +1,0 @@
-
-!MetacelloToolBoxConstructorTestCase methodsFor: 'running' stamp: 'DaleHenrichs 12/22/2010 12:13'!
-tearDown
-	| aGofer |
-	super tearDown.
-	Smalltalk removeKey: #'Metacello_Atomic_Configuration_Test_Repository' ifAbsent: [].
-	MetacelloConfigurationResource projectAttributes: nil! !

@@ -1,7 +1,0 @@
-
-!MetacelloAtomicConfigurationResource methodsFor: 'ConfigurationOfAtomicFoo' stamp: 'DaleHenrichs 3/16/2010 10:12'!
-baseline20MethodSourceFoo
-
-	^(self class sourceCodeAt: #baseline20Foo:) asString
-
-! !

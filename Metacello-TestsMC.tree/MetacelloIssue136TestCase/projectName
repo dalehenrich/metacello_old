@@ -1,4 +1,0 @@
-
-!MetacelloIssue136TestCase methodsFor: 'accessing' stamp: 'dkh 1/26/2012 10:22'!
-projectName
-    ^ 'MetacelloTestConfigurationOfProjectIssue136'! !

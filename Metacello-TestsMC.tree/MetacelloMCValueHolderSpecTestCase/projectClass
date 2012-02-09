@@ -1,4 +1,0 @@
-
-!MetacelloMCValueHolderSpecTestCase methodsFor: 'accessing' stamp: 'dkh 1/24/2012 10:50'!
-projectClass
-    ^ MetacelloMCProject! !

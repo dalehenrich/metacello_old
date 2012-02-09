@@ -1,8 +1,8 @@
-(name 'Metacello-MC-dkh.551'
-message '- add ''fetch'' scripting command- fix a problem with optional className implementation (Issue 154)- tinker with ConfigurationOfGiMetacello --> metacello.json'
-id 'fdfc1024-efd5-4ed7-b7d3-4c7968970a3b'
+(name 'Metacello-MC-dkh.552'
+message 'eliminate metacello test errors: 484 run, 469 passes, 0 expected failures, 15 failures, 0 errors, 0 unexpected passes'
+id '20637b13-3104-41cd-8be8-da599b7bd697'
 date '9 February 2012'
-time '2:53:44 pm'
+time '3:47:11 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

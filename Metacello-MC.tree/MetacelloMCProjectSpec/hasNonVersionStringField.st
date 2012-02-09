@@ -2,7 +2,7 @@
 !MetacelloMCProjectSpec methodsFor: 'testing'!
 hasNonVersionStringField
     | hasVersionString hasOperator hasProjectPackage hasLoads hasClassName hasPreLoadDoIt hasPostLoadDoIt |
-    hasClassName := className ~~ nil.
+    hasClassName := className ~~ nil and: [ className ~= self constructClassName ].
     hasVersionString := self versionString ~~ nil.
     hasOperator := operator ~~ nil.
     hasProjectPackage := self projectPackage ~~ nil

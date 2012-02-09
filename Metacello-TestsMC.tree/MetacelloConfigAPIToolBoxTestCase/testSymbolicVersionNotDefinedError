@@ -1,6 +1,0 @@
-
-!MetacelloConfigAPIToolBoxTestCase methodsFor: 'test symbolic version' stamp: 'dkh 1/25/2012 11:21'!
-testSymbolicVersionNotDefinedError
-    | project |
-    project := self project.
-    self should: [ project version: #'explicitly does not exist' ] raise: MetacelloSymbolicVersionNotDefinedError! !

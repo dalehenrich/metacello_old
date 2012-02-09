@@ -1,4 +1,0 @@
-
-!MetacelloTestsGoferCleanup methodsFor: 'cleaning' stamp: 'DaleHenrichs 12/18/2010 20:10'!
-cleanupProtocols: aWorkingCopy
-	"Not needed - for faster test running"! !

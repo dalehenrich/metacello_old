@@ -1,4 +1,0 @@
-
-!MetacelloIssueTestCase methodsFor: 'accessing' stamp: 'dkh 1/26/2012 10:11'!
-projectName
-    ^ self subclassResponsibility! !

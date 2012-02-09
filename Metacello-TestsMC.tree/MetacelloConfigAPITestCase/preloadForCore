@@ -1,6 +1,0 @@
-
-!MetacelloConfigAPITestCase methodsFor: 'doits' stamp: 'DaleHenrichs 12/20/2010 13:54'!
-preloadForCore
-
-	preLoadExecuted := true
-! !

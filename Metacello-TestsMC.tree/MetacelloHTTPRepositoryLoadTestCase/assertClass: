@@ -1,4 +1,0 @@
-
-!MetacelloHTTPRepositoryLoadTestCase methodsFor: 'assertions' stamp: 'dkh 10/18/2009 10:33'!
-assertClass: aClassSymbol
-	self assert: (Smalltalk hasClassNamed: aClassSymbol)! !
