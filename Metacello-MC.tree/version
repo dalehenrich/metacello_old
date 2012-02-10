@@ -1,8 +1,8 @@
-(name 'Metacello-MC-dkh.552'
-message 'eliminate metacello test errors: 484 run, 469 passes, 0 expected failures, 15 failures, 0 errors, 0 unexpected passes'
-id '20637b13-3104-41cd-8be8-da599b7bd697'
-date '9 February 2012'
-time '3:47:11 pm'
+(name 'Metacello-MC-dkh.553'
+message 'get `Metacello new project: ''Seaside30''; fetch.` to function...'
+id '1ad22261-227c-42c3-9e96-ddd52e1bfe15'
+date '10 February 2012'
+time '11:58:48 am'
 author 'dkh'
 ancestors ()
 stepChildren ())

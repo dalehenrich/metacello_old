@@ -10,5 +10,4 @@ configurationRepositories
                     (self repositorySpec
                         description: description;
                         yourself) ].
-    self halt.
     ^ specs collect: [ :repoSpec | repoSpec createRepository ]! !

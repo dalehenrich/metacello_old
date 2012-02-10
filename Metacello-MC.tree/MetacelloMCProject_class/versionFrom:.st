@@ -1,4 +1,7 @@
 
 !MetacelloMCProject class methodsFor: 'scripting'!
 versionFrom: aScriptingEngine
-	^ (self projectFrom: aScriptingEngine) version: aScriptingEngine versionString! !
+    | project version |
+    project := self projectFrom: aScriptingEngine.
+    (version := aScriptingEngine versionString) ifNil: [ ^ project latestVersion ].
+    ^ project version: version! !

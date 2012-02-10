@@ -1,8 +1,8 @@
-(name 'Metacello-Core-dkh.487'
-message '- 484 run, 476 passes, 8 expected failures, 0 failures, 0 errors, 0 unexpected passes- Issue 154 is not completely fixed (expected failures)'
-id '97a6a176-231d-4113-b188-02705344efd4'
-date '9 February 2012'
-time '5:38:43 pm'
+(name 'Metacello-Core-dkh.488'
+message 'get `Metacello new project: ''Seaside30''; fetch.` to function...'
+id 'f7c83e99-38df-484c-83d1-7a0c300ae995'
+date '10 February 2012'
+time '11:58:33 am'
 author 'dkh'
 ancestors ()
 stepChildren ())
