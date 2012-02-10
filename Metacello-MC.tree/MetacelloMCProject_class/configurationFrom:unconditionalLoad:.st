@@ -2,7 +2,7 @@
 !MetacelloMCProject class methodsFor: 'scripting'!
 configurationFrom: aScriptingEngine unconditionalLoad: unconditionalLoad
     | configurationName |
-    configurationName := MetacelloToolBox configurationNameFrom: aScriptingEngine projectName.
+    configurationName := MetacelloScriptEngine configurationNameFrom: aScriptingEngine projectName.
     (unconditionalLoad or: [ (Smalltalk at: configurationName asSymbol ifAbsent: [  ]) isNil ])
         ifTrue: [ 
             | gofer |

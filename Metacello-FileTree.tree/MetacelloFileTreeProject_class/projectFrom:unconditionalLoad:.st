@@ -6,4 +6,4 @@ projectFrom: aScriptingEngine unconditionalLoad: aBool
     | repository directory |
     repository := aScriptingEngine repository.
     directory := repository directory.
-    ^ MetacelloToolBox metacelloJsonFrom: directory pathName! !
+    ^ MetacelloFileTreeConstructor fromRepositoryPath: directory pathName! !

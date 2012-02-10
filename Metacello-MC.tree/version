@@ -1,8 +1,8 @@
-(name 'Metacello-MC-dkh.553'
-message 'get `Metacello new project: ''Seaside30''; fetch.` to function...'
-id '1ad22261-227c-42c3-9e96-ddd52e1bfe15'
+(name 'Metacello-MC-dkh.554'
+message 'clean up MetacelloToolBox references from FileTree code'
+id '5be035ea-b653-4529-a56f-93554ec9a836'
 date '10 February 2012'
-time '11:58:48 am'
+time '2:37:53 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

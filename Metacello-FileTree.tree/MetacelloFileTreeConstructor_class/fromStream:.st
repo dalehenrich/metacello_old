@@ -1,12 +1,8 @@
 
-!MetacelloToolBox class methodsFor: '*metacello-filetree'!
-metacelloJsonFrom: filetreeRepositoryPath
-    | project dict sections specSelectors original |
-    dict := (FileDirectory on: filetreeRepositoryPath)
-        oldFileNamed: 'metacello.json'
-        do: [ :fileStream | 
-            fileStream lineEndConvention: #'lf'.
-            (MetacelloJsonParser parse: (original := fileStream contents)) first ].
+!MetacelloFileTreeConstructor class methodsFor: 'instance creation'!
+fromStream: aStream
+    | project dict sections specSelectors |
+    dict := (MetacelloJsonParser parseStream: aStream) first.
     project := MetacelloFileTreeProject new.
     sections := OrderedCollection new.
     specSelectors := Dictionary new
@@ -48,10 +44,13 @@ metacelloJsonFrom: filetreeRepositoryPath
                                                                 ifTrue: [ 
                                                                     sourceName := value.
                                                                     memberSelector := #'copy:to:' ]
-                                                                ifFalse: [ spec perform: selector asSymbol asMutator with: value ] ] ] ].
+                                                                ifFalse: [ 
+                                                                    (self allowedJsonFieldNames includes: selector)
+                                                                        ifFalse: [ self error: selector printString , ' is an invalid field name for Metacello JSON file format' ].
+                                                                    spec
+                                                                        perform: selector asSymbol asMutator
+                                                                        with: value ] ] ] ].
                                     sourceName == nil
                                         ifTrue: [ section versionSpec packages perform: memberSelector with: spec ]
                                         ifFalse: [ section versionSpec packages perform: memberSelector with: sourceName with: spec ] ] ] ] ].
-    project := (MetacelloFileTreeConstructor new methodSections: sections) project.
-    (project version: 'baseline') spec repository: 'filetree://' , filetreeRepositoryPath.
-    ^ project! !
+    ^ (MetacelloFileTreeConstructor new methodSections: sections) project! !

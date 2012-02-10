@@ -1,8 +1,8 @@
-(name 'Metacello-FileTree-dkh.4'
-message '- implementing ''load'' operation for Metacello scripting API- example scripts:  Metacello new    project: ''Sample'';    filetree: ''/Users/dhenrich/Git/sample/'';    load.'
-id '1435928b-3a7e-4602-85e3-251c18a2f898'
-date '7 February 2012'
-time '8:24:01 pm'
+(name 'Metacello-FileTree-dkh.5'
+message 'clean up MetacelloToolBox references from FileTree code'
+id '285eef86-3436-43c1-a2e2-864d352bdb1a'
+date '10 February 2012'
+time '2:37:28 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

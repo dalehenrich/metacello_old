@@ -1,8 +1,8 @@
-(name 'Metacello-Git-dkh.5'
-message '- implementing ''get'' operation for Metacello scripting API- adding support for github downloads (readonly repo) in progress- examples scripts:  Metacello new     project: ''Seaside30'';     get.  Metacello new     project: ''Sample'';     filetree: ''/foos1/users/dhenrich/smalltalk/sample/'';     get.  Metacello new     project: ''Sample'';     filetree: ''/foos1/users/dhenrich/smalltalk/metacello/'';     get.  Metacello new     project: ''Sample'';     github: ''dalehenrich/sample'';     version: ''1.0'';     get.'
-id 'c6ed2c57-5460-4766-a5e9-fa2bb4859090'
-date '7 February 2012'
-time '5:13:31 pm'
+(name 'Metacello-Git-dkh.6'
+message 'clean up MetacelloToolBox references from FileTree code'
+id 'a8052635-9702-42ea-a580-ce3676f105aa'
+date '10 February 2012'
+time '2:37:40 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

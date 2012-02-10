@@ -24,4 +24,4 @@ projectFrom: aScriptingEngine unconditionalLoad: unconditionalLoad
                 readFrom: (RWBinaryOrTextStream on: zipFileBytes);
                 extractAllTo: directory.
             MCRepositoryGroup default addRepository: repository ].
-    ^ MetacelloToolBox metacelloJsonFrom: directory pathName! !
+    ^ MetacelloFileTreeConstructor fromRepositoryPath: directory pathName! !
