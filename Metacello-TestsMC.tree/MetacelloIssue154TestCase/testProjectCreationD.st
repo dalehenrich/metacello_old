@@ -18,7 +18,7 @@ testProjectCreationD
         assertMetacelloExampleProjectReferenceSpec: projectReferenceSpec
         projectName: 'MetacelloExample'
         className: 'MetacelloExampleConfigurationClass'
-        packageName: 'MetacelloExampleConfigurationFile'
+        packageName: 'MetacelloExample'
         fileName: 'MetacelloExampleConfigurationFile.gemstone'.
     self
         assert:

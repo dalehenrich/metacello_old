@@ -1,8 +1,0 @@
-
-!MetacelloTutorialTestCase methodsFor: 'tests' stamp: 'dkh 10/13/2009 15:57'!
-test11Author
-	| project |
-	project := self project.
-
-	self assert: ((project version: '1.1') author) = 'dkh'.
-! !

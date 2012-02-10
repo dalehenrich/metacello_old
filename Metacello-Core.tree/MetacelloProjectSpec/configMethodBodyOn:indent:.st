@@ -98,7 +98,8 @@ configMethodBodyOn: aStream indent: indent
     hasProjectPackage
         ifTrue: [ 
             | hasName hasRepo |
-            hasName := className notNil and: [ self projectPackage file ~= self className ].
+            hasName := className notNil
+                and: [ self projectPackage file ~= self className and: [ (self projectPackage file beginsWith: self projectPackage name) not ] ].
             hasRepo := self projectPackage packageRepository ~~ nil.
             hasName
                 ifTrue: [ 

@@ -1,8 +1,8 @@
-(name 'Metacello-TestsMC-dkh.170'
-message 'eliminate metacello test errors: 484 run, 469 passes, 0 expected failures, 15 failures, 0 errors, 0 unexpected passes'
-id '48196cb8-44dd-453e-a7ef-f3de20281ddf'
+(name 'Metacello-TestsMC-dkh.171'
+message '- 484 run, 476 passes, 8 expected failures, 0 failures, 0 errors, 0 unexpected passes- Issue 154 is not completely fixed (expected failures)'
+id 'b57c1978-7845-4276-9f94-4b73b90d70dd'
 date '9 February 2012'
-time '3:47:26 pm'
+time '5:38:58 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
