@@ -1,5 +1,0 @@
-
-!ConfigurationOfMetacello methodsFor: 'symbolic versions' stamp: 'dkh 1/18/2012 15:04'!
-development: spec
-    <symbolicVersion: #development>
-    spec for: #common version: '1.0-beta.32'! !

@@ -1,5 +1,0 @@
-
-!ConfigurationOfMetacello class methodsFor: 'accessing' stamp: 'dkh 10/31/2009 13:44'!
-project
-
-	^self new project! !

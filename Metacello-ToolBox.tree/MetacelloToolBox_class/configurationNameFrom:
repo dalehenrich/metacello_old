@@ -1,9 +1,0 @@
-
-!MetacelloToolBox class methodsFor: 'utility' stamp: 'DaleHenrichs 12/18/2010 11:42'!
-configurationNameFrom: baseName
-	"Return the fully-qualified configuration class name."
-
-	<apiDocumentation>
-	^ (baseName indexOfSubCollection: 'ConfigurationOf') > 0
-		ifTrue: [ baseName ]
-		ifFalse: [ 'ConfigurationOf' , baseName ]! !

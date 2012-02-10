@@ -1,8 +1,8 @@
-(name 'Metacello-Base-dkh.25'
-message '- add ''fetch'' scripting command- fix a problem with optional className implementation (Issue 154)- tinker with ConfigurationOfGiMetacello --> metacello.json'
-id '9be022c4-7a86-43e5-a0fb-fc182c7c03f6'
-date '9 February 2012'
-time '2:53:09 pm'
+(name 'Metacello-Base-dkh.26'
+message '- fix Issue 176: should have #ensureCoreMetacello for absolute minimal load  http://code.google.com/p/metacello/issues/detail?id=176- a little restructuring to remove MetacelloToolBox references from core'
+id 'f38282e3-37ca-49b6-8862-04dd947a3e7a'
+date '10 February 2012'
+time '1:34:07 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

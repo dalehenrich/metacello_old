@@ -1,6 +1,0 @@
-
-!MetacelloToolBox methodsFor: 'api-configuration' stamp: 'DaleHenrichs 11/18/2010 15:46'!
-modifySymbolicVersionMethodFor: versionSymbol
-
-	^self modifySymbolicVersionMethodFor: versionSymbol symbolicVersionSpecsDo: [:symbolicVersionSpec | true ].
-! !

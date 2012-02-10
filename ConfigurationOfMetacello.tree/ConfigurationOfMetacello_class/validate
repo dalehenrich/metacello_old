@@ -1,6 +1,0 @@
-
-!ConfigurationOfMetacello class methodsFor: 'development support' stamp: 'dkh 9/7/2011 16:02'!
-validate
-	"self validate"
-	
-	(MetacelloToolBox validateConfiguration: self) explore! !

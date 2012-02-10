@@ -1,7 +1,0 @@
-
-!MetacelloToolBox class methodsFor: 'utility' stamp: 'dkh 2/23/2011 14:40'!
-baseNameOfConfiguration: aConfigurationClass
-	"Return the baseName for the given configuration class."
-
-	<apiDocumentation>
-	^self baseNameOf: aConfigurationClass name asString! !

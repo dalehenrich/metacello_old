@@ -1,5 +1,0 @@
-
-!MetacelloToolBox methodsFor: 'accessing' stamp: 'DaleHenrichs 11/14/2010 01:30'!
-project
-
-	^project! !

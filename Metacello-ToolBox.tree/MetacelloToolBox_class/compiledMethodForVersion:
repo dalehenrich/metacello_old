@@ -1,8 +1,0 @@
-
-!MetacelloToolBox class methodsFor: 'tool support' stamp: 'dkh 2/23/2011 15:06'!
-compiledMethodForVersion: aMetacelloVersion
-
-	| toolbox pragma |
-	toolbox := MetacelloToolBox new project: aMetacelloVersion project.
-	pragma := (toolbox constructor extractAllVersionPragmas at: aMetacelloVersion versionString ifAbsent: [ ^ nil ]) first.
-	^pragma method! !

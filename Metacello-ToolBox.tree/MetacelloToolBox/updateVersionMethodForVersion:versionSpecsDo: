@@ -1,8 +1,0 @@
-
-!MetacelloToolBox methodsFor: 'api-configuration' stamp: 'DaleHenrichs 11/19/2010 10:39'!
-updateVersionMethodForVersion: inputVersionStringOrSymbol versionSpecsDo: aBlock
-	^ self
-		updateVersionMethodForVersion: inputVersionStringOrSymbol
-		updateProjects: true
-		updatePackages: true
-		versionSpecsDo: aBlock! !

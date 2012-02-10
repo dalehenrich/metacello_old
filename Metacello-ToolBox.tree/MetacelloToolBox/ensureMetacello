@@ -1,4 +1,0 @@
-
-!MetacelloToolBox methodsFor: 'private' stamp: 'DaleHenrichs 11/14/2010 01:16'!
-ensureMetacello
-	"noop for now"! !

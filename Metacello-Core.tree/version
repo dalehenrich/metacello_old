@@ -1,8 +1,8 @@
-(name 'Metacello-Core-dkh.488'
-message 'get `Metacello new project: ''Seaside30''; fetch.` to function...'
-id 'f7c83e99-38df-484c-83d1-7a0c300ae995'
+(name 'Metacello-Core-dkh.489'
+message '- fix Issue 176: should have #ensureCoreMetacello for absolute minimal load  http://code.google.com/p/metacello/issues/detail?id=176- a little restructuring to remove MetacelloToolBox references from core'
+id '9356f908-2b6d-42db-ab94-80577981c02d'
 date '10 February 2012'
-time '11:58:33 am'
+time '1:34:29 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

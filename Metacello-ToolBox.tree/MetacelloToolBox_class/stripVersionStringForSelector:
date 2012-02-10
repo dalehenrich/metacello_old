@@ -1,7 +1,0 @@
-
-!MetacelloToolBox class methodsFor: 'private' stamp: 'DaleHenrichs 2/9/2011 11:46'!
-stripVersionStringForSelector: versionString
-
-	^((versionString copyWithout: $.) copyWithout: $-) 
-		copyReplaceAll: 'baseline' with: '' 
-! !

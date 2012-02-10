@@ -1,6 +1,0 @@
-
-!MetacelloToolBox methodsFor: 'spec creation' stamp: 'DaleHenrichs 11/14/2010 01:17'!
-createGroupSpec: baseName
-	^ (self project groupSpec)
-		name: baseName;
-		yourself! !

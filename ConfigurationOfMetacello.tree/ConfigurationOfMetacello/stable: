@@ -1,7 +1,0 @@
-
-!ConfigurationOfMetacello methodsFor: 'symbolic versions' stamp: 'dkh 11/17/2011 13:33'!
-stable: spec
-	<symbolicVersion: #'stable'>
-
-	spec for: #'common' version: '1.0-beta.31.1'.
-! !

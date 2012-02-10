@@ -2,10 +2,12 @@
 !MetacelloBaseConfiguration class methodsFor: 'private'!
 bootstrapPackage: aString from: aPath 
 	| repository version |
-	repository := MCHttpRepository
+	repository := (MCCacheRepository default includesVersionNamed: aString)
+		ifTrue: [MCCacheRepository default]
+		ifFalse: [MCHttpRepository
 				location: aPath
 				user: ''
-				password: ''.
+				password: ''].
 	repository
 		versionReaderForFileNamed: aString , '.mcz'
 		do: [:reader | 
