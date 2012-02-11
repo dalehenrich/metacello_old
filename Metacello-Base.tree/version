@@ -1,8 +1,8 @@
-(name 'Metacello-Base-dkh.27'
-message 'basic project configuration lookup logic implemented ... need to add/improve the caching logic ... I suppose the best answer is to hold onto a gofer instance per list and probably dispose of the configurationPackageMapCache, since there is minimal gain with that dawg'
-id '50636aee-058e-4005-9fe6-d36b730c9b83'
-date '10 February 2012'
-time '4:52:53 pm'
+(name 'Metacello-Base-dkh.28'
+message '- project:version: makes sense as single selector for API- cache gofer instances instead of resolvedReferences to cuto down on repository access over network- tweaks'
+id '49c66bc9-632e-497b-971f-dad5add7da84'
+date '11 February 2012'
+time '1:29:19 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

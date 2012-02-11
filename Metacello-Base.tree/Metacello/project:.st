@@ -1,4 +1,4 @@
 
 !Metacello methodsFor: 'api'!
 project: projectName
-    self addStatement: #'project:' args: {projectName}! !
+    self project: projectName version: nil! !
