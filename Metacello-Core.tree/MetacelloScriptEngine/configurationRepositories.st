@@ -1,13 +1,20 @@
 
 !MetacelloScriptEngine methodsFor: 'accessing'!
 configurationRepositories
-    | specs |
-    specs := OrderedCollection new.
-    self platformOverrides , self platformRepositories , self personal
-        do: [ :description | 
-            specs
-                add:
-                    (self repositorySpec
-                        description: description;
-                        yourself) ].
-    ^ specs collect: [ :repoSpec | repoSpec createRepository ]! !
+    | list |
+    list := OrderedCollection new.
+    {(self platformOverrides).
+    (self platformRepositories).
+    (self personal)}
+        do: [ :repos | 
+            | specs |
+            specs := OrderedCollection new.
+            repos
+                do: [ :description | 
+                    specs
+                        add:
+                            (self repositorySpec
+                                description: description;
+                                yourself) ].
+            list add: (specs collect: [ :repoSpec | repoSpec createRepository ]) ].
+    ^ list! !

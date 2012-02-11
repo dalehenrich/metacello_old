@@ -1,6 +1,6 @@
 
 Object subclass: #Metacello
-	instanceVariableNames: 'statements'
+	instanceVariableNames: 'scriptEngine statements'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-Base'!

@@ -4,11 +4,5 @@ configurationFrom: aScriptingEngine unconditionalLoad: unconditionalLoad
     | configurationName |
     configurationName := MetacelloScriptEngine configurationNameFrom: aScriptingEngine projectName.
     (unconditionalLoad or: [ (Smalltalk at: configurationName asSymbol ifAbsent: [  ]) isNil ])
-        ifTrue: [ 
-            | gofer |
-            gofer := Gofer new.
-            aScriptingEngine configurationRepositories do: [ :repository | gofer repository: repository ].
-            gofer
-                package: configurationName;
-                load ].
+        ifTrue: [ aScriptingEngine lookupAndLoadConfiguration: configurationName unconditionalLoad: unconditionalLoad ].
     ^ Smalltalk at: configurationName asSymbol! !

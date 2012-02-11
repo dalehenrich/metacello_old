@@ -1,8 +1,8 @@
-(name 'Metacello-MC-dkh.554'
-message 'clean up MetacelloToolBox references from FileTree code'
-id '5be035ea-b653-4529-a56f-93554ec9a836'
+(name 'Metacello-MC-dkh.555'
+message 'basic project configuration lookup logic implemented ... need to add/improve the caching logic ... I suppose the best answer is to hold onto a gofer instance per list and probably dispose of the configurationPackageMapCache, since there is minimal gain with that dawg'
+id 'a0a961ff-06c0-4ded-8f69-1f83a4d0bd2c'
 date '10 February 2012'
-time '2:37:53 pm'
+time '4:53:23 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

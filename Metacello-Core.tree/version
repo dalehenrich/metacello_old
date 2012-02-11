@@ -1,8 +1,8 @@
-(name 'Metacello-Core-dkh.489'
-message '- fix Issue 176: should have #ensureCoreMetacello for absolute minimal load  http://code.google.com/p/metacello/issues/detail?id=176- a little restructuring to remove MetacelloToolBox references from core'
-id '9356f908-2b6d-42db-ab94-80577981c02d'
+(name 'Metacello-Core-dkh.490'
+message 'basic project configuration lookup logic implemented ... need to add/improve the caching logic ... I suppose the best answer is to hold onto a gofer instance per list and probably dispose of the configurationPackageMapCache, since there is minimal gain with that dawg'
+id '00a2491a-329c-491d-a8cc-92d42bf8d4e5'
 date '10 February 2012'
-time '1:34:29 pm'
+time '4:53:09 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

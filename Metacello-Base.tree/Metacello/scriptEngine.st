@@ -1,4 +1,5 @@
 
 !Metacello methodsFor: 'private'!
 scriptEngine
-    ^ self class scriptEngineClass new! !
+    scriptEngine ifNil: [ scriptEngine := self class scriptEngineClass new ].
+    ^ scriptEngine! !
