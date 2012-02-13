@@ -1,8 +1,8 @@
-(name 'Metacello-MC-dkh.555'
-message 'basic project configuration lookup logic implemented ... need to add/improve the caching logic ... I suppose the best answer is to hold onto a gofer instance per list and probably dispose of the configurationPackageMapCache, since there is minimal gain with that dawg'
-id 'a0a961ff-06c0-4ded-8f69-1f83a4d0bd2c'
-date '10 February 2012'
-time '4:53:23 pm'
+(name 'Metacello-MC-dkh.556'
+message '- share configuration lookup across script loads and Metacello loads'
+id '355af190-f22e-4ade-b7ca-dcd77e04e422'
+date '12 February 2012'
+time '5:14:01 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

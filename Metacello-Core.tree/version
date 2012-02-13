@@ -1,8 +1,8 @@
-(name 'Metacello-Core-dkh.491'
-message '- project:version: makes sense as single selector for API- cache gofer instances instead of resolvedReferences to cuto down on repository access over network- tweaks'
-id '1cb03870-0423-445f-98e5-7044d064b709'
-date '11 February 2012'
-time '1:29:38 pm'
+(name 'Metacello-Core-dkh.492'
+message '- share configuration lookup across script loads and Metacello loads'
+id '99e0b425-83cb-4b23-9b6a-ee8cf8996a92'
+date '12 February 2012'
+time '5:13:10 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

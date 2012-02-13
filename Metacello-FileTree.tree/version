@@ -1,8 +1,8 @@
-(name 'Metacello-FileTree-dkh.5'
-message 'clean up MetacelloToolBox references from FileTree code'
-id '285eef86-3436-43c1-a2e2-864d352bdb1a'
-date '10 February 2012'
-time '2:37:28 pm'
+(name 'Metacello-FileTree-dkh.6'
+message '- share configuration lookup across script loads and Metacello loads'
+id '9e4ade48-95fc-407a-8f3c-258f57916c52'
+date '12 February 2012'
+time '5:13:32 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

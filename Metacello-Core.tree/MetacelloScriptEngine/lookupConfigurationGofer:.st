@@ -1,11 +1,6 @@
 
 !MetacelloScriptEngine methodsFor: 'project lookup'!
-lookupAndLoadConfiguration: configurationName unconditionalLoad: unconditionalLoad
-    Smalltalk
-        at: configurationName asSymbol
-        ifPresent: [ 
-            unconditionalLoad
-                ifFalse: [ ^ self ] ].
+lookupConfigurationGofer: configurationName
     {(self platformOverrides).
     (self platformRepositories).
     (self personal)}
@@ -26,11 +21,5 @@ lookupAndLoadConfiguration: configurationName unconditionalLoad: unconditionalLo
                                         yourself) createRepository.
                             self goferCache at: description put: gf.
                             gf ].
-                    (references := (GoferPackageReference name: configurationName) resolveAllWith: cachedGofer) notEmpty
-                        ifTrue: [ 
-                            | gofer |
-                            gofer := Gofer new.
-                            cachedGofer repositories do: [ :repo | gofer repository: repo ].
-                            gofer version: references last name.
-                            gofer load.
-                            ^ self ] ] ]! !
+                    ^ cachedGofer ] ].
+    ^ nil! !

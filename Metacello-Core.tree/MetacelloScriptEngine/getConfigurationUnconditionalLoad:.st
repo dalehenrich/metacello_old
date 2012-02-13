@@ -1,7 +1,11 @@
 
 !MetacelloScriptEngine methodsFor: 'project lookup'!
 getConfigurationUnconditionalLoad: unconditionalLoad
-    | configurationName |
-    configurationName := self class configurationNameFrom: self projectName.
-    self lookupAndLoadConfiguration: configurationName unconditionalLoad: unconditionalLoad.
-    ^ Smalltalk at: configurationName asSymbol! !
+    | packageSpec |
+    Smalltalk
+        at: self projectPackageSpec file asSymbol
+        ifPresent: [ :cl | 
+            unconditionalLoad
+                ifFalse: [ ^ cl ] ].
+    (packageSpec := self lookupConfigurationPackageSpecFrom: self projectPackageSpec) load.
+    ^ Smalltalk at: packageSpec file asSymbol! !
