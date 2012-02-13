@@ -1,8 +1,8 @@
-(name 'Metacello-FileTree-dkh.6'
-message '- share configuration lookup across script loads and Metacello loads'
-id '9e4ade48-95fc-407a-8f3c-258f57916c52'
-date '12 February 2012'
-time '5:13:32 pm'
+(name 'Metacello-FileTree-dkh.7'
+message '- account for symbolic versions in JSON format'
+id '1a4563f1-2dab-4b53-afeb-d24ba10fd846'
+date '13 February 2012'
+time '9:42:20 am'
 author 'dkh'
 ancestors ()
 stepChildren ())

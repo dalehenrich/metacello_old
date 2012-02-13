@@ -1,8 +1,8 @@
-(name 'ConfigurationOfGitMetacello-dkh.9'
-message '- add ''fetch'' scripting command- fix a problem with optional className implementation (Issue 154)- tinker with ConfigurationOfGiMetacello --> metacello.json'
-id '788f254d-f246-40f2-8bf6-c6b28c4f3a9d'
-date '9 February 2012'
-time '2:52:53 pm'
+(name 'ConfigurationOfGitMetacello-dkh.10'
+message '- update baseline with correct project versions'
+id '0f50fe44-ebab-4e46-97cd-a2c32e49af33'
+date '13 February 2012'
+time '9:32:32 am'
 author 'dkh'
 ancestors ()
 stepChildren ())

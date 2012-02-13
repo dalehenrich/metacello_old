@@ -12,7 +12,7 @@ baseline: spec
                     with: [ 
                             spec
                                 className: 'ConfigurationOfGofer';
-                                versionString: '1.0-baseline';
+                                versionString: '1.0.5.1';
                                 loads: #('Core');
                                 repository: 'http://www.squeaksource.com/MetacelloRepository';
                                 repository: 'http://seaside.gemstone.com/ss/metacello' ];
@@ -66,14 +66,14 @@ baseline: spec
                 project: 'HelpSystem'
                     with: [ 
                             spec
-                                versionString: '1.0-baseline';
+                                versionString: '1.1';
                                 loads: #('Core');
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 project: 'OmniBrowser'
                     with: [ 
                             spec
                                 className: 'ConfigurationOfOmniBrowser';
-                                versionString: '1.1-baseline';
+                                versionString: #'stable';
                                 loads: #('Core');
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 yourself.
@@ -98,7 +98,7 @@ baseline: spec
                     with: [ 
                             spec
                                 className: 'ConfigurationOfProfStef';
-                                versionString: '1.0-baseline';
+                                versionString: #'stable';
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 yourself.
             spec
@@ -139,11 +139,13 @@ baseline: spec
                     with: [ 
                             spec
                                 className: 'ConfigurationOfGsMonticello';
+                                versionString: '0.242';
                                 repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
                 project: 'OmniBrowser'
                     with: [ 
                             spec
                                 className: 'ConfigurationOfGsOB';
+                                versionString: #'stable';
                                 repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
                 yourself.
             spec

@@ -3,11 +3,19 @@
 jsonBodyOn: aStream indent: indent
     "no cr at end"
 
-    self
-        jsonOn: aStream
-        for: self versionString
-        selector: 'version'
-        indent: indent + 1.
+    self versionString isSymbol
+        ifTrue: [ 
+            self
+                jsonOn: aStream
+                for: self versionString
+                selector: 'symbolicVersion'
+                indent: indent + 1 ]
+        ifFalse: [ 
+            self
+                jsonOn: aStream
+                for: self versionString
+                selector: 'version'
+                indent: indent + 1 ].
     self
         jsonOn: aStream
         list: self loads

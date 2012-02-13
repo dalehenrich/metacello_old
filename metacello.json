@@ -4,7 +4,7 @@
 			[
 			{"project" : {
 				"name" : "Gofer",
-				"version" : "1.0-baseline",
+				"version" : "1.0.5.1",
 				"load" : ["Core"],
 				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository","http://seaside.gemstone.com/ss/metacello"]}},
 			{"project" : {
@@ -83,12 +83,12 @@
 			[
 			{"project" : {
 				"name" : "HelpSystem",
-				"version" : "1.0-baseline",
+				"version" : "1.1",
 				"load" : ["Core"],
 				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository"]}},
 			{"project" : {
 				"name" : "OmniBrowser",
-				"version" : "1.1-baseline",
+				"symbolicVersion" : "stable",
 				"load" : ["Core"],
 				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository"]}},
 			{"package" : {
@@ -111,7 +111,7 @@
 			[
 			{"project" : {
 				"name" : "ProfStef",
-				"version" : "1.0-baseline",
+				"symbolicVersion" : "stable",
 				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository"]}},
 			{"package" : {
 				"name" : "Metacello-ProfStef",
@@ -153,9 +153,11 @@
 			[
 			{"project" : {
 				"name" : "GsMonticello",
+				"version" : "0.242",
 				"repositories" : [ "http://seaside.gemstone.com/ss/MetacelloRepository"]}},
 			{"project" : {
 				"name" : "OmniBrowser",
+				"symbolicVersion" : "stable",
 				"repositories" : [ "http://seaside.gemstone.com/ss/MetacelloRepository"]}},
 			{"package" : {
 				"name" : "Metacello-MC",
