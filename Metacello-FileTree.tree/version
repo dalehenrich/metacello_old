@@ -1,8 +1,8 @@
-(name 'Metacello-FileTree-dkh.7'
-message '- account for symbolic versions in JSON format'
-id '1a4563f1-2dab-4b53-afeb-d24ba10fd846'
+(name 'Metacello-FileTree-dkh.8'
+message '- start work on pinning project version, but first ...- get the following load expression to work:  "load from clone of https://dalehenrich@github.com/dalehenrich/MetacelloRepository.git"  Metacello new     disablePlatformRepositories;    platformOverrides: #(''filetree:///foos1/users/dhenrich/smalltalk/MetacelloRepository/'');    project: ''Sample'' version: #stable;     load.'
+id '330ba273-5a12-434b-9aa5-bca947c7dceb'
 date '13 February 2012'
-time '9:42:20 am'
+time '4:30:21 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
