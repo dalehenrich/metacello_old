@@ -1,8 +1,8 @@
-(name 'Metacello-Base-dkh.30'
-message '- Metacello scripting support for fetch: and load: ...'
-id 'bdd763a9-af63-4f71-97a6-774dc7ac2863'
-date '13 February 2012'
-time '6:03:42 pm'
+(name 'Metacello-Base-dkh.31'
+message '- add mechanism for conditionally requiring filetree or github when booting Metacello'
+id '155260a7-f38c-477c-91a4-d9703f73d791'
+date '14 February 2012'
+time '10:22:36 am'
 author 'dkh'
 ancestors ()
 stepChildren ())

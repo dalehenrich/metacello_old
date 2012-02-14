@@ -1,8 +1,8 @@
-(name 'ConfigurationOfGitMetacello-dkh.12'
-message '- Zodiac support for https client to be used to download from github'
-id '77165c52-3c04-418e-9d77-3d5497692972'
-date '13 February 2012'
-time '5:04:12 pm'
+(name 'ConfigurationOfGitMetacello-dkh.13'
+message '- not going to rquire Zodiac for github...'
+id '5b074ab5-eb79-4c64-8989-01277344112f'
+date '14 February 2012'
+time '10:21:08 am'
 author 'dkh'
 ancestors ()
 stepChildren ())

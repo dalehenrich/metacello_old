@@ -91,12 +91,6 @@ baseline: spec
         for: #'pharo'
         do: [ 
             spec
-                project: 'ZincHTTPComponents'
-                    with: [ 
-                            spec
-                                versionString: #'stable';
-                                loads: #('Zinc-HTTP' 'Zinc-Patch-HTTPSocket' 'Zinc-Zodiac');
-                                repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 project: 'ProfStef'
                     with: [ 
                             spec
@@ -104,7 +98,6 @@ baseline: spec
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 yourself.
             spec
-                package: 'Metacello-Git' with: [ spec requires: #('ZincHTTPComponents') ];
                 package: 'Metacello-ProfStef'
                     with: [ spec requires: #('Metacello-Core' 'ProfStef' 'Metacello-ToolBox') ];
                 package: 'Metacello-TestsProfStef' with: [ spec requires: #('Metacello-ProfStef') ];
