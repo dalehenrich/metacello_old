@@ -1,12 +1,12 @@
 
-!MetacelloMCProjectSpec methodsFor: '*metacello-filetree'!
+!MetacelloProjectSpec methodsFor: '*metacello-filetree'!
 jsonOn: aStream indent: indent
     "no cr at end"
 
     aStream
         cr;
         tab: indent;
-        nextPutAll: '{"project" : {';
+        nextPutAll: '{"' , self projectLabel , '" : {';
         cr;
         tab: indent + 1;
         nextPutAll: '"name" : "' , self name , '"'.

@@ -1,8 +1,8 @@
-(name 'Metacello-FileTree-dkh.8'
-message '- start work on pinning project version, but first ...- get the following load expression to work:  "load from clone of https://dalehenrich@github.com/dalehenrich/MetacelloRepository.git"  Metacello new     disablePlatformRepositories;    platformOverrides: #(''filetree:///foos1/users/dhenrich/smalltalk/MetacelloRepository/'');    project: ''Sample'' version: #stable;     load.'
-id '330ba273-5a12-434b-9aa5-bca947c7dceb'
-date '13 February 2012'
-time '4:30:21 pm'
+(name 'Metacello-FileTree-dkh.9'
+message '- support for MetacelloGitHubProjectSpec which is used as follows:  baseline: spec    <version: ''baseline''>    spec        for: #''common''        do: [             spec                github: ''Sample''                with: [                     spec                        version: ''master'';                        repository: ''https://dalehenrich@github.com/dalehenrich/sample.git'';                        yourself ] ]'
+id '2f4f3f64-d54e-487c-afee-d58b93d8877c'
+date '14 February 2012'
+time '12:09:21 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

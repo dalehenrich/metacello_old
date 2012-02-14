@@ -1,8 +1,8 @@
-(name 'Metacello-Git-dkh.6'
-message 'clean up MetacelloToolBox references from FileTree code'
-id 'a8052635-9702-42ea-a580-ce3676f105aa'
-date '10 February 2012'
-time '2:37:40 pm'
+(name 'Metacello-Git-dkh.7'
+message '- support for MetacelloGitHubProjectSpec which is used as follows:  baseline: spec    <version: ''baseline''>    spec        for: #''common''        do: [             spec                github: ''Sample''                with: [                     spec                        version: ''master'';                        repository: ''https://dalehenrich@github.com/dalehenrich/sample.git'';                        yourself ] ]'
+id '6747bcc8-3df8-4622-b756-d5f8c3197cb6'
+date '14 February 2012'
+time '12:09:32 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

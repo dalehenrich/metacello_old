@@ -1,8 +1,8 @@
-(name 'Metacello-Core-dkh.494'
-message '- Metacello scripting support for fetch: and load: ...'
-id '2a0b7cd7-92ff-4dca-8346-f6c2e87d85c4'
-date '13 February 2012'
-time '6:03:56 pm'
+(name 'Metacello-Core-dkh.495'
+message '- support for MetacelloGitHubProjectSpec which is used as follows:  baseline: spec    <version: ''baseline''>    spec        for: #''common''        do: [             spec                github: ''Sample''                with: [                     spec                        version: ''master'';                        repository: ''https://dalehenrich@github.com/dalehenrich/sample.git'';                        yourself ] ]'
+id '0f47a190-3b95-4c91-a3a3-7ba4e062be4a'
+date '14 February 2012'
+time '12:09:06 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

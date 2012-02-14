@@ -1,5 +1,5 @@
 
-!MetacelloMCProjectSpec methodsFor: '*metacello-filetree'!
+!MetacelloProjectSpec methodsFor: '*metacello-filetree'!
 jsonBodyOn: aStream indent: indent
     "no cr at end"
 
