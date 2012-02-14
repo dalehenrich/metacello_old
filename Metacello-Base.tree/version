@@ -1,8 +1,8 @@
-(name 'Metacello-Base-dkh.29'
-message '- start work on pinning project version, but first ...- get the following load expression to work:  "load from clone of https://dalehenrich@github.com/dalehenrich/MetacelloRepository.git"  Metacello new     disablePlatformRepositories;    platformOverrides: #(''filetree:///foos1/users/dhenrich/smalltalk/MetacelloRepository/'');    project: ''Sample'' version: #stable;     load.'
-id '077db0de-6394-4b3b-93c4-11e667d20498'
+(name 'Metacello-Base-dkh.30'
+message '- Metacello scripting support for fetch: and load: ...'
+id 'bdd763a9-af63-4f71-97a6-774dc7ac2863'
 date '13 February 2012'
-time '4:29:56 pm'
+time '6:03:42 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
