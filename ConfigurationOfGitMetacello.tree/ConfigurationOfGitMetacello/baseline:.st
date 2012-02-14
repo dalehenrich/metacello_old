@@ -11,10 +11,8 @@ baseline: spec
                 project: 'Gofer'
                     with: [ 
                             spec
-                                className: 'ConfigurationOfGofer';
                                 versionString: '1.0.5.1';
                                 loads: #('Core');
-                                repository: 'http://www.squeaksource.com/MetacelloRepository';
                                 repository: 'http://seaside.gemstone.com/ss/metacello' ];
                 project: 'Gofer Tests' copyFrom: 'Gofer' with: [ spec loads: #('Tests') ];
                 project: 'FileTree'
@@ -72,7 +70,6 @@ baseline: spec
                 project: 'OmniBrowser'
                     with: [ 
                             spec
-                                className: 'ConfigurationOfOmniBrowser';
                                 versionString: #'stable';
                                 loads: #('Core');
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
@@ -94,14 +91,20 @@ baseline: spec
         for: #'pharo'
         do: [ 
             spec
+                project: 'ZincHTTPComponents'
+                    with: [ 
+                            spec
+                                versionString: #'stable';
+                                loads: #('Zinc-HTTP' 'Zinc-Patch-HTTPSocket' 'Zinc-Zodiac');
+                                repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 project: 'ProfStef'
                     with: [ 
                             spec
-                                className: 'ConfigurationOfProfStef';
                                 versionString: #'stable';
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 yourself.
             spec
+                package: 'Metacello-Git' with: [ spec requires: #('ZincHTTPComponents') ];
                 package: 'Metacello-ProfStef'
                     with: [ spec requires: #('Metacello-Core' 'ProfStef' 'Metacello-ToolBox') ];
                 package: 'Metacello-TestsProfStef' with: [ spec requires: #('Metacello-ProfStef') ];

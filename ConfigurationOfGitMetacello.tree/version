@@ -1,8 +1,8 @@
-(name 'ConfigurationOfGitMetacello-dkh.10'
-message '- update baseline with correct project versions'
-id '0f50fe44-ebab-4e46-97cd-a2c32e49af33'
+(name 'ConfigurationOfGitMetacello-dkh.12'
+message '- Zodiac support for https client to be used to download from github'
+id '77165c52-3c04-418e-9d77-3d5497692972'
 date '13 February 2012'
-time '9:32:32 am'
+time '5:04:12 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
