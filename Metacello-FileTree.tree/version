@@ -1,8 +1,8 @@
-(name 'Metacello-FileTree-dkh.9'
-message '- support for MetacelloGitHubProjectSpec which is used as follows:  baseline: spec    <version: ''baseline''>    spec        for: #''common''        do: [             spec                github: ''Sample''                with: [                     spec                        version: ''master'';                        repository: ''https://dalehenrich@github.com/dalehenrich/sample.git'';                        yourself ] ]'
-id '2f4f3f64-d54e-487c-afee-d58b93d8877c'
+(name 'Metacello-FileTree-dkh.10'
+message '- download zipped github tag, unzip and set up for use as a filetree repository:  Metacello new     project: ''Sample'';     github: ''dalehenrich/sample'';     version: ''1.0'';     get.'
+id '35483deb-5fb9-4239-add0-5e50355d2fbe'
 date '14 February 2012'
-time '12:09:21 pm'
+time '4:22:59 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

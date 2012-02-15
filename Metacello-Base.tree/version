@@ -1,8 +1,8 @@
-(name 'Metacello-Base-dkh.31'
-message '- add mechanism for conditionally requiring filetree or github when booting Metacello'
-id '155260a7-f38c-477c-91a4-d9703f73d791'
+(name 'Metacello-Base-dkh.32'
+message '- download zipped github tag, unzip and set up for use as a filetree repository:  Metacello new     project: ''Sample'';     github: ''dalehenrich/sample'';     version: ''1.0'';     get.'
+id '54b8fefd-1f36-46b7-90f6-446439bbcb10'
 date '14 February 2012'
-time '10:22:36 am'
+time '4:22:36 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
