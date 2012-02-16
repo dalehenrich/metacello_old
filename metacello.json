@@ -110,17 +110,9 @@
 		{"pharo" : 
 			[
 			{"project" : {
-				"name" : "ZincHTTPComponents",
-				"symbolicVersion" : "stable",
-				"load" : ["Zinc-HTTP", "Zinc-Patch-HTTPSocket", "Zinc-Zodiac"],
-				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository"]}},
-			{"project" : {
 				"name" : "ProfStef",
 				"symbolicVersion" : "stable",
 				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository"]}},
-			{"package" : {
-				"name" : "Metacello-Git",
-				"requires" : ["ZincHTTPComponents"]}},
 			{"package" : {
 				"name" : "Metacello-ProfStef",
 				"requires" : ["Metacello-Core", "ProfStef", "Metacello-ToolBox"]}},
