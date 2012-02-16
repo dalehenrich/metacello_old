@@ -16,4 +16,8 @@ projectFrom: projectPath version: versionString
         readonly: true;
         yourself.
     MCRepositoryGroup default addRepository: repository.
-    ^ self projectFrom: repoDirectory pathName! !
+    ^ [ self projectFrom: repoDirectory pathName ]
+        on: FileDoesNotExistException
+        do: [ :ex | 
+            "that's fine ... no metacello spec for repository contents"
+            nil ]! !

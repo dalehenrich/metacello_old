@@ -1,8 +1,8 @@
-(name 'Metacello-Git-dkh.8'
-message '- download zipped github tag, unzip and set up for use as a filetree repository:  Metacello new     project: ''Sample'';     github: ''dalehenrich/sample'';     version: ''1.0'';     get.'
-id '47ec16b2-b1b5-4260-8d10-73f1799f496c'
-date '14 February 2012'
-time '4:23:10 pm'
+(name 'Metacello-Git-dkh.9'
+message ''
+id 'c1a36e01-28df-48dd-adc5-c4fdcf3288d8'
+date '16 February 2012'
+time '1:40:19 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
