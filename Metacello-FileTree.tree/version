@@ -1,8 +1,8 @@
-(name 'Metacello-FileTree-dkh.11'
-message 'support for reading metacello.st file to produce metacello.json file'
-id '5ff6c74d-50c7-4242-b8b6-604186017abf'
+(name 'Metacello-FileTree-dkh.12'
+message ''
+id '290dfb28-38e4-4d37-9e1c-33e263c74fb9'
 date '15 February 2012'
-time '2:13:47 pm'
+time '5:32:46 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

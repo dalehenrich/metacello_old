@@ -53,4 +53,4 @@ fromStream: aStream
                                     sourceName == nil
                                         ifTrue: [ section versionSpec packages perform: memberSelector with: spec ]
                                         ifFalse: [ section versionSpec packages perform: memberSelector with: sourceName with: spec ] ] ] ] ].
-    ^ (MetacelloFileTreeConstructor new methodSections: sections) project! !
+    ^ (MetacelloFileTreeConstructor new methodSections: sections) createProject! !

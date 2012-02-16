@@ -1,6 +1,6 @@
 
 !MetacelloFileTreeConstructor methodsFor: 'accessing'!
-project
+createProject
     | map versionSpec |
     project := MetacelloFileTreeProject new.
     map := Dictionary new.
