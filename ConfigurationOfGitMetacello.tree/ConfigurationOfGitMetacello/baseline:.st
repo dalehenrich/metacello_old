@@ -31,7 +31,8 @@ baseline: spec
                                 includes: #('Metacello-MC' 'Metacello-Platform') ];
                 package: 'Metacello-MC' with: [ spec requires: #('Metacello-Core' 'Gofer') ];
                 package: 'Metacello-FileTree' with: [ spec requires: #('Metacello-MC' 'FileTree') ];
-                package: 'Metacello-Git' with: [ spec requires: #('Metacello-MC' 'Metacello-FileTree') ];
+                package: 'Metacello-GitHub' with: [ spec requires: #('Metacello-MC' 'Metacello-FileTree') ];
+                package: 'Metacello-Git' with: [ spec requires: #('Metacello-GitHub') ];
                 package: 'Metacello-Platform' with: [ spec requires: #('Metacello-MC') ];
                 package: 'Metacello-Reference' with: [ spec requires: #('Metacello-MC') ];
                 package: 'Metacello-Tutorial' with: [ spec requires: #('Metacello-Core') ];
@@ -50,7 +51,7 @@ baseline: spec
                 group: 'default' with: #('Metacello-Core' 'Metacello-ToolBox');
                 group: 'Base Configuration' with: #('Metacello-Base');
                 group: 'Core' with: #('default');
-                group: 'Git' with: #('Metacello-Git');
+                group: 'Git' with: #('Metacello-Git' 'Metacello-GitHub');
                 group: 'Tutorial' with: #('Metacello-Tutorial' 'Metacello-Reference');
                 group: 'UI' with: #('OB-Metacello');
                 group: 'Tests'

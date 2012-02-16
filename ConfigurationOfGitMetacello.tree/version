@@ -1,8 +1,8 @@
-(name 'ConfigurationOfGitMetacello-dkh.13'
-message '- not going to rquire Zodiac for github...'
-id '5b074ab5-eb79-4c64-8989-01277344112f'
-date '14 February 2012'
-time '10:21:08 am'
+(name 'ConfigurationOfGitMetacello-dkh.14'
+message ''
+id '3660fdad-475b-45be-a9f9-9cf513747db5'
+date '16 February 2012'
+time '2:39:14 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())

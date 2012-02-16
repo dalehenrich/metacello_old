@@ -31,8 +31,11 @@
 				"name" : "Metacello-FileTree",
 				"requires" : ["Metacello-MC", "FileTree"]}},
 			{"package" : {
-				"name" : "Metacello-Git",
+				"name" : "Metacello-GitHub",
 				"requires" : ["Metacello-MC", "Metacello-FileTree"]}},
+			{"package" : {
+				"name" : "Metacello-Git",
+				"requires" : ["Metacello-GitHub"]}},
 			{"package" : {
 				"name" : "Metacello-Platform",
 				"requires" : ["Metacello-MC"]}},
@@ -69,7 +72,7 @@
 				"includes" : ["default"]}},
 			{"group" : {
 				"name" : "Git",
-				"includes" : ["Metacello-Git"]}},
+				"includes" : ["Metacello-Git", "Metacello-GitHub"]}},
 			{"group" : {
 				"name" : "Tutorial",
 				"includes" : ["Metacello-Tutorial", "Metacello-Reference"]}},
