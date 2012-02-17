@@ -1,13 +1,11 @@
 
 !MetacelloFileTreeProject class methodsFor: 'scripting'!
-projectFrom: aScriptingEngine unconditionalLoad: aBool
+projectFrom: aScriptingEngine unconditionalLoad: unconditionalLoad
     "just create project right here ... from the metacello.json file"
 
-    | repository directory project |
+    | repository directory |
     repository := aScriptingEngine repository.
     directory := repository directory.
-    project := MetacelloFileTreeConstructor
-        fromRepositoryPath: directory pathName
-        forProject: aScriptingEngine projectName.
-    project ifNil: [ ^ (aScriptingEngine getConfigurationUnconditionalLoad: aBool) project ].
-    ^ project! !
+    ^ [ MetacelloFileTreeConstructor fromRepositoryPath: directory pathName forProject: aScriptingEngine projectName ]
+        on: FileDoesNotExistException
+        do: [ :ex | (aScriptingEngine getConfigurationUnconditionalLoad: unconditionalLoad) project ]! !

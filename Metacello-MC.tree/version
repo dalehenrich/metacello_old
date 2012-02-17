@@ -1,8 +1,8 @@
-(name 'Metacello-MC-dkh.556'
-message '- share configuration lookup across script loads and Metacello loads'
-id '355af190-f22e-4ade-b7ca-dcd77e04e422'
-date '12 February 2012'
-time '5:14:01 pm'
+(name 'Metacello-MC-dkh.557'
+message ''
+id '3fbb5654-1e04-4c4f-b1e9-c25954d50a25'
+date '17 February 2012'
+time '3:06:22 pm'
 author 'dkh'
 ancestors ()
 stepChildren ())
