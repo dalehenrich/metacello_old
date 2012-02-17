@@ -22,6 +22,23 @@ createRepository: aRepositorySpec
                     ^ cl new
                         directory:
                             (FileDirectory on: (aRepositorySpec description copyFrom: headerSize + 1 to: description size)) ] ].
+    Smalltalk
+        at: #'MCGitHubRepository'
+        ifPresent: [ :cl | 
+            type = 'github'
+                ifTrue: [ 
+                    | description headerSize index projectPath projectVersion |
+                    description := aRepositorySpec description.
+                    headerSize := 'github://' size.
+                    description := description copyFrom: headerSize + 1 to: description size.
+                    (index := description indexOf: $:) = 0
+                        ifTrue: [ 
+                            projectPath := description.
+                            projectVersion := '' ]
+                        ifFalse: [ 
+                            projectPath := description copyFrom: 1 to: index - 1.
+                            projectVersion := description copyFrom: index + 1 to: description size ].
+                    ^ cl projectPath: projectPath projectVersion: projectVersion ] ].
     type = 'dictionary'
         ifTrue: [ 
             | description headerSize globalName |

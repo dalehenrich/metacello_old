@@ -3,7 +3,9 @@
 projectFrom: aScriptingEngine unconditionalLoad: aBool
     "just create project right here ... from the metacello.json file"
 
-    | repository directory |
+    | repository directory project |
     repository := aScriptingEngine repository.
     directory := repository directory.
-    ^ self projectFrom: directory pathName! !
+    project := self projectFrom: directory pathName.
+    project ifNil: [ ^ (aScriptingEngine getConfigurationUnconditionalLoad: aBool) project ].
+    ^ project! !

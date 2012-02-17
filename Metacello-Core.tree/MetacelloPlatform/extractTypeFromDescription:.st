@@ -9,4 +9,6 @@ extractTypeFromDescription: description
         ifTrue: [ ^ 'dictionary' ].
     (description beginsWith: 'filetree://')
         ifTrue: [ ^ 'filetree' ].
+    (description beginsWith: 'github://')
+        ifTrue: [ ^ 'github' ].
     ^ 'http'! !
