@@ -1,5 +1,5 @@
 
-!MetacelloGitHubProject class methodsFor: 'private'!
+!MCGitHubRepository class methodsFor: 'private'!
 downloadFile: url to: outputFileName
     " self downloadFile: 'https://github.com/dalehenrich/sample/zipball/1.0'"
 

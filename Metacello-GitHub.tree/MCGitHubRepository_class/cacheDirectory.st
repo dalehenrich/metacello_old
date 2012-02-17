@@ -1,5 +1,5 @@
 
-!MetacelloGitHubProject class methodsFor: 'private'!
+!MCGitHubRepository class methodsFor: 'private'!
 cacheDirectory
     ^ (FileDirectory default directoryNamed: 'github-cache')
         assureExistence;

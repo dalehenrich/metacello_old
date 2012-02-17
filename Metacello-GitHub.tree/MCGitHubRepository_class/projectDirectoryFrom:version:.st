@@ -1,14 +1,14 @@
 
-!MetacelloGitHubProject class methodsFor: 'instance creation'!
-repoDirectoryFrom: projectPath version: versionString
-    | url directory repoDirectory archive |
+!MCGitHubRepository class methodsFor: 'utility'!
+projectDirectoryFrom: projectPath version: versionString
+    | url directory projectDirectory archive |
     url := 'http://github.com/' , projectPath , '/zipball/' , versionString.
     directory := (self cacheDirectoryFor: projectPath) directoryNamed: versionString.
     self downloadFile: url to: '/tmp/github.zip'.
     archive := ZipArchive new
         readFrom: (FileStream readOnlyFileNamed: '/tmp/github.zip');
         yourself.
-    repoDirectory := directory directoryNamed: archive members first fileName.
-    repoDirectory exists
+    projectDirectory := directory directoryNamed: archive members first fileName.
+    projectDirectory exists
         ifFalse: [ archive extractAllTo: directory ].
-    ^ repoDirectory! !
+    ^ projectDirectory! !

@@ -1,4 +1,4 @@
 
-!MCGitHubRepository class methodsFor: 'instance creation'!
+!MCGitHubRepository class methodsFor: 'accessing'!
 description
     ^ 'github://'! !

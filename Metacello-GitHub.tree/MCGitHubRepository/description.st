@@ -1,4 +1,7 @@
 
 !MCGitHubRepository methodsFor: 'descriptions'!
 description
-    ^ self class description , self projectPath , ':' , self projectVersion! !
+    | desc |
+    desc := self class description , self projectPath , ':' , self projectVersion.
+    self repoPath ifNil: [ ^ desc ].
+    ^ desc , '/' , self repoPath! !

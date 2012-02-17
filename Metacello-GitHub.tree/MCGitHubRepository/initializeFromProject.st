@@ -1,5 +1,6 @@
 
 !MCGitHubRepository methodsFor: 'initialize-release'!
 initializeFromProject
-    directory := MetacelloGitHubProject repoDirectoryFrom: self projectPath version: self projectVersion.
+    directory := self class projectDirectoryFrom: self projectPath version: self projectVersion.
+    self repoPath ifNotNil: [ directory := FileDirectory on: (directory fullNameFor: self repoPath) ].
     self readonly: true! !

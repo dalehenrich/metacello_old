@@ -3,20 +3,12 @@
 projectFrom: aScriptingEngine unconditionalLoad: unconditionalLoad
     "just create project right here ... from the metacello.json file"
 
-    | projectPath projectVersion versionString description headerSize index |
-    description := aScriptingEngine repositoryDescription.
-    headerSize := 'github://' size.
-    description := description copyFrom: headerSize + 1 to: description size.
-    versionString := aScriptingEngine versionString.
-    (index := description indexOf: $:) = 0
-        ifTrue: [ 
-            projectPath := description.
-            projectVersion := versionString ]
-        ifFalse: [ 
-            projectPath := description copyFrom: 1 to: index - 1.
-            projectVersion := versionString ~~ nil
-                ifTrue: [ versionString ]
-                ifFalse: [ description copyFrom: index + 1 to: description size ] ].
-    ^ [ self projectFrom: projectPath version: projectVersion ]
+    | repository |
+    ^ [ 
+    repository := MCGitHubRepository
+        location: aScriptingEngine repositoryDescription
+        version: aScriptingEngine versionString.
+    MCRepositoryGroup default addRepository: repository.
+    ^ MetacelloFileTreeConstructor fromRepositoryPath: repository directory pathName ]
         on: FileDoesNotExistException
         do: [ :ex | (aScriptingEngine getConfigurationUnconditionalLoad: unconditionalLoad) project ]! !

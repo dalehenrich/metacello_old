@@ -1,5 +1,5 @@
 
-!MCGitHubRepository class methodsFor: 'as yet unclassified'!
+!MCGitHubRepository class methodsFor: 'accessing'!
 isAbstract
     "abstract as far as creating new repositories interactively? yes"
 
