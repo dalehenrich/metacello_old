@@ -10,4 +10,4 @@ projectFrom: projectPath version: versionString
         readonly: true;
         yourself.
     MCRepositoryGroup default addRepository: repository.
-    ^ self projectFrom: repoDirectory pathName! !
+    ^ MetacelloFileTreeConstructor fromRepositoryPath: repoDirectory pathName! !

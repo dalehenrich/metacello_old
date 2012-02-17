@@ -19,4 +19,4 @@ projectFrom: aScriptingEngine unconditionalLoad: unconditionalLoad
                 ifFalse: [ description copyFrom: index + 1 to: description size ] ].
     ^ [ self projectFrom: projectPath version: projectVersion ]
         on: FileDoesNotExistException
-        do: [ :ex | (aScriptingEngine halt getConfigurationUnconditionalLoad: unconditionalLoad) project ]! !
+        do: [ :ex | (aScriptingEngine getConfigurationUnconditionalLoad: unconditionalLoad) project ]! !
