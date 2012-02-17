@@ -1,6 +1,6 @@
 "Evaluate the following (with correct directory path) to produce metacello.json file:
 
-  MetacelloFileTreeConstructor writeJsonFor:'/foos1/users/dhenrich/smalltalk/metacello'
+  MetacelloFileTreeConstructor writeJsonFor:'/foos1/users/dhenrich/smalltalk/metacello/metacello/metacello'
 "
 ^MetacelloFileTreeConstructor extractMethodSectionsForSpecBlock: [:spec |
       "Baseline spec"

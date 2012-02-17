@@ -9,6 +9,8 @@ projectFrom: aScriptingEngine unconditionalLoad: unconditionalLoad
         location: aScriptingEngine repositoryDescription
         version: aScriptingEngine versionString.
     MCRepositoryGroup default addRepository: repository.
-    ^ MetacelloFileTreeConstructor fromRepositoryPath: repository directory pathName ]
+    ^ MetacelloFileTreeConstructor
+        fromRepositoryPath: repository directory pathName
+        forProject: aScriptingEngine projectName ]
         on: FileDoesNotExistException
         do: [ :ex | (aScriptingEngine getConfigurationUnconditionalLoad: unconditionalLoad) project ]! !

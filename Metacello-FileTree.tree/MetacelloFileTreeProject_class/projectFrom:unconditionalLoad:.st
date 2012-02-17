@@ -6,6 +6,8 @@ projectFrom: aScriptingEngine unconditionalLoad: aBool
     | repository directory project |
     repository := aScriptingEngine repository.
     directory := repository directory.
-    project := MetacelloFileTreeConstructor fromRepositoryPath: directory pathName.
+    project := MetacelloFileTreeConstructor
+        fromRepositoryPath: directory pathName
+        forProject: aScriptingEngine projectName.
     project ifNil: [ ^ (aScriptingEngine getConfigurationUnconditionalLoad: aBool) project ].
     ^ project! !

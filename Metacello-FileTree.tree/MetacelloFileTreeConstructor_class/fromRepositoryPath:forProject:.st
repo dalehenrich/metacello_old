@@ -1,8 +1,8 @@
 
 !MetacelloFileTreeConstructor class methodsFor: 'instance creation'!
-fromRepositoryPath: filetreeRepositoryPath
+fromRepositoryPath: filetreeRepositoryPath forProject: projectName
     | project |
-    (FileDirectory on: filetreeRepositoryPath)
+    (FileDirectory on: filetreeRepositoryPath , FileDirectory slash , 'metacello' , FileDirectory slash , projectName)
         oldFileNamed: 'metacello.json'
         do: [ :fileStream | 
             fileStream lineEndConvention: #'lf'.

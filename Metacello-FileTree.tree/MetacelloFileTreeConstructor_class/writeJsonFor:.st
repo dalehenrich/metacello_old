@@ -1,7 +1,7 @@
 
 !MetacelloFileTreeConstructor class methodsFor: 'utility'!
 writeJsonFor: filePath
-    "self writeJsonFor:'/foos1/users/dhenrich/smalltalk/sample'"
+    "self writeJsonFor:'/foos1/users/dhenrich/smalltalk/sample/metacello/sample'"
 
     | versionSpecBlock dir fStream constructor |
     [ 
