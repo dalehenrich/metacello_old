@@ -2,7 +2,7 @@
 !MCGitHubRepository class methodsFor: 'utility'!
 projectDirectoryFrom: projectPath version: versionString
     | url directory projectDirectory archive |
-    url := 'http://github.com/' , projectPath , '/zipball/' , versionString.
+    url := 'https://github.com/' , projectPath , '/zipball/' , versionString.
     directory := (self cacheDirectoryFor: projectPath) directoryNamed: versionString.
     self downloadFile: url to: '/tmp/github.zip'.
     archive := ZipArchive new

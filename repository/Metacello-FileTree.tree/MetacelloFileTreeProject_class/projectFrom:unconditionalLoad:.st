@@ -6,6 +6,10 @@ projectFrom: aScriptingEngine unconditionalLoad: unconditionalLoad
     | repository directory |
     repository := aScriptingEngine repository.
     directory := repository directory.
-    ^ [ MetacelloFileTreeConstructor fromRepositoryPath: directory pathName forProject: aScriptingEngine projectName ]
+    ^ [ 
+    MetacelloFileTreeConstructor
+        fromRepositoryPath: directory pathName
+        forProject: aScriptingEngine projectName
+        repository: aScriptingEngine repositorySpec ]
         on: FileDoesNotExistException
         do: [ :ex | (aScriptingEngine getConfigurationUnconditionalLoad: unconditionalLoad) project ]! !
