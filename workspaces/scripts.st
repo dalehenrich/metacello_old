@@ -8,7 +8,7 @@
     filetree: '/opt/git/sample/';
     get.
 
-"load version 1.1 using metacello/sample/metacello.json directly"
+  "load version 1.1 using metacello/sample/metacello.json directly"
   Metacello new
     project: 'Sample';
     repository: 'github://dalehenrich/sample:1.1';
@@ -23,7 +23,7 @@
 
   Metacello new
     project: 'Metacello';
-    filetree: '/Users/dhenrich/Git/metacello/';
+    filetree: '/opt/git/metacello/repos/';
     load: #('ALL' ).
 
   Metacello new
