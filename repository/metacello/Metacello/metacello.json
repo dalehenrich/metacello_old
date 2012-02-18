@@ -15,6 +15,10 @@
 				"name" : "FileTree",
 				"version" : "1.0",
 				"repositories" : [ "http://ss3.gemstone.com/ss/FileTree"]}},
+			{"project" : {
+				"name" : "OSProcess",
+				"symbolicVersion" : "stable",
+				"repositories" : [ "http://www.squeaksource.com/MetacelloRepository"]}},
 			{"package" : {
 				"name" : "Metacello-Base"}},
 			{"package" : {
@@ -32,7 +36,7 @@
 				"requires" : ["Metacello-MC", "FileTree"]}},
 			{"package" : {
 				"name" : "Metacello-GitHub",
-				"requires" : ["Metacello-MC", "Metacello-FileTree"]}},
+				"requires" : ["Metacello-MC", "Metacello-FileTree", "OSProcess"]}},
 			{"package" : {
 				"name" : "Metacello-Git",
 				"requires" : ["Metacello-GitHub"]}},
