@@ -1,4 +1,0 @@
-
-!MetacelloAPIDocumentation class methodsFor: 'accessing' stamp: 'DaleHenrichs 11/29/2010 14:26'!
-packages
-	^#('Metacello-Base' 'Metacello-ToolBox' 'Metacello-MC-Validation')! !

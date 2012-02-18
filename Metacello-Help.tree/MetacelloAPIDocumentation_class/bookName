@@ -1,4 +1,0 @@
-
-!MetacelloAPIDocumentation class methodsFor: 'accessing' stamp: 'DaleHenrichs 11/29/2010 12:06'!
-bookName
-	^'API Documentation'! !

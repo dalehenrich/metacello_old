@@ -1,4 +1,0 @@
-
-!MetacelloHelp class methodsFor: 'pages' stamp: 'tbn 3/6/2010 01:24'!
-icon
-	^HelpIcons iconNamed: #packageIcon! !

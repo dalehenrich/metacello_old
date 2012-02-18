@@ -1,4 +1,0 @@
-
-!MetacelloHelp class methodsFor: 'accessing' stamp: 'DaleHenrichs 11/29/2010 12:26'!
-pages
-	^#(introduction features gettingStarted)! !

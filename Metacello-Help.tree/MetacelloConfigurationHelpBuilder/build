@@ -1,7 +1,0 @@
-
-!MetacelloConfigurationHelpBuilder methodsFor: 'building' stamp: 'dkh 4/9/2011 09:37'!
-build
-	"Start building a help topic from a code description"
-	
-	topicToBuild := self createTopicFrom: rootToBuildFrom 
-! !
