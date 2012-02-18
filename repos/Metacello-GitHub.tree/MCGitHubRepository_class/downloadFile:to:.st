@@ -7,7 +7,7 @@ downloadFile: url to: outputFileName
     in := (' -L ' , url) readStream.
     out := FileStream forceNewFileNamed: outputFileName.
     err := FileStream forceNewFileNamed: '/tmp/curl.err'.
-    proc := UnixProcess
+    proc := OSProcess thisOSProcess
         forkJob: '/usr/bin/curl'
         arguments:
             {'-L'.

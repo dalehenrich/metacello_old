@@ -22,6 +22,12 @@
                             spec
                                 versionString: '1.0';
                                 repository: 'http://ss3.gemstone.com/ss/FileTree' ];
+                project: 'OSProcess'
+                    with: [ 
+                            spec
+                                versionString: #'stable';
+                                repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+
                 yourself.
             spec
                 package: 'Metacello-Base';
@@ -33,7 +39,7 @@
                                 includes: #('Metacello-MC' 'Metacello-Platform') ];
                 package: 'Metacello-MC' with: [ spec requires: #('Metacello-Core' 'Gofer') ];
                 package: 'Metacello-FileTree' with: [ spec requires: #('Metacello-MC' 'FileTree') ];
-                package: 'Metacello-GitHub' with: [ spec requires: #('Metacello-MC' 'Metacello-FileTree') ];
+                package: 'Metacello-GitHub' with: [ spec requires: #('Metacello-MC' 'Metacello-FileTree' 'OSProcess') ];
                 package: 'Metacello-Git' with: [ spec requires: #('Metacello-GitHub') ];
                 package: 'Metacello-Platform' with: [ spec requires: #('Metacello-MC') ];
                 package: 'Metacello-Reference' with: [ spec requires: #('Metacello-MC') ];

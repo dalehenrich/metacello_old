@@ -1,8 +1,1 @@
-(name 'ConfigurationOfGitMetacello-dkh.14'
-message ''
-id '3660fdad-475b-45be-a9f9-9cf513747db5'
-date '16 February 2012'
-time '2:39:14 pm'
-author 'dkh'
-ancestors ()
-stepChildren ())
+(name 'ConfigurationOfGitMetacello-dkh.15' message '- OSProcess project required for github support' id '99c7f467-04f8-46ee-9acc-60e64774594d' date '18 February 2012' time '11:07:02 am' author 'dkh' ancestors ((name 'ConfigurationOfGitMetacello-dkh.14' message '' id '3660fdad-475b-45be-a9f9-9cf513747db5' date '16 February 2012' time '2:39:14 pm' author 'dkh' ancestors () stepChildren ())) stepChildren ())
