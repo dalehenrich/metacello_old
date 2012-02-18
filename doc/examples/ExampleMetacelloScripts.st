@@ -5,13 +5,19 @@
 
   Metacello new
     project: 'Sample';
-    filetree: '/opt/git/sample/';
+    filetree: '/opt/git/sample/repository';
+    get.
+
+  "download  HEAD of master branch .. create Monticello (filetree) repository"
+  Metacello new
+    project: 'Sample';
+    repository: 'github://dalehenrich/sample:master/';
     get.
 
   "load version 1.1 using metacello/sample/metacello.json directly"
   Metacello new
     project: 'Sample';
-    repository: 'github://dalehenrich/sample:1.1';
+    repository: 'github://dalehenrich/sample:1.1/repository';
     load.
 
   "load #stable version using ConfigurationOfSample (project reference)"
@@ -23,7 +29,7 @@
 
   Metacello new
     project: 'Metacello';
-    filetree: '/opt/git/metacello/repos/';
+    filetree: '/opt/git/metacello/repository/';
     load: #('ALL' ).
 
   Metacello new
