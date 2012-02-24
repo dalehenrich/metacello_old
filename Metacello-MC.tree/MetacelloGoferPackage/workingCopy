@@ -1,6 +1,0 @@
-
-!MetacelloGoferPackage methodsFor: 'accessing' stamp: 'dkh 10/15/2009 10:00'!
-workingCopy
-	
-	workingCopy == nil ifTrue: [ workingCopy := self findWorkingCopy ].
-	^workingCopy! !

@@ -1,5 +1,0 @@
-
-!MetacelloMCSpecLoaderTest methodsFor: 'running' stamp: 'DaleHenrichs 12/21/2010 10:29'!
-doSilently
-
-	^(#(#testPackageSave ) includes: testSelector asSymbol) not! !

@@ -1,7 +1,0 @@
-
-!MetacelloAtomicConfigurationResource methodsFor: 'ConfigurationOfAtomicFan' stamp: 'DaleHenrichs 4/14/2010 10:50'!
-postLoad31baselineMethodSource
-
-	^(self class sourceCodeAt: #postLoad31baseline) asString
-
-! !

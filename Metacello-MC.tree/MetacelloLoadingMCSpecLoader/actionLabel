@@ -1,5 +1,0 @@
-
-!MetacelloLoadingMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/11/2010 16:33'!
-actionLabel
-
-	^'Loading '! !

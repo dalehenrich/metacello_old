@@ -1,5 +1,0 @@
-
-!MetacelloCommonMCSpecLoader methodsFor: 'accessing' stamp: 'DaleHenrichs 3/10/2010 14:43'!
-repositoryMap
-
-	^self loaderPolicy repositoryMap! !

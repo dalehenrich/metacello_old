@@ -1,8 +1,0 @@
-
-!MetacelloSymbolicVersionTest methodsFor: 'running' stamp: 'DaleHenrichs 9/22/2010 16:13'!
-tearDownPackages: aGoferInstance
-
-	super tearDownPackages: aGoferInstance.
-	(self hasPackage: 'MetacelloTestConfigurationOfSymbolic')
-		ifTrue: [ aGoferInstance package: 'MetacelloTestConfigurationOfSymbolic' ].
-! !

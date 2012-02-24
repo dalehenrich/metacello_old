@@ -1,6 +1,0 @@
-
-!MetacelloVersionLoadDirective methodsFor: 'accessing' stamp: 'DaleHenrichs 3/9/2010 12:13'!
-loadDirectives
-
-	loadDirectives == nil ifTrue: [ loadDirectives := OrderedCollection new ].
-	^ loadDirectives! !

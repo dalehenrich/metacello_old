@@ -1,6 +1,0 @@
-
-!Collection methodsFor: '*metacello-mc' stamp: 'dkh 6/7/2009 10:16'!
-addToMetacelloRepositories: aMetacelloRepositoriesSpec
-
-	self do: [:each | each addToMetacelloRepositories: aMetacelloRepositoriesSpec ]
-! !

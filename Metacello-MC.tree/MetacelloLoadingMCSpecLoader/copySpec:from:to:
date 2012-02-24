@@ -1,8 +1,0 @@
-
-!MetacelloLoadingMCSpecLoader methodsFor: 'development support' stamp: 'dkh 4/6/2011 22:36'!
-copySpec: pkgSpec from: repositorySpecs to: repository
-
-	| gofer |
-	gofer := MetacelloGofer new.
-	(self repositoriesFrom: repositorySpecs) do: [:repo | gofer repository: repo ].
-	^self copySpec: pkgSpec with: gofer to: repository! !

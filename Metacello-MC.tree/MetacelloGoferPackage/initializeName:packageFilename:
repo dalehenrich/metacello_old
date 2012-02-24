@@ -1,6 +1,0 @@
-
-!MetacelloGoferPackage methodsFor: 'initialization' stamp: 'dkh 12/15/2009 10:31'!
-initializeName: aString packageFilename: packagefilename
-
-	name := aString.
-	packageFilename := packagefilename! !

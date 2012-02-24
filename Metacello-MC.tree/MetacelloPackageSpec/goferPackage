@@ -1,7 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'accessing' stamp: 'dkh 12/15/2009 10:32'!
-goferPackage
-
-	goferPackage == nil 
-		ifTrue: [ goferPackage := MetacelloGoferPackage name: self name packageFilename: self file ].
-	^goferPackage! !

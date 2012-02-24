@@ -1,6 +1,0 @@
-
-!MetacelloMCProjectSpec methodsFor: 'querying' stamp: 'dkh 9/10/2009 13:18'!
-projectClassProject
-	"indirection needed when projectClass is _not_ a subclass of MetacelloProject"
-	
-	^self projectClass new project! !

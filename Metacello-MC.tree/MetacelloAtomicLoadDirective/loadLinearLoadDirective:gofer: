@@ -1,6 +1,0 @@
-
-!MetacelloAtomicLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 4/13/2010 17:27'!
-loadLinearLoadDirective: aLoaderDirective gofer: aGofer
-
-	self finalizeLoad: aGofer.
-	super loadLinearLoadDirective: aLoaderDirective gofer: aGofer! !

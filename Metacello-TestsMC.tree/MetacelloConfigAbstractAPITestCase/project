@@ -1,5 +1,0 @@
-
-!MetacelloConfigAbstractAPITestCase methodsFor: 'accessing' stamp: 'dkh 1/11/2010 14:43'!
-project
-
-	^self projectWith: #()! !

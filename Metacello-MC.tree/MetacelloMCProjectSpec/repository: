@@ -1,5 +1,0 @@
-
-!MetacelloMCProjectSpec methodsFor: 'accessing' stamp: 'dkh 10/7/2009 01:02'!
-repository: aString
-
-	self projectPackage repository: aString! !

@@ -1,8 +1,0 @@
-
-!String methodsFor: '*metacello-mc' stamp: 'dkh 9/23/2009 14:34'!
-packageFileSpecFor: aMetacelloPackagesSpec
-
-	^(aMetacelloPackagesSpec project packageSpec)
-			file: self;
-			yourself
-! !

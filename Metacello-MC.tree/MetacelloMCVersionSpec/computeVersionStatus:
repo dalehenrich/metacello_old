@@ -1,4 +1,0 @@
-
-!MetacelloMCVersionSpec methodsFor: 'accessing' stamp: 'dkh 7/8/2011 20:11'!
-computeVersionStatus: matchBlock
-	self computeVersionStatus: (self expandToLoadableSpecNames: #('ALL')) matchBlock: matchBlock! !

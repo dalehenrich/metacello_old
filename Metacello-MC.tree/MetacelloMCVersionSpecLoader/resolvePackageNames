@@ -1,7 +1,0 @@
-
-!MetacelloMCVersionSpecLoader methodsFor: 'loading' stamp: 'dkh 10/3/2009 19:54'!
-resolvePackageNames
-
-	packages := Dictionary new.
-	self resolveToLoadableSpecs.
-	^packages values collect: [:pkg | pkg name ]! !

@@ -1,8 +1,0 @@
-
-!MetacelloMCVersion methodsFor: 'querying' stamp: 'dkh 10/24/2009 20:04'!
-packageNamed: aString ifAbsent: aBlock
-
-	| pkg |
-	(pkg := self spec packageNamed: aString ifAbsent: []) == nil
-		ifTrue: [ ^aBlock value ].
-	^pkg referencedSpec! !

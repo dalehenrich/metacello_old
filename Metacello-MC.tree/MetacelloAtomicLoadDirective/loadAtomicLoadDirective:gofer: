@@ -1,6 +1,0 @@
-
-!MetacelloAtomicLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 3/21/2010 16:20'!
-loadAtomicLoadDirective: aLoaderDirective gofer: aGofer
-
-	aLoaderDirective loadDirectives do: [:directive | directive loadUsing: self gofer: aGofer ].
-! !

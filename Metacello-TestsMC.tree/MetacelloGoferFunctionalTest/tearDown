@@ -1,5 +1,0 @@
-
-!MetacelloGoferFunctionalTest methodsFor: 'running' stamp: 'dkh 1/12/2010 14:18'!
-tearDown
-	super tearDown.
-	MetacelloMonticelloResource reset. "testCommitPackageSpec modifies the repository resource"! !

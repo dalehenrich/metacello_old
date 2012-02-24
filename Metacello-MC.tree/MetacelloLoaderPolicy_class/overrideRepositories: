@@ -1,6 +1,0 @@
-
-!MetacelloLoaderPolicy class methodsFor: 'instance creation' stamp: 'DaleHenrichs 3/7/2010 08:10'!
-overrideRepositories: aCollection
-
-	^self new overrideRepositories: aCollection
-! !

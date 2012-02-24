@@ -1,8 +1,0 @@
-
-!MCDirectoryRepository methodsFor: '*metacello-mc' stamp: 'DaleHenrichs 3/5/2010 14:44'!
-asRepositorySpecFor: aMetacelloMCProject
-
-	^(aMetacelloMCProject repositorySpec)
-		description:  directory fullName;
-	 	type: 'directory';
-		yourself! !

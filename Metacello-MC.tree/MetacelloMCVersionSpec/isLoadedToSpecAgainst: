@@ -1,7 +1,0 @@
-
-!MetacelloMCVersionSpec methodsFor: 'testing' stamp: 'dkh 07/12/2011 14:07'!
-isLoadedToSpecAgainst: resolvedPackageAndProjectNames
-	"all loaded projects and packages match specifications (at least one package loaded)"
-
-	(self isPartiallyCurrentAgainst: resolvedPackageAndProjectNames) isLoadedToSpec: [ :ignored | ^ true ].
-	^ false! !

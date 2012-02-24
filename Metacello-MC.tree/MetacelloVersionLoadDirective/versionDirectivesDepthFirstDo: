@@ -1,7 +1,0 @@
-
-!MetacelloVersionLoadDirective methodsFor: 'enumerating' stamp: 'DaleHenrichs 12/7/2010 02:22'!
-versionDirectivesDepthFirstDo: aBlock
-
-	self loadDirectives do: [:directive | directive versionDirectivesDepthFirstDo: aBlock ].
-	aBlock value: self.
-! !

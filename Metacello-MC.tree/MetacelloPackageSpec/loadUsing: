@@ -1,6 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'loading' stamp: 'DaleHenrichs 3/10/2010 12:32'!
-loadUsing: mcLoader
-
-	self loader doingLoads: [ self explicitLoadUsing: mcLoader ]
-! !

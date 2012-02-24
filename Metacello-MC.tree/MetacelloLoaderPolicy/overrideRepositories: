@@ -1,4 +1,0 @@
-
-!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 3/7/2010 08:09'!
-overrideRepositories: anObject
-	overrideRepositories := anObject! !

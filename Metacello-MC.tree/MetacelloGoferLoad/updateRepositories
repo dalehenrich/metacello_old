@@ -1,5 +1,0 @@
-
-!MetacelloGoferLoad methodsFor: 'private' stamp: 'DaleHenrichs 3/5/2010 10:48'!
-updateRepositories
-	"Noop for Metacello...done by loader itself"
-! !

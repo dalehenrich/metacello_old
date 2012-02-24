@@ -1,7 +1,0 @@
-
-!MetacelloMonticelloResource methodsFor: 'running' stamp: 'DaleHenrichs 3/16/2010 16:39'!
-setUp
-	super setUp.
-	self
-		setUpVersionReferences;
-		setUpMonticelloRepository! !

@@ -1,4 +1,0 @@
-
-!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 3/11/2010 19:35'!
-silently: anObject
-	silently := anObject! !

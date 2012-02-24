@@ -1,5 +1,0 @@
-
-!MetacelloAtomicLoadOrderTest methodsFor: 'accessing' stamp: 'DaleHenrichs 3/16/2010 10:25'!
-monticelloRepository
-	"MetacelloMonticelloResource reset"
-	^ MetacelloAtomicMonticelloResource current monticelloRepository! !

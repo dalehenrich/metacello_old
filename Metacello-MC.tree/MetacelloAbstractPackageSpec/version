@@ -1,6 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: '*metacello-mc-querying' stamp: 'dkh 10/24/2009 10:43'!
-version 
-	"MetacelloPackageSpec compatibility"
-	
-	^nil! !

@@ -1,5 +1,0 @@
-
-!MetacelloCommonMCSpecLoader methodsFor: 'repositories' stamp: 'DaleHenrichs 3/10/2010 14:42'!
-repositoriesFrom: aMetacelloMVRepositorySpecs
-
-	^self repositoriesFrom: aMetacelloMVRepositorySpecs ignoreOverrides: false! !

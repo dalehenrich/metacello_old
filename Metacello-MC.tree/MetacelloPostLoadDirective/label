@@ -1,5 +1,0 @@
-
-!MetacelloPostLoadDirective methodsFor: 'printing' stamp: 'DaleHenrichs 12/21/2010 11:47'!
-label
-
-	^super label, ' >> ', self spec postLoadDoIt value asString! !

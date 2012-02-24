@@ -1,5 +1,0 @@
-
-!MetacelloMCProject methodsFor: 'spec classes' stamp: 'DaleHenrichs 10/27/2010 11:14'!
-projectSpecClass
-
-	^MetacelloMCProjectSpec! !

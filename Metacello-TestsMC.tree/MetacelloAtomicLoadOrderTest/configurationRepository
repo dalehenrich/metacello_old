@@ -1,6 +1,0 @@
-
-!MetacelloAtomicLoadOrderTest methodsFor: 'running' stamp: 'DaleHenrichs 3/16/2010 10:25'!
-configurationRepository
-	"MetacelloConfigurationResource reset"
-
-	^ MetacelloAtomicConfigurationResource current monticelloRepository! !

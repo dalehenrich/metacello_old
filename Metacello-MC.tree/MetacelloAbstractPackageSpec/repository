@@ -1,5 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: '*metacello-mc-querying' stamp: 'dkh 6/23/2009 13:55'!
-repository
-	
-	^nil! !

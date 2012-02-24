@@ -1,4 +1,0 @@
-
-!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 3/5/2010 10:51'!
-repositoryMap: anObject
-	repositoryMap := anObject! !

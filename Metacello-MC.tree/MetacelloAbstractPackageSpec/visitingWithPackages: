@@ -1,4 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: '*metacello-mc' stamp: 'dkh 10/21/2009 15:50'!
-visitingWithPackages: packages
-	"noop"! !

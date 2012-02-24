@@ -1,8 +1,0 @@
-
-!MCHttpRepository methodsFor: '*metacello-mc' stamp: 'DaleHenrichs 3/5/2010 14:45'!
-asRepositorySpecFor: aMetacelloMCProject
-
-	^(aMetacelloMCProject repositorySpec)
-		description:  self description;
-	 	type: 'http';
-		yourself! !

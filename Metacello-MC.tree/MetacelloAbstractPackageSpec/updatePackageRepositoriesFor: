@@ -1,7 +1,0 @@
-
-!MetacelloAbstractPackageSpec methodsFor: '*metacello-mc' stamp: 'dkh 08/03/2009 13:19'!
-updatePackageRepositoriesFor: aVersionSpec
-	"noop by default"
-	
-	^true
-! !

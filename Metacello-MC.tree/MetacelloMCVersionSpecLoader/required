@@ -1,6 +1,0 @@
-
-!MetacelloMCVersionSpecLoader methodsFor: 'accessing' stamp: 'dkh 6/9/2009 11:13'!
-required
-
-	required == nil ifTrue: [ ^#() ].
-	^ required! !

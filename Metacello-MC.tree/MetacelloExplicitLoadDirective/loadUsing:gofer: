@@ -1,6 +1,0 @@
-
-!MetacelloExplicitLoadDirective methodsFor: 'actions' stamp: 'DaleHenrichs 3/21/2010 13:38'!
-loadUsing: aLoaderDirective gofer: aGofer
-
-	aLoaderDirective loadExplicitLoadDirective: self gofer: aGofer.
-! !

@@ -1,4 +1,0 @@
-
-!MetacelloTestsGoferUnload methodsFor: 'unloading' stamp: 'DaleHenrichs 12/18/2010 20:10'!
-unloadClasses: aWorkingCopy
-	"skip this so that tests run faster"! !

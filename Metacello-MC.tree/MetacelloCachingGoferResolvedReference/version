@@ -1,7 +1,0 @@
-
-!MetacelloCachingGoferResolvedReference methodsFor: 'accessing' stamp: 'DaleHenrichs 1/12/2010 20:40'!
-version
-	"Answer a Monticello version of the receiver."
-
-	cachedVersion == nil ifTrue: [ cachedVersion := super version ].
-	^cachedVersion! !

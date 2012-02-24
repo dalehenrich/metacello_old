@@ -1,5 +1,0 @@
-
-!MetacelloToolBoxAPITestCase methodsFor: 'private' stamp: 'DaleHenrichs 01/16/2011 14:28'!
-configurationName
-
-	^#'ConfigurationOfMetacello_Dev_Cycle'! !

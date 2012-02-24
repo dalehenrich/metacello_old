@@ -1,6 +1,0 @@
-
-!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 3/7/2010 08:34'!
-cacheRepository
-
-	cacheRepository == nil ifTrue: [ cacheRepository := MCDictionaryRepository new ].
-	^ cacheRepository! !

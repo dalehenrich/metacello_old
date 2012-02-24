@@ -1,5 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'loading' stamp: 'DaleHenrichs 3/7/2010 09:36'!
-fetch
-
-	self fetchUsing: self loader! !

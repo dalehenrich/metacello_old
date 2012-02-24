@@ -1,8 +1,0 @@
-
-!MetacelloFetchingMCSpecLoader methodsFor: 'private' stamp: 'DaleHenrichs 3/9/2010 12:23'!
-atomicLoadPackageSpecs: packageSpecs repositories: repositories
-
-	self loaderPolicy 
-		pushAtomicLoadDirectivesDuring: [ super linearLoadPackageSpecs: packageSpecs repositories: repositories ]
-		for: self
-! !

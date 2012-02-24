@@ -1,6 +1,0 @@
-
-!MetacelloGoferBasedAtomicLoaderTest methodsFor: 'baselines' stamp: 'DaleHenrichs 08/30/2010 13:12'!
-baselineIssue95: spec 
-	<version: 'Issue95-baseline'>
-	
-	super baselineIssue95: spec ! !

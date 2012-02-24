@@ -1,4 +1,0 @@
-
-!MetacelloNullRecordingMCSpecLoader methodsFor: 'actions' stamp: 'DaleHenrichs 4/9/2010 12:12'!
-loadPackageDirectives: pkgLoads gofer: aGofer
-	"Noop"! !

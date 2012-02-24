@@ -1,5 +1,0 @@
-
-!MetacelloMCVersionSpec methodsFor: 'querying' stamp: 'dkh 6/17/2009 16:06'!
-packageSpecsInLoadOrder
-
-	^self packages packageSpecsInLoadOrder! !

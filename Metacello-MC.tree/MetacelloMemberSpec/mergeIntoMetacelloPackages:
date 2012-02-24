@@ -1,5 +1,0 @@
-
-!MetacelloMemberSpec methodsFor: '*metacello-mc' stamp: 'dkh 6/7/2009 18:31'!
-mergeIntoMetacelloPackages: aMetacelloPackagesSpec
-
-	aMetacelloPackagesSpec addMember: self! !

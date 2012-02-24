@@ -1,6 +1,0 @@
-
-!MetacelloMCVersionSpec methodsFor: 'accessing' stamp: 'dkh 6/17/2009 16:05'!
-packages
-
-	packages == nil ifTrue: [ packages := self project packagesSpec ].
-	^ packages! !

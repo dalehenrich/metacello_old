@@ -1,9 +1,0 @@
-
-!MetacelloMCVersion methodsFor: 'private' stamp: 'DaleHenrichs 11/2/2010 16:09'!
-executeLoadFromArray: anArray
-
-	| loader mcLoader |
-	loader := MetacelloMCVersionSpecLoader on: self spec.
-	loader required: anArray.
-	loaderPolicy notNil ifTrue: [ loader loaderPolicy: loaderPolicy ].
-	^loader load! !

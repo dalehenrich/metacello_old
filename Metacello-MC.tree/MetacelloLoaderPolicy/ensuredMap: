@@ -1,4 +1,0 @@
-
-!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 03/08/2010 14:47'!
-ensuredMap: anObject
-	ensuredMap := anObject! !

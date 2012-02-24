@@ -1,5 +1,0 @@
-
-!MetacelloGoferPackage methodsFor: 'accessing' stamp: 'dkh 10/12/2009 16:25'!
-packageFilename
-
-	^packageFilename! !

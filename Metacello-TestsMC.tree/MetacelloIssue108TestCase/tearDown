@@ -1,9 +1,0 @@
-
-!MetacelloIssue108TestCase methodsFor: 'running' stamp: 'dkh 7/11/2011 16:44'!
-tearDown
-	| aGofer |
-	super tearDown.
-	aGofer := Gofer new.
-	Smalltalk removeKey: self repositoryName ifAbsent: [  ].
-	self tempRepositories do: [:repo | MCRepositoryGroup default removeRepository: repo ].
-! !

@@ -1,7 +1,0 @@
-
-!MetacelloGoferBasedAtomicLoaderTest methodsFor: 'versions' stamp: 'DaleHenrichs 4/9/2010 11:23'!
-version31: spec 
-	<version: '3.1'>
-	
-	super version31: spec 
-! !

@@ -1,9 +1,0 @@
-
-!MetacelloExplicitLoadDirective methodsFor: 'actions' stamp: 'dkh 4/6/2011 22:34'!
-explicitLoadWithPolicy: aLoadPolicy
-
-	| gofer |
-	gofer := MetacelloGofer new.
-	gofer disablePackageCache.
-	gofer repository: aLoadPolicy cacheRepository.
-	self explicitLoadUsing: self gofer: gofer! !

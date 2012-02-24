@@ -1,9 +1,0 @@
-
-!MetacelloMCVersionSpec methodsFor: 'enumerating' stamp: 'DaleHenrichs 01/20/2010 15:50'!
-specsNamed: packageAndProjectNames projectDo: projectBlock packageDo: packageBlock groupDo: groupBlock
-
-	| map |
-	map := self packages map.
-	packageAndProjectNames do: [:name | | pkgSpec |
-		(pkgSpec := map at: name ifAbsent: [ ]) ~~ nil
-			ifTrue: [ pkgSpec projectDo: projectBlock packageDo: packageBlock groupDo: groupBlock ]]! !

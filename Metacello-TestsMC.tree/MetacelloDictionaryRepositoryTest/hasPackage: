@@ -1,8 +1,0 @@
-
-!MetacelloDictionaryRepositoryTest methodsFor: 'utilities' stamp: 'dkh 12/30/2009 10:33'!
-hasPackage: aString
-	| package |
-	package := MCWorkingCopy allManagers
-		detect: [ :each | each packageName = aString ]
-		ifNone: [ nil ].
-	^ package notNil! !

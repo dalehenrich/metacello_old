@@ -1,7 +1,0 @@
-
-!MetacelloConfigurationResource methodsFor: 'ConfigurationOfFan' stamp: 'DaleHenrichs 2/4/2010 11:12'!
-baseline50MethodSourceFan
-
-	^(self class sourceCodeAt: #baseline50Fan:) asString
-
-! !

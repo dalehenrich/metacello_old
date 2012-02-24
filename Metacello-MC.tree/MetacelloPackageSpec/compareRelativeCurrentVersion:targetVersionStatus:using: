@@ -1,6 +1,0 @@
-
-!MetacelloPackageSpec methodsFor: 'testing' stamp: 'DaleHenrichs 2/5/2010 14:03'!
-compareRelativeCurrentVersion: anOperator targetVersionStatus: statusIgnored using: anMCLoader
-
-	^self compareCurrentVersion: anOperator targetVersionStatus: statusIgnored using: anMCLoader
-! !

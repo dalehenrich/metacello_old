@@ -1,6 +1,0 @@
-
-!MetacelloConfigurationResource class methodsFor: 'accessing' stamp: 'DaleHenrichs 9/23/2010 15:18'!
-projectAttributes
-
-	ProjectAttributes == nil ifTrue: [ ^#() ].
-	^ProjectAttributes! !

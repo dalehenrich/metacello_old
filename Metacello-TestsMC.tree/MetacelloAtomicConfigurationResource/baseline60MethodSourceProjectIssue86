@@ -1,7 +1,0 @@
-
-!MetacelloAtomicConfigurationResource methodsFor: 'Issue 86' stamp: 'DaleHenrichs 6/24/2010 15:45'!
-baseline60MethodSourceProjectIssue86
-
-	^(self class sourceCodeAt: #baseline60ProjectIssue86:) asString
-
-! !

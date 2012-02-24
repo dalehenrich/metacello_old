@@ -1,5 +1,0 @@
-
-!MetacelloConfigurationResource class methodsFor: 'accessing' stamp: 'DaleHenrichs 12/18/2010 11:49'!
-project
-
-	^self new project! !

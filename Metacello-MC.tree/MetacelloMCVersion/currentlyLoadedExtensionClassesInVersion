@@ -1,5 +1,0 @@
-
-!MetacelloMCVersion methodsFor: 'querying' stamp: 'dkh 5/11/2011 14:36'!
-currentlyLoadedExtensionClassesInVersion
-
-	^self spec currentlyLoadedExtensionClassesInVersion! !

@@ -1,6 +1,0 @@
-
-!MetacelloLoaderPolicy methodsFor: 'accessing' stamp: 'DaleHenrichs 3/11/2010 19:35'!
-silently
-
-	silently == nil ifTrue: [ silently := false ].
-	^ silently! !

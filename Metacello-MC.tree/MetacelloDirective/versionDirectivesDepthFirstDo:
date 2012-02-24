@@ -1,4 +1,0 @@
-
-!MetacelloDirective methodsFor: 'enumerating' stamp: 'DaleHenrichs 12/7/2010 02:21'!
-versionDirectivesDepthFirstDo: aBlock
-! !

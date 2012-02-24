@@ -1,5 +1,0 @@
-
-!MetacelloRepositoriesSpec methodsFor: 'actions' stamp: 'dkh 10/6/2009 23:59'!
-repository: aStringOrSpec
-
-	aStringOrSpec addToMetacelloRepositories: self! !

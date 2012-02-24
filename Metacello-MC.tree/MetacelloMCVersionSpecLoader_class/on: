@@ -1,7 +1,0 @@
-
-!MetacelloMCVersionSpecLoader class methodsFor: 'instance creation' stamp: 'dkh 6/18/2009 09:53'!
-on: aVersionSpec
-
-	^(self new) 
-		versionSpec: aVersionSpec;
-		yourself! !

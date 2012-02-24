@@ -1,9 +1,0 @@
-
-!MetacelloMCVersionSpec methodsFor: 'development support' stamp: 'dkh 10/5/2009 16:15'!
-updatedPackageSpecs
-
-	| updatedSpecs mcLoader |
-	updatedSpecs := Dictionary new.
-	mcLoader := self loader.
-	self packages map valuesDo: [:pkg | pkg updatePackageSpec: updatedSpecs using: mcLoader].
-	^updatedSpecs! !

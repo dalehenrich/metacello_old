@@ -1,5 +1,0 @@
-
-!MetacelloCommonMCSpecLoader methodsFor: 'initialize-release' stamp: 'DaleHenrichs 3/10/2010 14:41'!
-initialize
-
-	self loaderPolicy! !

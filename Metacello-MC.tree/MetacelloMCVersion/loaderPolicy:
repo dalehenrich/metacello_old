@@ -1,4 +1,0 @@
-
-!MetacelloMCVersion methodsFor: 'accessing' stamp: 'DaleHenrichs 3/6/2010 08:20'!
-loaderPolicy: anObject
-	loaderPolicy := anObject! !

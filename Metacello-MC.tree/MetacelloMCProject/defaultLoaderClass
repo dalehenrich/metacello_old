@@ -1,5 +1,0 @@
-
-!MetacelloMCProject methodsFor: 'spec classes' stamp: 'DaleHenrichs 3/6/2010 07:46'!
-defaultLoaderClass
-
-	^MetacelloLoadingMCSpecLoader! !

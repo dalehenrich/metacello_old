@@ -1,7 +1,0 @@
-
-!MetacelloConfigTemplate class methodsFor: 'development support' stamp: 'DaleHenrichs 12/17/2010 10:23'!
-DevelopmentSupport
-
-"See the methods in the 'development support' category on the class-side of MetacelloBaseConfiguration. Decide what development support methods you would like to use and copy them the the class-side of your configuration."
-	<apiDocumentation>
-! !

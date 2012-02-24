@@ -1,5 +1,0 @@
-
-!MetacelloVersionQueryTestCase methodsFor: 'accessing' stamp: 'dkh 10/21/2009 13:40'!
-projectProject
-
-	^MetacelloVersionQueryProjectConfig new project! !

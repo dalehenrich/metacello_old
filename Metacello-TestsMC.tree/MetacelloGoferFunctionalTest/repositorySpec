@@ -1,9 +1,0 @@
-
-!MetacelloGoferFunctionalTest methodsFor: 'accessing' stamp: 'dkh 12/30/2009 10:37'!
-repositorySpec
-
-	| project version |
-	project := self project.
-	version := project version: '1.0-baseline'.
-	^version spec repositorySpecs first.
-! !

@@ -1,6 +1,0 @@
-
-!MetacelloMCVersion methodsFor: 'querying' stamp: 'dkh 11/9/2010 16:41'!
-defaultPackageNamesToLoad
-	"Answer the list of packages and projects to be loaded --> packages already loaded"
-	
-	^ self defaultPackageNamesToLoad: self spec defaultPackageNames! !

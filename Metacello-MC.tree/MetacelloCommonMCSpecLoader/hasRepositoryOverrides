@@ -1,5 +1,0 @@
-
-!MetacelloCommonMCSpecLoader methodsFor: 'testing' stamp: 'DaleHenrichs 3/10/2010 14:40'!
-hasRepositoryOverrides
-
-	^self loaderPolicy hasRepositoryOverrides! !

@@ -1,6 +1,0 @@
-
-!MetacelloGoferBasedLoaderTest methodsFor: 'doits' stamp: 'dkh 1/6/2010 21:19'!
-postloadSupplyingAnswers
-
-	postloadAnswer := ProvideAnswerNotification signal: 'postload'.
-! !

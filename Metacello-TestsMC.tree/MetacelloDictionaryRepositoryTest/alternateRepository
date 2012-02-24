@@ -1,6 +1,0 @@
-
-!MetacelloDictionaryRepositoryTest methodsFor: 'running' stamp: 'dkh 1/12/2010 14:46'!
-alternateRepository
-	"MetacelloAlternateResource reset"
-
-	^ MetacelloAlternateResource current monticelloRepository! !

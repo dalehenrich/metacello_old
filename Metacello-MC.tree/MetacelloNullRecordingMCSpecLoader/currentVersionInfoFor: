@@ -1,8 +1,0 @@
-
-!MetacelloNullRecordingMCSpecLoader methodsFor: 'versionInfo' stamp: 'dkh 08/10/2009 16:39'!
-currentVersionInfoFor: packageSpec
-
-	^self loadData
-		currentVersionInfoFor: packageSpec 
-		ifAbsent: [ nil ]
-! !

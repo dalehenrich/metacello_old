@@ -1,6 +1,0 @@
-
-!MetacelloDirective class methodsFor: 'instance creation' stamp: 'DaleHenrichs 3/9/2010 10:48'!
-preLoadSpec: packageOrVersionSpec loader: aLoader
-
-	^MetacelloPreLoadDirective new
-		spec: packageOrVersionSpec loader: aLoader! !
