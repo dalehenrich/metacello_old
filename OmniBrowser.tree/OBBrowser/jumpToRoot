@@ -1,4 +1,0 @@
-
-!OBBrowser methodsFor: 'navigating' stamp: 'cwp 11/20/2004 21:00'!
-jumpToRoot
-	^self navigationPanel jumpToRoot! !

@@ -1,4 +1,0 @@
-
-!OBClassNode methodsFor: 'ancestry' stamp: ''!
-ancestrySelector
-	^ #isDescendantOfClass:! !

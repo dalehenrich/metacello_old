@@ -1,4 +1,0 @@
-
-!OBPlatform class methodsFor: 'instance creation' stamp: 'lr 7/3/2009 22:27'!
-current: aPlatform 
-	Current := aPlatform! !

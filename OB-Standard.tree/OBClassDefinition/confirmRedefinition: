@@ -1,9 +1,0 @@
-
-!OBClassDefinition methodsFor: 'confirmation' stamp: 'lr 11/26/2010 00:01'!
-confirmRedefinition: definition
-	| newName answer |
-	newName := self nameOfClassDefinedBy: definition.
-	answer := OBConfirmationRequest
-		prompt: newName , ' is an existing class in this system. Redefining it might cause serious problems. Is this really what you want to do?'
-		confirm: 'Redefine'.
-	^ answer ifNil: [false]! !

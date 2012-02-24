@@ -1,9 +1,0 @@
-
-OBMethodNode subclass: #OBClassRefNode
-	instanceVariableNames: 'className'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Nodes'!
-
-!OBClassRefNode commentStamp: 'cwp 1/8/2005 12:38' prior: 0!
-Each instance of OBClassRefNode refers to a reference to a particular class from the source code of a method. It's used in the OBListBrowser created by the 'browse references' class action.!

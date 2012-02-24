@@ -1,8 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'callbacks' stamp: 'cwp 6/4/2006 00:41'!
-accept: aText notifying: aController
-	^ self 
-		withDefinitionDo: [:def | [def accept: aText notifying: aController]
-									on: OBAnnouncerRequest
-									do: [:notification | notification resume: self announcer]]
-		ifNil: [true]! !

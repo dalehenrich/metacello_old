@@ -1,5 +1,0 @@
-
-!OBSelectorNode methodsFor: 'navigating' stamp: 'lr 5/7/2011 14:15'!
-implementors
-	^ (SystemNavigation default allImplementorsOf: self selector) asArray sort 
-		collect: [ :ref | OBMethodNode on: ref ]! !

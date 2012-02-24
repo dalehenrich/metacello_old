@@ -1,4 +1,0 @@
-
-!OBBrowser methodsFor: 'accessing' stamp: 'cwp 11/20/2004 21:00'!
-currentNode
-	^self navigationPanel currentNode! !

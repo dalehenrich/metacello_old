@@ -1,4 +1,0 @@
-
-!OBClassRefNode class methodsFor: 'instance creation' stamp: 'cwp 12/1/2004 00:50'!
-on: aClassName inMethod: aMethodRef
-	^ self new setClassName: aClassName reference: aMethodRef! !

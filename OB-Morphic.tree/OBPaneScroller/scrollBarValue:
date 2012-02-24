@@ -1,6 +1,0 @@
-
-!OBPaneScroller methodsFor: 'input events' stamp: 'lr 5/29/2010 08:11'!
-scrollBarValue: value
-	transform hasSubmorphs ifFalse: [^ self].
-	transform offset: (self leftoverScrollRange * value) rounded @ 0.
-! !

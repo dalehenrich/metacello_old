@@ -1,4 +1,0 @@
-
-!OBCategoryCommand methodsFor: 'testing' stamp: 'lr 11/8/2009 10:02'!
-isActive
-	^ target hasOrganization and: [ (requestor isSelected: target) not ]! !

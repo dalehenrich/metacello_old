@@ -1,4 +1,0 @@
-
-!OBCopyTextCommand methodsFor: 'accessing' stamp: 'lr 12/10/2010 10:37'!
-group
-	^ #clipboard! !

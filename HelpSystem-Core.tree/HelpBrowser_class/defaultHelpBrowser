@@ -1,4 +1,0 @@
-
-!HelpBrowser class methodsFor: 'instance creation' stamp: 'hjh 4/21/2010 11:06'!
-defaultHelpBrowser
-	^self ! !

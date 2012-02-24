@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'ancestry' stamp: 'lr 5/9/2011 18:23'!
-isDescendantOfVariable: anVariableNode
-	^ false! !

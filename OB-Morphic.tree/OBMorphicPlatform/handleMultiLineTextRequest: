@@ -1,8 +1,0 @@
-
-!OBMorphicPlatform methodsFor: 'interaction' stamp: 'lr 7/4/2009 16:43'!
-handleMultiLineTextRequest: request
-	^ UIManager default
-			multiLineRequest: request prompt
-			centerAt: Sensor cursorPoint
-			initialAnswer: request template
-			answerHeight: 200! !

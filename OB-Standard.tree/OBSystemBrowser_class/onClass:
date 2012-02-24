@@ -1,4 +1,0 @@
-
-!OBSystemBrowser class methodsFor: 'instance creation' stamp: 'dvf 8/31/2005 13:17'!
-onClass: aClass 
-	^self selection: aClass asNode! !

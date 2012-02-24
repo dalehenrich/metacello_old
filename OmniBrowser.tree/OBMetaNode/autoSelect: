@@ -1,4 +1,0 @@
-
-!OBMetaNode methodsFor: 'accessing' stamp: 'dr 1/28/2009 15:11'!
-autoSelect: anAutoSelection
-	autoSelect := anAutoSelection! !

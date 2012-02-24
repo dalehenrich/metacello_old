@@ -1,5 +1,0 @@
-
-!OBCmdFileOut methodsFor: 'testing' stamp: 'cwp 10/9/2006 15:43'!
-isActive
-	^ (requestor isSelected: target) 
-		and: [target respondsTo: #fileOut]! !

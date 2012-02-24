@@ -1,4 +1,0 @@
-
-!OBSystemBrowser class methodsFor: 'configuration' stamp: 'dr 7/20/2007 15:23'!
-defaultRootNode
-	^ OBEnvironmentNode forImage! !

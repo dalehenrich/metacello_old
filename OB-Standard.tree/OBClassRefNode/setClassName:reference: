@@ -1,6 +1,0 @@
-
-!OBClassRefNode methodsFor: 'initialize-release' stamp: 'cwp 12/1/2004 01:10'!
-setClassName: theName reference: aMethodRef
-	self setReference: aMethodRef.
-	className := theName.
-! !

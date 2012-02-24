@@ -1,4 +1,0 @@
-
-!OBAnnotationPanel methodsFor: 'callbacks' stamp: 'lr 5/2/2007 17:20'!
-selection
-	^ 1 to: 0! !

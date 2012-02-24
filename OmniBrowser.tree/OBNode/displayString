@@ -1,4 +1,0 @@
-
-!OBNode methodsFor: 'displaying' stamp: 'cwp 5/20/2007 01:57'!
-displayString
-	^ metaNode displayStringForNode: self! !

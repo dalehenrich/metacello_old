@@ -1,9 +1,0 @@
-
-!GoferApiTest methodsFor: 'testing-repositories' stamp: 'lr 3/14/2010 21:13'!
-testSubDirectoryRepository
-	Smalltalk globals
-		at: #MCSubDirectoryRepository
-		ifPresent: [ :subDirectoryRepositoryClass | 
-			gofer directory: FileDirectory default pathName , FileDirectory slash , '*'.
-			self assert: gofer repositories: (Array with: FileDirectory default pathName , FileDirectory slash , '*').
-			self assert: (gofer repositories first isKindOf: subDirectoryRepositoryClass) ]! !

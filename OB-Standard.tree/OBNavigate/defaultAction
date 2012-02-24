@@ -1,6 +1,0 @@
-
-!OBNavigate methodsFor: 'configuration' stamp: 'lr 3/4/2009 08:24'!
-defaultAction
-	^ [fan children isEmpty
-		ifTrue: [OBInformRequest message: self noChildrenMessage]
-		ifFalse: [self browserClass browseRoot: fan parent label: self label]]! !

@@ -1,6 +1,0 @@
-
-!OBSwitch methodsFor: 'accessing' stamp: 'dkh 3/21/2009 13:49'!
-longDescriptions
-	^ filter 
-		ifNotNil: [filter longDescriptionsForNode: column selectedNode]
-		ifNil: [#()]! !

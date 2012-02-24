@@ -1,4 +1,0 @@
-
-!OBCmdBrowseImplementors methodsFor: 'accessing' stamp: 'cwp 10/15/2006 21:13'!
-keystroke
-	^ $m! !

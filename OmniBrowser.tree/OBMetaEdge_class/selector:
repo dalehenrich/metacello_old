@@ -1,4 +1,0 @@
-
-!OBMetaEdge class methodsFor: 'instance creation' stamp: 'cwp 5/4/2007 22:53'!
-selector: aSymbol
-	^ self selector: aSymbol metaNode: nil! !

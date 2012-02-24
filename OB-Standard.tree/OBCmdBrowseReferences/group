@@ -1,4 +1,0 @@
-
-!OBCmdBrowseReferences methodsFor: 'accessing' stamp: 'cwp 12/7/2006 22:30'!
-group
-	^ #navigation! !

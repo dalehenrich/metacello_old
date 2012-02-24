@@ -1,4 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'testing' stamp: 'dr 7/10/2008 14:40'!
-isDefinition
-    ^true! !

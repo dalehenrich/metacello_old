@@ -1,4 +1,0 @@
-
-!OBMetagraphBuilder class methodsFor: 'instance creation' stamp: 'PDC 6/27/2007 08:03'!
-on: root class: classSel comment: commentSel metaclass: metaclassSel
-	^self new setRoot: root classSel: classSel commentSel: commentSel metaclassSel: metaclassSel! !

@@ -1,4 +1,0 @@
-
-!OBPaneScroller methodsFor: 'accessing' stamp: 'cwp 11/17/2004 22:03'!
-model
-	^model! !

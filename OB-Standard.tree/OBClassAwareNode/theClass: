@@ -1,4 +1,0 @@
-
-!OBClassAwareNode methodsFor: 'accessing' stamp: ''!
-theClass: aClass
-	theClass := aClass! !

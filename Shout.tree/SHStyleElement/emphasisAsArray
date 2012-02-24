@@ -1,6 +1,0 @@
-
-!SHStyleElement methodsFor: 'styling' stamp: ''!
-emphasisAsArray
-	^ self emphasis = 'bold italic'
-		ifTrue: [#(#bold #italic )]
-		ifFalse: [self emphasis]! !

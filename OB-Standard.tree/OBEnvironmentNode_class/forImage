@@ -1,4 +1,0 @@
-
-!OBEnvironmentNode class methodsFor: 'instance creation' stamp: ''!
-forImage
-	^ self on: Smalltalk! !

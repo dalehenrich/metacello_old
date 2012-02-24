@@ -1,5 +1,0 @@
-
-!OBNode methodsFor: 'copying' stamp: 'lr 5/9/2011 19:27'!
-postCopy
-	super postCopy.
-	metaNode := nil! !

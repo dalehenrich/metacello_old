@@ -1,6 +1,0 @@
-
-OBInteractionRequest subclass: #OBMultiLineTextRequest
-	instanceVariableNames: 'prompt template'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Notifications'!

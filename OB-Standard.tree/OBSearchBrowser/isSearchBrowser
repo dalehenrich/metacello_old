@@ -1,4 +1,0 @@
-
-!OBSearchBrowser methodsFor: 'testing' stamp: 'cwp 4/15/2007 22:28'!
-isSearchBrowser
-	^ true! !

@@ -1,9 +1,0 @@
-
-!SHMethodEditingMode methodsFor: 'view' stamp: 'AlainPlantec 9/20/2011 09:13'!
-metaSwitch
-	^ UIManager default
-		newCheckboxFor: self
-		getSelected: #classIsMeta
-		setSelected: #classIsMeta:
-		label: 'Class'
-		help: 'Class side is used if checked' ! !

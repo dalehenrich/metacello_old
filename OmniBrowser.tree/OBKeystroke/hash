@@ -1,6 +1,0 @@
-
-!OBKeystroke methodsFor: 'comparing' stamp: 'lr 5/20/2011 19:22'!
-hash
-	"Answer an integer value that is related to the identity of the receiver."
-
-	^ self key hash bitXor: (self isShift hash bitXor: (self isControl hash bitXor: (self isOption hash bitXor: self isCommand hash)))! !

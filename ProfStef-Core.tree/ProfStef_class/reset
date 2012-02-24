@@ -1,4 +1,0 @@
-
-!ProfStef class methodsFor: 'class initialization' stamp: 'LaurentLaffont 9/18/2011 20:13'!
-reset 
-	instance := nil! !

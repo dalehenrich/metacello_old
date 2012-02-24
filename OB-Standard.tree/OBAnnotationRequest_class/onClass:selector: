@@ -1,6 +1,0 @@
-
-!OBAnnotationRequest class methodsFor: 'instance-creation' stamp: 'PDC 6/25/2007 22:01'!
-onClass: aClass selector: aSelector
-	^ self new
-		onClass: aClass selector: aSelector;
-		yourself! !

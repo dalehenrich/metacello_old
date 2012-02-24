@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'instance creation' stamp: 'cwp 12/5/2004 18:12'!
-metaNode: metaNode node: rootNode 
-	^ self metaNode: metaNode root: rootNode selection: nil panels: self panels! !

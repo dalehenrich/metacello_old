@@ -1,4 +1,0 @@
-
-!OBNavigate methodsFor: 'accessing' stamp: 'cwp 8/26/2007 00:30'!
-setRoot: aNode 
-	fan := (aNode copy metaNode: self defaultMetaNode) asFan! !

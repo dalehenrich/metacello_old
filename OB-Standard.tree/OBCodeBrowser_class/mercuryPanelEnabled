@@ -1,4 +1,0 @@
-
-!OBCodeBrowser class methodsFor: 'accessing' stamp: 'lr 8/15/2010 15:19'!
-mercuryPanelEnabled
-	^ MercuryPanelEnabled! !

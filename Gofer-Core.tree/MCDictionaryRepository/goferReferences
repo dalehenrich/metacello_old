@@ -1,4 +1,0 @@
-
-!MCDictionaryRepository methodsFor: '*gofer-core-accessing' stamp: 'TestRunner 12/12/2009 11:12'!
-goferReferences
-	^ self allVersionInfos collect: [ :each | GoferResolvedReference name: each name repository: self ]! !

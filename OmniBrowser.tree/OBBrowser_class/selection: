@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'instance creation' stamp: 'cwp 12/6/2004 22:04'!
-selection: selectedNode
-	^ self root: self defaultRootNode selection: selectedNode! !

@@ -1,9 +1,0 @@
-
-!OBPaneScroller methodsFor: 'layout' stamp: 'cwp 2/26/2004 23:14'!
-computeMorphWidths
-	| paneWidths widths |
-	paneWidths := self paneWidthsToFit: self totalPaneWidth.
-	widths := OrderedCollection new.
-	paneWidths do: [:w | widths add: w] separatedBy: [widths add: self separatorWidth].
-	^ widths asArray
-! !

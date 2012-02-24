@@ -1,4 +1,0 @@
-
-!OBCompletionDialog class methodsFor: 'instance creation' stamp: 'lr 9/22/2010 13:31'!
-openOn: aRequest
-	^ UITheme builder openModal: (self on: aRequest)! !

@@ -1,6 +1,0 @@
-
-!OBPaneScroller class methodsFor: 'settings' stamp: 'lr 3/13/2010 19:56'!
-animationDuration: anInteger
-	"The duration of the scroll animation in milliseconds."
-
-	animationDuration := anInteger! !

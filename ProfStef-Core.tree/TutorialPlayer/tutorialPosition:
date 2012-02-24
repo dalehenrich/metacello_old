@@ -1,5 +1,0 @@
-
-!TutorialPlayer methodsFor: 'accessing' stamp: 'DannyChan 2/1/2010 19:25'!
-tutorialPosition: aTutorialPosition 
-	tutorialPosition := aTutorialPosition 
-	! !

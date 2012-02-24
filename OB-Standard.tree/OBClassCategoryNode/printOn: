@@ -1,8 +1,0 @@
-
-!OBClassCategoryNode methodsFor: 'printing' stamp: 'cwp 5/11/2007 00:59'!
-printOn: aStream
-	aStream
-		nextPutAll: self class name;
-		nextPut: $<;
-		nextPutAll: self name;
-		nextPut: $>! !

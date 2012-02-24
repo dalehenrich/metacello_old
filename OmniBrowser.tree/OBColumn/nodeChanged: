@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'updating' stamp: 'djr 11/9/2008 14:16'!
-nodeChanged: ann 
-	(self listHolder includesNode: ann node) ifTrue: [self changed: #list]! !

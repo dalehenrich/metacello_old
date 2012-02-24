@@ -1,9 +1,0 @@
-
-OBMercuryQuery subclass: #OBMMethodQuery
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Utilities'!
-
-!OBMMethodQuery commentStamp: 'PDC 6/29/2007 07:12' prior: 0!
-I handle queries that look like 'browse' and 'browse*'. I find method implementors.!

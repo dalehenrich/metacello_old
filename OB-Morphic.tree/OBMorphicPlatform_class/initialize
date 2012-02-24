@@ -1,4 +1,0 @@
-
-!OBMorphicPlatform class methodsFor: 'class initialization' stamp: 'cwp 8/26/2009 21:54'!
-initialize
-	OBPlatform current: self new! !

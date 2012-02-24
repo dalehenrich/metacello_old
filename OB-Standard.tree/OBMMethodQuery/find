@@ -1,4 +1,0 @@
-
-!OBMMethodQuery methodsFor: 'executing' stamp: 'PDC 6/29/2007 06:23'!
-find
-	isWild ifTrue: [self findMethod] ifFalse: [self browseImplementors]! !

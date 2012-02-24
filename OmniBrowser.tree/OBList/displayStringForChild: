@@ -1,4 +1,0 @@
-
-!OBList methodsFor: 'nodes' stamp: 'jk 3/23/2008 11:14'!
-displayStringForChild: aNode
-	^ self fan displayStringForChild: aNode! !

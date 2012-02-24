@@ -1,6 +1,0 @@
-
-!OBAnnotationRequest methodsFor: 'requests' stamp: 'lr 8/15/2010 17:13'!
-recentChangeSet
-	"The most recent change set bearing the method."
-	
-	^ ChangeSet mostRecentChangeSetWithChangeForClass: class selector: selector! !

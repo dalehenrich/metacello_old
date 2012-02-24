@@ -1,4 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'callbacks' stamp: 'dr 11/19/2008 16:21'!
-text
-	^ self withDefinitionDo: [:def | def text] ifNil: ['']! !

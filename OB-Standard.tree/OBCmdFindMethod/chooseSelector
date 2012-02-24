@@ -1,6 +1,0 @@
-
-!OBCmdFindMethod methodsFor: 'private' stamp: 'lr 4/23/2010 08:37'!
-chooseSelector
-	| selectors |
-	selectors := target theClass selectors asArray sort.
-	^ selectors isEmpty ifFalse: [ OBChoiceRequest labels: selectors ]! !

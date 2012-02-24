@@ -1,4 +1,0 @@
-
-!OBSelectionChanged methodsFor: 'accessing' stamp: 'cwp 4/19/2006 00:53'!
-column
-	^ column! !

@@ -1,4 +1,0 @@
-
-!OBCmdRemoveElement methodsFor: 'accessing' stamp: 'lr 5/9/2011 18:49'!
-icon
-	^ #deleteIcon! !

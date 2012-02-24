@@ -1,4 +1,0 @@
-
-!OBCmdRevertMethod methodsFor: 'accessing' stamp: 'cwp 10/9/2006 18:26'!
-keystroke
-	^ $r! !

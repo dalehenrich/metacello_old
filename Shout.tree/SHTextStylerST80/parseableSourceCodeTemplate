@@ -1,8 +1,0 @@
-
-!SHTextStylerST80 methodsFor: 'private' stamp: ''!
-parseableSourceCodeTemplate
-	^ 'messageSelectorAndArgumentNames
-	"comment stating purpose of message"
-
-	| temporary variable names |
-	statements'! !

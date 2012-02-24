@@ -1,4 +1,0 @@
-
-!OBFan methodsFor: 'accessing' stamp: 'lr 5/28/2010 21:25'!
-children
-	^ children ifNil: [ #() ]! !

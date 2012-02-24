@@ -1,9 +1,0 @@
-
-!GoferReferenceTest methodsFor: 'testing-working' stamp: 'lr 1/5/2010 11:06'!
-testContraintShouldFindWorkingCopy
-	| constraintReference workingCopy |
-	constraintReference := GoferConstraintReference 
-		name: 'Gofer-Core'
-		constraint: [ :reference | false ].
-	workingCopy := constraintReference workingCopy.
-	self assert: workingCopy packageName = 'Gofer-Core'! !

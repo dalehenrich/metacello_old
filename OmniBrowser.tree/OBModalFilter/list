@@ -1,4 +1,0 @@
-
-!OBModalFilter methodsFor: 'callbacks' stamp: 'lr 5/28/2010 20:50'!
-list
-	^ metaNode edges collect: [:edge | edge label]! !

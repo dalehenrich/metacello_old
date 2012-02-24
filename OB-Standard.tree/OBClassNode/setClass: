@@ -1,4 +1,0 @@
-
-!OBClassNode methodsFor: 'initializing' stamp: 'lr 8/4/2007 10:29'!
-setClass: aClass
-	self theClass: aClass theNonMetaClass! !

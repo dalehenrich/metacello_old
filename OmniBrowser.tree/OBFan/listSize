@@ -1,6 +1,0 @@
-
-!OBFan methodsFor: 'accessing' stamp: 'lr 3/4/2009 08:32'!
-listSize
-	^ self children isNil 
-		ifTrue: [ 0 ]
-		ifFalse: [ self children size ]! !

@@ -1,4 +1,0 @@
-
-!OBVariableNode methodsFor: 'displaying' stamp: ''!
-name
-	^ name! !

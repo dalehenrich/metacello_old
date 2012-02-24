@@ -1,7 +1,0 @@
-
-!ClassDescription methodsFor: '*ob-standard' stamp: 'lr 1/3/2010 16:00'!
-isOverridden: aSelector
-	self allSubclassesDo: [ :class |
-		(class includesSelector: aSelector)
-			ifTrue: [ ^ true ] ].
-	^ false! !

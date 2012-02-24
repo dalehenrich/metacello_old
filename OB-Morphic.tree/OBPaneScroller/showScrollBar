@@ -1,8 +1,0 @@
-
-!OBPaneScroller methodsFor: 'scrolling' stamp: 'cwp 2/8/2004 11:11'!
-showScrollBar
-	self scrollBarIsVisible ifTrue: [^ self].
-	self resizeScrollBar.
-	self addMorphFront: scrollBar.
-	self adjustPaneHeight.
-	! !

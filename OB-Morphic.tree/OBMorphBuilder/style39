@@ -1,4 +1,0 @@
-
-!OBMorphBuilder methodsFor: 'style' stamp: 'cwp 7/23/2007 02:04'!
-style39
-	^ Smalltalk hasClassNamed: #AbstractResizerMorph! !

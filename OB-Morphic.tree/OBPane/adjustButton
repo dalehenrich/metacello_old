@@ -1,7 +1,0 @@
-
-!OBPane methodsFor: 'updating' stamp: 'lr 2/12/2009 10:36'!
-adjustButton
-	| inner |
-	self hasButton ifFalse: [ ^ self ].
-	inner := self innerBounds.
-	button bounds: (inner withTop: inner bottom - button height)! !

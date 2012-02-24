@@ -1,4 +1,0 @@
-
-!OBPaneScroller methodsFor: 'scrolling' stamp: 'cwp 2/8/2004 10:44'!
-hideOrShowScrollBar
-	self isScrollable ifTrue: [self showScrollBar] ifFalse: [self hideScrollBar]! !

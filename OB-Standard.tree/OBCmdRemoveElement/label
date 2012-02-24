@@ -1,4 +1,0 @@
-
-!OBCmdRemoveElement methodsFor: 'accessing' stamp: 'lr 8/8/2010 10:07'!
-label
-	^ 'Remove element'! !

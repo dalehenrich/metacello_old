@@ -1,4 +1,0 @@
-
-!OBList methodsFor: 'testing' stamp: 'lr 5/28/2010 21:40'!
-hasSelection
-	^ selection > 0! !

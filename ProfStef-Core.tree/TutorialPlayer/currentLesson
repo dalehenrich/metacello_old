@@ -1,4 +1,0 @@
-
-!TutorialPlayer methodsFor: 'accessing' stamp: 'LaurentLaffont 1/21/2010 15:37'!
-currentLesson
-	^ self tutorial lessonAt: self tutorialPosition.! !

@@ -1,7 +1,0 @@
-
-!ConfigurationOfHelpSystem methodsFor: 'doIts' stamp: 'tbn 3/28/2010 21:29'!
-openHelpBrowser
-	(Smalltalk at: #HelpBrowser) allInstances do: [:each | each close].	 
-	(Smalltalk at: #HelpBrowser) open.
-	
-! !

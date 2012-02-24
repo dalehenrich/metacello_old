@@ -1,4 +1,0 @@
-
-!OBSwitch methodsFor: 'testing' stamp: 'dr 7/19/2007 15:17'!
-isEnabled: aButtonModel
-    ^true! !

@@ -1,4 +1,0 @@
-
-!OBColumnPanel methodsFor: 'updating' stamp: 'dr 10/21/2008 09:52'!
-selectNode: announcement
-	^ self hopTo: announcement node! !

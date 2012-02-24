@@ -1,4 +1,0 @@
-
-!OBMethodCategoryNode methodsFor: 'accessing' stamp: ''!
-category
-	^ name! !

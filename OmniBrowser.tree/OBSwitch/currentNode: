@@ -1,4 +1,0 @@
-
-!OBSwitch methodsFor: 'updating' stamp: 'cwp 7/14/2007 10:18'!
-currentNode: aNode
-	self changed: #list! !

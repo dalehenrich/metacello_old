@@ -1,4 +1,0 @@
-
-!OBMethodDefinition methodsFor: 'accessing' stamp: 'lr 3/4/2009 08:17'!
-selector
-	^ source isNil ifFalse: [ Parser new parseSelector: source ]! !

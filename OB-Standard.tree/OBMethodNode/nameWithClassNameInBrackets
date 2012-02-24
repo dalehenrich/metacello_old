@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'displaying' stamp: 'jk 5/20/2007 11:01'!
-nameWithClassNameInBrackets
-	^ selector, '  (', self theClassName, ')'! !

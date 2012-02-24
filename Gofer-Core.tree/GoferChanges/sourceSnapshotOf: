@@ -1,6 +1,0 @@
-
-!GoferChanges methodsFor: 'queries' stamp: 'lr 12/12/2009 13:00'!
-sourceSnapshotOf: aReference
-	"Answer the source snapshot of aReference."
-	
-	self subclassResponsibility! !

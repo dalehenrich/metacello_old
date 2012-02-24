@@ -1,4 +1,0 @@
-
-!GoferRemoteChanges methodsFor: 'queries' stamp: 'lr 12/12/2009 13:00'!
-sourceSnapshotOf: aReference
-	^ aReference workingCopy package snapshot! !

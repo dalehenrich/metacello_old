@@ -1,4 +1,0 @@
-
-!OBMMethodSendersQuery methodsFor: 'accessing' stamp: 'cwp 7/20/2007 00:25'!
-searchNode
-	^ OBSenderSearchNode on: pattern! !

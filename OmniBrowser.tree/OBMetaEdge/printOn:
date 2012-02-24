@@ -1,7 +1,0 @@
-
-!OBMetaEdge methodsFor: 'printing' stamp: 'lr 11/13/2008 13:38'!
-printOn: aStream 
-	aStream
-		nextPutAll: selector printString;
-		nextPutAll: '->'.
-	metaNode shortPrintOn: aStream! !

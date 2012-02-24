@@ -1,4 +1,0 @@
-
-!OBDebugItTextCommand class methodsFor: 'testing' stamp: 'lr 8/27/2011 10:02'!
-takesNodes
-	^ false! !

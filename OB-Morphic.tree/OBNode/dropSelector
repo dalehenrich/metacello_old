@@ -1,6 +1,0 @@
-
-!OBNode methodsFor: '*ob-morphic' stamp: 'cwp 3/2/2004 21:29'!
-dropSelector
-	"Override in subclasses"
-	
-	^ #dropOnNode: ! !

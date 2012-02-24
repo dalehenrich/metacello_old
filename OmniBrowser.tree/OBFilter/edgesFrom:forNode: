@@ -1,4 +1,0 @@
-
-!OBFilter methodsFor: 'filtering' stamp: 'cwp 5/6/2007 01:53'!
-edgesFrom: aCollection forNode: aNode
-	^ aCollection! !

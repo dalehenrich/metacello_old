@@ -1,6 +1,0 @@
-
-!OBMethodNode methodsFor: 'accessing' stamp: 'lr 2/12/2009 10:41'!
-category
-	^ [ self reference category ifNil: [ '' ] ] 
-		on: Error
-		do: [ :err | '' ]! !

@@ -1,6 +1,0 @@
-
-OBCommand subclass: #OBCategoryCommand
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Commands'!

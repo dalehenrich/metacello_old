@@ -1,4 +1,0 @@
-
-!OBSystemBrowser class methodsFor: 'instance creation' stamp: 'lr 3/4/2010 20:19'!
-onEnvironment: anEnvironment category: aSymbol
-	^ self selection: (OBClassCategoryNode on: aSymbol inEnvironment: anEnvironment)! !

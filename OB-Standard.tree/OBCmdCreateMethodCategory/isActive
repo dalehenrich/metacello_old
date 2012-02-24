@@ -1,4 +1,0 @@
-
-!OBCmdCreateMethodCategory methodsFor: 'testing' stamp: 'lr 11/8/2009 10:03'!
-isActive
-	^ super isActive and: [ requestor selectedNode isKindOf: OBMethodCategoryNode ]! !

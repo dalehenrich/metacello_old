@@ -1,7 +1,0 @@
-
-!OBMClassQuery methodsFor: 'initialization' stamp: 'cb 7/16/2008 12:05'!
-setRawQuery: aString panel: aPanel
-	pattern := aString findTokens: #*.
-	isWild := aString includes: $*.
-	browser := aPanel browser.
-	^ self! !

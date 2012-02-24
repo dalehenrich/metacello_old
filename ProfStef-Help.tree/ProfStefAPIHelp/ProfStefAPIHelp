@@ -1,9 +1,0 @@
-
-ProfStefHelp subclass: #ProfStefAPIHelp
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'ProfStef-Help'!
-
-!ProfStefAPIHelp commentStamp: 'LaurentLaffont 2/15/2011 22:18' prior: 0!
-I'm a ProfStef which build a HelpSystem book by collecting comment from classes and method.!

@@ -1,9 +1,0 @@
-
-Notification subclass: #OBInteractionRequest
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Notifications'!
-
-!OBInteractionRequest commentStamp: 'cwp 12/7/2004 00:13' prior: 0!
-OBInteractionRequest is an abstract superclass for notifications that request some interaction with the user. It's useful for catching such notifications in an exception handler, while allowing other notifications to operate normally.!

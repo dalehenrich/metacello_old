@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'opening' stamp: 'cwp 12/6/2004 23:22'!
-open
-	^ self new open! !

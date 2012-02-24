@@ -1,8 +1,0 @@
-
-!OBRadioButtonBar class methodsFor: 'instance creation' stamp: 'cwp 2/22/2004 16:44'!
-on: aModel list: listSelector selected: selectionSelector changeSelected: changedSelector 
-	^ self new
-			on: aModel
-			list: listSelector
-			selected: selectionSelector
-			changeSelected: changedSelector! !

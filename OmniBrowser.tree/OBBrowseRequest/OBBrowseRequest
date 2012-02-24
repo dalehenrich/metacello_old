@@ -1,9 +1,0 @@
-
-OBInteractionRequest subclass: #OBBrowseRequest
-	instanceVariableNames: 'browser'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Notifications'!
-
-!OBBrowseRequest commentStamp: 'cwp 12/7/2004 00:10' prior: 0!
-This notification is raised whenever a browser needs to be opened. The default action is to open a SystemWindow in Morphic, but it can be caught in situations where that's not appropriate. The OB test suite uses this extensively. !

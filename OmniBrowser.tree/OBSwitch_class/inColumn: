@@ -1,4 +1,0 @@
-
-!OBSwitch class methodsFor: 'instance creation' stamp: 'cwp 5/17/2007 23:47'!
-inColumn: aColumn 
-	^ self basicNew setColumn: aColumn filter: nil.! !

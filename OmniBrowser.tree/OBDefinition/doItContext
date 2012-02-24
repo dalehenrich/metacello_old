@@ -1,4 +1,0 @@
-
-!OBDefinition methodsFor: 'callbacks' stamp: 'cwp 3/23/2004 00:08'!
-doItContext
-	^ nil! !

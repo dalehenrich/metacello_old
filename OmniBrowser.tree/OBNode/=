@@ -1,4 +1,0 @@
-
-!OBNode methodsFor: 'comparing' stamp: 'cwp 1/31/2004 14:57'!
-= other
-	^ self class = other class and: [self name = other name]! !

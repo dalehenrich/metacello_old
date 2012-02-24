@@ -1,4 +1,0 @@
-
-!OBListBrowser methodsFor: 'accessing' stamp: 'cwp 10/17/2004 20:54'!
-labelPrefix: aString
-	labelPrefix := aString! !

@@ -1,4 +1,0 @@
-
-!Text class methodsFor: '*ob-standard' stamp: 'lr 5/29/2010 08:19'!
-browserIcon
-	^ #string! !

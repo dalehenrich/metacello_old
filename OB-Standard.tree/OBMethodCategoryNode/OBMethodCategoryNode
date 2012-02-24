@@ -1,9 +1,0 @@
-
-OBClassAwareNode subclass: #OBMethodCategoryNode
-	instanceVariableNames: 'name'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Nodes'!
-
-!OBMethodCategoryNode commentStamp: 'cwp 1/8/2005 12:29' prior: 0!
-OBMethodCategory represents a category within a ClassOrganization. Instead of an organization definition, OBMethodCategory presents a MethodDefinition with the class' default method template.!

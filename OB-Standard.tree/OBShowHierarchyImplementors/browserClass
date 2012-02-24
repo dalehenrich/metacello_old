@@ -1,4 +1,0 @@
-
-!OBShowHierarchyImplementors methodsFor: 'accessing' stamp: 'dr 9/21/2007 11:20'!
-browserClass
-	^ OBHierarchyImplementorsBrowser! !

@@ -1,4 +1,0 @@
-
-!OBCmdMultiView methodsFor: 'actions' stamp: 'lr 1/28/2010 15:41'!
-showDecompile
-	self definition: (OBMethodDefinition source: self compiledMethod decompileString inClass: target theClass)! !

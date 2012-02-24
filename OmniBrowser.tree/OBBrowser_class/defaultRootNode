@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'configuration' stamp: 'cwp 12/6/2004 23:20'!
-defaultRootNode
-	self subclassResponsibility! !

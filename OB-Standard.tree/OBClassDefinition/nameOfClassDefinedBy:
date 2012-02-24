@@ -1,4 +1,0 @@
-
-!OBClassDefinition methodsFor: 'confirmation' stamp: ''!
-nameOfClassDefinedBy: definition
-	^ (Scanner new scanTokens: definition) third! !

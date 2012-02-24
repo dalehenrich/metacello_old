@@ -1,7 +1,0 @@
-
-!OBNode methodsFor: 'updating' stamp: 'lr 11/25/2010 23:38'!
-signalSelection
-	"Select the receiving node unless somebody vetoes the change."
-
-	(self announce: OBAboutToChange) isVetoed 
-		ifFalse: [ self announce: (OBSelectingNode node: self) ]! !

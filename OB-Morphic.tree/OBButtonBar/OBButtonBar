@@ -1,6 +1,0 @@
-
-RectangleMorph subclass: #OBButtonBar
-	instanceVariableNames: 'model'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Morphic-Morphs'!

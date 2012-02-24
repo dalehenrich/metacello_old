@@ -1,6 +1,0 @@
-
-!OBCodeBrowser methodsFor: 'commands-nodes' stamp: 'lr 10/29/2010 11:40'!
-browseHierarchyCommand
-	<command>
-	
-	^ OBCmdBrowseHierarchy! !

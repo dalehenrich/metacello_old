@@ -1,4 +1,0 @@
-
-!OBClassCategoryNode methodsFor: 'drag and drop' stamp: ''!
-dropSelector
-	^ #dropOnClassCategory:! !

@@ -1,4 +1,0 @@
-
-!HelpOnHelp class methodsFor: 'accessing' stamp: 'tbn 2/19/2010 14:21'!
-bookName
-	^'Help on Help'! !

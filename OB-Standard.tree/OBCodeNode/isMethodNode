@@ -1,4 +1,0 @@
-
-!OBCodeNode methodsFor: 'testing' stamp: 'cwp 8/22/2009 11:18'!
-isMethodNode
-	^ false! !

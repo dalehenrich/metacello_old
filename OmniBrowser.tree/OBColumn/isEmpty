@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'accessing' stamp: 'jk 3/23/2008 10:55'!
-isEmpty
-	^ self listHolder isEmpty! !

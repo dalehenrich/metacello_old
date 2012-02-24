@@ -1,5 +1,0 @@
-
-!OBMetaNode methodsFor: 'initializing' stamp: 'lr 7/3/2009 22:27'!
-initialize
-	filters := OrderedCollection new.
-	edges := OrderedCollection new! !

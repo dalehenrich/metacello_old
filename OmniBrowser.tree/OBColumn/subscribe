@@ -1,9 +1,0 @@
-
-!OBColumn methodsFor: 'updating' stamp: 'lr 12/3/2010 09:17'!
-subscribe
-	self announcer 
-		on: OBRefreshRequired send: #refresh: to: self;
-		on: OBNodeChanged send: #nodeChanged: to: self;
-		on: OBNodeDeleted send: #nodeDeleted: to: self;
-		on: OBChildrenChanged send: #childrenChanged: to: self;
-		on: OBSelectionChanged send: #selectionChanged: to: self! !

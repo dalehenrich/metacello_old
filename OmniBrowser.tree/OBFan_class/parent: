@@ -1,4 +1,0 @@
-
-!OBFan class methodsFor: 'instance creation' stamp: 'cwp 8/16/2007 12:02'!
-parent: aNode
-	^ self new setParent: aNode! !

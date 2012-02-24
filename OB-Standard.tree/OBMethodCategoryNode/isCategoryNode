@@ -1,4 +1,0 @@
-
-!OBMethodCategoryNode methodsFor: 'testing' stamp: 'dr 10/30/2008 10:23'!
-isCategoryNode
-    ^true! !

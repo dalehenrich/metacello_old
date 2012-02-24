@@ -1,4 +1,0 @@
-
-!OBClassReference methodsFor: 'comparing' stamp: ''!
-<= other
-	^ self name <= other name! !

@@ -1,4 +1,0 @@
-
-!ThreadSafeTranscript methodsFor: '*Shout-Styling' stamp: 'AlainPlantec 8/27/2011 00:20'!
-shoutAboutToStyle: aPluggableShoutMorphOrView 
-	^ false! !

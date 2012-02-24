@@ -1,4 +1,0 @@
-
-!OBMetagraphBuilder methodsFor: 'accessing' stamp: 'jk 8/26/2007 17:58'!
-selectorAt: aSelector 
-	^ self selectors at: aSelector! !

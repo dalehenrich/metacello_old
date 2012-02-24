@@ -1,4 +1,0 @@
-
-!OBFan methodsFor: 'accessing' stamp: 'cwp 8/20/2007 00:27'!
-allChildren
-	^ parent metaNode allChildrenForNode: parent.! !

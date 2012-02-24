@@ -1,6 +1,0 @@
-
-!OBEnvironmentNode methodsFor: 'navigating' stamp: ''!
-categories
-	^ environment organization categories collect: [:cat | OBClassCategoryNode 
-															on: cat
-															inEnvironment: environment]! !

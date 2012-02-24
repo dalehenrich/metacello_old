@@ -1,7 +1,0 @@
-
-!ConfigurationOfShout class methodsFor: 'metacello tool support' stamp: 'MarianoMartinezPeck 12/18/2009 15:16'!
-lastMetacelloVersionLoad
-	"Answer the last version loaded and the list of packages loaded for that version."
-
-	LastVersionLoad == nil ifTrue: [ LastVersionLoad := nil -> 'default' ].
-	^LastVersionLoad! !

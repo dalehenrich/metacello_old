@@ -1,4 +1,0 @@
-
-!OBMorphicPlatform methodsFor: 'preferences' stamp: 'lr 8/15/2010 14:36'!
-menuWithIcons
-	^ UITheme current settings menuWithIcons! !

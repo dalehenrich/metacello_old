@@ -1,4 +1,0 @@
-
-!OBPanel methodsFor: 'accessing' stamp: 'dr 2/18/2008 15:28'!
-definitionPanel
-    ^nil! !

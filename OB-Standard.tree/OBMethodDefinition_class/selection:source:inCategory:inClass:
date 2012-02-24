@@ -1,8 +1,0 @@
-
-!OBMethodDefinition class methodsFor: 'instance creation' stamp: 'cwp 10/17/2004 23:07'!
-selection: anInterval source: aText inCategory: aCategory inClass: aClass
-	^ self new
-		setClass: aClass
-		category: aCategory
-		source: aText
-		selection: anInterval! !

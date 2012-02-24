@@ -1,7 +1,0 @@
-
-!OBSwitch methodsFor: 'accessing' stamp: 'lr 3/4/2009 08:31'!
-list
-	^ filter isNil 
-		ifFalse: [ filter listForNode: column selectedNode ]
-		ifTrue: 
-			[ #() ]! !

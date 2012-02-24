@@ -1,4 +1,0 @@
-
-!OBMorphicIcons class methodsFor: 'accessing' stamp: 'lr 5/9/2011 18:47'!
-iconNamed: aSymbol
-	^ Icons at: aSymbol ifAbsentPut: [ self findIcon: aSymbol ]! !

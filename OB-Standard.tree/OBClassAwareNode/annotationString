@@ -1,4 +1,0 @@
-
-!OBClassAwareNode methodsFor: 'accessing' stamp: 'lr 3/13/2010 11:53'!
-annotationString
-	^ 'Class definition for ' , self theClassName! !

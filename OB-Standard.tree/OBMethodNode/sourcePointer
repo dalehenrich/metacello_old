@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'private' stamp: ''!
-sourcePointer
-	^ (self theClass compiledMethodAt: self selector) sourcePointer! !

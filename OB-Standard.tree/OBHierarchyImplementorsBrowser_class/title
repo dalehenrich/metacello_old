@@ -1,4 +1,0 @@
-
-!OBHierarchyImplementorsBrowser class methodsFor: 'configuration' stamp: 'dr 4/17/2007 16:53'!
-title
-	^'Hierarchy Implementors of'! !

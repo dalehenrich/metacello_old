@@ -1,4 +1,0 @@
-
-!OBCommand methodsFor: 'accessing' stamp: 'cwp 9/30/2007 20:18'!
-createCluster
-	^ OBCommandCluster label: self cluster! !

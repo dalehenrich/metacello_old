@@ -1,4 +1,0 @@
-
-!Gofer methodsFor: 'repositories-places' stamp: 'lr 2/7/2010 15:11'!
-blueplane: aString
-	self url: 'http://squeaksource.blueplane.jp/' , aString! !

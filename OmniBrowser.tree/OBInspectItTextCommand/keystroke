@@ -1,4 +1,0 @@
-
-!OBInspectItTextCommand methodsFor: 'accessing' stamp: 'lr 3/17/2011 21:38'!
-keystroke
-	^ $i! !

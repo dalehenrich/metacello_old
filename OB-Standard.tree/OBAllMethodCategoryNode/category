@@ -1,4 +1,0 @@
-
-!OBAllMethodCategoryNode methodsFor: 'accessing' stamp: ''!
-category
-	^ 'as yet unclassified'! !

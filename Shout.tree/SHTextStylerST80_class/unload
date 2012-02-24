@@ -1,6 +1,0 @@
-
-!SHTextStylerST80 class methodsFor: 'initialization' stamp: 'AlainPlantec 8/27/2011 16:56'!
-unload
-	(PluggableTextMorph respondsTo: #stylingClass:)
-		ifTrue: [ PluggableTextMorph stylingClass: nil ]
-	! !

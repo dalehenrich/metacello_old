@@ -1,4 +1,0 @@
-
-!SHTextStyler methodsFor: 'private' stamp: 'AlainPlantec 9/19/2011 19:29'!
-stylingEnabled: aBoolean
-	stylingEnabled := aBoolean! !

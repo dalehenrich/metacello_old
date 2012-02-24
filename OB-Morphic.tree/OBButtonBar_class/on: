@@ -1,7 +1,0 @@
-
-!OBButtonBar class methodsFor: 'instance creation' stamp: 'cwp 3/11/2007 16:39'!
-on: aModel
-	^ self new 
-		model: aModel;
-		initGeometry;
-		update: #commands.! !

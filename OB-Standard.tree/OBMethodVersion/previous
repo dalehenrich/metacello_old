@@ -1,4 +1,0 @@
-
-!OBMethodVersion methodsFor: 'initializing' stamp: 'dr 12/13/2008 17:37'!
-previous
-	^(prior notNil and: [prior > 0]) ifTrue: [self class fromSources: sources andPointer: prior]! !

@@ -1,4 +1,0 @@
-
-!OBCmdRenameClassCategory methodsFor: 'testing' stamp: 'lr 9/22/2010 21:29'!
-isActive
-	^ super isActive and: [ target isKindOf: OBClassCategoryNode ]! !

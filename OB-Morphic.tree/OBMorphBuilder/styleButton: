@@ -1,7 +1,0 @@
-
-!OBMorphBuilder methodsFor: 'style' stamp: 'cwp 7/21/2007 22:26'!
-styleButton: aButton
-	self style39 ifFalse:
-		[aButton
-			borderWidth: 2;
-			borderRaised]! !

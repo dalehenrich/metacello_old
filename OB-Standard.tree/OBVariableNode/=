@@ -1,4 +1,0 @@
-
-!OBVariableNode methodsFor: 'comparing' stamp: 'lr 4/9/2011 17:33'!
-= aNode
-	^ super = aNode and: [ self name = aNode name ]! !

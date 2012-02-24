@@ -1,9 +1,0 @@
-
-!ClassAPIHelpBuilder methodsFor: 'initialize-release' stamp: 'tbn 3/8/2010 16:37'!
-initialize
-	"Initializes the receiver"
-	
-	super initialize.
-	addSubclasses := false.
-	addMethods := true.
-	subclassesAsSeparateTopic := true.! !

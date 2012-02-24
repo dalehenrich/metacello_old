@@ -1,5 +1,0 @@
-
-!HelpBuilder methodsFor: 'building' stamp: 'tbn 3/3/2010 22:55'!
-build
-	self subclassResponsibility 
-! !

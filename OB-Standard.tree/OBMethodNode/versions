@@ -1,5 +1,0 @@
-
-!OBMethodNode methodsFor: 'navigating' stamp: 'lr 3/12/2010 10:23'!
-versions
-	^ (OBMethodVersion scan: self sourceFiles from: self sourcePointer)
-		collect:  [ :each | OBMethodVersionNode on: each inClass: self theClass ]! !

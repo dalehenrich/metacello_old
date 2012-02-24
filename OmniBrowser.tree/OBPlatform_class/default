@@ -1,4 +1,0 @@
-
-!OBPlatform class methodsFor: 'instance creation' stamp: 'cwp 8/26/2009 21:54'!
-default
-	self subclassResponsibility ! !

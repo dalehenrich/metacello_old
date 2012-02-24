@@ -1,4 +1,0 @@
-
-!SHRange methodsFor: 'accessing' stamp: ''!
-type: aSymbol 
-	type := aSymbol! !

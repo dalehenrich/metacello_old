@@ -1,4 +1,0 @@
-
-!OBAnnotationPanel methodsFor: 'accessing' stamp: 'lr 8/15/2010 17:53'!
-process
-	^ process! !

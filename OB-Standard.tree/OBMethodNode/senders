@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'navigating' stamp: ''!
-senders
-	^ self sendersOf: selector! !

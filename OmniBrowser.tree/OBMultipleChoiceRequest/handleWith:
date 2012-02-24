@@ -1,4 +1,0 @@
-
-!OBMultipleChoiceRequest methodsFor: 'dispatching' stamp: 'lr 4/5/2008 09:27'!
-handleWith: anObject
-	^ anObject handleMultipleChoiceRequest: self! !

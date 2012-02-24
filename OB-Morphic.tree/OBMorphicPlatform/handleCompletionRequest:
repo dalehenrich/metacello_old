@@ -1,4 +1,0 @@
-
-!OBMorphicPlatform methodsFor: 'interaction' stamp: 'lr 9/22/2010 20:30'!
-handleCompletionRequest: aReqest
-	^ (OBCompletionDialog openOn: aReqest) answer! !

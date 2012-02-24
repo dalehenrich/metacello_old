@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'callbacks' stamp: 'dr 9/11/2008 14:57'!
-list
-	^ self listHolder list! !

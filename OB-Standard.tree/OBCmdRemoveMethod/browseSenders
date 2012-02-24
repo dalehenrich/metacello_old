@@ -1,4 +1,0 @@
-
-!OBCmdRemoveMethod methodsFor: 'private' stamp: 'lr 3/10/2010 11:17'!
-browseSenders
-	OBSendersBrowser browseRoot: target copy! !

@@ -1,5 +1,0 @@
-
-!SHWorkspaceEditingMode methodsFor: 'accessing' stamp: 'AlainPlantec 9/4/2011 10:19'!
-code: someText
-	code := someText.
-	self changed: #code! !

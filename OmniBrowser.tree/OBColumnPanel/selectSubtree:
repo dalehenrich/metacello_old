@@ -1,4 +1,0 @@
-
-!OBColumnPanel methodsFor: 'navigating' stamp: 'cwp 8/19/2007 23:05'!
-selectSubtree: aSubtree
-	aSubtree selectInColumns: columns! !

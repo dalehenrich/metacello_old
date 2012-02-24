@@ -1,6 +1,0 @@
-
-!SHParserST80 methodsFor: 'parse' stamp: ''!
-parseStatement
-	currentTokenFirst == $^
-		ifTrue: [self scanPast: #return].
-	self parseExpression! !

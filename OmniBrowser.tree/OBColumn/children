@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'accessing' stamp: 'dr 9/18/2008 10:03'!
-children 
-	^ self listHolder children! !

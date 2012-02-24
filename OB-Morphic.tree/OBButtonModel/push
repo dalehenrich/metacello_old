@@ -1,4 +1,0 @@
-
-!OBButtonModel methodsFor: 'callbacks' stamp: 'cwp 2/24/2004 19:30'!
-push
-	bar push: self.! !

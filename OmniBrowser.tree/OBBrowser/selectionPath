@@ -1,4 +1,0 @@
-
-!OBBrowser methodsFor: 'accessing' stamp: 'dvf 9/5/2005 17:30'!
-selectionPath
-	^self navigationPanel selectionPath! !

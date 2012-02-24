@@ -1,4 +1,0 @@
-
-!OBSwitch methodsFor: 'testing' stamp: 'cwp 5/17/2007 21:41'!
-isActive
-	^ filter notNil! !

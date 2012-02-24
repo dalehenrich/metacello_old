@@ -1,4 +1,0 @@
-
-!OBMetaNode methodsFor: 'filtering' stamp: 'cwp 2/9/2004 21:00'!
-metaNode
-	^ self! !

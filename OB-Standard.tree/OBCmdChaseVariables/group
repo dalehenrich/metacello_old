@@ -1,4 +1,0 @@
-
-!OBCmdChaseVariables methodsFor: 'accessing' stamp: 'cwp 10/10/2006 22:50'!
-group
-	^ #navigation! !

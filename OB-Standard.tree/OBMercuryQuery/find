@@ -1,4 +1,0 @@
-
-!OBMercuryQuery methodsFor: 'executing' stamp: 'PDC 6/29/2007 06:32'!
-find
-	self subclassResponsibility ! !

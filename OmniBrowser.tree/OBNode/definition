@@ -1,4 +1,0 @@
-
-!OBNode methodsFor: 'public' stamp: 'cwp 3/22/2004 20:48'!
-definition
-	^ self! !

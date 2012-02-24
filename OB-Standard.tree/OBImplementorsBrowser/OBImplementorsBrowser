@@ -1,6 +1,0 @@
-
-OBListBrowser subclass: #OBImplementorsBrowser
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Browsers'!

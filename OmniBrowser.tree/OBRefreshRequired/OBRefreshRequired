@@ -1,6 +1,0 @@
-
-OBAnnouncement subclass: #OBRefreshRequired
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Announcements'!

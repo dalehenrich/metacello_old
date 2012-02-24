@@ -1,4 +1,0 @@
-
-!OBCmdCompareToCurrent methodsFor: 'testing' stamp: 'dr 12/16/2008 10:28'!
-isActive
-	^ (target isKindOf: OBMethodVersionNode) and: [requestor isSelected: target]! !

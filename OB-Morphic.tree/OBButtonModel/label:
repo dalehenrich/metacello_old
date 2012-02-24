@@ -1,4 +1,0 @@
-
-!OBButtonModel methodsFor: 'accessing' stamp: 'cwp 2/24/2004 18:29'!
-label: aString
-	label := aString! !

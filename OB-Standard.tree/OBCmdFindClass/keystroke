@@ -1,4 +1,0 @@
-
-!OBCmdFindClass methodsFor: 'accessing' stamp: 'cwp 10/9/2006 13:39'!
-keystroke
-	^ $f! !

@@ -1,9 +1,0 @@
-
-!OBFan methodsFor: 'accessing' stamp: 'lr 3/4/2009 09:33'!
-autoSelection
-	| auto |
-	auto := parent.
-	auto isNil ifFalse: [ auto := auto metaNode autoSelect ].
-	^ auto isNil ifFalse: 
-		[ auto fan: self.
-		auto autoSelection ]! !

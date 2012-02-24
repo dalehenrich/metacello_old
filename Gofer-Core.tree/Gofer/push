@@ -1,6 +1,0 @@
-
-!Gofer methodsFor: 'operations' stamp: 'lr 12/3/2009 21:06'!
-push
-	"Upload local versions from local cache into remote repositories."
-
-	^ self execute: GoferPush! !

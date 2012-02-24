@@ -1,6 +1,0 @@
-
-!CustomHelp class methodsFor: 'converting' stamp: 'tbn 3/29/2010 13:17'!
-asHelpTopic
-	"Convert the receiver to a help topic"
-	
-	^self builder buildHelpTopicFrom: self! !

@@ -1,4 +1,0 @@
-
-!SHRange methodsFor: 'accessing' stamp: ''!
-start
-	^ start! !

@@ -1,5 +1,0 @@
-
-!DiffMorph methodsFor: '*Shout-Styling' stamp: 'AlainPlantec 8/28/2011 13:44'!
-shoutAboutToStyle: aPluggableShoutMorphOrView
-	aPluggableShoutMorphOrView classOrMetaClass: self contextClass.
-	^ self contextClass notNil ! !

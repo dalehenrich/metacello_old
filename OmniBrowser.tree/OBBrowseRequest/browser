@@ -1,4 +1,0 @@
-
-!OBBrowseRequest methodsFor: 'accessing' stamp: 'cwp 10/17/2004 18:45'!
-browser
-	^ browser! !

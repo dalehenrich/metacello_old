@@ -1,5 +1,0 @@
-
-!OBMethodNode methodsFor: 'private' stamp: 'lr 4/23/2010 08:36'!
-implementorsOf: aSelector
-	^ (SystemNavigation default allImplementorsOf: aSelector) asArray sort
-			collect: [:ref | OBMethodNode on: ref]! !

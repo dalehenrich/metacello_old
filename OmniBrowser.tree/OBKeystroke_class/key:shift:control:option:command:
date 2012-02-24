@@ -1,4 +1,0 @@
-
-!OBKeystroke class methodsFor: 'instance creation' stamp: 'lr 5/20/2011 19:19'!
-key: aCharacter shift: aShiftBoolean control: aControlBoolean option: anOptionBoolean command: aCommandBoolean
-	^ self basicNew initalizeKey: aCharacter shift: aShiftBoolean control: aControlBoolean option: anOptionBoolean command: aCommandBoolean! !

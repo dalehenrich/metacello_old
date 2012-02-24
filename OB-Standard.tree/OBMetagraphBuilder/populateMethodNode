@@ -1,8 +1,0 @@
-
-!OBMetagraphBuilder methodsFor: 'private' stamp: 'lr 4/23/2010 08:39'!
-populateMethodNode
-	<populate>
-	
-	self methodMetaNode 
-		ancestrySelector: #isDescendantOfMethod:;
-		addFilter: OBMethodIconFilter new! !

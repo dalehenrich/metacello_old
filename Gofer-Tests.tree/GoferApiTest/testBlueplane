@@ -1,5 +1,0 @@
-
-!GoferApiTest methodsFor: 'testing-repositories-places' stamp: 'lr 2/7/2010 15:14'!
-testBlueplane
-	gofer blueplane: 'SIXX'.
-	self assert: gofer repositories: #('http://squeaksource.blueplane.jp/SIXX')! !

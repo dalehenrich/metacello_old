@@ -1,4 +1,0 @@
-
-!SHTextStyler methodsFor: 'accessing' stamp: ''!
-view: aViewOrMorph 
-	view := aViewOrMorph! !

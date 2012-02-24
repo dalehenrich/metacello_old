@@ -1,4 +1,0 @@
-
-!OBMetaNode methodsFor: 'nodes' stamp: 'cwp 5/7/2007 23:01'!
-allChildrenForNode: aNode
-	^ edges gather: [:edge | edge nodesForParent: aNode]! !

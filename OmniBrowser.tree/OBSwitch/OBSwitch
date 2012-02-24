@@ -1,6 +1,0 @@
-
-Object subclass: #OBSwitch
-	instanceVariableNames: 'column filter'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Utilities'!

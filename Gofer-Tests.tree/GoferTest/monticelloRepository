@@ -1,4 +1,0 @@
-
-!GoferTest methodsFor: 'accessing' stamp: 'lr 12/12/2009 10:44'!
-monticelloRepository
-	^ GoferResource current monticelloRepository! !

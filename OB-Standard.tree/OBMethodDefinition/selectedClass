@@ -1,4 +1,0 @@
-
-!OBMethodDefinition methodsFor: 'callbacks' stamp: ''!
-selectedClass
-	^ self theClass! !

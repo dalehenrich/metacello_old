@@ -1,4 +1,0 @@
-
-!OBCmdBrowseMethodVersions methodsFor: 'testing' stamp: 'lr 3/13/2010 17:05'!
-isActive
-	^ (requestor isSelected: target) and: [ target hasVersions ]! !

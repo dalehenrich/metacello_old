@@ -1,4 +1,0 @@
-
-!OBBuilder methodsFor: 'building' stamp: 'cwp 12/9/2007 10:39'!
-verticalGroupWith: aBlock
-	self subclassResponsibility! !

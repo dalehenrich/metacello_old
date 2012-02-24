@@ -1,7 +1,0 @@
-
-!OBColumn methodsFor: 'accessing' stamp: 'jk 3/23/2008 10:54'!
-parent: aNode 
-	| cNode |
-	self basicParent: aNode.
-	cNode := self listHolder autoSelection.
-	self jumpTo: cNode! !

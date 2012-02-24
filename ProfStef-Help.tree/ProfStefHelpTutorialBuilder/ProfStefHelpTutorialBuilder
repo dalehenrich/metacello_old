@@ -1,9 +1,0 @@
-
-HelpBuilder subclass: #ProfStefHelpTutorialBuilder
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'ProfStef-Help'!
-
-!ProfStefHelpTutorialBuilder commentStamp: '<historical>' prior: 0!
-I build HelpSystem topics to browse ProfStef tutorials!

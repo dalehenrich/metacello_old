@@ -1,4 +1,0 @@
-
-!OBPaneScroller methodsFor: 'layout' stamp: 'cwp 11/17/2004 23:09'!
-paneCount
-	^ self panes size! !

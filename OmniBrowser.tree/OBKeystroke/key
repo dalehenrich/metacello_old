@@ -1,6 +1,0 @@
-
-!OBKeystroke methodsFor: 'accessing' stamp: 'lr 4/25/2011 10:43'!
-key
-	"Answer the character that was pressed for this keystroke."
-
-	^ key! !

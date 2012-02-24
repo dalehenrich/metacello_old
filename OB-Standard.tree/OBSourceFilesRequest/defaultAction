@@ -1,4 +1,0 @@
-
-!OBSourceFilesRequest methodsFor: 'exceptionDescription' stamp: ''!
-defaultAction
-	^ SourceFiles! !

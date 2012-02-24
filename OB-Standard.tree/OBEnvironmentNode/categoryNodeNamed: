@@ -1,4 +1,0 @@
-
-!OBEnvironmentNode methodsFor: 'navigating' stamp: 'cwp 9/20/2005 08:43'!
-categoryNodeNamed: aString 
-	^ OBClassCategoryNode on: aString! !

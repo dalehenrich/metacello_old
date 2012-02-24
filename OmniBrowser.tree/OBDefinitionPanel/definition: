@@ -1,5 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'accessing' stamp: 'lr 4/3/2010 17:36'!
-definition: aDefinition
-	self browser announcer
-		announce: (OBDefinitionChanged definition: aDefinition)! !

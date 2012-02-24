@@ -1,4 +1,0 @@
-
-!OBList class methodsFor: 'instance creation' stamp: 'dr 9/12/2008 10:40'!
-column: aFan
-    ^self new column: aFan! !

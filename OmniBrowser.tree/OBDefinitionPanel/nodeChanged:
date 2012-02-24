@@ -1,4 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'updating' stamp: 'dr 11/4/2008 19:47'!
-nodeChanged: ann
-	self node: ann node! !

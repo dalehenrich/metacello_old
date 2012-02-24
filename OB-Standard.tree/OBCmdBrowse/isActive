@@ -1,4 +1,0 @@
-
-!OBCmdBrowse methodsFor: 'testing' stamp: 'lr 3/13/2010 12:09'!
-isActive
-	^ (requestor isSelected: target) and: [ target isBrowsable ]! !

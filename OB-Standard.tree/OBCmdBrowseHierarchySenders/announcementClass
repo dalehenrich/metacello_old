@@ -1,4 +1,0 @@
-
-!OBCmdBrowseHierarchySenders methodsFor: 'configuration' stamp: 'dr 9/21/2007 11:22'!
-announcementClass
-	^ OBShowHierarchySenders! !

@@ -1,6 +1,0 @@
-
-!MenuMorph methodsFor: '*ob-morphic' stamp: 'lr 5/9/2011 18:44'!
-iconNamed: aSymbol
-	^ OBMorphicIcons iconNamed: (aSymbol isNil
-		ifTrue: [ #blankMenu ]
-		ifFalse: [ aSymbol ])! !

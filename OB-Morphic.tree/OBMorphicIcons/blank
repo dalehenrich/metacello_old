@@ -1,4 +1,0 @@
-
-!OBMorphicIcons methodsFor: 'icons' stamp: 'lr 3/28/2009 16:04'!
-blank
-	^ Form extent: 12 @ 12 depth: 8! !

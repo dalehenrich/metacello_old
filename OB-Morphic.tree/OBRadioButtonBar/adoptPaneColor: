@@ -1,5 +1,0 @@
-
-!OBRadioButtonBar methodsFor: 'constructing' stamp: 'cwp 5/18/2007 22:12'!
-adoptPaneColor: aColor
-	color := aColor.
-	self updateSubmorphColor! !

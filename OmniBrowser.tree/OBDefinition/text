@@ -1,4 +1,0 @@
-
-!OBDefinition methodsFor: 'callbacks' stamp: 'cwp 3/22/2004 20:52'!
-text
-	^ ''! !

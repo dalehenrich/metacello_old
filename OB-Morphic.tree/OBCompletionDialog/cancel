@@ -1,5 +1,0 @@
-
-!OBCompletionDialog methodsFor: 'actions' stamp: 'lr 9/22/2010 20:30'!
-cancel
-	answer := nil.
-	^ super cancel! !

@@ -1,4 +1,0 @@
-
-!OBClassRefNode methodsFor: 'accessing' stamp: 'cwp 12/8/2004 22:14'!
-name
-	^ className! !

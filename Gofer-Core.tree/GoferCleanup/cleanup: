@@ -1,5 +1,0 @@
-
-!GoferCleanup methodsFor: 'cleaning' stamp: 'lr 10/3/2009 11:37'!
-cleanup: aWorkingCopy
-	self cleanupCategories: aWorkingCopy.
-	self cleanupProtocols: aWorkingCopy! !

@@ -1,4 +1,0 @@
-
-!OBButtonModel methodsFor: 'accessing' stamp: 'dr 3/23/2009 15:27'!
-longDescription: aString
-	longDescription := aString! !

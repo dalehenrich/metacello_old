@@ -1,6 +1,0 @@
-
-OBCmdBrowseList subclass: #OBCmdBrowseHierarchySenders
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Commands'!

@@ -1,6 +1,0 @@
-
-!SHParserST80 methodsFor: 'scan' stamp: ''!
-peekChar
-	^ source
-		at: sourcePosition + 1
-		ifAbsent: [Character space]! !

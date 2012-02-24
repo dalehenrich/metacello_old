@@ -1,4 +1,0 @@
-
-!OBList methodsFor: 'nodes' stamp: 'jk 4/4/2008 08:57'!
-selectedNode
-	^ self fan nodeAt: self selection! !

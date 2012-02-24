@@ -1,5 +1,0 @@
-
-!OBPaneScroller methodsFor: 'accessing' stamp: 'lr 6/5/2009 22:07'!
-adoptPaneColor: aColor
-	super adoptPaneColor: aColor.
-	scrollBar adoptPaneColor: aColor! !

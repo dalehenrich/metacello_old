@@ -1,6 +1,0 @@
-
-!Gofer methodsFor: 'initialization' stamp: 'lr 12/13/2009 16:33'!
-initialize
-	self enablePackageCache; enableRepositoryErrors.
-	references := OrderedCollection new.
-	repositories := OrderedCollection new! !

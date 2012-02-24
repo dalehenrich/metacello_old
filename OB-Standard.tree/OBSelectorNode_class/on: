@@ -1,4 +1,0 @@
-
-!OBSelectorNode class methodsFor: 'instance creation' stamp: 'cwp 10/31/2004 01:11'!
-on: aSelector
-	^ self new selector: aSelector! !

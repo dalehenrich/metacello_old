@@ -1,6 +1,0 @@
-
-!OBMetaNode methodsFor: 'filtering' stamp: 'cwp 5/20/2007 20:05'!
-displayStringForParent: pNode child: cNode
-	^ filters
-		inject: cNode displayString
-		into: [:string :filter | filter displayString: string forParent: pNode child: cNode]! !

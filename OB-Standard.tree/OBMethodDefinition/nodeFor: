@@ -1,4 +1,0 @@
-
-!OBMethodDefinition methodsFor: 'compiling' stamp: 'cwp 10/17/2004 23:33'!
-nodeFor: aSelector
-	^ callback value: aSelector! !

@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'building' stamp: 'cwp 7/25/2007 23:47'!
-buildOn: aBuilder 
-	^aBuilder pane: self with: [switch buildOn: aBuilder]! !

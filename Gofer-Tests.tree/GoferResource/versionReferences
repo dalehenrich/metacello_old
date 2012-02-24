@@ -1,4 +1,0 @@
-
-!GoferResource methodsFor: 'accessing' stamp: 'lr 12/12/2009 10:37'!
-versionReferences
-	^ versionReferences! !

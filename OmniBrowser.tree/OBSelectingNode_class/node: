@@ -1,4 +1,0 @@
-
-!OBSelectingNode class methodsFor: 'instance creation' stamp: 'cwp 6/4/2006 13:58'!
-node: aNode
-	^ self new node: aNode! !

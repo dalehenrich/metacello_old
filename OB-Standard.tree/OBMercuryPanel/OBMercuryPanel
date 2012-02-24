@@ -1,6 +1,0 @@
-
-OBTextPanel subclass: #OBMercuryPanel
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Panels'!

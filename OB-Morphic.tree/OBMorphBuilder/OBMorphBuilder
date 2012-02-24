@@ -1,6 +1,0 @@
-
-OBBuilder subclass: #OBMorphBuilder
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Morphic-Core'!

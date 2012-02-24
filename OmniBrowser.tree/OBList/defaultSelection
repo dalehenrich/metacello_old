@@ -1,4 +1,0 @@
-
-!OBList methodsFor: 'selecting' stamp: 'lr 5/28/2010 21:37'!
-defaultSelection
-	^ 1! !

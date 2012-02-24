@@ -1,4 +1,0 @@
-
-!OBMMethodQuery methodsFor: 'initialization' stamp: 'lr 6/11/2010 19:12'!
-setRawQuery: aString panel: aPanel
-	super setRawQuery: (aString copyWithoutAll: Character separators) panel: aPanel! !

@@ -1,6 +1,0 @@
-
-Object subclass: #OBFan
-	instanceVariableNames: 'parent children'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Kernel'!

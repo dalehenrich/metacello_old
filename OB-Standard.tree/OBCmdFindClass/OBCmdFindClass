@@ -1,6 +1,0 @@
-
-OBCommand subclass: #OBCmdFindClass
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Commands'!

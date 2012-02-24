@@ -1,4 +1,0 @@
-
-!OBClassNode methodsFor: 'navigating' stamp: 'cwp 12/12/2004 23:30'!
-metaclassHierarchy
-	^ self nodeHierarchyWithClass: OBMetaclassNode! !

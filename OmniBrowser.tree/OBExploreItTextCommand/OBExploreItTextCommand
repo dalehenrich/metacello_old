@@ -1,6 +1,0 @@
-
-OBCommand subclass: #OBExploreItTextCommand
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Commands'!

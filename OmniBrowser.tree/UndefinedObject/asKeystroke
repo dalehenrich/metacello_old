@@ -1,4 +1,0 @@
-
-!UndefinedObject methodsFor: '*omnibrowser-converting' stamp: 'lr 4/25/2011 10:54'!
-asKeystroke
-	^ self! !

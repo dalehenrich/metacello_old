@@ -1,4 +1,0 @@
-
-!OBList methodsFor: 'accessing' stamp: 'jk 3/23/2008 10:19'!
-iconAt: index
-	^ self fan iconAt: index! !

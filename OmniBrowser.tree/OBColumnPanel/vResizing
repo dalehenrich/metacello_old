@@ -1,4 +1,0 @@
-
-!OBColumnPanel methodsFor: 'building' stamp: 'cwp 3/18/2007 20:36'!
-vResizing
-	^ #spaceFill! !

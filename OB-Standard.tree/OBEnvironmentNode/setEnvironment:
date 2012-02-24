@@ -1,4 +1,0 @@
-
-!OBEnvironmentNode methodsFor: 'initializing' stamp: ''!
-setEnvironment: anEnvironment
-	environment := anEnvironment! !

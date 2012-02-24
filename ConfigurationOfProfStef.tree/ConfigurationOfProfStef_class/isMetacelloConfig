@@ -1,6 +1,0 @@
-
-!ConfigurationOfProfStef class methodsFor: 'metacello tool support' stamp: 'LaurentLaffont 1/21/2010 09:01'!
-isMetacelloConfig
-	"Answer true and the Metacello tools will operate on you"
-	
-	^true! !

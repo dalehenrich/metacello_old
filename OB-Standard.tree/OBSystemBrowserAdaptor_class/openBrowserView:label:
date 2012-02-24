@@ -1,6 +1,0 @@
-
-!OBSystemBrowserAdaptor class methodsFor: 'public' stamp: 'dr 7/19/2007 16:35'!
-openBrowserView: adaptor label: ignored 
-	^ self browserClass 
-		openOnClass: adaptor targetClass 
-		selector: adaptor selector! !

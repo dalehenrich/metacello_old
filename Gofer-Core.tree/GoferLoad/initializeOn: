@@ -1,7 +1,0 @@
-
-!GoferLoad methodsFor: 'initialization' stamp: 'TestRunner 12/13/2009 14:49'!
-initializeOn: aGofer
-	super initializeOn: aGofer.
-	aGofer resolved
-		do: [ :each | self addResolved: each ]
-		displayingProgress: 'Loading Versions'! !

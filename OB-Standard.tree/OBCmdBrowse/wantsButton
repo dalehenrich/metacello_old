@@ -1,4 +1,0 @@
-
-!OBCmdBrowse methodsFor: 'testing' stamp: 'cwp 3/11/2007 19:34'!
-wantsButton
-	^ true! !

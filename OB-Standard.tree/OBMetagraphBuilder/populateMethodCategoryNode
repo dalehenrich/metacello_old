@@ -1,8 +1,0 @@
-
-!OBMetagraphBuilder methodsFor: 'private' stamp: 'lr 4/23/2010 08:39'!
-populateMethodCategoryNode
-	<populate>
-	
-	self methodCategoryMetaNode 
-		ancestrySelector: #isDescendantOfMethodCat:;
-		childAt: #methods put: self methodMetaNode! !

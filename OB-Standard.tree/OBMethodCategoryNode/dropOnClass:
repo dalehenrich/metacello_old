@@ -1,6 +1,0 @@
-
-!OBMethodCategoryNode methodsFor: 'drag and drop' stamp: 'lr 4/6/2006 11:46'!
-dropOnClass: aNode
-	self methods do: [ :each | each dropOnClass: aNode ].
-	aNode signalChildrenChanged.
-	^ true! !

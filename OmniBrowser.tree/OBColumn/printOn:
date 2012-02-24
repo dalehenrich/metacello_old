@@ -1,7 +1,0 @@
-
-!OBColumn methodsFor: 'printing' stamp: 'cwp 2/11/2004 23:31'!
-printOn: aStream
-	super printOn: aStream.
-	aStream nextPut: $(.
-	aStream nextPutAll: self descriptor.
-	aStream nextPut: $)! !

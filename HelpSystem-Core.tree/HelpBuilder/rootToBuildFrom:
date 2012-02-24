@@ -1,4 +1,0 @@
-
-!HelpBuilder methodsFor: 'accessing' stamp: 'tbn 2/12/2010 14:53'!
-rootToBuildFrom: anObject
-	rootToBuildFrom := anObject! !

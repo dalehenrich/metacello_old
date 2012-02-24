@@ -1,6 +1,0 @@
-
-!OBClassNode methodsFor: 'drag and drop' stamp: 'lr 3/28/2006 18:29'!
-dropOnClassCategory: aNode
-	self theNonMetaClass category: aNode name.
-	self signalSelection.
-	^ true! !

@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'configuration' stamp: 'lr 8/15/2010 15:38'!
-buttonPanel
-	^ CodeHolder optionalButtons ifTrue: [ OBFixedButtonPanel new ]! !

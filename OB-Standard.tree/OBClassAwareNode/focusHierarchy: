@@ -1,6 +1,0 @@
-
-!OBClassAwareNode methodsFor: 'actions' stamp: 'lr 6/12/2010 15:20'!
-focusHierarchy: aColumn
-	self theClass isTrait ifTrue: [ ^ self ].
-	aColumn parent setClass: self copy.
-	aColumn browser signalRefresh! !

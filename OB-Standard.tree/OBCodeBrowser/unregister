@@ -1,4 +1,0 @@
-
-!OBCodeBrowser methodsFor: 'updating' stamp: 'dr 10/24/2008 16:06'!
-unregister
-	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self.	! !

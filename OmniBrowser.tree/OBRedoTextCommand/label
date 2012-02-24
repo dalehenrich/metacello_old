@@ -1,4 +1,0 @@
-
-!OBRedoTextCommand methodsFor: 'accessing' stamp: 'lr 12/10/2010 09:20'!
-label
-	^ 'Redo'! !

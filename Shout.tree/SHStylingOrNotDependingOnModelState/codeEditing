@@ -1,4 +1,0 @@
-
-!SHStylingOrNotDependingOnModelState methodsFor: 'accessing' stamp: 'AlainPlantec 9/3/2011 16:23'!
-codeEditing
-	^ codeEditing ifNil: [codeEditing := true]! !

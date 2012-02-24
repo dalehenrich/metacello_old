@@ -1,4 +1,0 @@
-
-!OBDebugItTextCommand methodsFor: 'accessing' stamp: 'lr 8/27/2011 10:00'!
-order
-	^ '5'! !

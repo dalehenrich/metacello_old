@@ -1,4 +1,0 @@
-
-!OBFixedButtonPanel methodsFor: 'callbacks' stamp: 'dr 1/30/2009 17:29'!
-color
-	^browser defaultBackgroundColor ! !

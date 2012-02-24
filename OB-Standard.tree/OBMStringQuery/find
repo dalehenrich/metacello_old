@@ -1,4 +1,0 @@
-
-!OBMStringQuery methodsFor: 'executing' stamp: 'PDC 6/29/2007 05:52'!
-find
-	self systemNavigation browseMethodsWithString: pattern.! !

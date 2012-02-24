@@ -1,4 +1,0 @@
-
-!OBPasteTextCommand methodsFor: 'testing' stamp: 'lr 12/10/2010 09:22'!
-isActive
-	^ true! !

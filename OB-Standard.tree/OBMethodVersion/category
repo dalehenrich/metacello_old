@@ -1,4 +1,0 @@
-
-!OBMethodVersion methodsFor: 'accessing' stamp: ''!
-category
-	^ category! !

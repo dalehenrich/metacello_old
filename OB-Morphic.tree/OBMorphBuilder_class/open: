@@ -1,4 +1,0 @@
-
-!OBMorphBuilder class methodsFor: 'instance-creation' stamp: 'lr 6/20/2007 09:36'!
-open: aModel
-	^ (self build: aModel) openInWorld! !

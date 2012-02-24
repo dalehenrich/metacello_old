@@ -1,4 +1,0 @@
-
-!OBSenderSearchNode methodsFor: 'private' stamp: 'cwp 4/15/2007 21:27'!
-classSatisfiesQuery: aClass
-	^ (SystemNavigation default allCallsOn: query from: aClass) isEmpty not! !

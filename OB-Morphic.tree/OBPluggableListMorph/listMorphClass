@@ -1,4 +1,0 @@
-
-!OBPluggableListMorph methodsFor: 'list management' stamp: 'lr 4/3/2009 13:26'!
-listMorphClass
-	^ OBLazyListMorph! !

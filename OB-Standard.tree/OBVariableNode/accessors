@@ -1,4 +1,0 @@
-
-!OBVariableNode methodsFor: 'navigating' stamp: 'PDC 6/25/2007 23:01'!
-accessors
-	self subclassResponsibility ! !

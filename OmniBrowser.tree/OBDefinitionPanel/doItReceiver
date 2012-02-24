@@ -1,6 +1,0 @@
-
-!OBDefinitionPanel methodsFor: 'callbacks' stamp: 'cwp 3/23/2004 00:23'!
-doItReceiver
-	^ self 
-		withDefinitionDo: [:def | (def respondsTo: #doItReceiver) ifTrue: [def doItReceiver]]
-		ifNil: [nil]! !

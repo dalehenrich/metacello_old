@@ -1,4 +1,0 @@
-
-!OBHierarchyBrowser class methodsFor: 'opening' stamp: 'lr 9/23/2010 11:37'!
-openOnClass: aClass selector: aSymbol
-	^ (self onClass: aClass selector: aSymbol) open! !

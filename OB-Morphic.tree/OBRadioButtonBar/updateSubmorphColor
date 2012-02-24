@@ -1,4 +1,0 @@
-
-!OBRadioButtonBar methodsFor: 'constructing' stamp: 'cwp 5/18/2007 22:17'!
-updateSubmorphColor
-	self submorphs do: [:ea | ea onColor: color darker offColor: color lighter]! !

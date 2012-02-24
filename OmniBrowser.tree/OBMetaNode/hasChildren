@@ -1,4 +1,0 @@
-
-!OBMetaNode methodsFor: 'children' stamp: 'cwp 2/7/2004 22:38'!
-hasChildren
-	^ edges isEmpty not! !

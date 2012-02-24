@@ -1,4 +1,0 @@
-
-!OBNodeDeleted class methodsFor: 'instance creation' stamp: 'cwp 6/4/2006 11:56'!
-node: aNode
-	^ self new node: aNode! !

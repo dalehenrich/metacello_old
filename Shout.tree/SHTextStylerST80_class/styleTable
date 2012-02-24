@@ -1,5 +1,0 @@
-
-!SHTextStylerST80 class methodsFor: 'style table' stamp: ''!
-styleTable
-	^ styleTable
-		ifNil: [styleTable := self defaultStyleTable]! !

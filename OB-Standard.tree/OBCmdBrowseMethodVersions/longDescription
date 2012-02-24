@@ -1,4 +1,0 @@
-
-!OBCmdBrowseMethodVersions methodsFor: 'accessing' stamp: 'dc 8/26/2008 17:51'!
-longDescription
-  ^ 'display the different versions of this method'! !

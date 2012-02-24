@@ -1,9 +1,0 @@
-
-OBBrowser subclass: #OBCodeBrowser
-	instanceVariableNames: 'hasChanges'
-	classVariableNames: 'ChasingBrowsersEnabled MercuryPanelEnabled'
-	poolDictionaries: ''
-	category: 'OB-Standard-Browsers'!
-
-!OBCodeBrowser commentStamp: 'cwp 1/7/2005 23:45' prior: 0!
-OBCodeBrowser is a superclass for all browsers which active code in the image. It provides methods for registering with the SystemChangeNotifier and updating it's display when it receives notification of system changes.!

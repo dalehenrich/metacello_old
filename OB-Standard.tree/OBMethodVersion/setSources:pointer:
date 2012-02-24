@@ -1,6 +1,0 @@
-
-!OBMethodVersion methodsFor: 'initializing' stamp: ''!
-setSources: aSourceFileArray pointer: aSourcePointer
-	sources := aSourceFileArray.
-	pointer := aSourcePointer.
-	self parseSource.! !

@@ -1,4 +1,0 @@
-
-!OBSwitch methodsFor: 'accessing' stamp: 'lr 12/3/2009 19:03'!
-okToChange
-	^ column okToChange! !

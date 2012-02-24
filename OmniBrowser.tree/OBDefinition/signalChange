@@ -1,4 +1,0 @@
-
-!OBDefinition methodsFor: 'updating' stamp: 'cwp 6/4/2006 18:53'!
-signalChange
-	OBAnnouncer current announce: (OBDefinitionChanged definition: self)! !

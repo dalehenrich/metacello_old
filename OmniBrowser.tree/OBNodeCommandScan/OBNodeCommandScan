@@ -1,6 +1,0 @@
-
-OBCommandScan subclass: #OBNodeCommandScan
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Announcements'!

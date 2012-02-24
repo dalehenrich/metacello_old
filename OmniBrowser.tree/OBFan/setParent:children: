@@ -1,5 +1,0 @@
-
-!OBFan methodsFor: 'initialize-release' stamp: 'dr 9/17/2008 10:55'!
-setParent: aNode children: aCollection
-	parent := aNode.
-	children := aCollection.! !

@@ -1,9 +1,0 @@
-
-!OBCmdFindClass methodsFor: 'execution' stamp: 'lr 9/22/2010 13:01'!
-execute
-	| class |
-	class := self requestClassToUser.
-	class isNil ifFalse: [ 
-		self 
-			select: class asNode
-			with: requestor announcer ]! !

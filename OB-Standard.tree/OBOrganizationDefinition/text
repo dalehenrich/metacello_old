@@ -1,4 +1,0 @@
-
-!OBOrganizationDefinition methodsFor: 'callbacks' stamp: 'cwp 9/22/2004 21:18'!
-text
-	^ organizer asString! !

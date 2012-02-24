@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'accessing' stamp: 'dr 6/26/2008 16:03'!
-browser
-	^ panel browser! !

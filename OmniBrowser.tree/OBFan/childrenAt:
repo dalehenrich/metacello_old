@@ -1,4 +1,0 @@
-
-!OBFan methodsFor: 'accessing' stamp: 'jk 4/7/2008 10:29'!
-childrenAt: index
-	^ self children! !

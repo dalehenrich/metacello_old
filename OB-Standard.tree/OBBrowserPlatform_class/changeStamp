@@ -1,7 +1,0 @@
-
-!OBBrowserPlatform class methodsFor: 'accessing' stamp: 'lr 5/22/2010 09:38'!
-changeStamp
-	Smalltalk at: #Utilities ifPresent: [ :utils |
-		(utils respondsTo: #changeStamp)
-			ifTrue: [ ^ utils changeStamp ] ].
-	^ Author changeStamp! !

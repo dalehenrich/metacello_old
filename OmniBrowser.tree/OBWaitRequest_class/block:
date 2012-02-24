@@ -1,4 +1,0 @@
-
-!OBWaitRequest class methodsFor: 'instance-creation' stamp: 'lr 5/14/2008 15:47'!
-block: aBlock
-	^ self new block: aBlock; signal! !

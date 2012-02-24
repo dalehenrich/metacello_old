@@ -1,4 +1,0 @@
-
-!ClassAPIHelpBuilder methodsFor: 'accessing' stamp: 'tbn 3/8/2010 16:26'!
-addMethods
-	^ addMethods! !

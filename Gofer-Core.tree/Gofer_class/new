@@ -1,4 +1,0 @@
-
-!Gofer class methodsFor: 'instance creation' stamp: 'lr 8/20/2009 09:54'!
-new
-	^ self basicNew initialize! !

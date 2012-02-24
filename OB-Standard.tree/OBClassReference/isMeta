@@ -1,4 +1,0 @@
-
-!OBClassReference methodsFor: 'testing' stamp: ''!
-isMeta
-	^ isMeta! !

@@ -1,4 +1,0 @@
-
-!OBColumnPanel methodsFor: 'accessing' stamp: 'cwp 3/11/2007 21:08'!
-selectedNode
-	^ self currentNode! !

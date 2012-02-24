@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'actions' stamp: ''!
-fileOut
-	self theClass fileOutMethod: selector! !

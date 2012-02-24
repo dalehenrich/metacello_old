@@ -1,4 +1,0 @@
-
-!OBConfirmationRequest class methodsFor: 'exceptionInstantiator' stamp: 'cwp 2/28/2004 12:13'!
-prompt: prompt
-	^ self prompt: prompt confirm: 'Ok'! !

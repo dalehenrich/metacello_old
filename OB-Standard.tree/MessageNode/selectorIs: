@@ -1,7 +1,0 @@
-
-!MessageNode methodsFor: '*ob-standard' stamp: 'lr 2/12/2009 10:41'!
-selectorIs: aSymbol 
-	aSymbol isNil ifTrue: [ ^ false ].
-	((selector isKindOf: SelectorNode) or: [ selector isKindOf: Association ]) ifTrue: [ ^ selector key == aSymbol ].
-	selector isSymbol ifTrue: [ ^ selector == aSymbol ].
-	^ false! !

@@ -1,5 +1,0 @@
-
-!OBCmdMultiView methodsFor: 'accessing' stamp: 'lr 1/28/2010 15:35'!
-definition: aDefinition
-	(requestor announce: OBAboutToChange) isVetoed 
-		ifFalse: [ requestor announce: (OBDefinitionChanged definition: aDefinition) ]! !

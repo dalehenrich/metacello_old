@@ -1,4 +1,0 @@
-
-!Metaclass methodsFor: '*ob-standard-converting' stamp: 'lr 8/4/2007 10:33'!
-asNode
-	^ OBMetaclassNode on: self! !

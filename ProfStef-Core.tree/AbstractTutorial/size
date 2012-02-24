@@ -1,4 +1,0 @@
-
-!AbstractTutorial methodsFor: 'accessing' stamp: 'LaurentLaffont 1/21/2010 13:49'!
-size
-	^ self tutorial size! !

@@ -1,4 +1,0 @@
-
-!OBMercuryQuery methodsFor: 'accessing' stamp: 'PDC 6/29/2007 06:04'!
-browser
-	^browser! !

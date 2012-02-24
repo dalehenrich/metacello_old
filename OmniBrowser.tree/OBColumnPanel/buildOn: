@@ -1,4 +1,0 @@
-
-!OBColumnPanel methodsFor: 'building' stamp: 'cwp 7/25/2007 23:46'!
-buildOn: aBuilder 
-	^aBuilder scroller: self with: [columns do: [:ea | ea buildOn: aBuilder]]! !

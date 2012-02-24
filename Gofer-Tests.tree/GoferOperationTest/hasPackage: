@@ -1,8 +1,0 @@
-
-!GoferOperationTest methodsFor: 'utilities' stamp: 'lr 8/20/2009 21:14'!
-hasPackage: aString
-	| package |
-	package := MCWorkingCopy allManagers
-		detect: [ :each | each packageName = aString ]
-		ifNone: [ nil ].
-	^ package notNil! !

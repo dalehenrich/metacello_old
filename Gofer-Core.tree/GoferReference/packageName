@@ -1,6 +1,0 @@
-
-!GoferReference methodsFor: 'accessing' stamp: 'lr 12/13/2009 17:09'!
-packageName
-	"Answer the package name."
-	
-	self subclassResponsibility! !

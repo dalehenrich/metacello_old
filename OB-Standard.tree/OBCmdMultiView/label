@@ -1,4 +1,0 @@
-
-!OBCmdMultiView methodsFor: 'testing' stamp: 'lr 8/8/2010 10:07'!
-label
-	^ 'View'! !

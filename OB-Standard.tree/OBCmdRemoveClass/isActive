@@ -1,4 +1,0 @@
-
-!OBCmdRemoveClass methodsFor: 'testing' stamp: 'dr 9/30/2008 11:25'!
-isActive
-	^ (target isKindOf: OBClassNode) and: [requestor isSelected: target]! !

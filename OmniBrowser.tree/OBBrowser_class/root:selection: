@@ -1,4 +1,0 @@
-
-!OBBrowser class methodsFor: 'instance creation' stamp: 'avi 9/16/2005 23:25'!
-root: rootNode selection: selectedNode
-	^ self metaNode: self defaultMetaNode root: rootNode selection: selectedNode panels: self panels! !

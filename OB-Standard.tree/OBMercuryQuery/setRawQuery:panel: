@@ -1,5 +1,0 @@
-
-!OBMercuryQuery methodsFor: 'initialization' stamp: 'lr 8/22/2010 11:07'!
-setRawQuery: aString panel: aPanel 
-	self setRawQuery: aString.
-	browser := aPanel browser! !

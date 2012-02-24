@@ -1,6 +1,0 @@
-
-!OBNode methodsFor: '*ob-morphic' stamp: 'avi 2/20/2004 14:00'!
-asDraggableMorph
-	^(StringMorph contents: self name)
-		color: Color white;
-		yourself! !

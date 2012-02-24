@@ -1,9 +1,0 @@
-
-PluggableListMorph subclass: #OBPluggableListMorph
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Morphic-Morphs'!
-
-!OBPluggableListMorph commentStamp: 'dr 7/18/2007 14:27' prior: 0!
-I am a special kind of PluggableListMorph and provides methods to access icons for list elements. I use OBLazyListMorph as listMorphClass!

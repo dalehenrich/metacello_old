@@ -1,5 +1,0 @@
-
-!ProfStef methodsFor: 'starting' stamp: 'tg 2/1/2010 16:02'!
-goOn: aTutorialClass
-	self player tutorial: aTutorialClass new.
-	^ self open.! !

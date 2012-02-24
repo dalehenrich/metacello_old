@@ -1,4 +1,0 @@
-
-!OBAnnouncer class methodsFor: 'instance creation' stamp: 'cwp 6/4/2006 00:55'!
-current
-	^ OBAnnouncerRequest signal! !

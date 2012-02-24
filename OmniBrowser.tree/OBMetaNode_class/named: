@@ -1,4 +1,0 @@
-
-!OBMetaNode class methodsFor: 'instance creation' stamp: 'cwp 3/6/2004 21:06'!
-named: aString
-	^ self new name: aString! !

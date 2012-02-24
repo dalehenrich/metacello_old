@@ -1,7 +1,0 @@
-
-!OBPane methodsFor: 'initialization' stamp: 'lr 3/4/2009 08:17'!
-model: anObject 
-	"Set my model and make me me a dependent of the given object."
-	model isNil ifFalse: [ model removeDependent: self ].
-	anObject isNil ifFalse: [ anObject addDependent: self ].
-	model := anObject! !

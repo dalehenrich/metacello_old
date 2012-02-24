@@ -1,4 +1,0 @@
-
-!OBCmdBrowseMethodVersions methodsFor: 'execution' stamp: 'cwp 10/15/2006 18:49'!
-execute
-	OBVersionBrowser openOn: target copy! !

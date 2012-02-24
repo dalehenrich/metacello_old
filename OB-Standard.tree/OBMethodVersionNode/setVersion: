@@ -1,5 +1,0 @@
-
-!OBMethodVersionNode methodsFor: 'initializing' stamp: 'cwp 3/11/2007 21:29'!
-setVersion: aMethodVersion
-	version := aMethodVersion.
-	self setSelector: version selector class: version theClass! !

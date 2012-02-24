@@ -1,4 +1,0 @@
-
-!OBMethodStringsBrowser methodsFor: 'accessing' stamp: 'DM 5/23/2007 20:26'!
-numOfMatchesString
-	^ '[' , self root methods size asString , ']'! !

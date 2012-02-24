@@ -1,4 +1,0 @@
-
-!OBNode methodsFor: 'updating' stamp: 'lr 11/25/2010 23:28'!
-announceChangedWith: anAnnouncer
-	anAnnouncer announce: (OBNodeChanged node: self)! !

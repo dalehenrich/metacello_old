@@ -1,8 +1,0 @@
-
-!OBCmdRemoveClass methodsFor: 'execution' stamp: 'lr 11/25/2010 23:55'!
-execute
-	(OBConfirmationRequest 
-		prompt: 'Are you certain that you want to remove the class ' , target theNonMetaClassName , ' from the system?'
-		confirm: 'Remove') 
-			ifFalse: [ ^ self ].
-	self doRemove! !

@@ -1,4 +1,0 @@
-
-!ProfStefTutorialsHelp class methodsFor: 'accessing' stamp: 'LaurentLaffont 9/19/2010 15:16'!
-bookName 
-	^ 'Browse tutorials'! !

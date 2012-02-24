@@ -1,6 +1,0 @@
-
-OBCommand subclass: #OBCmdBrowseInheritance
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Commands'!

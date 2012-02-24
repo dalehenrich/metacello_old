@@ -1,5 +1,0 @@
-
-!ClassDescription methodsFor: '*ob-standard' stamp: 'dvf 8/17/2005 17:31'!
-asCommentNode
-	^ OBClassCommentNode on: self theNonMetaClass 
-! !

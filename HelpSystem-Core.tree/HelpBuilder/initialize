@@ -1,8 +1,0 @@
-
-!HelpBuilder methodsFor: 'initialize-release' stamp: 'tbn 3/5/2010 23:12'!
-initialize 
-	"Initializes the receiver"
-	
-	super initialize.
-	topicToBuild := self topicClass new.
-	 ! !

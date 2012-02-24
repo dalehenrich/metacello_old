@@ -1,6 +1,0 @@
-
-OBCategoryCommand subclass: #OBCmdPromoteCategories
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Commands'!

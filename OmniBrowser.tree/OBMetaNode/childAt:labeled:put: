@@ -1,4 +1,0 @@
-
-!OBMetaNode methodsFor: 'children' stamp: 'cwp 2/9/2004 20:28'!
-childAt: aSelector labeled: aString put: aMetaNode
-	edges add: (OBMetaEdge label: aString selector: aSelector metaNode: aMetaNode)! !

@@ -1,6 +1,0 @@
-
-!OBPaneScroller methodsFor: 'private' stamp: 'lr 3/21/2009 20:04'!
-basicUpdateSizing
-	sizing := model isNil 
-		ifTrue: [ 1 ]
-		ifFalse: [ model sizing ]! !

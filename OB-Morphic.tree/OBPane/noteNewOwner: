@@ -1,5 +1,0 @@
-
-!OBPane methodsFor: 'constructing' stamp: 'lr 3/4/2009 09:37'!
-noteNewOwner: aMorph 
-	self containingWindow isNil
-		ifFalse: [ self adoptPaneColor: self containingWindow paneColor ]! !

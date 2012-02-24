@@ -1,9 +1,0 @@
-
-!OBBrowser methodsFor: 'private' stamp: 'lr 10/29/2010 10:24'!
-command: aPragma do: aBlock
-	| factories |
-	factories := self perform: aPragma selector.
-	factories isNil ifTrue: [ ^ self ].
-	factories isCollection
-		ifTrue: [ factories do: aBlock ]
-		ifFalse: [ aBlock value: factories ]! !

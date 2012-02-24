@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'navigating' stamp: 'dr 7/2/2007 17:10'!
-hierarchySenders
-    ^self hierarchySendersOf: selector! !

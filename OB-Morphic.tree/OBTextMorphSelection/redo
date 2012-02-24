@@ -1,4 +1,0 @@
-
-!OBTextMorphSelection methodsFor: 'commands' stamp: 'lr 12/10/2010 10:29'!
-redo
-	morph textMorph editor redo! !

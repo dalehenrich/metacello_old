@@ -1,4 +1,0 @@
-
-!OBCommand methodsFor: 'user interface' stamp: 'lr 11/25/2010 23:45'!
-select: aNode with: anAnnouncer
-	aNode announceSelectionWith: anAnnouncer! !

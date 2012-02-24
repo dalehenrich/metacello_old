@@ -1,4 +1,0 @@
-
-!SHStyleElement methodsFor: 'accessing' stamp: ''!
-tokens: anObject 
-	tokens := anObject! !

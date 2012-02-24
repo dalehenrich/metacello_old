@@ -1,6 +1,0 @@
-
-PluggableButtonMorph subclass: #OBPluggableButtonMorph
-	instanceVariableNames: 'enabledPlus'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Morphic-Morphs'!

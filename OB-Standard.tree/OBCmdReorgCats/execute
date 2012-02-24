@@ -1,7 +1,0 @@
-
-!OBCmdReorgCats methodsFor: 'execution' stamp: 'cwp 10/15/2006 18:53'!
-execute
-	| definition organizer |
-	organizer := target organization.
-	definition := OBOrganizationDefinition on: organizer.
-	requestor announce: definition! !

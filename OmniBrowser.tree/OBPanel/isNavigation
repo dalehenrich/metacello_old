@@ -1,4 +1,0 @@
-
-!OBPanel methodsFor: 'testing' stamp: 'cwp 11/20/2004 21:09'!
-isNavigation
-	^ false! !

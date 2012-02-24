@@ -1,4 +1,0 @@
-
-!OBClassCommentNode class methodsFor: 'instance creation' stamp: ''!
-on: classRef
-	^ self new setClass: classRef! !

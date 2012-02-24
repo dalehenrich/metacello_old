@@ -1,5 +1,0 @@
-
-!OBCmdResetSearch methodsFor: 'execution' stamp: 'lr 8/8/2010 10:53'!
-execute
-	target setCollection: OrderedCollection new.
-	requestor  listChanged.! !

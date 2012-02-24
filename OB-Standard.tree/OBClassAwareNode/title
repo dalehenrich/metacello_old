@@ -1,4 +1,0 @@
-
-!OBClassAwareNode methodsFor: 'displaying' stamp: 'lr 8/19/2009 22:24'!
-title
-	^ self theNonMetaClassName! !

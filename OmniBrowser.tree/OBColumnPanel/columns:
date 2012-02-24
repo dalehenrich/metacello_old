@@ -1,4 +1,0 @@
-
-!OBColumnPanel methodsFor: 'accessing' stamp: 'cwp 11/16/2004 21:46'!
-columns: anObject
-	columns := anObject! !

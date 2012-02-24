@@ -1,5 +1,0 @@
-
-!ConfigurationOfHelpSystem class methodsFor: 'accessing' stamp: 'tbn 1/26/2010 09:50'!
-project
-
-	^self new project! !

@@ -1,5 +1,0 @@
-
-!Gofer methodsFor: 'deprecated' stamp: 'lr 12/14/2009 20:08'!
-addPackage: aString
-	self deprecated: 'Instead of #addPackage: simply use #package:'.
-	self package: aString! !

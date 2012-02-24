@@ -1,5 +1,0 @@
-
-!OBList methodsFor: 'nodes' stamp: 'lr 3/14/2010 09:55'!
-doubleClick
-	(self selectedNode notNil and: [ self selectedNode metaNode doubleClickSelector notNil ])
-		ifTrue: [ self selectedNode perform: self selectedNode metaNode doubleClickSelector withEnoughArguments: (Array with: column) ]! !

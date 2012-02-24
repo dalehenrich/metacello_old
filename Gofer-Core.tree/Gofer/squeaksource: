@@ -1,4 +1,0 @@
-
-!Gofer methodsFor: 'repositories-places' stamp: 'lr 7/10/2009 16:28'!
-squeaksource: aString
-	self url: 'http://www.squeaksource.com/' , aString! !

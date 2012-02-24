@@ -1,6 +1,0 @@
-
-!OBMetagraphBuilder methodsFor: 'execution' stamp: 'lr 4/23/2010 08:40'!
-execute
-	(Pragma allNamed: #populate in: self class)
-		do: [ :each | self perform: each selector ].
-	^ self root! !

@@ -1,4 +1,0 @@
-
-!OBCmdBrowseInheritance methodsFor: 'accessing' stamp: 'cwp 10/17/2006 21:30'!
-group
-	^ #navigation! !

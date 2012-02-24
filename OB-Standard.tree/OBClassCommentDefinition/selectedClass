@@ -1,4 +1,0 @@
-
-!OBClassCommentDefinition methodsFor: 'accessing' stamp: 'dc 10/6/2007 15:26'!
-selectedClass
-	^ theClass ! !

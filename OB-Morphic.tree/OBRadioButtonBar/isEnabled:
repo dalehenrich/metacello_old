@@ -1,4 +1,0 @@
-
-!OBRadioButtonBar methodsFor: 'callbacks' stamp: 'dr 7/19/2007 15:17'!
-isEnabled: aButton
-	^model isEnabled: aButton! !

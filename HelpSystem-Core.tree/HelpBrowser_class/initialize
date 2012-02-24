@@ -1,9 +1,0 @@
-
-!HelpBrowser class methodsFor: 'class initialization' stamp: 'tbn 3/29/2010 12:32'!
-initialize
-	"Initializes the receiver class"
- 
-	self isPharo11
-		ifFalse: [ TheWorldMenu registerOpenCommand: {'Help Browser'. {self. #open}}. ].
-		
-	self open! !

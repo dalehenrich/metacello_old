@@ -1,4 +1,0 @@
-
-!OBNavigate methodsFor: 'accessing' stamp: 'dr 2/10/2009 16:25'!
-label
-	^label! !

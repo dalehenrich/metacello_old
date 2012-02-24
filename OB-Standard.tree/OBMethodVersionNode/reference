@@ -1,4 +1,0 @@
-
-!OBMethodVersionNode methodsFor: 'accessing' stamp: ''!
-reference
-	^ self referenceForMethod: version selector ofClass: self theClassName.! !

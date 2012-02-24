@@ -1,4 +1,0 @@
-
-!OBPluggableFilter methodsFor: 'accessing' stamp: 'cwp 7/23/2007 00:41'!
-nodeDisplay: anObject
-	nodeDisplay := anObject! !

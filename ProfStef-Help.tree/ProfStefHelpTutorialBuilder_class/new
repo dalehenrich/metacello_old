@@ -1,7 +1,0 @@
-
-!ProfStefHelpTutorialBuilder class methodsFor: 'instance creation' stamp: 'LaurentLaffont 4/26/2011 13:00'!
-new
-	"We prohibid new"
-	^ (self class lookupSelector: #buildHelpTopicFrom:)  == thisContext sender method  
-		ifFalse:[self error: 'Please use buildHelpTopicFrom: instead']
-		ifTrue: [super new]! !

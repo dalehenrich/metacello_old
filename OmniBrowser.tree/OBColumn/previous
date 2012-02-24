@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'accessing' stamp: 'dr 10/21/2008 09:09'!
-previous
-    ^panel columnBefore: self! !

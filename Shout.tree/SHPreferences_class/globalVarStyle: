@@ -1,4 +1,0 @@
-
-!SHPreferences class methodsFor: 'accessing-styles' stamp: ''!
-globalVarStyle: aGroupStyle 
-	^ Groups at: #globalVar put: aGroupStyle! !

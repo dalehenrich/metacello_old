@@ -1,4 +1,0 @@
-
-!StringHolder methodsFor: '*Shout-Styling' stamp: 'AlainPlantec 8/27/2011 01:16'!
-shoutAboutToStyle: aPluggableShoutMorphOrView 
-	^ false! !

@@ -1,4 +1,0 @@
-
-!Behavior methodsFor: '*omnibrowser-converting' stamp: 'cwp 4/17/2006 12:16'!
-asAnnouncement
-	^ self new! !

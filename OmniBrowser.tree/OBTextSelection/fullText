@@ -1,4 +1,0 @@
-
-!OBTextSelection methodsFor: 'querying' stamp: 'cwp 10/14/2006 20:15'!
-fullText
-	^ text! !

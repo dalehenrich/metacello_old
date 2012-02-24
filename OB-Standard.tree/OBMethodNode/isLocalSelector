@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'testing' stamp: 'jk 8/25/2007 16:46'!
-isLocalSelector
-	^ self theClass localSelectors includes: self selector.! !

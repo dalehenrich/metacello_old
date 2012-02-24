@@ -1,4 +1,0 @@
-
-!OBCommand class methodsFor: 'testing' stamp: 'cwp 10/15/2006 00:58'!
-takesText
-	^ false! !

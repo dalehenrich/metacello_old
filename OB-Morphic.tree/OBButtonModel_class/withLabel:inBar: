@@ -1,4 +1,0 @@
-
-!OBButtonModel class methodsFor: 'instance creation' stamp: 'cwp 2/24/2004 18:35'!
-withLabel: aString inBar: aRadioButtonBar
-	^ self new label: aString; bar: aRadioButtonBar! !

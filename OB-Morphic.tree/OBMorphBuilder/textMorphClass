@@ -1,4 +1,0 @@
-
-!OBMorphBuilder methodsFor: 'private' stamp: 'cwp 8/26/2009 22:03'!
-textMorphClass
-	^ OBPluggableTextMorph! !

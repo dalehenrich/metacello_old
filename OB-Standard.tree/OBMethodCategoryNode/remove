@@ -1,4 +1,0 @@
-
-!OBMethodCategoryNode methodsFor: 'actions' stamp: 'lr 11/25/2010 23:49'!
-remove
-	self theClass removeCategory: name! !

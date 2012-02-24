@@ -1,4 +1,0 @@
-
-!OBCmdRemoveCat methodsFor: 'accessing' stamp: 'lr 6/9/2007 09:59'!
-icon
-	^ #deleteIcon! !

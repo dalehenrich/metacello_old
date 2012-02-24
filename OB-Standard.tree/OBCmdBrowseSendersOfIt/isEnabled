@@ -1,4 +1,0 @@
-
-!OBCmdBrowseSendersOfIt methodsFor: 'testing' stamp: 'cwp 10/15/2006 19:31'!
-isEnabled
-	^ target hasSelector! !

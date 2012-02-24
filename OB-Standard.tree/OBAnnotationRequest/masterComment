@@ -1,6 +1,0 @@
-
-!OBAnnotationRequest methodsFor: 'requests' stamp: 'lr 8/15/2010 17:11'!
-masterComment
-	"The comment at the beginning of the supermost implementor of the method if any."
-	
-	^ class supermostPrecodeCommentFor: selector! !

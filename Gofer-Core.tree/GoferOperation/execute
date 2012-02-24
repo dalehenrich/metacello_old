@@ -1,6 +1,0 @@
-
-!GoferOperation methodsFor: 'running' stamp: 'lr 8/17/2009 14:40'!
-execute
-	"Execute the receiving action."
-
-	self subclassResponsibility! !

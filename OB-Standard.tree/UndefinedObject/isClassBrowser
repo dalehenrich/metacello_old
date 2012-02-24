@@ -1,4 +1,0 @@
-
-!UndefinedObject methodsFor: '*ob-standard-testing' stamp: 'PDC 6/29/2007 06:02'!
-isClassBrowser
-	^false! !

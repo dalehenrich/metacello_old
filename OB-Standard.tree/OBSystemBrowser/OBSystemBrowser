@@ -1,9 +1,0 @@
-
-OBCodeBrowser subclass: #OBSystemBrowser
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Browsers'!
-
-!OBSystemBrowser commentStamp: 'cwp 1/7/2005 23:56' prior: 0!
-This is the basic system browser that is the work-horse of Smalltalk development tools. It presents four panes showing class categories, classes, method categories and methods.!

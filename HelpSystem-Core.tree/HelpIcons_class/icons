@@ -1,5 +1,0 @@
-
-!HelpIcons class methodsFor: 'accessing' stamp: 'tbn 2/12/2010 15:55'!
-icons
-	Icons isNil ifTrue: [Icons := Dictionary new].
-	^Icons! !

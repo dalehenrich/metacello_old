@@ -1,4 +1,0 @@
-
-!OBColumn methodsFor: 'testing' stamp: 'cwp 5/17/2007 23:24'!
-wantsButton
-	^ switch isActive! !

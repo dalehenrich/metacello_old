@@ -1,4 +1,0 @@
-
-!OBCancelTextCommand methodsFor: 'accessing' stamp: 'lr 12/10/2010 10:39'!
-group
-	^ #zip! !

@@ -1,6 +1,0 @@
-
-!HelpTopic methodsFor: 'conversion' stamp: 'tbn 3/8/2010 09:09'!
-asHelpTopic 
-	"Converts the receiver to a help topic"
-	
-	^self! !

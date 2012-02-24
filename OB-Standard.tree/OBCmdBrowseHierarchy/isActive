@@ -1,4 +1,0 @@
-
-!OBCmdBrowseHierarchy methodsFor: 'testing' stamp: 'lr 6/12/2010 15:13'!
-isActive
-	^ (requestor isSelected: target) and: [ (target isKindOf: OBClassAwareNode) and: [ target theClass isTrait not ] ]! !

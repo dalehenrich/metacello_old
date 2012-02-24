@@ -1,6 +1,0 @@
-
-Object subclass: #OBSubtree
-	instanceVariableNames: 'state'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Kernel'!

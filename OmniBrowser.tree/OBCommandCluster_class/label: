@@ -1,4 +1,0 @@
-
-!OBCommandCluster class methodsFor: 'instance creation' stamp: 'cwp 9/30/2007 20:24'!
-label: aString
-	^ self new setLabel: aString! !

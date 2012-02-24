@@ -1,9 +1,0 @@
-
-OBClassNode subclass: #OBMetaclassNode
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OB-Standard-Nodes'!
-
-!OBMetaclassNode commentStamp: 'lr 8/4/2007 10:30' prior: 0!
-OBMetaclassNode is essentially the same as an OBClassNode, but overrides a few methods to work properly with metaclasses. The instance-variable theClass is always a metaclass.!

@@ -1,4 +1,0 @@
-
-!OBCommand methodsFor: 'testing' stamp: 'lr 2/7/2010 12:50'!
-takesNodes
-	^ self class takesNodes! !

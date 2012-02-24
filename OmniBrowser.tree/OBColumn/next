@@ -1,7 +1,0 @@
-
-!OBColumn methodsFor: 'accessing' stamp: 'cwp 2/12/2004 20:50'!
-next
-	^ self basicNext
-		ifNil: [(self hasSelection and: [self shouldBeLast not])
-				ifTrue: [self createNext]]
-	! !

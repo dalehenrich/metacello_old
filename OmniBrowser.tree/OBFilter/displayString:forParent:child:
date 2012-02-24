@@ -1,4 +1,0 @@
-
-!OBFilter methodsFor: 'filtering' stamp: 'cwp 5/20/2007 20:05'!
-displayString: aString forParent: pNode child: cNode
-	^ aString! !

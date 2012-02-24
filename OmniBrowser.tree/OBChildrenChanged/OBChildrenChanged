@@ -1,6 +1,0 @@
-
-OBAnnouncement subclass: #OBChildrenChanged
-	instanceVariableNames: 'node'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Announcements'!

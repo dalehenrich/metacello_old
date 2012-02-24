@@ -1,6 +1,0 @@
-
-!ProfStef methodsFor: 'navigating' stamp: 'DannyChan 2/1/2010 19:23'!
-tutorial: aTutorialClass lessonAt: lessonIndex
-	self player tutorial: aTutorialClass new.
-	self player tutorialPosition: lessonIndex.
-	self showCurrentLesson.! !

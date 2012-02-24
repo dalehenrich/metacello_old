@@ -1,7 +1,0 @@
-
-!OBMetagraphBuilder methodsFor: 'initialization' stamp: 'lr 4/23/2010 08:39'!
-setRoot: rootNode classSel: classSelector commentSel: commentSelector metaclassSel: metaclassSelector
-	self root: rootNode.
-	self classSelector: classSelector.
-	self commentSelector: commentSelector.
-	self metaclassSelector: metaclassSelector! !

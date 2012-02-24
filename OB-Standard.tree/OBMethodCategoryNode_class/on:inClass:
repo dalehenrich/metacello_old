@@ -1,4 +1,0 @@
-
-!OBMethodCategoryNode class methodsFor: 'instance creation' stamp: ''!
-on: aString inClass: aClassReference
-	^ self new setName: aString class: aClassReference! !

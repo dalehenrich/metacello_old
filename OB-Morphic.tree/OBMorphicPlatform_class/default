@@ -1,4 +1,0 @@
-
-!OBMorphicPlatform class methodsFor: 'accessing' stamp: 'cwp 6/1/2007 16:10'!
-default
-	^ self new! !

@@ -1,4 +1,0 @@
-
-!OBSystemBrowserAdaptor class methodsFor: 'initializing' stamp: 'lr 7/2/2011 16:19'!
-unregister
-	Smalltalk at: #SystemBrowser ifPresent: [ :class | class unregister: self ]! !

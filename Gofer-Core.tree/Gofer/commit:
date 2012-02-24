@@ -1,6 +1,0 @@
-
-!Gofer methodsFor: 'operations' stamp: 'lr 11/10/2009 10:08'!
-commit: aString
-	"Commit the modified packages with the given commit message."
-
-	^ self execute: GoferCommit do: [ :operation | operation message: aString ]! !

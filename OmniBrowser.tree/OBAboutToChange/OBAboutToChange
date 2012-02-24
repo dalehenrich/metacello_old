@@ -1,6 +1,0 @@
-
-OBAnnouncement subclass: #OBAboutToChange
-	instanceVariableNames: 'veto'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Announcements'!

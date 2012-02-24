@@ -1,5 +1,0 @@
-
-!GoferOperationTest methodsFor: 'testing' stamp: 'lr 1/5/2010 11:03'!
-testRecompile
-	gofer package: 'Gofer-Core'.
-	self shouldnt: [ gofer recompile ] raise: Error! !

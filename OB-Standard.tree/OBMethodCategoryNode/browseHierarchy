@@ -1,4 +1,0 @@
-
-!OBMethodCategoryNode methodsFor: 'actions' stamp: 'lr 9/23/2010 11:38'!
-browseHierarchy
-	OBHierarchyBrowser openOnClass: self theClass category: self name! !

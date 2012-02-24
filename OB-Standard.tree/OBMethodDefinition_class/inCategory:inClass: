@@ -1,8 +1,0 @@
-
-!OBMethodDefinition class methodsFor: 'instance creation' stamp: 'cwp 10/17/2004 23:07'!
-inCategory: aString inClass: aClass
-	^ self 
-		selection: nil
-		source: nil
-		inCategory: aString
-		inClass: aClass! !

@@ -1,6 +1,0 @@
-
-OBPanel subclass: #OBTextPanel
-	instanceVariableNames: ''
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Panels'!

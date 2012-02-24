@@ -1,5 +1,0 @@
-
-!SHOneEditorShoutedASecondNotShouted methodsFor: 'accessing' stamp: 'AlainPlantec 9/3/2011 18:35'!
-comment: someText
-	comment := someText.
-	self changed: #comment! !

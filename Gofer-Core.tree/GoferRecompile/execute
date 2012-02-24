@@ -1,5 +1,0 @@
-
-!GoferRecompile methodsFor: 'running' stamp: 'lr 12/13/2009 19:12'!
-execute
-	self workingCopies
-		do: [ :each | self execute: each ]! !

@@ -1,4 +1,0 @@
-
-!OBMercuryPanel methodsFor: 'callbacks' stamp: 'cwp 2/25/2007 19:44'!
-selection
-	^ 1 to: 0! !

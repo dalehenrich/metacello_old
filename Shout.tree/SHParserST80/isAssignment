@@ -1,5 +1,0 @@
-
-!SHParserST80 methodsFor: 'token testing' stamp: ''!
-isAssignment
-	^ currentToken = ':='
-		or: [currentToken = '_']! !

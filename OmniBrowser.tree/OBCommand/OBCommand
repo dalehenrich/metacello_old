@@ -1,6 +1,0 @@
-
-Object subclass: #OBCommand
-	instanceVariableNames: 'target requestor'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'OmniBrowser-Commands'!

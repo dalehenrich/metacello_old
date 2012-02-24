@@ -1,5 +1,0 @@
-
-!OBAllMethodCategoryNode methodsFor: 'accessing' stamp: 'lr 4/23/2010 08:34'!
-methodReferences
-	^ self theClass selectors asArray sort
-		collect: [ :each | MethodReference class: self theClass selector: each ]! !

@@ -1,6 +1,0 @@
-
-!Gofer methodsFor: 'repositories-options' stamp: 'lr 12/13/2009 16:32'!
-enableRepositoryErrors
-	"Throw an exception when repositories are not available."
-
-	errorBlock := [ :error | error pass ]! !

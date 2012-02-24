@@ -1,4 +1,0 @@
-
-!MethodReference methodsFor: '*ob-standard' stamp: 'lr 2/12/2009 10:40'!
-asNode
-	^ OBMethodNode on: self! !

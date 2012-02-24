@@ -1,4 +1,0 @@
-
-!OBAnnouncer methodsFor: 'initialize-release' stamp: 'lr 7/3/2009 22:27'!
-initialize
-	subscriptions := IdentityDictionary new! !

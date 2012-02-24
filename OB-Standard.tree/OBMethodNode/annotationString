@@ -1,4 +1,0 @@
-
-!OBMethodNode methodsFor: 'displaying' stamp: 'lr 3/13/2010 11:50'!
-annotationString
-	^ (OBAnnotationRequest onClass: self theClass selector: self selector) getAnnotations! !

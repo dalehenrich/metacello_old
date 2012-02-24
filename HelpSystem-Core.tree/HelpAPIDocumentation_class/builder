@@ -1,4 +1,0 @@
-
-!HelpAPIDocumentation class methodsFor: 'defaults' stamp: 'tbn 3/11/2010 23:57'!
-builder
-	^PackageAPIHelpBuilder! !

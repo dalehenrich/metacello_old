@@ -1,4 +1,0 @@
-
-!OBMorphicPlatform methodsFor: 'building' stamp: 'cwp 8/26/2009 22:16'!
-builder
-	^ OBMorphBuilder new! !

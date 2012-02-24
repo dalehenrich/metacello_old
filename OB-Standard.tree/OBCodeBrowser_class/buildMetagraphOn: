@@ -1,8 +1,0 @@
-
-!OBCodeBrowser class methodsFor: 'configuration' stamp: 'cwp 5/20/2007 00:02'!
-buildMetagraphOn: root 
-	^ self 
-		buildMetagraphOn: root
-		class: #classes
-		comment: #comments
-		metaclass: #metaclasses! !

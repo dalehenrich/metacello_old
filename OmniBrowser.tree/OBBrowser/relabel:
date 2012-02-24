@@ -1,5 +1,0 @@
-
-!OBBrowser methodsFor: 'updating' stamp: 'cwp 4/24/2006 15:10'!
-relabel: ann
-	self changed: #relabel.
-! !

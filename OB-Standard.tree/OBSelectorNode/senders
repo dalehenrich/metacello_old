@@ -1,5 +1,0 @@
-
-!OBSelectorNode methodsFor: 'navigating' stamp: 'lr 5/7/2011 14:14'!
-senders
-	^ (SystemNavigation default allCallsOn: self selector) asArray sort
-		collect: [ :ref | OBMessageNode on: self selector inMethodReference: ref ]! !

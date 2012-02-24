@@ -1,4 +1,0 @@
-
-!OBCmdBrowseImplementorsOfIt methodsFor: 'testing' stamp: 'cwp 10/16/2006 23:14'!
-isEnabled
-	^ target hasSelector! !
