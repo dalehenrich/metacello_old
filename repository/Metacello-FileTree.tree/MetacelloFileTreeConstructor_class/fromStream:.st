@@ -2,7 +2,7 @@
 !MetacelloFileTreeConstructor class methodsFor: 'instance creation'!
 fromStream: aStream
     | project dict sections specSelectors |
-    dict := (MetacelloJsonParser parseStream: aStream) first.
+    dict := (MCFileTreeJsonParser parseStream: aStream) first.
     project := MetacelloFileTreeProject new.
     sections := OrderedCollection new.
     specSelectors := Dictionary new

@@ -1,4 +1,0 @@
-
-!MetacelloJsonParser class methodsFor: 'accessing'!
-parseStream: aStream
-	^ (self on: aStream) parse! !
