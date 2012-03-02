@@ -1,6 +1,0 @@
-
-!MetacelloVersionNumberTestCase methodsFor: 'test alpha/numeric version numbers' stamp: 'dkh 06/03/2009 10:25'!
-testAlphaNumericVersion2
-
-	self assert: ((self versionClass fromString: '2.9.0-alpha.2') < (self versionClass fromString: '2.9.0-alpha.3')).
-! !

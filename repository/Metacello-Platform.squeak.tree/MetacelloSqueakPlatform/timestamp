@@ -1,5 +1,0 @@
-
-!MetacelloSqueakPlatform methodsFor: 'utilities' stamp: 'dkh 10/12/2009 13:27'!
-timestamp
-	^Date today mmddyyyy, ' ',	
-		((String streamContents: [:s | Time now print24: true on: s]) copyFrom: 1 to: 5)! !

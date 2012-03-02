@@ -1,5 +1,0 @@
-
-!OBCmdMetacelloSaveConfiguration methodsFor: 'accessing' stamp: 'DaleHenrichs 11/8/2010 10:17'!
-label
-
-	^'Save Configuration'! !

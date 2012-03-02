@@ -1,5 +1,0 @@
-
-!OBCmdMetacelloUpdatePackageMethods methodsFor: 'accessing' stamp: 'dkh 7/8/2009 16:42'!
-label
-
-	^'Update Package Methods'! !

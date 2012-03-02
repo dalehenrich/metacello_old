@@ -1,6 +1,0 @@
-
-!MetacelloPharoPlatform methodsFor: 'utilities' stamp: 'dkh 10/7/2009 11:01'!
-timestamp
-
-	^Date today mmddyyyy, ' ',
-		((String streamContents: [:s | Time now print24: true on: s]) copyFrom: 1 to: 5)! !

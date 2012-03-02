@@ -1,5 +1,0 @@
-
-!OBCmdMetacelloNestedSavePackages methodsFor: 'user interface' stamp: 'DaleHenrichs 5/12/2010 16:32'!
-order
-
-	^'1'! !

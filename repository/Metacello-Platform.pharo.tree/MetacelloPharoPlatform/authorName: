@@ -1,5 +1,0 @@
-
-!MetacelloPharoPlatform methodsFor: 'utilities' stamp: 'DaleHenrichs 1/5/2011 16:59'!
-authorName: aString
-
-	Author fullName: aString! !

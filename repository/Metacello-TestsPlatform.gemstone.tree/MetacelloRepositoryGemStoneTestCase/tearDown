@@ -1,5 +1,0 @@
-
-!MetacelloRepositoryGemStoneTestCase methodsFor: 'running' stamp: 'dkh 01/19/2012 14:36'!
-tearDown
-    super tearDown.
-    Smalltalk removeKey: #'Metacello_Platform_Test_GlobalDictionary' ifAbsent: [  ]! !

@@ -1,5 +1,0 @@
-
-!OBCmdMetacelloValidateConfiguration methodsFor: 'accessing' stamp: 'DaleHenrichs 11/24/2010 09:06'!
-debugList
-
-	^#()! !

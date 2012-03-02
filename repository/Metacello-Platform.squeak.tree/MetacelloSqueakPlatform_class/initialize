@@ -1,6 +1,0 @@
-
-!MetacelloSqueakPlatform classSide methodsFor: 'initialize-release' stamp: 'dkh 10/12/2009 13:30'!
-initialize
-	"implmented to force initialize on load"
-
-	super initialize! !

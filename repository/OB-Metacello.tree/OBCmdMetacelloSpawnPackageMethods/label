@@ -1,5 +1,0 @@
-
-!OBCmdMetacelloSpawnPackageMethods methodsFor: 'accessing' stamp: 'DaleHenrichs 11/15/2010 19:20'!
-label
-
-	^'Create New Version'! !

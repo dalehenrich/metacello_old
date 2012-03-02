@@ -1,8 +1,0 @@
-
-!MetacelloSqueakPlatform methodsFor: 'notification' stamp: 'dkh 1/18/2012 16:40'!
-collection: aCollection do: aBlock displaying: aString
-
-	self bypassProgressBars ifTrue: [ ^super collection: aCollection do: aBlock displaying: aString ].
-	aCollection 
-		do: aBlock
-		displayingProgress: aString! !

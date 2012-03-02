@@ -1,5 +1,0 @@
-
-!OBCmdMetacelloNestedSavePackages methodsFor: 'accessing' stamp: 'DaleHenrichs 3/11/2010 17:56'!
-label
-
-	^'Save Packages (nested)'! !

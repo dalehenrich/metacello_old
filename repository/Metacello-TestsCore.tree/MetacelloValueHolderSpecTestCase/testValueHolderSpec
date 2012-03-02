@@ -1,8 +1,0 @@
-
-!MetacelloValueHolderSpecTestCase methodsFor: 'tests' stamp: 'dkh 1/24/2012 10:46'!
-testValueHolderSpec
-    | valueHolder |
-    valueHolder := self valueHolderSpec
-        value: 'an Object';
-        yourself.
-    self assert: valueHolder value = 'an Object'! !

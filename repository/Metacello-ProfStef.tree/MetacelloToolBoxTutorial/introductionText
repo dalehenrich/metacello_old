@@ -1,5 +1,0 @@
-
-!MetacelloToolBoxTutorial methodsFor: 'intro' stamp: 'DaleHenrichs 12/17/2010 12:24'!
-introductionText
-
-	^'Dive down into the MetacelloToolBox API to take a closer look at the implementation of the development support methods.'! !

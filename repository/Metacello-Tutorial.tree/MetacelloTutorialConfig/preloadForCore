@@ -1,5 +1,0 @@
-
-!MetacelloTutorialConfig methodsFor: 'doits' stamp: 'dkh 10/13/2009 13:55'!
-preloadForCore
-
-	Transcript cr; show: '#preloadForCore executed'.! !

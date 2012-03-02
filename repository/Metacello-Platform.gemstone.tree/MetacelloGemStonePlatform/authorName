@@ -1,5 +1,0 @@
-
-!MetacelloGemStonePlatform methodsFor: 'utilities' stamp: 'dkh 11/10/2011 09:52'!
-authorName
-
-	^MCPlatformSupport authorInitials! !

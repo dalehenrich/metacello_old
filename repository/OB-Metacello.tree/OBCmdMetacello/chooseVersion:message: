@@ -1,4 +1,0 @@
-
-!OBCmdMetacello methodsFor: 'private' stamp: 'DaleHenrichs 11/8/2010 10:33'!
-chooseVersion: selectBlock message: message
-	^self chooseVersion: selectBlock message: message includeSymbolicVersions: true! !

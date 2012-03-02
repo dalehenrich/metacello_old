@@ -1,7 +1,0 @@
-
-!MetacelloGemStonePlatform methodsFor: 'attributes' stamp: 'dkh 11/13/2009 16:37'!
-defaultPlatformAttributes
-
-	| stoneVersionAtts |
-	(stoneVersionAtts := self stoneVersionAttributes) ifNil: [^ #( #gemstone )].
-	^ stoneVersionAtts! !

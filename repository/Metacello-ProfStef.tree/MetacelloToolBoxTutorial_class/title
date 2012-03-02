@@ -1,5 +1,0 @@
-
-!MetacelloToolBoxTutorial class methodsFor: 'tutorial metainfo' stamp: 'DaleHenrichs 12/17/2010 02:51'!
-title	
-
-	^'Inside Metacello Toolbox API'! !

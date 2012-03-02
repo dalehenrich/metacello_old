@@ -1,5 +1,0 @@
-
-!OBCmdMetacelloUpdateConfigurationPackage methodsFor: 'accessing' stamp: 'DaleHenrichs 11/8/2010 10:18'!
-label
-
-	^'Update Configuration Package'! !

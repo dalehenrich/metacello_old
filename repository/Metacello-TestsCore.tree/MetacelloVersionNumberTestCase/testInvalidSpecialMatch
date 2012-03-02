@@ -1,8 +1,0 @@
-
-!MetacelloVersionNumberTestCase methodsFor: 'test matching' stamp: 'dkh 12/21/2009 12:49'!
-testInvalidSpecialMatch
-
-	self 
-		should: [ ((self versionClass fromString: '1.1') match: '?.?') ]
-		raise: Error.
-! !

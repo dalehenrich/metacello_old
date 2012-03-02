@@ -1,5 +1,0 @@
-
-!MetacelloSqueakPlatform methodsFor: 'utilities' stamp: 'dkh 1/5/2011 16:46'!
-authorName: aString
-
-	^Utilities setAuthorInitials: aString! !

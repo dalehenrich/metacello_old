@@ -1,9 +1,0 @@
-
-!MetacelloVersionNumberTestCase methodsFor: 'tests' stamp: 'dkh 11/3/2009 10:35'!
-testVersion21
-
-	self deny: (MetacelloVersionNumber fromString: '') > (MetacelloVersionNumber fromString: '0').
-	self assert: (MetacelloVersionNumber fromString: '') < (MetacelloVersionNumber fromString: '0').
-	self assert: (MetacelloVersionNumber fromString: '') = (MetacelloVersionNumber fromString: '').
-
-! !

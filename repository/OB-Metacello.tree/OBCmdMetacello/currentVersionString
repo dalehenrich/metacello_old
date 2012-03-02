@@ -1,8 +1,0 @@
-
-!OBCmdMetacello methodsFor: 'private' stamp: 'dkh 11/3/2009 09:21'!
-currentVersionString
-
-	| cv |
-	^(cv := self currentVersion) == nil
-		ifTrue: [ '' ]
-		ifFalse: [ cv versionString ]! !

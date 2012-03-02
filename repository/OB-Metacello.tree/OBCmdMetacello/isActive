@@ -1,7 +1,0 @@
-
-!OBCmdMetacello methodsFor: 'testing' stamp: 'DaleHenrichs 08/30/2010 15:16'!
-isActive
-	^ ((target isKindOf: OBClassNode)
-		and: [ requestor isSelected: target ])
-			and: [ [ self selectedClass isMetacelloConfig ] on: Error do: [:ex | ex return: false] ]
-! !

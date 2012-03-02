@@ -1,1 +1,0 @@
-MetacelloPlatform initialize!

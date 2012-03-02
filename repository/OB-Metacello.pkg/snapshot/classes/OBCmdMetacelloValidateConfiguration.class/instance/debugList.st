@@ -1,0 +1,5 @@
+
+!OBCmdMetacelloValidateConfiguration methodsFor: 'accessing'!
+debugList
+
+	^#()! !

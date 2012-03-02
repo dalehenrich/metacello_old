@@ -1,8 +1,0 @@
-
-!OBCmdMetacelloNestedSavePackages methodsFor: 'private' stamp: 'DaleHenrichs 03/12/2010 13:50'!
-packageNeedsSaving: packageSpec
-
-	| wc |
-	^((wc := packageSpec workingCopy) ~~ nil) 
-		and: [wc ancestry ancestors isEmpty 
-				or: [ wc modified ]]! !

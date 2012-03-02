@@ -1,8 +1,0 @@
-
-!ClientFileDirectory methodsFor: '*metacello-platform' stamp: 'dkh 01/19/2012 12:10'!
-asRepositorySpecFor: aMetacelloMCProject
-
-	^(aMetacelloMCProject repositorySpec)
-		description:  'client://', self fullName;
-	 	type: 'clientDirectory';
-		yourself! !

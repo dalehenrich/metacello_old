@@ -1,3 +1,0 @@
-
-MetacelloVersionValidator class
-	instanceVariableNames: 'reasonCodeDescriptions'!

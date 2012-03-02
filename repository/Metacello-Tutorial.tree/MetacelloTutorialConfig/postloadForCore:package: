@@ -1,7 +1,0 @@
-
-!MetacelloTutorialConfig methodsFor: 'doits' stamp: 'dkh 10/13/2009 14:00'!
-postloadForCore: loader package: packageSpec
-
-	Transcript cr; 
-		show: '#postloadForCore executed, Loader: ', loader printString, 
-			' spec: ', packageSpec printString.! !

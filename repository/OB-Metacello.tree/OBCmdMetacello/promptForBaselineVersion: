@@ -1,9 +1,0 @@
-
-!OBCmdMetacello methodsFor: 'private' stamp: 'dkh 10/27/2009 11:43'!
-promptForBaselineVersion: message
-
-	| versions labels |
-	versions := self reversedVersions select: [:vrsn | vrsn blessing == #baseline ].
-	labels := versions collect: [:vrsn |vrsn versionString ].
-	^OBChoiceRequest prompt: message labels: labels values: versions
-! !

@@ -1,5 +1,0 @@
-
-!MetacelloSqueakPlatform methodsFor: 'utilities' stamp: 'dkh 10/12/2009 13:26'!
-authorName
-
-	^Utilities authorInitials! !

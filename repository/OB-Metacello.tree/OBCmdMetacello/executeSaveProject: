@@ -1,5 +1,0 @@
-
-!OBCmdMetacello methodsFor: 'execution' stamp: 'DaleHenrichs 11/15/2010 18:33'!
-executeSaveProject: message
-
-	MetacelloToolBox saveConfigurationPackageFor: self selectedClass name asString description: message! !

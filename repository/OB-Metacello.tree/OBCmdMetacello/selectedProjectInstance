@@ -1,5 +1,0 @@
-
-!OBCmdMetacello methodsFor: 'private' stamp: 'dkh 9/10/2009 15:00'!
-selectedProjectInstance
-
-	^self selectedClass new project! !
