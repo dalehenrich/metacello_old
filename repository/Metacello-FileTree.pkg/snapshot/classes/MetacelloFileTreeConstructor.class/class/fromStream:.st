@@ -7,6 +7,7 @@ fromStream: aStream
     sections := OrderedCollection new.
     specSelectors := Dictionary new
         at: 'project' put: #'projectReferenceSpec';
+        at: 'github' put: #'githubProjectReferenceSpec';
         at: 'package' put: #'packageSpec';
         at: 'group' put: #'groupSpec';
         yourself.
