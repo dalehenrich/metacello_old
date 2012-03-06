@@ -1,6 +1,8 @@
 
 !MetacelloScriptEngine methodsFor: 'project lookup'!
 lookupConfigurationGofer: configurationName
+    | pkgRef |
+    pkgRef := GoferPackageReference name: configurationName.
     {(self platformOverrides).
     (self platformRepositories).
     (self personal)}
@@ -21,5 +23,6 @@ lookupConfigurationGofer: configurationName
                                         yourself) createRepository.
                             self goferCache at: description put: gf.
                             gf ].
-                    ^ cachedGofer ] ].
+                    (pkgRef resolveAllWith: cachedGofer) notEmpty
+                        ifTrue: [ ^ cachedGofer ] ] ].
     ^ nil! !
