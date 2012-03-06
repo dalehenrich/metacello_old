@@ -11,10 +11,9 @@
 				"name" : "Gofer Tests",
 				"copyFrom" : "Gofer",
 				"load" : ["Tests"]}},
-			{"project" : {
+			{"github" : {
 				"name" : "FileTree",
-				"version" : "1.0",
-				"repositories" : [ "http://ss3.gemstone.com/ss/FileTree"]}},
+				"repositories" : [ "github://dalehenrich/filetree:master/repository"]}},
 			{"project" : {
 				"name" : "OSProcess",
 				"symbolicVersion" : "stable",
@@ -53,6 +52,9 @@
 				"name" : "Metacello-TestsCore",
 				"requires" : ["Metacello-Core"]}},
 			{"package" : {
+				"name" : "Metacello-TestsGitHub",
+				"requires" : ["Metacello-GitHub"]}},
+			{"package" : {
 				"name" : "Metacello-TestsMC",
 				"requires" : ["Metacello-MC", "Metacello-TestsCore", "Gofer Tests"],
 				"postLoadDoIt" : "testsMC10beta25PostLoadDoIt"}},
@@ -85,7 +87,7 @@
 				"includes" : ["OB-Metacello"]}},
 			{"group" : {
 				"name" : "Tests",
-				"includes" : ["default", "Metacello-TestsCore", "Metacello-TestsTutorial", "Metacello-TestsMC", "Metacello-TestsReference"]}}]},
+				"includes" : ["default", "Metacello-TestsCore", "Metacello-TestsTutorial", "Metacello-TestsMC", "Metacello-TestsReference", "Metacello-TestsGitHub"]}}]},
 		{"squeakCommon" : 
 			[
 			{"project" : {

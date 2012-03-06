@@ -6,7 +6,7 @@ baseline: spec
         for: #'common'
         do: [ 
             spec blessing: #'baseline'.
-            spec repository: 'https://github.com/dalehenrich/metacello'.
+            spec repository: 'filetree:///opt/git/metacello/repository/'.
             spec
                 project: 'Gofer'
                     with: [ 
@@ -15,14 +15,11 @@ baseline: spec
                                 loads: #('Core');
                                 repository: 'http://seaside.gemstone.com/ss/metacello' ];
                 project: 'Gofer Tests' copyFrom: 'Gofer' with: [ spec loads: #('Tests') ];
-                project: 'FileTree'
-                    with: [ 
-                            spec
-                                versionString: '1.0';
-                                repository: 'http://ss3.gemstone.com/ss/FileTree' ];
+                github: 'FileTree' with: [ spec repository: 'github://dalehenrich/filetree:master/repository' ];
                 project: 'OSProcess'
                     with: [ 
                             spec
+                                className: 'ConfigurationOfOSProcess';
                                 versionString: #'stable';
                                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
                 yourself.
@@ -42,6 +39,7 @@ baseline: spec
                 package: 'Metacello-Reference' with: [ spec requires: #('Metacello-MC') ];
                 package: 'Metacello-Tutorial' with: [ spec requires: #('Metacello-Core') ];
                 package: 'Metacello-TestsCore' with: [ spec requires: #('Metacello-Core') ];
+                package: 'Metacello-TestsGitHub' with: [ spec requires: 'Metacello-GitHub' ];
                 package: 'Metacello-TestsMC'
                     with: [ 
                             spec
@@ -61,7 +59,7 @@ baseline: spec
                 group: 'UI' with: #('OB-Metacello');
                 group: 'Tests'
                     with:
-                        #('default' 'Metacello-TestsCore' 'Metacello-TestsTutorial' 'Metacello-TestsMC' 'Metacello-TestsReference');
+                        #('default' 'Metacello-TestsCore' 'Metacello-TestsTutorial' 'Metacello-TestsMC' 'Metacello-TestsReference' 'Metacello-TestsGitHub');
                 yourself ].
     spec
         for: #'squeakCommon'
