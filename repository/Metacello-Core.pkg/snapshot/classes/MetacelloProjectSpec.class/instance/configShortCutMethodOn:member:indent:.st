@@ -1,16 +1,17 @@
 
 !MetacelloProjectSpec methodsFor: 'printing'!
 configShortCutMethodOn: aStream member: aMember indent: indent
-    | hasVersionString hasOperator hasProjectPackage hasLoads hasClassName hasPreLoadDoIt hasPostLoadDoIt |
+    | hasVersionString hasOperator hasProjectPackage hasLoads hasClassName hasPreLoadDoIt hasPostLoadDoIt hasRepository |
     hasClassName := className ~~ nil and: [ className ~= self constructClassName ].
     hasVersionString := self versionString ~~ nil.
     hasOperator := operator ~~ nil.
     hasProjectPackage := self getProjectPackage ~~ nil
         and: [ self projectPackage packageRepository ~~ nil or: [ hasClassName & (self projectPackage file ~= className) ] ].
+    hasRepository := self getRepositories ~~ nil.
     hasLoads := self loads ~~ nil.
     hasPreLoadDoIt := self getPreLoadDoIt ~~ nil.
     hasPostLoadDoIt := self getPostLoadDoIt ~~ nil.
-    hasClassName | hasOperator | hasProjectPackage | hasLoads | hasPreLoadDoIt | hasPostLoadDoIt
+    hasClassName | hasOperator | hasProjectPackage | hasRepository | hasLoads | hasPreLoadDoIt | hasPostLoadDoIt
         ifTrue: [ 
             (aMember methodUpdateSelector == #'copy:' or: [ aMember methodUpdateSelector == #'with:' ])
                 ifTrue: [ 

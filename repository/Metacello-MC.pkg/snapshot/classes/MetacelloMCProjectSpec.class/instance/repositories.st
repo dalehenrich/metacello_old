@@ -1,5 +1,10 @@
 
-!MetacelloMCProjectSpec methodsFor: 'querying'!
+!MetacelloMCProjectSpec methodsFor: 'accessing'!
 repositories
-    projectPackage ifNil: [ ^ nil ].
-    ^ self projectPackage repositories! !
+    projectPackage
+        ifNotNil: [ 
+            repositories := nil.
+            ^ projectPackage repositories ].
+    repositories == nil
+        ifTrue: [ repositories := self project repositoriesSpec ].
+    ^ repositories! !

@@ -1,5 +1,7 @@
 
 !MetacelloMCProjectSpec methodsFor: 'accessing'!
-repository: aString
-
-	self projectPackage repository: aString! !
+repository: aStringOrMetacelloRepositorySpec
+    'dictionary://Metacello_Configuration_TestX_Repository' = aStringOrMetacelloRepositorySpec
+        ifTrue: [ self halt ].
+    self repositories repository: aStringOrMetacelloRepositorySpec.
+    projectPackage ifNotNil: [ self projectPackage repository: aStringOrMetacelloRepositorySpec ]! !

@@ -1,5 +1,4 @@
 
 !MetacelloMCProjectSpec methodsFor: 'merging'!
 nonOverridable
-
-	^super nonOverridable, #( projectPackage )! !
+    ^ super nonOverridable , #(#'projectPackage' #'repositories')! !

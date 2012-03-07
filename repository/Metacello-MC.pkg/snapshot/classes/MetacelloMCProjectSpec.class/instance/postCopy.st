@@ -1,7 +1,6 @@
 
 !MetacelloMCProjectSpec methodsFor: 'copying'!
 postCopy
-
-	super postCopy.
-	projectPackage := projectPackage copy.
-! !
+    super postCopy.
+    repositories := repositories copy.
+    projectPackage := projectPackage copy! !

@@ -1,5 +1,6 @@
 
 !MetacelloMCProjectSpec methodsFor: 'querying'!
 repository
-	
-	^self projectPackage packageRepository! !
+    self repositories isEmpty
+        ifTrue: [ ^ nil ].
+    ^ self repositories map values first! !

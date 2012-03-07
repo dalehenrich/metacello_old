@@ -31,4 +31,4 @@ jsonBodyOn: aStream indent: indent
         for: self getPostLoadDoIt
         selector: 'postLoadDoIt'
         indent: indent + 1.
-    self projectPackage repositories jsonOn: aStream indent: indent + 1! !
+    self repositories jsonOn: aStream indent: indent + 1! !
