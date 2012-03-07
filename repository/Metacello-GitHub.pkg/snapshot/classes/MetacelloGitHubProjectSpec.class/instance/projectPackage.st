@@ -1,5 +1,9 @@
 
-!MetacelloGitHubProjectSpec methodsFor: 'querying'!
+!MetacelloGitHubProjectSpec methodsFor: 'accessing'!
 projectPackage
-    projectPackage ifNil: [ projectPackage := self project packageSpec ].
+    projectPackage
+        ifNil: [ 
+            projectPackage := self project packageSpec.
+            projectPackage name: self name.
+            projectPackage repositories: self getRepositories ].
     ^ projectPackage! !

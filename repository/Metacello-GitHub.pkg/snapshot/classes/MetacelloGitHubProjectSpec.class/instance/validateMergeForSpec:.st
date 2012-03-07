@@ -5,7 +5,7 @@ validateMergeForSpec: aSpec
         ifTrue: [ ^ self ].
     (aSpec isKindOf: MetacelloProjectSpec)
         ifTrue: [ 
-            aSpec getProjectPackage
+            aSpec projectPackage
                 ifNotNil: [ :pp | 
                     pp includes notEmpty | pp requires notEmpty | pp getFile notNil
                         ifTrue: [ self error: 'Cannot merge a ' , aSpec class name asString , ' with includes, requires, or file set' ] ].

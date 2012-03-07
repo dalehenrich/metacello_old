@@ -1,5 +1,5 @@
 
-!MetacelloMCProjectSpec methodsFor: 'querying'!
+!MetacelloGenericProjectSpec methodsFor: 'querying'!
 packageRepository
     self repositorySpecs isEmpty
         ifTrue: [ ^ nil ].

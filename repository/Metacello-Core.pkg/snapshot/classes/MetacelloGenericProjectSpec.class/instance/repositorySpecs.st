@@ -1,4 +1,4 @@
 
-!MetacelloMCProjectSpec methodsFor: 'querying'!
+!MetacelloGenericProjectSpec methodsFor: 'querying'!
 repositorySpecs
     ^ self repositories map values! !

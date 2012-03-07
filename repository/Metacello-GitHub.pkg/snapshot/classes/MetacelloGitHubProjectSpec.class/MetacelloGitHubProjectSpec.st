@@ -1,6 +1,6 @@
 
-MetacelloProjectSpec subclass: #MetacelloGitHubProjectSpec
-	instanceVariableNames: 'projectPackage'
+MetacelloGenericProjectSpec subclass: #MetacelloGitHubProjectSpec
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-GitHub-Specs'!

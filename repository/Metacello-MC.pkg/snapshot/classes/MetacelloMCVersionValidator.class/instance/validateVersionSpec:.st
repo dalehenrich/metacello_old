@@ -18,7 +18,7 @@ validateVersionSpec: versionSpec
             referencedProjectSpec := projectSpec referencedSpec.
             versionSpec blessing value == #'baseline'
                 ifTrue: [ 
-                    referencedProjectSpec getProjectPackage == nil
+                    referencedProjectSpec packageRepository == nil
                         ifTrue: [ 
                             self
                                 recordValidationError:
@@ -38,22 +38,22 @@ validateVersionSpec: versionSpec
                                                 , versionSpec versionString printString
                                         versionString: versionSpec versionString
                                         callSite: #'validateVersionSpec:'
-                                        reasonCode: #'projectClassNameFileMismatch' ].
-                            referencedProjectSpec ensureProjectLoaded.
-                            [ projectSpec version ]
-                                on: MetacelloVersionDoesNotExistError
-                                do: [ :ex | 
-                                    | explanation |
-                                    explanation := projectSpec versionString == nil
-                                        ifTrue: [ 'the default version' ]
-                                        ifFalse: [ 'version ' , projectSpec versionString printString ].
-                                    self
-                                        recordValidationError:
-                                            'Cannot resolve ' , explanation , ' for the project reference ' , projectSpec name printString , ' in version '
-                                                , versionSpec versionString printString
-                                        versionString: versionSpec versionString
-                                        callSite: #'validateVersionSpec:'
-                                        reasonCode: #'cannotResolveVersion' ] ] ] ]
+                                        reasonCode: #'projectClassNameFileMismatch' ] ] ].
+            referencedProjectSpec ensureProjectLoaded.
+            [ projectSpec version ]
+                on: MetacelloVersionDoesNotExistError
+                do: [ :ex | 
+                    | explanation |
+                    explanation := projectSpec versionString == nil
+                        ifTrue: [ 'the default version' ]
+                        ifFalse: [ 'version ' , projectSpec versionString printString ].
+                    self
+                        recordValidationError:
+                            'Cannot resolve ' , explanation , ' for the project reference ' , projectSpec name printString , ' in version '
+                                , versionSpec versionString printString
+                        versionString: versionSpec versionString
+                        callSite: #'validateVersionSpec:'
+                        reasonCode: #'cannotResolveVersion' ] ]
         packageDo: [ :packageSpec | 
             (packageSpec file beginsWith: packageSpec name)
                 ifFalse: [ 

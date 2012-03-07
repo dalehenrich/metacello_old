@@ -1,10 +1,13 @@
 
-!MetacelloMCProjectSpec methodsFor: 'querying'!
+!MetacelloMCProjectSpec methodsFor: 'accessing'!
 projectPackage
     projectPackage
         ifNil: [ 
             projectPackage := self project packageSpec.
-            projectPackage file: self className.
-            projectPackage repositories: self getRepositories copy.
-            repositories := nil ].
+            self getFile
+                ifNotNil: [ 
+                    projectPackage name: self name.
+                    projectPackage file: self file ]
+                ifNil: [ self getClassName ifNotNil: [ projectPackage name: self className ] ].
+            projectPackage repositories: self getRepositories ].
     ^ projectPackage! !

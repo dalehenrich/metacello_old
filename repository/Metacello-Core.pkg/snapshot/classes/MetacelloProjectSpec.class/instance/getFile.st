@@ -1,6 +1,6 @@
 
 !MetacelloProjectSpec methodsFor: 'accessing'!
-getProjectPackage
+getFile
     "raw access to iv"
 
     ^ nil! !

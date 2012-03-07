@@ -1,6 +1,6 @@
 
-MetacelloProjectSpec subclass: #MetacelloMCProjectSpec
-	instanceVariableNames: 'projectPackage repositories'
+MetacelloGenericProjectSpec subclass: #MetacelloMCProjectSpec
+	instanceVariableNames: 'file'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-MC-Specs'!
