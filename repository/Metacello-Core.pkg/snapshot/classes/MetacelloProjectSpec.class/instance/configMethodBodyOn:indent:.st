@@ -5,7 +5,8 @@ configMethodBodyOn: aStream indent: indent
     hasClassName := className ~~ nil and: [ className ~= self constructClassName ].
     hasVersionString := self versionString ~~ nil.
     hasOperator := operator ~~ nil.
-    hasProjectPackage := self packageRepository ~~ nil or: [ hasClassName & (self getFile ~= className) ].
+    hasProjectPackage := self packageRepository ~~ nil
+        or: [ hasClassName & (self getFile ~~ nil or: [ className ~= self name ]) ].
     hasLoads := self loads ~~ nil.
     hasPreLoadDoIt := self getPreLoadDoIt ~~ nil.
     hasPostLoadDoIt := self getPostLoadDoIt ~~ nil.

@@ -1,14 +1,13 @@
 
 !MetacelloDevelopmentCycleTutorialTests methodsFor: 'private'!
 versionCommonBaselineSpecString
-
-	^'spec blessing: #''baseline''.
+    ^ 'spec blessing: #''baseline''.
 spec repository: ''dictionary://Metacello_Dev_Cycle_Repository''.
 spec project: ''MetacelloTestConfigurationOfFoo'' with: [
 		spec
 			className: ''MetacelloTestConfigurationOfFoo'';
 			versionString: #''bleedingEdge'';
-			repository: ''cache'' ].
+			repository: ''dictionary://Metacello_Dev_Cycle_Repository'' ].
 spec 
 	package: ''GeauxFaux'' with: [
 		spec requires: #(''MetacelloTestConfigurationOfFoo'' ). ];

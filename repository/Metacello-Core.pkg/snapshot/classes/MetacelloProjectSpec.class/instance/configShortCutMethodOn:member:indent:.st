@@ -6,7 +6,7 @@ configShortCutMethodOn: aStream member: aMember indent: indent
     hasVersionString := self versionString ~~ nil.
     hasOperator := operator ~~ nil.
     hasProjectPackage := self packageRepository ~~ nil
-        or: [ hasClassName & (self getFile ~~ nil and: [ self getFile ~= className ]) ].
+        or: [ hasClassName & (self getFile ~~ nil or: [ className ~= self name ]) ].
     hasLoads := self loads ~~ nil.
     hasPreLoadDoIt := self getPreLoadDoIt ~~ nil.
     hasPostLoadDoIt := self getPostLoadDoIt ~~ nil.
