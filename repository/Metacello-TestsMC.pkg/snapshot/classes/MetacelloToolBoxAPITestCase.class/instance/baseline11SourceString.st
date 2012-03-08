@@ -1,8 +1,7 @@
 
 !MetacelloToolBoxAPITestCase methodsFor: 'private'!
 baseline11SourceString
-
-	^'baseline11: spec
+    ^ 'baseline11: spec
 	<version: ''1.1-baseline''>
 
 	spec for: #''common'' do: [
@@ -12,7 +11,7 @@ baseline11SourceString
 				spec
 					className: ''MetacelloTestConfigurationOfFoo'';
 					versionString: #''bleedingEdge'';
-					repository: ''cache'' ].
+					repository: ''dictionary://Metacello_Dev_Cycle_Repository'' ].
 		spec 
 			package: ''GeauxFaux'' with: [
 				spec requires: #(''MetacelloTestConfigurationOfFoo'' ). ];

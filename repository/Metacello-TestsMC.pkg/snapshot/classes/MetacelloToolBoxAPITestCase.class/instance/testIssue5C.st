@@ -10,6 +10,7 @@ testIssue5C
         repository: 'dictionary://' , self repositoryName asString
         requiredProjects: #()
         packages: #('MetacelloTestConfigurationOfFoo')
+        repositories: #()
         dependencies: {('MetacelloTestConfigurationOfFoo' -> #('MetacelloTestConfigurationOfFoo'))}
         groups: #() ]
         on: MetacelloValidationFailure
@@ -19,5 +20,5 @@ testIssue5C
     self assert: expectException.
     self assert: issues size == 1.
     validationError := issues at: 1.
-    self assert: validationError reasonCode == #versionCompositionError.
-    self assert: validationError callSite == #validateProject:version:! !
+    self assert: validationError reasonCode == #'versionCompositionError'.
+    self assert: validationError callSite == #'validateProject:version:'! !
