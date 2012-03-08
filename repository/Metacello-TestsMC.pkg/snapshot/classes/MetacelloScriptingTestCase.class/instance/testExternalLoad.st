@@ -1,7 +1,10 @@
 
 !MetacelloScriptingTestCase methodsFor: 'tests'!
 testExternalLoad
-    self halt.
+    true
+        ifTrue: [ 
+            "under construction"
+            ^ self ].
     Metacello new
         project: 'External';
         repository: 'filetree://' , externalDirectory fullName;
