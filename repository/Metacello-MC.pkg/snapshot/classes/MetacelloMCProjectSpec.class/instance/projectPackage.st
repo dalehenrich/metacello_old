@@ -4,9 +4,7 @@ projectPackage
     projectPackage
         ifNil: [ 
             projectPackage := self project packageSpec.
-            projectPackage name: self name.
-            self getFile
-                ifNotNil: [ projectPackage file: self file ]
-                ifNil: [ self getClassName ifNotNil: [ projectPackage file: self className ] ].
+            projectPackage name: self className.
+            self getFile ifNotNil: [ projectPackage file: self file ].
             projectPackage repositories: self getRepositories ].
     ^ projectPackage! !

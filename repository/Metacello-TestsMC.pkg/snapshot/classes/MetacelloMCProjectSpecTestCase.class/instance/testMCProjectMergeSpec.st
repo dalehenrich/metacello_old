@@ -19,7 +19,7 @@ testMCProjectMergeSpec
     project := projectA mergeSpec: projectB.
     self assert: project name = 'Project'.
     self assert: project className = 'ConfigurationOfProjectB'.
-    self assert: project projectPackage name = project name.
+    self assert: project projectPackage name = project className.
     self assert: project projectPackage file = project className.
     repository := project repositories map at: '/opt/gemstone/repository' ifAbsent: [ self assert: false ].
     self assert: repository type = 'directory'.
