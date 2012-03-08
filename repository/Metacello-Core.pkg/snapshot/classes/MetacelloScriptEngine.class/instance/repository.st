@@ -1,4 +1,4 @@
 
-!MetacelloScriptEngine methodsFor: 'accessing'!
+!MetacelloScriptEngine methodsFor: 'repositories'!
 repository
     ^ self repositorySpec createRepository! !
