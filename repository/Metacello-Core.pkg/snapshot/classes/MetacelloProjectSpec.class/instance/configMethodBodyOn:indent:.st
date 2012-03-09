@@ -110,20 +110,14 @@ configMethodBodyOn: aStream indent: indent
                         ifFalse: [ aStream space ].
                     aStream nextPutAll: 'file: ' , self file printString.
                     hasRepo
-                        ifTrue: [ aStream nextPut: $; ] ]
-                ifFalse: [ 
-                    hasClassName | hasVersionString | hasOperator | hasLoads | hasPreLoadDoIt | hasPostLoadDoIt
-                        ifFalse: [ 
-                            aStream
-                                cr;
-                                tab: indent + 1 ] ].
+                        ifTrue: [ aStream nextPut: $; ] ].
             hasRepo
                 ifTrue: [ 
                     | repos |
                     repos := self repositories.
                     repos map values size = 1
                         ifTrue: [ 
-                            hasClassName | hasVersionString | hasOperator | hasLoads | hasPreLoadDoIt | hasPostLoadDoIt
+                            hasClassName | hasVersionString | hasOperator | hasLoads | hasPreLoadDoIt | hasPostLoadDoIt | hasName
                                 ifTrue: [ 
                                     aStream
                                         cr;
