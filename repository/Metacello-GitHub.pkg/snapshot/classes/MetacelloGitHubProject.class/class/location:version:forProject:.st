@@ -7,4 +7,5 @@ location: locationUrl version: versionString forProject: projectName
     ^ MetacelloFileTreeConstructor
         fromRepositoryPath: repository directory pathName
         forProject: projectName
+        projectClass: self
         repository: repository description! !

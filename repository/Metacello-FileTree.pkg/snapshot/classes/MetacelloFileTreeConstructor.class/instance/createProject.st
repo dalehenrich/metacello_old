@@ -2,7 +2,7 @@
 !MetacelloFileTreeConstructor methodsFor: 'accessing'!
 createProject
     | map versionSpec |
-    project := MetacelloFileTreeProject new.
+    project := self projectClass new.
     map := Dictionary new.
     self methodSections do: [ :section | map at: section attribute asSymbol put: section ].
     project attributes

@@ -1,9 +1,9 @@
 
 !MetacelloFileTreeConstructor class methodsFor: 'instance creation'!
-fromStream: aStream
+fromStream: aStream projectClass: projectClass
     | project dict sections specSelectors |
     dict := (MCFileTreeJsonParser parseStream: aStream) first.
-    project := MetacelloFileTreeProject new.
+    project := projectClass new.
     sections := OrderedCollection new.
     specSelectors := Dictionary new
         at: 'project' put: #'projectReferenceSpec';
@@ -54,4 +54,6 @@ fromStream: aStream
                                     sourceName == nil
                                         ifTrue: [ section versionSpec packages perform: memberSelector with: spec ]
                                         ifFalse: [ section versionSpec packages perform: memberSelector with: sourceName with: spec ] ] ] ] ].
-    ^ (MetacelloFileTreeConstructor new methodSections: sections) createProject! !
+    ^ (MetacelloFileTreeConstructor new
+        projectClass: projectClass;
+        methodSections: sections) createProject! !

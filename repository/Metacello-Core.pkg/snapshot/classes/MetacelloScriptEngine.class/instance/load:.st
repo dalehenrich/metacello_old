@@ -7,7 +7,7 @@ load: required
     projectSpec := version project projectSpec.
     projectSpec
         name: self projectName;
-        versionString: version versionString;
+        versionString: self versionString;
         repository: self repositoryDescription;
         yourself.
     required notEmpty

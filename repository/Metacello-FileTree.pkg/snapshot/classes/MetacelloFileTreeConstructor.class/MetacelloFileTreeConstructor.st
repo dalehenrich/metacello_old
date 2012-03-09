@@ -1,6 +1,6 @@
 
 MetacelloToolBoxConstructor subclass: #MetacelloFileTreeConstructor
-	instanceVariableNames: ''
+	instanceVariableNames: 'projectClass'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-FileTree-Constructors'!
