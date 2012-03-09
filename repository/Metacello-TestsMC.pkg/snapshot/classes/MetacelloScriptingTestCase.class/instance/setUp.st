@@ -18,4 +18,10 @@ setUp
     sampleRepo := MCFileTreeRepository new directory: sampleDirectory.
     repo := MetacelloScriptingResource current sampleRepository.
     versionInfo := repo versionInfoFromVersionNamed: 'Sample-Core-dkh.1'.
-    sampleRepo storeVersion: (repo versionWithInfo: versionInfo ifAbsent: [ self assert: false ])! !
+    sampleRepo storeVersion: (repo versionWithInfo: versionInfo ifAbsent: [ self assert: false ]).
+    loadedProjectsCache := MetacelloScriptEngine loadedProjects.
+    MetacelloScriptEngine resetLoadedProjects.
+    monticelloRepository := MetacelloMonticelloResource current monticelloRepository.
+    Smalltalk at: #'Metacello_Gofer_Test_Repository' put: monticelloRepository.
+    configurationRepository := MetacelloConfigurationResource current monticelloRepository.
+    Smalltalk at: #'Metacello_Configuration_Test_Repository' put: configurationRepository! !

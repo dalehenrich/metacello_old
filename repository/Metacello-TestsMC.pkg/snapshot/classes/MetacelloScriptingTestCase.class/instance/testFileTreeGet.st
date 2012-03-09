@@ -1,12 +1,11 @@
 
 !MetacelloScriptingTestCase methodsFor: 'tests'!
-testExternalGet
+testFileTreeGet
     true
         ifTrue: [ 
-            "under construction"
+            "under construction: need to add metacello.json file"
             ^ self ].
     Metacello new
         project: 'External';
         repository: 'filetree://' , externalDirectory fullName;
-        get.
-    Smalltalk at: #'ExternalCore'! !
+        get! !

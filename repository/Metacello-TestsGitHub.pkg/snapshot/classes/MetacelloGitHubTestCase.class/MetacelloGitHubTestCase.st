@@ -1,6 +1,6 @@
 
 TestCase subclass: #MetacelloGitHubTestCase
-	instanceVariableNames: 'loadedProjectsCache'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-TestsGitHub'!
