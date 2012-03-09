@@ -110,7 +110,13 @@ configMethodBodyOn: aStream indent: indent
                         ifFalse: [ aStream space ].
                     aStream nextPutAll: 'file: ' , self file printString.
                     hasRepo
-                        ifTrue: [ aStream nextPut: $; ] ].
+                        ifTrue: [ aStream nextPut: $; ] ]
+                ifFalse: [ 
+                    hasClassName | hasVersionString | hasOperator | hasLoads | hasPreLoadDoIt | hasPostLoadDoIt
+                        ifFalse: [ 
+                            aStream
+                                cr;
+                                tab: indent + 1 ] ].
             hasRepo
                 ifTrue: [ 
                     | repos |

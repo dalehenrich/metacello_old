@@ -1,5 +1,5 @@
 
-!MetacelloMCProjectSpec methodsFor: 'loading'!
+!MetacelloGenericProjectSpec methodsFor: 'loading'!
 load
     | displayString |
     displayString := 'BEFORE->>>Project: ' , self name.

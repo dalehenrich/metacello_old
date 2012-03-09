@@ -1,5 +1,5 @@
 
-!MetacelloMCProjectSpec methodsFor: 'private'!
+!MetacelloGenericProjectSpec methodsFor: 'private'!
 privateLoad
     | displayString |
     displayString := 'Project: ' , self name.

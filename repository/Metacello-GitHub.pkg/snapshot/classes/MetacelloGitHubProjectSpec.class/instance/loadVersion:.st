@@ -22,5 +22,8 @@ loadVersion: aVersionOrNil
         ifTrue: [ self loadListForVersion: vrsn ]
         ifFalse: [ vrsn packageAndProjectNamesToLoad: (self loadListForVersion: vrsn) loader: mcLoader ]) asSet.
     mcLoader preLoad: self.
+    (MetacelloLoadProjectSpecVersionNotification new
+        projectSpec: self;
+        versionString: self basicVersionString) signal.
     vrsn fetchRequiredFromArray: list.
     mcLoader postLoad: self! !

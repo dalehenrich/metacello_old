@@ -1,6 +1,6 @@
 
 Object subclass: #MetacelloScriptEngine
 	instanceVariableNames: 'root projectName projectClass repositoryDescription versionString goferCache'
-	classVariableNames: ''
+	classVariableNames: 'LoadedProjects'
 	poolDictionaries: ''
 	category: 'Metacello-Core-Scripts'!
