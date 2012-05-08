@@ -1,10 +1,7 @@
+#Note
 
-```Smalltalk
-  Metacello new
-    project: 'Metacello';
-    repository: 'filetree:///opt/git/metacello/repository/';
-    load.
-```
+Development of metacello has been moved to a [new repository](https://github.com/dalehenrich/metacello-work). 
+The primary rationale for the move was to create a history in which repository structual changes are not a factor (for now).
 
 ## HOW TO INSTALL
 
